@@ -1,0 +1,17 @@
+[
+	{
+		"menu": "Generador de módulos",
+		"icono": "glyphicon glyphicon-th-large",
+		"ruta": "?/tools/generador_listar"
+	},
+	{
+		"menu": "Generador de menús",
+		"icono": "glyphicon glyphicon-list-alt",
+		"ruta": "?/tools/menus_listar"
+	},
+	{
+		"menu": "Asignación de permisos",
+		"icono": "glyphicon glyphicon-lock",
+		"ruta": "?/tools/permisos_listar"
+	}
+]

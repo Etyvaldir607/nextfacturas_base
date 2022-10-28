@@ -1,0 +1,12 @@
+.treegrid-indent{display:inline-block;position:relative;width:20px;}.treegrid-expander{cursor:pointer;display:inline-block;position:relative;width:20px;}
+
+
+.centro{
+    text-align: center;
+}
+.izq{
+    text-align: left;
+}
+.der{
+    text-align: right;
+}

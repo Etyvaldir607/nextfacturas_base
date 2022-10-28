@@ -1,0 +1,135 @@
+<?php
+
+// Define las cabeceras
+header('Content-Type: application/json');
+
+// Verifica la peticion post
+if (is_post()) {
+    // Verifica la existencia de datos
+    if (isset($_POST['id_detalle']) && isset($_POST['id_user'])) {
+        
+        require config . '/database.php';
+        mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT );
+
+        try {   
+            //Se abre nueva transacci贸n.
+            $db->autocommit(false);
+            $db->beginTransaction();
+
+            //buscamos al empleado
+            $empleado = $db->select('persona_id')->from('sys_users')->where('id_user',$_POST['id_user'])->fetch_first();
+            $id_user = $empleado['persona_id'];
+    
+            $id_detalle = $_POST['id_detalle'];
+    
+            //buscamos el detalle
+            $detalle = $db->select('a.*, a.id_detalle as tmp_egreso_id')
+                          ->from('inv_egresos_detalles a')
+                          ->where('id_detalle',$id_detalle)
+                          ->fetch_first();
+                          
+            $egreso = $db->select('b.*, b.fecha_egreso as distribuidor_fecha , b.hora_egreso as distribuidor_hora, b.almacen_id as distribuidor_estado, b.almacen_id as distribuidor_id, b.estadoe as estado')
+                         ->from('inv_egresos b')
+                         ->where('id_egreso',$detalle['egreso_id']) 
+                         ->fetch_first();
+    
+            if($detalle){
+                $unidad = $detalle['unidad_id'];
+                $id_producto = $detalle['producto_id'];
+                $cantidad_unidad = $detalle['cantidad'];
+                $precio = $detalle['precio'];
+                $monto_total = $egreso['monto_total'];
+                $registros = $egreso['nro_registros'];
+    
+                /////////////////////////////////////////////////////////////////////
+                $Lotes=$db->query(" SELECT producto_id,lote,unidad_id
+                                    FROM inv_egresos_detalles AS ed
+                                    LEFT JOIN inv_unidades AS u ON ed.unidad_id=u.id_unidad
+                                    WHERE egreso_id='{$id_detalle}'")->fetch();
+            
+                foreach($Lotes as $Fila=>$Lote):
+                    $IdProducto=$Lote['producto_id'];
+                    $UnidadId=$Lote['unidad_id'];
+                    $LoteGeneral=explode(',',$Lote['lote']);
+                    for($i=0;$i<count($LoteGeneral);++$i):
+                        $SubLote=explode('-',$LoteGeneral[$i]);
+                        $Lot=$SubLote[0];
+                        $Cantidad=$SubLote[1];
+                        $DetalleIngreso=$db->query("SELECT id_detalle,lote_cantidad
+                                                    FROM inv_ingresos_detalles
+                                                    WHERE producto_id='{$IdProducto}' AND lote='{$Lot}'
+                                                    LIMIT 1")->fetch_first();
+                        $Condicion=[
+                                'id_detalle'=>$DetalleIngreso['id_detalle'],
+                                'lote'=>$Lot,
+                            ];
+                        $CantidadAux=$Cantidad;
+                        $Datos=[
+                                'lote_cantidad'=>(strval($DetalleIngreso['lote_cantidad'])+strval($CantidadAux)),
+                            ];
+                        $db->where($Condicion)->update('inv_ingresos_detalles',$Datos);
+                    endfor;
+                endforeach;
+                /////////////////////////////////////////////////////////////////////
+    
+    
+                //datos del producto
+                $db->delete()->from('inv_egresos_detalles')->where('id_detalle',$id_detalle)->limit(1)->execute();
+    
+                if($registros > 1){
+                    $c = cantidad_unidad($db, $id_producto, $unidad);
+                    $monto_total2 = ($precio * ($cantidad_unidad/$c));
+                    $monto_total = $monto_total - ($precio * ($cantidad_unidad/$c));
+                    // echo json_encode($c);exit();
+                    $db->where('id_egreso',$egreso['id_egreso'])
+                       ->update('inv_egresos',array('monto_total' => $monto_total,'nro_registros' => ($registros-1)));
+                }else{
+                    $db->delete()->from('inv_egresos')
+                       ->where('id_egreso',$detalle['egreso_id'])
+                       ->limit(1)
+                       ->execute();
+                       
+                    $monto_total2 = $monto_total;
+                }
+                $egreso['monto_total']= $monto_total2;
+                $egreso['nro_registros']=1;
+                $egreso['distribuidor_fecha'] = date('Y-m-d');
+                $egreso['distribuidor_hora'] = date('H:i:s');
+                $egreso['distribuidor_estado'] = 'DEVUELTO';
+                $egreso['distribuidor_id'] = $id_user;
+                $egreso['estado'] = 3;
+    
+                $id = $db->insert('tmp_egresos', $egreso);
+    
+                $detalle['tmp_egreso_id'] = $id;
+                $id = $db->insert('tmp_egresos_detalles', $detalle);
+    
+                $respuesta = array(
+                    'estado' => 's'
+                );
+                echo json_encode($respuesta);
+            }else{
+                echo json_encode(array('estado' => 'n','msg' => 'otra unidad'));
+            }
+        
+        } catch (Exception $e) {
+            $status = false;
+            $error = $e->getMessage();
+
+            //Se devuelve el error en mensaje json
+            echo json_encode(array("estado" => 'n', 'msg'=>$error));
+
+            //se cierra transaccion
+            $db->rollback();
+        }    
+
+    } else {
+        // Devuelve los resultados
+        echo json_encode(array('estado' => 'no llega el id usuario'));
+    }
+} else {
+    // Devuelve los resultados
+    echo json_encode(array('estado' => 'no llega ningun dato'));
+}
+
+?>

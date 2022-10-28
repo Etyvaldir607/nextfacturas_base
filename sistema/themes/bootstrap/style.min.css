@@ -1,0 +1,62 @@
+@import url('bootstrap-theme.min.css');
+@font-face{
+	font-family: 'Roboto';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../../fonts/Roboto-Regular.ttf') format('truetype');
+}
+* {
+	outline: none !important;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 66px;
+	overflow-x: hidden;
+}
+body:before {
+	background-color: #dedede;
+	background-image: -webkit-radial-gradient(center, circle, #f7f7f7 30%, #dedede 100%);
+	background-image: -moz-radial-gradient(center, circle, #f7f7f7 30%, #dedede 100%);
+	background-image: -ms-radial-gradient(center, circle, #f7f7f7 30%, #dedede 100%);
+	background-image: -o-radial-gradient(center, circle, #f7f7f7 30%, #dedede 100%);
+	background-image: radial-gradient(center, circle, #f7f7f7 30%, #dedede 100%);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	content: '';
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: -1400;
+}
+body:after {
+	background-image: url('../../imgs/bg/headline.png');
+	content: '';
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: -1400;
+}
+.dropdown-menu > li > label:hover,
+.dropdown-menu > li > label:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.selectize-dropdown .active {
+	background-color: #e8e8e8;
+	background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+	background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e8e8e8));
+	background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+	color: #333;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+	background-repeat: repeat-x;
+}
