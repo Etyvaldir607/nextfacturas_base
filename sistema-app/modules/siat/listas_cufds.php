@@ -12,7 +12,7 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 <script src="<?php print path_app ?>/modules/siat/js/config.js"></script>
 <script src="<?php print path_app ?>/modules/siat/js/siat/config.js"></script>
-<script src="<?php print path_app ?>/modules/siat/js/api.js"></script>
+<script src="<?php print path_app ?>/modules/siat/js/http.js"></script>
 <script src="<?php print path_app ?>/modules/siat/js/modal.js"></script>
 <script src="<?php print path_app ?>/modules/siat/js/toast.js"></script>
 <script src="<?php print path_app ?>/modules/siat/js/processing.js"></script>
@@ -29,7 +29,7 @@
 			'siat-cufd-listing': SBFramework.Components.Siat.CufdListing, 
 		},
 		data: {
-			api: new SBFramework.Classes.Api(),
+			http: new SBFramework.Classes.Http(),
 		}
 	})
 })();

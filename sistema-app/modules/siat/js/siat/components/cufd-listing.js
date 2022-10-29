@@ -82,7 +82,11 @@
 			{
 				try
 				{
-					const res = await this.$root.api.Get(`/../sistema/?/siat/cufds/${this.filter.sucursal}/${this.filter.puntoventa}`);
+					this.$root.$processing.show('procesando...');
+					const res = await this.$root.http.Get(`?/siat/cufds/${this.filter.sucursal}/${this.filter.puntoventa}`);
+					//const res = await this.$root.api.Get(`/../sistema/?/siat/cufds/${this.filter.sucursal}/${this.filter.puntoventa}`);
+				
+					this.$root.$processing.hide();
 					this.items = res.data;
 				}
 				catch(e)
