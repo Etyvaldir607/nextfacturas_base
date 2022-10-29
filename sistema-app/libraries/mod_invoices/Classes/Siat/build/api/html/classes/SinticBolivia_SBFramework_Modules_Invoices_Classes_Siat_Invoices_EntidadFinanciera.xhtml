@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\EntidadFinanciera</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.xhtml">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices">SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices</a>
+          </li>
+          <li class="separator">EntidadFinanciera</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Invoices/EntidadFinanciera.php.xhtml#line6">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\</small>EntidadFinanciera</h1>
+        <h4/>
+        <p/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class EntidadFinanciera
+                extends <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice.xhtml">SiatInvoice</a>
+            {<br/><ul class="none"><li>// Inherited constants from <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice.xhtml">SiatInvoice</a></li><li>const <a href="#FACTURA_DERECHO_CREDITO_FISCAL">FACTURA_DERECHO_CREDITO_FISCAL</a> = 1;</li><li>const <a href="#FACTURA_SIN_DERECHO_CREDITO_FISCAL">FACTURA_SIN_DERECHO_CREDITO_FISCAL</a> = 2;</li><li>const <a href="#FACTURA_DOCUMENTO_AJUSTE">FACTURA_DOCUMENTO_AJUSTE</a> = 3;</li><li>const <a href="#TIPO_EMISION_ONLINE">TIPO_EMISION_ONLINE</a> = 1;</li><li>const <a href="#TIPO_EMISION_OFFLINE">TIPO_EMISION_OFFLINE</a> = 2;</li><li>const <a href="#TIPO_EMISION_MASIVA">TIPO_EMISION_MASIVA</a> = 3;</li></ul><ul class="none"><li>// Inherited members from <span title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice">SiatInvoice</span></li><li>public <span title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeader">InvoiceHeader</span> <a href="#members">$cabecera</a>;
+                        </li><li>public array <a href="#members">$detalle</a>;
+                        </li><li>protected array <a href="#members">$required</a>;
+                        </li><li>protected array <a href="#members">$nsData</a>;
+                        </li><li>public  <a href="#members">$endpoint</a>;
+                        </li></ul><ul class="none"><li>// Inherited members from <span title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message">Message</span></li><li>protected boolean <a href="#members">$xmlAllFields</a>;
+                        </li><li>protected array <a href="#members">$namespaces</a>;
+                        </li><li>protected  <a href="#members">$classAlias</a>;
+                        </li><li>protected array <a href="#members">$skipProperties</a>;
+                        </li><li>protected array <a href="#members">$xmlAttributes</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\EntidadFinanciera" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_EntidadFinanciera/__construct.xhtml">__construct</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\EntidadFinanciera" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_EntidadFinanciera/validate.xhtml">validate</a>()
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice">SiatInvoice</span></li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/__construct.xhtml">__construct</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/validate.xhtml">validate</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/calculaDigitoMod11.xhtml">calculaDigitoMod11</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/buildCuf.xhtml">buildCuf</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/bcdechex.xhtml">bcdechex</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/getUrl.xhtml">getUrl</a>()
+                        </li><li>public static void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/buildUrl.xhtml">buildUrl</a>()
+                        </li><li>public static SiatInvoice <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/buildFromXmlFile.xhtml">buildFromXmlFile</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/getEndpoint.xhtml">getEndpoint</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/toXml.xhtml">toXml</a>()
+                        </li><li>public static void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/getWsdl.xhtml">getWsdl</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message">Message</span></li><li>public abstract void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/validate.xhtml">validate</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/addSkipProperty.xhtml">addSkipProperty</a>()
+                        </li><li>public array <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/getHeaders.xhtml">getHeaders</a>()
+                        </li><li>protected void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/setXmlElementAttribute.xhtml">setXmlElementAttribute</a>()
+                        </li><li>protected void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/buildChildFromObject.xhtml">buildChildFromObject</a>()
+                        </li><li>protected void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/buildChildFromArray.xhtml">buildChildFromArray</a>()
+                        </li><li>protected void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/buildChild.xhtml">buildChild</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/buildChilds.xhtml">buildChilds</a>()
+                        </li><li>public SimpleXMLElement <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/toXml.xhtml">toXml</a>()
+                        </li><li>protected void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/__buildArrayChilds.xhtml">__buildArrayChilds</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/toArray.xhtml">toArray</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/getPropertiesData.xhtml">getPropertiesData</a>()
+                        </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Extends</h4>
+          <ul>
+            <li>
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice.xhtml">SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="FACTURA_DERECHO_CREDITO_FISCAL">FACTURA_DERECHO_CREDITO_FISCAL</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td id="FACTURA_SIN_DERECHO_CREDITO_FISCAL">FACTURA_SIN_DERECHO_CREDITO_FISCAL</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td id="FACTURA_DOCUMENTO_AJUSTE">FACTURA_DOCUMENTO_AJUSTE</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td id="TIPO_EMISION_ONLINE">TIPO_EMISION_ONLINE</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td id="TIPO_EMISION_OFFLINE">TIPO_EMISION_OFFLINE</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td id="TIPO_EMISION_MASIVA">TIPO_EMISION_MASIVA</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="classAlias">
+              <strong>$classAlias</strong>
+            </li>
+            <li id="namespaces">
+              <strong>$namespaces</strong>
+            </li>
+            <li id="nsData">
+              <strong>$nsData</strong>
+            </li>
+            <li id="required">
+              <strong>$required</strong>
+            </li>
+            <li id="skipProperties">
+              <strong>$skipProperties</strong>
+            </li>
+            <li id="xmlAllFields">
+              <strong>$xmlAllFields</strong>
+            </li>
+            <li id="xmlAttributes">
+              <strong>$xmlAttributes</strong>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul class="members">
+            <li id="cabecera"><strong>$cabecera</strong>
+                —
+                <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeader" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeader.xhtml">SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeader</a></li>
+            <li id="detalle"><strong>$detalle</strong>
+                —
+                array</li>
+            <li id="endpoint">
+              <strong>$endpoint</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>public</h4>
+          <ul>
+            <li id="__construct">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\EntidadFinanciera" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_EntidadFinanciera/__construct.xhtml">__construct()</a>
+            </li>
+            <li id="validate">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\EntidadFinanciera" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_EntidadFinanciera/validate.xhtml">validate()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice.xhtml">SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="bcdechex">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/bcdechex.xhtml">bcdechex()</a>
+            </li>
+            <li id="buildCuf">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/buildCuf.xhtml">buildCuf()</a>
+            </li>
+            <li id="buildFromXmlFile">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/buildFromXmlFile.xhtml">buildFromXmlFile()</a>
+            </li>
+            <li id="buildUrl">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/buildUrl.xhtml">buildUrl()</a>
+            </li>
+            <li id="calculaDigitoMod11">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/calculaDigitoMod11.xhtml">calculaDigitoMod11()</a>
+            </li>
+            <li id="getEndpoint">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/getEndpoint.xhtml">getEndpoint()</a>
+            </li>
+            <li id="getUrl">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/getUrl.xhtml">getUrl()</a>
+            </li>
+            <li id="getWsdl">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/getWsdl.xhtml">getWsdl()</a>
+            </li>
+            <li id="toXml"><a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/toXml.xhtml">toXml()</a>
+                — {@inheritDoc}</li>
+            <li id="validate">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice/validate.xhtml">validate()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message.xhtml">SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="__buildArrayChilds">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/__buildArrayChilds.xhtml">__buildArrayChilds()</a>
+            </li>
+            <li id="buildChild">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/buildChild.xhtml">buildChild()</a>
+            </li>
+            <li id="buildChildFromArray">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/buildChildFromArray.xhtml">buildChildFromArray()</a>
+            </li>
+            <li id="buildChildFromObject">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/buildChildFromObject.xhtml">buildChildFromObject()</a>
+            </li>
+            <li id="setXmlElementAttribute">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/setXmlElementAttribute.xhtml">setXmlElementAttribute()</a>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="addSkipProperty">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/addSkipProperty.xhtml">addSkipProperty()</a>
+            </li>
+            <li id="buildChilds">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/buildChilds.xhtml">buildChilds()</a>
+            </li>
+            <li id="getHeaders"><a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/getHeaders.xhtml">getHeaders()</a>
+                — Get HTTP headers for request</li>
+            <li id="getPropertiesData">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/getPropertiesData.xhtml">getPropertiesData()</a>
+            </li>
+            <li id="toArray">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/toArray.xhtml">toArray()</a>
+            </li>
+            <li id="toXml">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/toXml.xhtml">toXml()</a>
+            </li>
+            <li id="validate">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message/validate.xhtml">validate()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2022 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

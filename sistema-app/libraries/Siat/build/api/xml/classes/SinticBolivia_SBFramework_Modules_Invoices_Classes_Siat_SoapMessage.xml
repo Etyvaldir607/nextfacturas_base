@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SoapMessage" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SoapMessage" abstract="false" final="false" start="4" end="52">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="SoapMessage.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/SoapMessage.php" size="1512" time="2021-12-03T16:25:35+00:00" unixtime="1638548735" sha1="da3c94c38a31ba1cf0627d9f8d884eeb87135bd6" relative="SoapMessage.php"/>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message"/>
+  <member name="action" visibility="protected" static="false" line="6"/>
+  <member name="endpoint" visibility="protected" static="false" line="7"/>
+  <member name="header" default="" type="array" visibility="public" static="false" line="9"/>
+  <member name="body" default="" type="array" visibility="public" static="false" line="10"/>
+  <constructor name="__construct" start="12" end="15" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="endpoint" byreference="false" type="{unknown}"/>
+  </constructor>
+  <method name="getHeaders" start="16" end="26" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="validate" start="27" end="30" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="setAction" start="31" end="35" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="action" byreference="false" type="{unknown}"/>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="setBody" start="36" end="39" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="toXml" start="40" end="51" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="tag" byreference="false" type="{unknown}" default="NULL"/>
+    <inline>
+      <comment value="$xml = new \SimpleXMLElement('&lt;soap:Envelope xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; /&gt;');" line="48"/>
+    </inline>
+  </method>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message">
+    <member name="xmlAllFields" default="true" type="boolean" visibility="protected" static="false" line="8"/>
+    <member name="namespaces" default="" type="array" visibility="protected" static="false" line="9"/>
+    <member name="classAlias" default="NULL" visibility="protected" static="false" line="10"/>
+    <member name="skipProperties" default="" type="array" visibility="protected" static="false" line="11"/>
+    <member name="xmlAttributes" default="" type="array" visibility="protected" static="false" line="12"/>
+    <method name="validate" start="14" end="14" abstract="true" final="false" static="false" visibility="public"/>
+    <method name="addSkipProperty" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="prop" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getHeaders" start="25" end="28" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Get HTTP headers for request"/>
+        <return type="array"/>
+      </docblock>
+    </method>
+    <method name="setXmlElementAttribute" start="29" end="38" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="el" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+    </method>
+    <method name="buildChildFromObject" start="39" end="55" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="obj" byreference="false" type="object"/>
+      <parameter name="tagName" byreference="false" type="string"/>
+    </method>
+    <method name="buildChildFromArray" start="56" end="62" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="childs" byreference="false" type="array"/>
+      <parameter name="tagName" byreference="false" type="string"/>
+    </method>
+    <method name="buildChild" start="63" end="74" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="tagName" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="buildChilds" start="75" end="89" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="element" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="ns" byreference="false" type="{unknown}" default="NULL"/>
+    </method>
+    <method name="toXml" start="95" end="114" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$rootTagName"/>
+        <return type="object">
+          <type full="\SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+        </return>
+      </docblock>
+      <parameter name="rootTagName" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="isRoot" byreference="false" type="boolean" default="false"/>
+      <parameter name="standalone" byreference="false" type="boolean" default="false"/>
+      <inline>
+        <comment value="$xml-&gt;addAttribute('encoding', 'utf-8');" line="102"/>
+        <comment value="$root = $xml-&gt;addChild();" line="103"/>
+        <comment value="if( !$this-&gt;xmlAllFields )" line="107"/>
+        <comment value="return $xml;" line="108"/>
+      </inline>
+    </method>
+    <method name="__buildArrayChilds" start="115" end="140" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="array" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="toArray" start="141" end="149" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="getPropertiesData" start="150" end="164" abstract="false" final="false" static="false" visibility="public"/>
+  </parent>
+</class>

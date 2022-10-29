@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="RobRichards\XMLSecLibs\XMLSecEnc" namespace="RobRichards\XMLSecLibs" name="XMLSecEnc" abstract="false" final="false" start="51" end="511">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Libs/xmlseclibs/src" file="XMLSecEnc.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Libs/xmlseclibs/src/XMLSecEnc.php" size="19840" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="e0dcdacdbc24fc8aa22f81b471941d99ed98baa5" relative="Libs/xmlseclibs/src/XMLSecEnc.php"/>
+  <docblock>
+    <description compact="xmlseclibs.php">Copyright (c) 2007-2020, Robert Richards &lt;rrichards@cdatazone.org&gt;.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+
+  * Neither the name of Robert Richards nor the names of his
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.</description>
+    <author value="Robert Richards &lt;rrichards@cdatazone.org&gt;"/>
+    <copyright value="2007-2020 Robert Richards &lt;rrichards@cdatazone.org&gt;"/>
+    <license name="http://www.opensource.org/licenses/bsd-license.php  BSD License"/>
+  </docblock>
+  <constant type="string" name="template" value="&quot;&lt;xenc:EncryptedData xmlns:xenc='http://www.w3.org/2001/04/xmlenc#'&gt;&#10;   &lt;xenc:CipherData&gt;&#10;      &lt;xenc:CipherValue&gt;&lt;/xenc:CipherValue&gt;&#10;   &lt;/xenc:CipherData&gt;&#10;&lt;/xenc:EncryptedData&gt;&quot;"/>
+  <constant type="string" name="Element" value="'http://www.w3.org/2001/04/xmlenc#Element'"/>
+  <constant type="string" name="Content" value="'http://www.w3.org/2001/04/xmlenc#Content'"/>
+  <constant type="integer" name="URI" value="3"/>
+  <constant type="string" name="XMLENCNS" value="'http://www.w3.org/2001/04/xmlenc#'"/>
+  <member name="encdoc" default="NULL" visibility="private" static="false" line="65">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\null|DOMDocument" namespace="RobRichards\XMLSecLibs" name="null|DOMDocument"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="rawNode" default="NULL" visibility="private" static="false" line="68">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\null|DOMNode" namespace="RobRichards\XMLSecLibs" name="null|DOMNode"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="type" default="NULL" visibility="public" static="false" line="71">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\null|string" namespace="RobRichards\XMLSecLibs" name="null|string"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="encKey" default="NULL" visibility="public" static="false" line="74">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\null|DOMElement" namespace="RobRichards\XMLSecLibs" name="null|DOMElement"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="references" default="" type="array" visibility="private" static="false" line="77">
+    <docblock>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="79" end="82" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="_resetTemplate" start="84" end="88" abstract="false" final="false" static="false" visibility="private"/>
+  <method name="addReference" start="96" end="109" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$name"/>
+      <param type="object" variable="$node">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <param type="string" variable="$type"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+    <parameter name="node" byreference="false" type="{unknown}"/>
+    <parameter name="type" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="setNode" start="114" end="117" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$node">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+    </docblock>
+    <parameter name="node" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="encryptNode" start="128" end="188" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Encrypt the selected node with the given key."/>
+      <param description="The encryption key and algorithm." type="object" variable="$objKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <param description="Whether the encrypted node should be replaced in the original tree. Default is true." type="object" variable="$replace">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <return description="The &lt;xenc:EncryptedData&gt;-element." type="object">
+        <type full="DOMElement" namespace="" name="DOMElement"/>
+      </return>
+    </docblock>
+    <parameter name="objKey" byreference="false" type="{unknown}"/>
+    <parameter name="replace" byreference="false" type="boolean" default="true"/>
+  </method>
+  <method name="encryptReferences" start="194" end="213" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$objKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="objKey" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getCipherValue" start="221" end="240" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Retrieve the CipherValue text from this encrypted node."/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <return description="The Ciphervalue text, or null if no CipherValue is found." type="object">
+        <type full="RobRichards\XMLSecLibs\string|null" namespace="RobRichards\XMLSecLibs" name="string|null"/>
+      </return>
+    </docblock>
+    <inline>
+      <comment value="Only handles embedded content right now and not a reference" line="230"/>
+    </inline>
+  </method>
+  <method name="decryptNode" start="255" end="295" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Decrypt this encrypted node.">The behaviour of this function depends on the value of $replace.
+If $replace is false, we will return the decrypted data as a string.
+If $replace is true, we will insert the decrypted element(s) into the
+document, and return the decrypted element(s).</description>
+      <param description="The decryption key that should be used when decrypting the node." type="object" variable="$objKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <param description="Whether we should replace the encrypted node in the XML document with the decrypted data. The default is true." type="boolean" variable="$replace"/>
+      <return description="The decrypted data." type="object">
+        <type full="RobRichards\XMLSecLibs\string|DOMElement" namespace="RobRichards\XMLSecLibs" name="string|DOMElement"/>
+      </return>
+    </docblock>
+    <parameter name="objKey" byreference="false" type="{unknown}"/>
+    <parameter name="replace" byreference="false" type="boolean" default="true"/>
+  </method>
+  <method name="encryptKey" start="305" end="336" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Encrypt the XMLSecurityKey"/>
+      <param type="object" variable="$srcKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <param type="object" variable="$rawKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <param type="object" variable="$append">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="srcKey" byreference="false" type="{unknown}"/>
+    <parameter name="rawKey" byreference="false" type="{unknown}"/>
+    <parameter name="append" byreference="false" type="boolean" default="true"/>
+  </method>
+  <method name="decryptKey" start="343" end="352" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$encKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\DOMElement|string" namespace="RobRichards\XMLSecLibs" name="DOMElement|string"/>
+      </return>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="encKey" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="locateEncryptedData" start="358" end="372" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$element">
+        <type full="DOMDocument" namespace="" name="DOMDocument"/>
+      </param>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\DOMNode|null" namespace="RobRichards\XMLSecLibs" name="DOMNode|null"/>
+      </return>
+    </docblock>
+    <parameter name="element" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="locateKey" start="379" end="403" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns the key from the DOM"/>
+      <param type="object" variable="$node">
+        <type full="RobRichards\XMLSecLibs\null|DOMNode" namespace="RobRichards\XMLSecLibs" name="null|DOMNode"/>
+      </param>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\null|XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="null|XMLSecurityKey"/>
+      </return>
+    </docblock>
+    <parameter name="node" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="staticLocateKeyInfo" start="411" end="497" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$objBaseKey">
+        <type full="RobRichards\XMLSecLibs\null|XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="null|XMLSecurityKey"/>
+      </param>
+      <param type="object" variable="$node">
+        <type full="RobRichards\XMLSecLibs\null|DOMNode" namespace="RobRichards\XMLSecLibs" name="null|DOMNode"/>
+      </param>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\null|XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="null|XMLSecurityKey"/>
+      </return>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="objBaseKey" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="node" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="locateKeyInfo" start="504" end="510" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$objBaseKey">
+        <type full="RobRichards\XMLSecLibs\null|XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="null|XMLSecurityKey"/>
+      </param>
+      <param type="object" variable="$node">
+        <type full="RobRichards\XMLSecLibs\null|DOMNode" namespace="RobRichards\XMLSecLibs" name="null|DOMNode"/>
+      </param>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\null|XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="null|XMLSecurityKey"/>
+      </return>
+    </docblock>
+    <parameter name="objBaseKey" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="node" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+</class>

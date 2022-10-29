@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeaderEducativo" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeaderEducativo" abstract="false" final="false" start="6" end="50">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Invoices" file="InvoiceHeaderEducativo.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Invoices/InvoiceHeaderEducativo.php" size="1172" time="2022-04-07T02:27:21+00:00" unixtime="1649298441" sha1="350224a60881f30891bef6e2992ea332cd0fd783" relative="Invoices/InvoiceHeaderEducativo.php"/>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeader" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeader"/>
+  <member name="nitEmisor" visibility="public" static="false" line="8"/>
+  <member name="razonSocialEmisor" visibility="public" static="false" line="9"/>
+  <member name="municipio" visibility="public" static="false" line="10"/>
+  <member name="telefono" visibility="public" static="false" line="11"/>
+  <member name="numeroFactura" visibility="public" static="false" line="12"/>
+  <member name="cuf" visibility="public" static="false" line="13"/>
+  <member name="cufd" visibility="public" static="false" line="14"/>
+  <member name="codigoSucursal" visibility="public" static="false" line="15"/>
+  <member name="direccion" visibility="public" static="false" line="16"/>
+  <member name="codigoPuntoVenta" visibility="public" static="false" line="17"/>
+  <member name="fechaEmision" visibility="public" static="false" line="18"/>
+  <member name="nombreRazonSocial" visibility="public" static="false" line="19"/>
+  <member name="codigoTipoDocumentoIdentidad" visibility="public" static="false" line="20"/>
+  <member name="numeroDocumento" visibility="public" static="false" line="21"/>
+  <member name="complemento" visibility="public" static="false" line="22"/>
+  <member name="codigoCliente" visibility="public" static="false" line="23"/>
+  <member name="nombreEstudiante" visibility="public" static="false" line="24"/>
+  <member name="periodoFacturado" visibility="public" static="false" line="25"/>
+  <member name="codigoMetodoPago" visibility="public" static="false" line="26"/>
+  <member name="numeroTarjeta" visibility="public" static="false" line="27"/>
+  <member name="montoTotal" visibility="public" static="false" line="28"/>
+  <member name="montoTotalSujetoIva" visibility="public" static="false" line="29"/>
+  <member name="codigoMoneda" visibility="public" static="false" line="30"/>
+  <member name="tipoCambio" visibility="public" static="false" line="31"/>
+  <member name="montoTotalMoneda" visibility="public" static="false" line="32"/>
+  <member name="montoGiftCard" default="NULL" visibility="public" static="false" line="33"/>
+  <member name="descuentoAdicional" visibility="public" static="false" line="34"/>
+  <member name="codigoExcepcion" visibility="public" static="false" line="35"/>
+  <member name="cafc" visibility="public" static="false" line="36"/>
+  <member name="leyenda" default="'Ley Nro 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.'" type="string" visibility="public" static="false" line="37"/>
+  <member name="usuario" visibility="public" static="false" line="38"/>
+  <member name="codigoDocumentoSector" visibility="public" static="false" line="39"/>
+  <constructor name="__construct" start="41" end="45" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="validate" start="46" end="49" abstract="false" final="false" static="false" visibility="public"/>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeader" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeader">
+    <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message"/>
+    <member name="nitEmisor" visibility="public" static="false" line="9"/>
+    <member name="razonSocialEmisor" visibility="public" static="false" line="10"/>
+    <member name="municipio" visibility="public" static="false" line="11"/>
+    <member name="telefono" visibility="public" static="false" line="12"/>
+    <member name="numeroFactura" visibility="public" static="false" line="13"/>
+    <member name="cuf" visibility="public" static="false" line="14"/>
+    <member name="cufd" visibility="public" static="false" line="15"/>
+    <member name="codigoSucursal" visibility="public" static="false" line="16"/>
+    <member name="direccion" visibility="public" static="false" line="17"/>
+    <member name="codigoPuntoVenta" visibility="public" static="false" line="18"/>
+    <member name="fechaEmision" visibility="public" static="false" line="19"/>
+    <member name="nombreRazonSocial" visibility="public" static="false" line="20"/>
+    <member name="codigoTipoDocumentoIdentidad" visibility="public" static="false" line="21"/>
+    <member name="numeroDocumento" visibility="public" static="false" line="22"/>
+    <member name="complemento" visibility="public" static="false" line="23"/>
+    <member name="codigoCliente" visibility="public" static="false" line="24"/>
+    <member name="codigoMetodoPago" visibility="public" static="false" line="25"/>
+    <member name="numeroTarjeta" visibility="public" static="false" line="26"/>
+    <member name="montoTotal" visibility="public" static="false" line="27"/>
+    <member name="montoTotalSujetoIva" visibility="public" static="false" line="28"/>
+    <member name="codigoMoneda" visibility="public" static="false" line="29"/>
+    <member name="tipoCambio" visibility="public" static="false" line="30"/>
+    <member name="montoTotalMoneda" visibility="public" static="false" line="31"/>
+    <member name="montoGiftCard" default="NULL" visibility="public" static="false" line="32"/>
+    <member name="descuentoAdicional" visibility="public" static="false" line="33"/>
+    <member name="codigoExcepcion" visibility="public" static="false" line="34"/>
+    <member name="cafc" visibility="public" static="false" line="35"/>
+    <member name="leyenda" default="'Ley Nro 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.'" type="string" visibility="public" static="false" line="36"/>
+    <member name="usuario" visibility="public" static="false" line="37"/>
+    <member name="codigoDocumentoSector" visibility="public" static="false" line="38"/>
+    <constructor name="__construct" start="40" end="50" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="validate" start="51" end="84" abstract="false" final="false" static="false" visibility="public">
+      <inline>
+        <comment value="if( (int)$this-&gt;codigoPuntoVenta &gt;= 0 )" line="65"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="unset($this-&gt;xmlAttributes['codigoPuntoVenta']);" line="66"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="if( $this-&gt;montoGiftCard !== null )" line="67"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="unset($this-&gt;xmlAttributes['montoGiftCard']);" line="68"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="if( !empty($this-&gt;complemento) )" line="69"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="unset($this-&gt;xmlAttributes['complemento']);" line="70"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="if( (int)$this-&gt;numeroTarjeta )" line="71"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="unset($this-&gt;xmlAttributes['numeroTarjeta']);" line="72"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="if( !empty($this-&gt;cafc) )" line="73"/>
+        <comment xmlns="http://xml.phpdox.net/src" value="unset($this-&gt;xmlAttributes['cafc']);" line="74"/>
+      </inline>
+    </method>
+  </parent>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message">
+    <member name="xmlAllFields" default="true" type="boolean" visibility="protected" static="false" line="8"/>
+    <member name="namespaces" default="" type="array" visibility="protected" static="false" line="9"/>
+    <member name="classAlias" default="NULL" visibility="protected" static="false" line="10"/>
+    <member name="skipProperties" default="" type="array" visibility="protected" static="false" line="11"/>
+    <member name="xmlAttributes" default="" type="array" visibility="protected" static="false" line="12"/>
+    <method name="validate" start="14" end="14" abstract="true" final="false" static="false" visibility="public"/>
+    <method name="addSkipProperty" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="prop" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getHeaders" start="25" end="28" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Get HTTP headers for request"/>
+        <return type="array"/>
+      </docblock>
+    </method>
+    <method name="setXmlElementAttribute" start="29" end="38" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="el" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+    </method>
+    <method name="buildChildFromObject" start="39" end="55" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="obj" byreference="false" type="object"/>
+      <parameter name="tagName" byreference="false" type="string"/>
+    </method>
+    <method name="buildChildFromArray" start="56" end="62" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="childs" byreference="false" type="array"/>
+      <parameter name="tagName" byreference="false" type="string"/>
+    </method>
+    <method name="buildChild" start="63" end="74" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="tagName" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="buildChilds" start="75" end="89" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="element" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="ns" byreference="false" type="{unknown}" default="NULL"/>
+    </method>
+    <method name="toXml" start="95" end="114" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$rootTagName"/>
+        <return type="object">
+          <type full="\SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+        </return>
+      </docblock>
+      <parameter name="rootTagName" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="isRoot" byreference="false" type="boolean" default="false"/>
+      <parameter name="standalone" byreference="false" type="boolean" default="false"/>
+      <inline>
+        <comment value="$xml-&gt;addAttribute('encoding', 'utf-8');" line="102"/>
+        <comment value="$root = $xml-&gt;addChild();" line="103"/>
+        <comment value="if( !$this-&gt;xmlAllFields )" line="107"/>
+        <comment value="return $xml;" line="108"/>
+      </inline>
+    </method>
+    <method name="__buildArrayChilds" start="115" end="140" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="array" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="toArray" start="141" end="149" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="getPropertiesData" start="150" end="164" abstract="false" final="false" static="false" visibility="public"/>
+  </parent>
+</class>

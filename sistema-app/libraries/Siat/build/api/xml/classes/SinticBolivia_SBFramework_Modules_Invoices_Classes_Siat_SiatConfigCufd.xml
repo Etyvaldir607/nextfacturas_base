@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfigCufd" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfigCufd" abstract="false" final="false" start="4" end="17">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="SiatConfigCufd.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/SiatConfigCufd.php" size="381" time="2022-05-19T14:18:16+00:00" unixtime="1652969896" sha1="efa7d0859bbd4c86b9aa7bfb15d7f6f8ebaf9b7b" relative="SiatConfigCufd.php"/>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfigCode" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfigCode"/>
+  <member name="codigoControl" visibility="public" static="false" line="6"/>
+  <method name="bind" start="8" end="16" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfigCode" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfigCode">
+    <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatObject" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatObject"/>
+    <member name="codigo" visibility="public" static="false" line="7"/>
+    <member name="direccion" visibility="public" static="false" line="9"/>
+    <member name="fechaVigencia" visibility="public" static="false" line="10"/>
+    <member name="timeVigencia" visibility="public" static="false" line="11"/>
+    <member name="mensajesList" visibility="public" static="false" line="12"/>
+    <member name="transaccion" visibility="public" static="false" line="13"/>
+    <constructor name="__construct" start="15" end="18" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="data" byreference="false" type="{unknown}" default="NULL"/>
+    </constructor>
+    <method name="bind" start="19" end="24" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="data" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="validate" start="25" end="36" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="expirado" start="37" end="42" abstract="false" final="false" static="false" visibility="public"/>
+  </parent>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatObject" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatObject">
+    <method name="bind" start="6" end="15" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="data" byreference="false" type="{unknown}"/>
+    </method>
+  </parent>
+</class>

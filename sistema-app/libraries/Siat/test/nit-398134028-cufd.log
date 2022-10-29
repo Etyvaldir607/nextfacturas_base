@@ -1,0 +1,14 @@
+[2022-04-27 17:41:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQT5DaTxuQUE=NzzQ4MUVBOUQ1Njc=Q1UkY3BSY0VXVUFFDQjk5OTIzMzJEQ
+            [codigoControl] => 320CABE21F56D74
+            [direccion] => CALLE 4 NUEVO AMANECER NRO.4160 ZONA LAS CARMELITAS, UV: 112, MZA: 20.
+            [fechaVigencia] => 2022-04-28T17:41:28.642-04:00
+            [transaccion] => 1
+        )
+
+)
+

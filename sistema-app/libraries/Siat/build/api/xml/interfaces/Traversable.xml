@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface xmlns="http://xml.phpdox.net/src" full="Traversable" namespace="" name="Traversable">
+  <implementors>
+    <class full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatXmlElement" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatXmlElement"/>
+  </implementors>
+</interface>

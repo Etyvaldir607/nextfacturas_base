@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioSiat" abstract="false" final="false" start="6" end="136">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Services" file="ServicioSiat.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Services/ServicioSiat.php" size="3645" time="2022-06-03T13:09:35+00:00" unixtime="1654261775" sha1="74e534884ae734804bbb737d4213d113e5541841" relative="Services/ServicioSiat.php"/>
+  <constant type="{unknown}" name="MOD_ELECTRONICA_ENLINEA" value="1"/>
+  <constant type="{unknown}" name="MOD_COMPUTARIZADA_ENLINEA" value="2"/>
+  <constant type="{unknown}" name="MOD_PORTAL_WEB" value="3"/>
+  <constant type="{unknown}" name="TIPO_EMISION_ONLINE" value="1"/>
+  <constant type="{unknown}" name="TIPO_EMISION_OFFLINE" value="2"/>
+  <constant type="{unknown}" name="TIPO_EMISION_MASIVA" value="3"/>
+  <constant type="{unknown}" name="TIPO_FACTURA_CREDITO_FISCAL" value="1"/>
+  <constant type="{unknown}" name="TIPO_FACTURA_SIN_CREDITO_FISCAL" value="2"/>
+  <constant type="{unknown}" name="TIPO_FACTURA_AJUSTE" value="3"/>
+  <constant type="{unknown}" name="AMBIENTE_PRODUCCION" value="1"/>
+  <constant type="{unknown}" name="AMBIENTE_PRUEBAS" value="2"/>
+  <member name="wsdl" visibility="protected" static="false" line="23"/>
+  <member name="cuis" visibility="public" static="false" line="28">
+    <docblock>
+      <description compact="Código Único de Inicio de Sistemas"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="cufd" visibility="public" static="false" line="33">
+    <docblock>
+      <description compact="Código Único de Facturación Diario"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="codigoControl" visibility="public" static="false" line="34"/>
+  <member name="token" visibility="protected" static="false" line="39">
+    <docblock>
+      <description compact="Token delegado"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="debug" default="false" type="boolean" visibility="public" static="false" line="41"/>
+  <member name="modalidad" default="NULL" visibility="public" static="false" line="42"/>
+  <member name="ambiente" default="" type="{unknown}" constant="self::AMBIENTE_PRUEBAS" visibility="public" static="false" line="43"/>
+  <member name="codigoSistema" default="NULL" visibility="public" static="false" line="44"/>
+  <member name="nit" default="NULL" visibility="public" static="false" line="45"/>
+  <member name="razonSocial" default="NULL" visibility="public" static="false" line="46"/>
+  <constructor name="__construct" start="48" end="55" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="cuis" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="cufd" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="token" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="endpoint" byreference="false" type="{unknown}" default="NULL"/>
+  </constructor>
+  <method name="setConfig" start="56" end="64" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="data" byreference="false" type="array"/>
+  </method>
+  <method name="setToken" start="70" end="73" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Assign tokenDelegado"/>
+      <param type="string" variable="$token"/>
+    </docblock>
+    <parameter name="token" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="validate" start="74" end="84" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="autenticar" start="85" end="88" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="callAction" start="89" end="128" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="action" byreference="false" type="{unknown}"/>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+    <parameter name="soapHeaders" byreference="false" type="array" default=""/>
+    <parameter name="httpHeaders" byreference="false" type="array" default=""/>
+  </method>
+  <method name="debug" start="129" end="135" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="str" byreference="false" type="{unknown}"/>
+    <parameter name="isXml" byreference="false" type="boolean" default="true"/>
+  </method>
+  <extenders>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacionSincronizacion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioOperaciones" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioOperaciones"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionCodigos" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacionCodigos"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionComputarizada" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacionComputarizada"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionElectronica" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacionElectronica"/>
+  </extenders>
+</class>

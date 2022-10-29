@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioRecepcionMasiva" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioRecepcionMasiva" abstract="false" final="false" start="6" end="16">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Messages" file="SolicitudServicioRecepcionMasiva.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Messages/SolicitudServicioRecepcionMasiva.php" size="438" time="2022-04-09T01:55:15+00:00" unixtime="1649469315" sha1="d979121cb9c451f06c7eaddaf4cfce279874db51" relative="Messages/SolicitudServicioRecepcionMasiva.php"/>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioRecepcionFactura" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioRecepcionFactura"/>
+  <member name="cantidadFacturas" visibility="public" static="false" line="8"/>
+  <method name="validate" start="10" end="15" abstract="false" final="false" static="false" visibility="public">
+    <inline>
+      <comment value="parent::validate();" line="12"/>
+      <comment value="if( $this-&gt;cantidadFacturas &lt;= 0 )" line="13"/>
+      <comment value="throw new Exception('Invalid data &quot;cantidadFacturas&quot;');" line="14"/>
+    </inline>
+  </method>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioRecepcionFactura" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioRecepcionFactura">
+    <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudRecepcion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudRecepcion"/>
+    <member name="archivo" visibility="public" static="false" line="9"/>
+    <member name="fechaEnvio" visibility="public" static="false" line="10"/>
+    <member name="hashArchivo" visibility="public" static="false" line="11"/>
+    <constructor name="__construct" start="13" end="16" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="loadFile" start="17" end="23" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="filename" byreference="false" type="string"/>
+    </method>
+    <method name="setBuffer" start="24" end="33" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="binaryBuffer" byreference="false" type="{unknown}"/>
+      <parameter name="compress" byreference="false" type="boolean" default="true"/>
+      <inline>
+        <comment value="$this-&gt;archivo = base64_encode(gzencode($binaryBuffer, 9, FORCE_GZIP));" line="29"/>
+        <comment value="$this-&gt;archivo &#9;&#9;= $compress ? gzencode($binaryBuffer, 9, FORCE_GZIP) : $binaryBuffer;" line="30"/>
+      </inline>
+    </method>
+    <method name="setBufferFromFiles" start="34" end="43" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="files" byreference="false" type="array"/>
+    </method>
+    <method name="setBufferFromInvoicesXml" start="44" end="55" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="invoicesXml" byreference="false" type="array"/>
+      <inline>
+        <comment value="unlink($package);" line="54"/>
+      </inline>
+    </method>
+    <method name="validate" start="56" end="66" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="toXml" start="67" end="72" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="tagName" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="isRoot" byreference="false" type="boolean" default="false"/>
+      <parameter name="standalone" byreference="false" type="boolean" default="false"/>
+    </method>
+  </parent>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudRecepcion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudRecepcion">
+    <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message"/>
+    <member name="codigoAmbiente" visibility="public" static="false" line="12">
+      <docblock>
+        <description/>
+        <var type="int"/>
+      </docblock>
+    </member>
+    <member name="codigoDocumentoSector" visibility="public" static="false" line="13"/>
+    <member name="codigoEmision" default="1" type="integer" visibility="public" static="false" line="14"/>
+    <member name="codigoModalidad" default="1" type="integer" visibility="public" static="false" line="15"/>
+    <member name="codigoPuntoVenta" default="0" type="integer" visibility="public" static="false" line="16"/>
+    <member name="codigoSistema" visibility="public" static="false" line="17"/>
+    <member name="codigoSucursal" default="0" type="integer" visibility="public" static="false" line="18"/>
+    <member name="cufd" visibility="public" static="false" line="19"/>
+    <member name="cuis" visibility="public" static="false" line="20"/>
+    <member name="nit" visibility="public" static="false" line="21"/>
+    <member name="tipoFacturaDocumento" visibility="public" static="false" line="22"/>
+    <method name="validate" start="24" end="48" abstract="false" final="false" static="false" visibility="public"/>
+  </parent>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message">
+    <member name="xmlAllFields" default="true" type="boolean" visibility="protected" static="false" line="8"/>
+    <member name="namespaces" default="" type="array" visibility="protected" static="false" line="9"/>
+    <member name="classAlias" default="NULL" visibility="protected" static="false" line="10"/>
+    <member name="skipProperties" default="" type="array" visibility="protected" static="false" line="11"/>
+    <member name="xmlAttributes" default="" type="array" visibility="protected" static="false" line="12"/>
+    <method name="validate" start="14" end="14" abstract="true" final="false" static="false" visibility="public"/>
+    <method name="addSkipProperty" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="prop" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getHeaders" start="25" end="28" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Get HTTP headers for request"/>
+        <return type="array"/>
+      </docblock>
+    </method>
+    <method name="setXmlElementAttribute" start="29" end="38" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="el" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+    </method>
+    <method name="buildChildFromObject" start="39" end="55" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="obj" byreference="false" type="object"/>
+      <parameter name="tagName" byreference="false" type="string"/>
+    </method>
+    <method name="buildChildFromArray" start="56" end="62" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="childs" byreference="false" type="array"/>
+      <parameter name="tagName" byreference="false" type="string"/>
+    </method>
+    <method name="buildChild" start="63" end="74" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="tagName" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="buildChilds" start="75" end="89" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="element" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="ns" byreference="false" type="{unknown}" default="NULL"/>
+    </method>
+    <method name="toXml" start="95" end="114" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$rootTagName"/>
+        <return type="object">
+          <type full="\SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+        </return>
+      </docblock>
+      <parameter name="rootTagName" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="isRoot" byreference="false" type="boolean" default="false"/>
+      <parameter name="standalone" byreference="false" type="boolean" default="false"/>
+      <inline>
+        <comment value="$xml-&gt;addAttribute('encoding', 'utf-8');" line="102"/>
+        <comment value="$root = $xml-&gt;addChild();" line="103"/>
+        <comment value="if( !$this-&gt;xmlAllFields )" line="107"/>
+        <comment value="return $xml;" line="108"/>
+      </inline>
+    </method>
+    <method name="__buildArrayChilds" start="115" end="140" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="array" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="toArray" start="141" end="149" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="getPropertiesData" start="150" end="164" abstract="false" final="false" static="false" visibility="public"/>
+  </parent>
+</class>

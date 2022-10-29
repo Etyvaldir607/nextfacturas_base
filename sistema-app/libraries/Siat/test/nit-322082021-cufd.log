@@ -1,0 +1,476 @@
+[2022-06-25 12:54:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QktYWDNNYUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 1F78BCB92D86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-26T12:54:23.231-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-25 12:56:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QnwzeTVNYUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 857030C92D86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-26T12:56:50.549-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-25 12:59:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QnliTThNYUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 13DE24C92D86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-26T12:59:12.275-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-25 13:00:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qj4vZEFOYUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 08C2030A2D86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-26T13:00:29.768-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:29:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qj5PZGRBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 4CF3CAD01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:29:29.148-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:35:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QnxoTGpBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 9B26A3E01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:35:11.339-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:35:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qm87MmpBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 043C44E01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:35:53.844-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:36:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QjlCS2tBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 30A725E01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:36:10.016-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:36:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QmVBWWtBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 834E55E01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:36:24.003-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:41:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qnlld3BBZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 415E5DE01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:41:48.305-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:42:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qnlva3FBZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 6576BEE01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:42:36.405-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:44:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qjl3cXNBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 967BD1F01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:44:42.486-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:49:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qm9uRnhBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 02BBE8F01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:49:05.394-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:49:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QkFVNXhBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 3822B9F01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:49:56.200-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:53:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qnk4MzJBZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 6366CFF01E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:53:54.595-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:54:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QlVCajNBZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 248001011E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:54:35.012-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:54:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQzpVZ0FBNzjA1OTJDQTk2NjY=QkHCsHIzQWVHV1VIwMTMyNzZERUNBM
+            [codigoControl] => 3A5321011E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:54:43.930-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:55:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQzpVZ0FBNzjA1OTJDQTk2NjY=Qj7Dmlo0QWVHV1VIwMTMyNzZERUNBM
+            [codigoControl] => 66C362011E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:55:25.958-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 00:59:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qj57TzhBZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 027258011E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T00:59:14.738-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:01:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QlVJUEJCZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 8A0A68411E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:01:15.082-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:01:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QmUyYkJCZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 0DAA98411E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:01:27.533-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:03:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qj4oSURCZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 740F5B411E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:03:08.868-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:04:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qj5RY0VCZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 28013D411E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:04:28.168-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:05:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qm9uQkZCZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 921F4E411E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:05:01.394-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:05:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QksoV0ZCZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 4DE2AE411E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:05:22.861-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:06:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qjk4Y0dCZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 64FF30511E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:06:28.596-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:07:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQzpVZ0FBNzjA1OTJDQTk2NjY=QsKhcEVIQmVHV1VIwMTMyNzZERUNBM
+            [codigoControl] => 612861511E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:07:04.417-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:13:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qkttb05CZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 6D5C1B511E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:13:40.381-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:17:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qj4taFJCZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 4C1D11611E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:17:33.788-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:18:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QnkxSFNCZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 552D32611E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:18:07.525-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:18:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QjlIbFNCZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 0490B2611E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:18:37.076-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:22:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=QktxZldCZUdXVUJIwMTMyNzZERUNBM
+            [codigoControl] => 4DF4B8611E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:22:31.421-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 01:26:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qm8sdmFCZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 2A9F0F611E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T01:26:47.834-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 15:45:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtDOlVnQUE=NzjA1OTJDQTk2NjY=Qjk8d3RQZUdXVUFIwMTMyNzZERUNBM
+            [codigoControl] => 505C44E91E86D74
+            [direccion] => AVENIDA PORTALES NRO.846 EDIFICIO CENTRO COMERCIAL HUPER MALL PISO PB DPTO. LOCAL 7 ZONA D12 QUERU QUERU
+            [fechaVigencia] => 2022-06-30T15:45:48.816-04:00
+            [transaccion] => 1
+        )
+
+)
+

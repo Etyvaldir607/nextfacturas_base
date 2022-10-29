@@ -1,0 +1,8 @@
+{
+	"Id": "mod_invoices",
+	"Name": "Invoices module",
+	"Description" : "Invoices module, here you can create and manage your product invoices.",
+	"Website": "http://sinticbolivia.net",
+	"Author": "Sintic Bolivia",
+	"Version": "1.0"
+}

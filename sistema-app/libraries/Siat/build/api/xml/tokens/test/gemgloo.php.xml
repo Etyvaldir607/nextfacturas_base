@@ -1,0 +1,675 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/test" file="gemgloo.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/test/gemgloo.php" size="6288" time="2022-04-21T02:30:55+00:00" unixtime="1650508255" sha1="735ed6e1207068c1ce15a8686b130b9791609c64" relative="test/gemgloo.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2">
+    <token name="T_REQUIRE_ONCE">require_once</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">dirname</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_STRING">dirname</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_FILE">__FILE__</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">DIRECTORY_SEPARATOR</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'autoload.php'</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="3">
+    <token name="T_REQUIRE_ONCE">require_once</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">dirname</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_FILE">__FILE__</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">DIRECTORY_SEPARATOR</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_DOT">.</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'test-functions.php'</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="4"/>
+  <line no="5">
+    <token name="T_USE">use</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SinticBolivia</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">SBFramework</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Modules</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Invoices</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Classes</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Siat</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">DocumentTypes</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="6">
+    <token name="T_USE">use</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SinticBolivia</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">SBFramework</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Modules</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Invoices</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Classes</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Siat</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">SiatConfig</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="7">
+    <token name="T_USE">use</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SinticBolivia</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">SBFramework</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Modules</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Invoices</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Classes</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Siat</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Invoices</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">SiatInvoice</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="8">
+    <token name="T_USE">use</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SinticBolivia</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">SBFramework</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Modules</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Invoices</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Classes</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Siat</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Services</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">ServicioSiat</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="9"/>
+  <line no="10"/>
+  <line no="11">
+    <token name="T_STRING">date_default_timezone_set</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'America/La_Paz'</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="12"/>
+  <line no="13">
+    <token name="T_VARIABLE">$config</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_NEW">new</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SiatConfig</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_PHPDOX_OPEN_SQUARE">[</token>
+  </line>
+  <line no="14">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'nombreSistema'</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_DOUBLE_ARROW">=&gt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"GEMGLOO"</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="15">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'codigoSistema'</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_DOUBLE_ARROW">=&gt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'71CB9992332DC481EA9D567'</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="16">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'nit'</token>
+    <token name="T_WHITESPACE">           </token>
+    <token name="T_DOUBLE_ARROW">=&gt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">398134028</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="17">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'razonSocial'</token>
+    <token name="T_WHITESPACE">   </token>
+    <token name="T_DOUBLE_ARROW">=&gt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"GEMGLOO"</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="18">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'modalidad'</token>
+    <token name="T_WHITESPACE">     </token>
+    <token name="T_DOUBLE_ARROW">=&gt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">ServicioSiat</token>
+    <token name="T_DOUBLE_COLON">::</token>
+    <token name="T_STRING">MOD_COMPUTARIZADA_ENLINEA</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="19">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_COMMENT">//'modalidad'     =&gt; ServicioSiat::MOD_ELECTRONICA_ENLINEA,</token>
+  </line>
+  <line no="20">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'ambiente'</token>
+    <token name="T_WHITESPACE">      </token>
+    <token name="T_DOUBLE_ARROW">=&gt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">ServicioSiat</token>
+    <token name="T_DOUBLE_COLON">::</token>
+    <token name="T_STRING">AMBIENTE_PRUEBAS</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="21">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'tokenDelegado'</token>
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_DOUBLE_ARROW">=&gt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJHZW1nbG9vMjAyMCIsImNvZGlnb1Npc3RlbWEiOiI3MUNCOTk5MjMzMkRDNDgxRUE5RDU2NyIsIm5pdCI6Ikg0c0lBQUFBQUFBQUFETzJ0REEwTmpFd3NnQUFEVHRNUndrQUFBQT0iLCJpZCI6MzAxNDQ5OSwiZXhwIjoxNjcyNDQ0ODAwLCJpYXQiOjE2NDM3MzI5OTUsIm5pdERlbGVnYWRvIjozOTgxMzQwMjgsInN1YnNpc3RlbWEiOiJTRkUifQ.ZBqAmOKpaMz7SVcY01uXcLO5J8TyK8W5f8GRgsLOPSrBAb3EEYMwkURLMIMF0Wk7ARW4UCqBKqkzbjGj2mCRGA'</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="22">
+    <token name="T_PHPDOX_CLOSE_SQUARE">]</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="23"/>
+  <line no="24">
+    <token name="T_VARIABLE">$sucursal</token>
+    <token name="T_WHITESPACE"> 	</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">0</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="25">
+    <token name="T_VARIABLE">$puntoventa</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">0</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="26">
+    <token name="T_VARIABLE">$resCuis</token>
+    <token name="T_WHITESPACE"> 	</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">obtenerCuis</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$puntoventa</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$sucursal</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="27">
+    <token name="T_VARIABLE">$resCufd</token>
+    <token name="T_WHITESPACE"> 	</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">obtenerCufd</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$puntoventa</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$sucursal</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$resCuis</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">RespuestaCuis</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">codigo</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="28">
+    <token name="T_COMMENT">//$evento 	= obtenerListadoEventos($sucursal, $puntoventa, 7);</token>
+  </line>
+  <line no="29">
+    <token name="T_COMMENT">//$evento or die('Evento no encontrado');</token>
+  </line>
+  <line no="30">
+    <token name="T_VARIABLE">$cufdAntiguo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">null</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+    <token name="T_COMMENT">//'BQT5DaTxuQUE=NzzQ4MUVBOUQ1Njc=Q285dmhQVEVXVUJFDQjk5OTIzMzJEQ';</token>
+  </line>
+  <line no="31">
+    <token name="T_VARIABLE">$codigoControlAntiguo</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'741A7D39FC56D74'</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="32">
+    <token name="T_VARIABLE">$fechaInicio</token>
+    <token name="T_WHITESPACE"> 		</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'2022-04-19T02:30:00.000'</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="33">
+    <token name="T_VARIABLE">$fechaFin</token>
+    <token name="T_WHITESPACE"> 			</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'2022-04-19T02:39:00.000'</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="34">
+    <token name="T_VARIABLE">$fechaEmision</token>
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'2022-04-19T02:31:00.000'</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="35">
+    <token name="T_VARIABLE">$fechaEmision</token>
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">date</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"Y-m-d\TH:i:s.v"</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="36">
+    <token name="T_VARIABLE">$documentoSector</token>
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">DocumentTypes</token>
+    <token name="T_DOUBLE_COLON">::</token>
+    <token name="T_STRING">FACTURA_COM_EXPORT_SERVICIOS</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="37">
+    <token name="T_VARIABLE">$tipoFactura</token>
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SiatInvoice</token>
+    <token name="T_DOUBLE_COLON">::</token>
+    <token name="T_STRING">FACTURA_SIN_DERECHO_CREDITO_FISCAL</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="38">
+    <token name="T_VARIABLE">$cafc</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">null</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="39"/>
+  <line no="40">
+    <token name="T_COMMENT">/*</token>
+  </line>
+  <line no="41">
+    <token name="T_COMMENT">$resEvento = null; //(object)['RespuestaListaEventos' =&gt; (object)['codigoRecepcionEventoSignificativo' =&gt; 360272]];</token>
+  </line>
+  <line no="42">
+    <token name="T_COMMENT">if( !$resEvento )</token>
+  </line>
+  <line no="43">
+    <token name="T_COMMENT">{</token>
+  </line>
+  <line no="44">
+    <token name="T_COMMENT">	$resEvento = registroEvento(</token>
+  </line>
+  <line no="45">
+    <token name="T_COMMENT">		$resCuis-&gt;RespuestaCuis-&gt;codigo,</token>
+  </line>
+  <line no="46">
+    <token name="T_COMMENT">		$resCufd-&gt;RespuestaCufd-&gt;codigo,</token>
+  </line>
+  <line no="47">
+    <token name="T_COMMENT">		$sucursal,</token>
+  </line>
+  <line no="48">
+    <token name="T_COMMENT">		$puntoventa,</token>
+  </line>
+  <line no="49">
+    <token name="T_COMMENT">		$evento,</token>
+  </line>
+  <line no="50">
+    <token name="T_COMMENT">		$cufdAntiguo,</token>
+  </line>
+  <line no="51">
+    <token name="T_COMMENT">		$fechaInicio,</token>
+  </line>
+  <line no="52">
+    <token name="T_COMMENT">		$fechaFin</token>
+  </line>
+  <line no="53">
+    <token name="T_COMMENT">	);</token>
+  </line>
+  <line no="54">
+    <token name="T_COMMENT">	if( !isset($resEvento-&gt;RespuestaListaEventos-&gt;codigoRecepcionEventoSignificativo) )</token>
+  </line>
+  <line no="55">
+    <token name="T_COMMENT">	{</token>
+  </line>
+  <line no="56">
+    <token name="T_COMMENT">		print_r($resEvento);</token>
+  </line>
+  <line no="57">
+    <token name="T_COMMENT">		die();</token>
+  </line>
+  <line no="58">
+    <token name="T_COMMENT">	}</token>
+  </line>
+  <line no="59">
+    <token name="T_COMMENT">}</token>
+  </line>
+  <line no="60">
+    <token name="T_COMMENT">test_log("RESULTADO REGISTRO DE EVENTO\n=========================\n");</token>
+  </line>
+  <line no="61">
+    <token name="T_COMMENT">test_log($resEvento);</token>
+  </line>
+  <line no="62">
+    <token name="T_COMMENT">$receps = [];</token>
+  </line>
+  <line no="63">
+    <token name="T_COMMENT">*/</token>
+  </line>
+  <line no="64"/>
+  <line no="65"/>
+  <line no="66">
+    <token name="T_FOR">for</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$i</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">0</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$i</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_LT">&lt;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">70</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$i</token>
+    <token name="T_INC">++</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+  </line>
+  <line no="67">
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="68">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_VARIABLE">$facturas</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">construirFacturas</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$sucursal</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$puntoventa</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">10</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$documentoSector</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$fechaEmision</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$cufdAntiguo</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$cafc</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="69">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_VARIABLE">$fechaEmision</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">date</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"Y-m-d\TH:i:s.v"</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">strtotime</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$fechaEmision</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_PLUS">+</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">5</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="70">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_COMMENT">/*</token>
+  </line>
+  <line no="71">
+    <token name="T_COMMENT">	$res = testPaquetes($sucursal, $puntoventa, $facturas, $codigoControlAntiguo, $tipoFactura, $resEvento-&gt;RespuestaListaEventos, $cafc);</token>
+  </line>
+  <line no="72">
+    <token name="T_COMMENT">	</token>
+  </line>
+  <line no="73">
+    <token name="T_COMMENT">	if( $res-&gt;RespuestaServicioFacturacion-&gt;codigoEstado == 901 )</token>
+  </line>
+  <line no="74">
+    <token name="T_COMMENT">	{</token>
+  </line>
+  <line no="75">
+    <token name="T_COMMENT">		$receps[] = $res-&gt;RespuestaServicioFacturacion-&gt;codigoRecepcion;</token>
+  </line>
+  <line no="76">
+    <token name="T_COMMENT">		$res = testRecepcionPaquete($sucursal, $puntoventa,</token>
+  </line>
+  <line no="77">
+    <token name="T_COMMENT">			$documentoSector,</token>
+  </line>
+  <line no="78">
+    <token name="T_COMMENT">			$tipoFactura,</token>
+  </line>
+  <line no="79">
+    <token name="T_COMMENT">			$res-&gt;RespuestaServicioFacturacion-&gt;codigoRecepcion</token>
+  </line>
+  <line no="80">
+    <token name="T_COMMENT">		);</token>
+  </line>
+  <line no="81">
+    <token name="T_COMMENT">		//die;</token>
+  </line>
+  <line no="82">
+    <token name="T_COMMENT">	}</token>
+  </line>
+  <line no="83">
+    <token name="T_COMMENT">	*/</token>
+  </line>
+  <line no="84">
+    <token name="T_WHITESPACE">	</token>
+  </line>
+  <line no="85">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_VARIABLE">$res</token>
+    <token name="T_WHITESPACE">  </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">testMasiva</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$sucursal</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$puntoventa</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$documentoSector</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$facturas</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$tipoFactura</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="86">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_STRING">print_r</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$res</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="87">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_IF">if</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$res</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">RespuestaServicioFacturacion</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">codigoEstado</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_IS_EQUAL">==</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">901</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+  </line>
+  <line no="88">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="89">
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_VARIABLE">$res</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">testRecepcionMasiva</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+  </line>
+  <line no="90">
+    <token name="T_WHITESPACE">			</token>
+    <token name="T_VARIABLE">$sucursal</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="91">
+    <token name="T_WHITESPACE">			</token>
+    <token name="T_VARIABLE">$puntoventa</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="92">
+    <token name="T_WHITESPACE">			</token>
+    <token name="T_VARIABLE">$documentoSector</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="93">
+    <token name="T_WHITESPACE">			</token>
+    <token name="T_VARIABLE">$tipoFactura</token>
+    <token name="T_PHPDOX_COMMA">,</token>
+  </line>
+  <line no="94">
+    <token name="T_WHITESPACE">			</token>
+    <token name="T_VARIABLE">$res</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">RespuestaServicioFacturacion</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">codigoRecepcion</token>
+  </line>
+  <line no="95">
+    <token name="T_WHITESPACE">		</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="96">
+    <token name="T_WHITESPACE">		</token>
+  </line>
+  <line no="97">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="98">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_COMMENT">//testFirma();</token>
+  </line>
+  <line no="99">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_COMMENT">//die;</token>
+  </line>
+  <line no="100">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="101">
+    <token name="T_COMMENT">//$receps = explode(',', '4d70cad2-c0d4-11ec-9dd3-fd6c979089f4,4dc21f24-c0d4-11ec-9dd3-fd6c979089f4,4e5389b6-c0d4-11ec-9dd3-fd6c979089f4,4ffb4648-c0d4-11ec-9dd3-fd6c979089f4,504c738a-c0d4-11ec-9dd3-fd6c979089f4,50a73dbc-c0d4-11ec-9dd3-fd6c979089f4,50ff48ce-c0d4-11ec-9dd3-fd6c979089f4,51790cb0-c0d4-11ec-9dd3-fd6c979089f4,51c9c528-c0d4-11ec-8a91-ed5e4b2cd182,521e74da-c0d4-11ec-8a91-ed5e4b2cd182,526d09a2-c0d4-11ec-9dd3-fd6c979089f4,52c20774-c0d4-11ec-9dd3-fd6c979089f4,5333b506-c0d4-11ec-9dd3-fd6c979089f4,539e852c-c0d4-11ec-8a91-ed5e4b2cd182,53fd4698-c0d4-11ec-9dd3-fd6c979089f4,5468d9aa-c0d4-11ec-9dd3-fd6c979089f4,54ca33ee-c0d4-11ec-8a91-ed5e4b2cd182,554508dc-c0d4-11ec-9dd3-fd6c979089f4,55a1329e-c0d4-11ec-9dd3-fd6c979089f4,55f6a600-c0d4-11ec-8a91-ed5e4b2cd182,564d9fa2-c0d4-11ec-8a91-ed5e4b2cd182,569e5750-c0d4-11ec-9dd3-fd6c979089f4,56edafd2-c0d4-11ec-9dd3-fd6c979089f4,573edd14-c0d4-11ec-9dd3-fd6c979089f4,57969a06-c0d4-11ec-9dd3-fd6c979089f4,57e1d434-c0d4-11ec-8a91-ed5e4b2cd182,58330176-c0d4-11ec-8a91-ed5e4b2cd182,5884a388-c0d4-11ec-9dd3-fd6c979089f4,58db4f0a-c0d4-11ec-9dd3-fd6c979089f4,592ec63c-c0d4-11ec-9dd3-fd6c979089f4,597dd09e-c0d4-11ec-9dd3-fd6c979089f4,5a1492b8-c0d4-11ec-8a91-ed5e4b2cd182,5ab454d0-c0d4-11ec-9dd3-fd6c979089f4,5b487e82-c0d4-11ec-9dd3-fd6c979089f4,5bb87e64-c0d4-11ec-9dd3-fd6c979089f4,5c24d4c6-c0d4-11ec-9dd3-fd6c979089f4,5c731bd8-c0d4-11ec-9dd3-fd6c979089f4,5cc819aa-c0d4-11ec-9dd3-fd6c979089f4,5ddd332c-c0d4-11ec-9dd3-fd6c979089f4,5e3d2d7e-c0d4-11ec-9dd3-fd6c979089f4,5e92c7da-c0d4-11ec-8a91-ed5e4b2cd182,5eef18ac-c0d4-11ec-8a91-ed5e4b2cd182,5fdb7430-c0d4-11ec-9dd3-fd6c979089f4,604de512-c0d4-11ec-9dd3-fd6c979089f4,60b7f1ce-c0d4-11ec-8a91-ed5e4b2cd182,61405bb0-c0d4-11ec-8a91-ed5e4b2cd182,6193f9a4-c0d4-11ec-9dd3-fd6c979089f4,61e74a12-c0d4-11ec-8a91-ed5e4b2cd182,6239af86-c0d4-11ec-9dd3-fd6c979089f4,6293b6b4-c0d4-11ec-8a91-ed5e4b2cd182,62fd7506-c0d4-11ec-8a91-ed5e4b2cd182,63533628-c0d4-11ec-8a91-ed5e4b2cd182,63a32aea-c0d4-11ec-8a91-ed5e4b2cd182,63f56948-c0d4-11ec-9dd3-fd6c979089f4,6447cf5c-c0d4-11ec-8a91-ed5e4b2cd182,6496b25a-c0d4-11ec-9dd3-fd6c979089f4,652b2a2c-c0d4-11ec-9dd3-fd6c979089f4,65b36d4e-c0d4-11ec-8a91-ed5e4b2cd182,66153c0e-c0d4-11ec-9dd3-fd6c979089f4,66649490-c0d4-11ec-9dd3-fd6c979089f4,66b63702-c0d4-11ec-9dd3-fd6c979089f4,6706a0f4-c0d4-11ec-9dd3-fd6c979089f4,67581c56-c0d4-11ec-9dd3-fd6c979089f4,67a5c728-c0d4-11ec-9dd3-fd6c979089f4,67f3990a-c0d4-11ec-9dd3-fd6c979089f4,6845899c-c0d4-11ec-9dd3-fd6c979089f4,6892711e-c0d4-11ec-9dd3-fd6c979089f4,68e63670-c0d4-11ec-9dd3-fd6c979089f4,693a70f2-c0d4-11ec-9dd3-fd6c979089f4,69dbba04-c0d4-11ec-9dd3-fd6c979089f4');</token>
+  </line>
+  <line no="102">
+    <token name="T_COMMENT">//test_log("RECEPCIONES\n=====================\n");</token>
+  </line>
+  <line no="103">
+    <token name="T_COMMENT">//test_log(implode(",", $receps));</token>
+  </line>
+</source>

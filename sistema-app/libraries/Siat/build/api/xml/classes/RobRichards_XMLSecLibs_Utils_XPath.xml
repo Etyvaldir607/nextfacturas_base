@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="RobRichards\XMLSecLibs\Utils\XPath" namespace="RobRichards\XMLSecLibs\Utils" name="XPath" abstract="false" final="false" start="5" end="44">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Libs/xmlseclibs/src/Utils" file="XPath.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Libs/xmlseclibs/src/Utils/XPath.php" size="1285" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="4719d47378a02579cf61ac41a50bd3e5a42a1b13" relative="Libs/xmlseclibs/src/Utils/XPath.php"/>
+  <constant type="string" name="ALPHANUMERIC" value="'\w\d'"/>
+  <constant type="string" name="NUMERIC" value="'\d'"/>
+  <constant type="string" name="LETTERS" value="'\w'"/>
+  <constant type="string" name="EXTENDED_ALPHANUMERIC" value="'\w\d\s\-_:\.'"/>
+  <constant type="string" name="SINGLE_QUOTE" value="'\''"/>
+  <constant type="string" name="DOUBLE_QUOTE" value="'&quot;'"/>
+  <constant type="string" name="ALL_QUOTES" value="'[\'&quot;]'"/>
+  <method name="filterAttrValue" start="25" end="28" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Filter an attribute value for save inclusion in an XPath query."/>
+      <param description="The value to filter." type="string" variable="$value"/>
+      <param description="The quotes used to delimit the value in the XPath query." type="string" variable="$quotes"/>
+      <return description="The filtered attribute value." type="string"/>
+    </docblock>
+    <parameter name="value" byreference="false" type="{unknown}"/>
+    <parameter name="quotes" byreference="false" type="{unknown}" default="" constant="self::ALL_QUOTES"/>
+  </method>
+  <method name="filterAttrName" start="40" end="43" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Filter an attribute name for save inclusion in an XPath query."/>
+      <param description="The attribute name to filter." type="string" variable="$name"/>
+      <param description="The set of characters to allow. Can be one of the constants provided by this class, or a" type="mixed" variable="$allow">custom regex excluding the '#' character (used as delimiter).</param>
+      <return description="The filtered attribute name." type="string"/>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+    <parameter name="allow" byreference="false" type="{unknown}" default="" constant="self::EXTENDED_ALPHANUMERIC"/>
+  </method>
+</class>

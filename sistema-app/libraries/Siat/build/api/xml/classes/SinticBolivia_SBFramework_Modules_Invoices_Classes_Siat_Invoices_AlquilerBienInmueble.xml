@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\AlquilerBienInmueble" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="AlquilerBienInmueble" abstract="false" final="false" start="9" end="34">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Invoices" file="AlquilerBienInmueble.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Invoices/AlquilerBienInmueble.php" size="1043" time="2021-12-04T02:48:14+00:00" unixtime="1638586094" sha1="2e6699344087deb31887d65cd71b05a12fbf70b5" relative="Invoices/AlquilerBienInmueble.php"/>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatInvoice" unresolved="true"/>
+  <constructor name="__construct" start="12" end="29" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="validate" start="30" end="33" abstract="false" final="false" static="false" visibility="public"/>
+</class>

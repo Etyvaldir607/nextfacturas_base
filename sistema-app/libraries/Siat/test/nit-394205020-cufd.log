@@ -1,0 +1,3078 @@
+[2022-05-19 00:03:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [mensajesList] => stdClass Object
+                (
+                    [codigo] => 913
+                    [descripcion] => CODIGO UNICO DE INICIO DE SISTEMA (CUIS) INVALIDO
+                )
+
+            [transaccion] => 
+        )
+
+)
+
+[2022-05-19 00:04:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [mensajesList] => stdClass Object
+                (
+                    [codigo] => 913
+                    [descripcion] => CODIGO UNICO DE INICIO DE SISTEMA (CUIS) INVALIDO
+                )
+
+            [transaccion] => 
+        )
+
+)
+
+[2022-05-19 00:05:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [mensajesList] => stdClass Object
+                (
+                    [codigo] => 913
+                    [descripcion] => CODIGO UNICO DE INICIO DE SISTEMA (CUIS) INVALIDO
+                )
+
+            [transaccion] => 
+        )
+
+)
+
+[2022-05-19 00:05:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [mensajesList] => stdClass Object
+                (
+                    [codigo] => 913
+                    [descripcion] => CODIGO UNICO DE INICIO DE SISTEMA (CUIS) INVALIDO
+                )
+
+            [transaccion] => 
+        )
+
+)
+
+[2022-05-19 00:05:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [mensajesList] => stdClass Object
+                (
+                    [codigo] => 913
+                    [descripcion] => CODIGO UNICO DE INICIO DE SISTEMA (CUIS) INVALIDO
+                )
+
+            [transaccion] => 
+        )
+
+)
+
+[2022-05-19 00:14:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qzl9UE9BVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 1240E0447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:14:15.746-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:15:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0smSlBBVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 9D1F42447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:15:09.661-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:16:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1V8WFFBVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 4E5D04447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:16:23.902-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:16:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlEd1FBVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 94AB64447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:16:48.036-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:18:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhPFJTQVVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 99D207447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:18:17.817-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:20:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q29tOFRBVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 38DB29447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:19:59.384-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:21:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lST1ZBVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 4F788B447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:21:14.175-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:21:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3wsMVZBVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 378F1C447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:21:52.839-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:22:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VyYldBVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 78E24D447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:22:27.432-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:23:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1UmQVhBVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 16F06E447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:23:00.662-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:23:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0FiaFhBVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 3650EE447476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:23:33.270-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:24:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0shdVlBVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 5D1B90547476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:24:46.621-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:25:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xmQVpBVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 1FDC61547476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:25:00.319-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 00:26:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhOkxhQVVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 337023547476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T00:26:11.827-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:05:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tvNkVCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 6937DAC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:04:57.401-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:05:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tMaUZCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 3FD20CC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:05:34.111-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:05:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhVG1GQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 75D21CC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:05:38.197-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:05:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3k4cUZCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 93042CC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:05:42.595-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:05:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qzk/dUZCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 1EF33CC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:05:46.686-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:05:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3l1eEZCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 99DE3CC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:05:49.465-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:05:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0F7MkZCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 328F4CC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:05:53.730-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzkhNkZCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 0ABE5CC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:05:57.626-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlCQ0dCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 402C0DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:02.016-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5kR0dCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 7ADC1DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:06.298-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q3nDjUlHQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 13672DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:08.995-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0FwT0dCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 2A8C3DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:14.410-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Qz7CrFFHQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 76564DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:16.918-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3kmVkdCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 11E85DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:21.665-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q3nDmlpHQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 93A96DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:25.955-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lzZUdCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 7D2B7DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:30.445-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz48aUdCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 324C8DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:34.818-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q2XDk21HQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 8B4C9DC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:38.923-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlIckdCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 748CADC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:43.076-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1UxdkdCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 32EDBDC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:47.522-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:06:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q3zDgTFHQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 4333DDC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:52.979-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xaNkdCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 2BE3EDC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:06:57.259-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VoQkhCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 35109EC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:01.333-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qzl9RkhCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 2251AEC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:05.746-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhQ0tIQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 2B02BEC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:10.027-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VBT0hCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5291CEC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:14.002-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5VU0hCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 8002DEC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:18.208-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhZldIQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 4D02EEC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:22.317-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2U7WUhCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 8BEBEEC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:24.843-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhTGRIQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 5D9CFEC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:29.117-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3kqZkhCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5FF60FC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:31.775-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tMa0hCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 9FE71FC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:36.111-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3ltb0hCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 11A82FC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:40.385-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2U8c0hCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 9DE93FC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:44.813-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VMeEhCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 08BA4FC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:49.112-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:07:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0F3M0hCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 60BF5FC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:54.480-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhXTdIQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 87407FC47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:07:58.727-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhK0NJQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 0D6C10D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:02.797-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzkvR0lCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 7EEB20D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:06.766-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlUSklCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 6C6530D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:09.196-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3l4TklCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 773640D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:13.495-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhOVJJQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 074650D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:17.607-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlqVklCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 9CE460D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:21.356-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qzk4WklCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5C7570D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:25.596-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VJY0lCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 223F70D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:28.082-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2UyZUlCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 75C880D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:30.533-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8Khe2lJQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 013990D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:34.737-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0F0bklCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 2A9BA0D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:39.450-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3k5cklCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 55DBB0D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:43.605-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xVdUlCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 8106C0D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:46.209-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0t6eUlCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 3FC6D0D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:50.511-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:08:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5DMklCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 74A0E0D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:53.028-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhWDZJQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 1511F0D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:08:57.237-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0FXQkpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 74EC91D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:01.220-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2UrREpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 81F6A1D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:03.793-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VsR0pCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 0401B1D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:06.372-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5CSkpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 2A5BB1D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:09.018-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tJTkpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 593BC1D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:13.081-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2U8UEpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 65E5D1D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:15.813-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q1XDiVRKQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 5E26E1D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:19.982-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VIWUpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 1926F1D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:24.073-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2V7YUpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 8D8002D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:26.733-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3kwZUpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 87BF02D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:30.615-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlvaEpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 6E9A12D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:33.406-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzkmbEpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 324B22D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:37.666-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0F2cEpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 1E1A32D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:41.470-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VUc0pCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 11C442D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:44.193-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhMXdKQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 8FA552D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:48.527-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xDekpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 857F52D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:51.029-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:09:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhVjRKQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 51DF62D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:55.217-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VkOEpCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 9CBF72D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:09:59.292-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3wkREtCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 010D23D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:03.649-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhfkhLQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 3FDD33D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:07.967-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tDU0tCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 452563D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:18.021-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhaFhLQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 99E973D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:23.337-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VDYUtCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 776483D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:26.023-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhaWVLQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 5B4593D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:30.347-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VHaEtCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 66EF93D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:33.062-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VdaktCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 2B4AA3D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:35.723-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz46bktCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 745AB3D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:39.828-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xlcUtCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 9504C3D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:42.309-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q284dUtCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 52C4D3D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:46.594-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0EpeUtCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 7675E3D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:50.870-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:10:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2U8MktCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 15F0F3D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:53.813-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlKN0tCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 30B104D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:10:58.096-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q29pQ0xCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 688EA4D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:02.344-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3w0R0xCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 0FFEB4D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:06.559-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzkrS0xCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 4C8FC4D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:10.796-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tUUExCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 47B0E4D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:15.191-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhcFRMQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 8931F4D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:19.417-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lIV0xCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 1B9BF4D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:22.075-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xSYUxCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 83AB05D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:26.179-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qzk2ZUxCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 10DC15D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:30.576-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2U7aUxCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5B7D25D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:34.843-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlVbkxCVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 168E35D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:39.206-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 01:11:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q3zCv3JMQlVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 931055D47476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T01:11:43.699-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 10:27:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q2/Dk0FiS1VGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 0C7D5A4A7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T10:27:00.924-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 10:28:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2V3UWNLVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 43E02C4A7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T10:28:16.483-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 10:30:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz4wM2VLVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 3A13CF4A7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T10:30:54.618-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 10:31:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0swWmZLVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 6B68D05A7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T10:31:25.611-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:10:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1UkY0tMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 22AF69CA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:10:28.642-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:11:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VqYkxMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 0931FACA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:11:27.353-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:12:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VDUk1MVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 0E7F4CCA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:12:17.022-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:13:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tlWU5MVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 1D82FDCA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:13:24.301-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:18:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1V8cVNMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 965CD5DA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:18:42.902-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:19:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0s7N1NMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 099A16DA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:18:58.841-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:19:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0s/a1RMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 39AA47DA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:19:36.681-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:20:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0FqR1VMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 6ECA58DA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:20:06.350-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:21:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q29QalZMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 42F15ADA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:21:35.154-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:23:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlPT1hMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 022D0DDA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:23:14.146-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:23:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3x9ZFhMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 851A4DDA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:23:29.749-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:24:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tXbllMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 85B5FEDA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:24:39.221-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:26:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5GTWFMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 8AD891EA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:26:12.058-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:26:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhdHRhTFVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 515B12EA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:26:45.457-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:28:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VaVmNMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 650AC4EA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:28:21.253-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:28:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0FabWNMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 9A6C05EA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:28:38.250-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:30:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhfVdlTFVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 8B1DD7EA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:30:22.747-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:30:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0F+d2VMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 608348EA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:30:48.960-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:32:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2UzV2dMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 3F89EAEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:32:22.543-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:32:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lmaGdMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 13A31BEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:32:33.315-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:33:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhdDVnTFVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 890E6BEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:32:56.457-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:33:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lZRWhMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 75B82CEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:33:04.245-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:33:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VnemhMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 4B90ECEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:33:51.323-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:34:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q29LN2hMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 881BFCEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:33:58.104-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:34:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz58SWlMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 1C81CDEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:34:08.908-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:34:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhU3dpTFVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 5BFA5EEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:34:48.187-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:35:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3l1NWlMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 315B7EEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:34:56.465-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:35:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz40eGpMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 36F6EFEA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:35:49.558-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:36:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1VrN2pMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 0A5900FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:35:58.362-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:36:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzldUmtMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 4E31F0FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:36:17.726-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:36:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xqYmtMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 4FD611FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:36:27.359-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:37:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lFRWxMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 2D6242FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:37:04.045-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:37:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lCZ2xMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 2FAFA2FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:37:32.015-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:37:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [mensajesList] => stdClass Object
+                (
+                    [codigo] => 913
+                    [descripcion] => CODIGO UNICO DE INICIO DE SISTEMA (CUIS) INVALIDO
+                )
+
+            [transaccion] => 
+        )
+
+)
+
+[2022-05-19 11:38:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz4qTm1MVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 621FE3FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:38:13.778-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:40:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5mTm9MVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 068AF6FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:40:13.318-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:41:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q0HCrFlwTFVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 9E6EA8FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:41:24.910-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:41:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VEa3BMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 31E9D8FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:41:36.033-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:42:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q2/DgUZxTFVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 561BE9FA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:42:05.974-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:42:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q1XDmmlxTFVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 384C5AFA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:42:34.952-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:42:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0t0dXFMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 43398AFA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:42:46.451-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:43:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5FZXJMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 10CFCBFA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:43:30.048-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:43:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xpbHJMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 554CEBFA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:43:37.349-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:45:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VvSHRMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 0B848EFA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:45:07.403-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:45:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q28yT3RMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 7660AEFA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:45:14.534-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:45:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VVM3RMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 0B5B3FFA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:45:54.203-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:46:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0E3Q3VMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 9458FFFA7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:46:02.580-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:46:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz48cXVMVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 1285900B7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:46:42.818-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 11:46:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lKeXVMVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 4FE1B00B7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T11:46:50.095-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 12:03:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QzlrcURNVUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 8E5D875B7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T12:03:42.366-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 12:06:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0EsZkdNVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 7618FB5B7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T12:06:31.830-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 12:09:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhR0VKTVVGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 438F106B7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T12:09:04.067-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-19 12:09:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lnWEpNVUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5DBA606B7476D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-20T12:09:23.325-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:20:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3l+aVVXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 251EF707E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:20:34.965-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:21:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5uTFZXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 56A82907E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:21:11.398-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:28:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2U9cGNXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 294D4417E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:28:41.673-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:32:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0FAc2dXYUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 8EC37A17E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:32:44.750-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:33:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VKcGhXYUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 452CEB17E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:33:41.093-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:34:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2U2aGlXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 15655D17E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:34:33.573-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:38:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5mZ21XYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 4EFA6327E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:38:32.318-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:42:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lPWHFXYUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 19A16927E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:42:23.145-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:43:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0EpSnJXYUZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 5E64BA27E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:43:09.870-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:44:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q0HCsFlzV2FGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 42E57C27E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:44:24.930-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:48:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0FVTXdXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 78AE5237E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:48:12.200-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:50:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q1U4anlXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 4847C537E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:50:35.592-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:51:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q0HCsEF6V2FGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 7286C637E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:51:00.930-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:53:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2VIeTJXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 29B39A37E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:53:50.073-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:54:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0s4QzNXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5FD06B37E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:54:02.591-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:56:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0szVjVXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 1528BE37E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:56:21.541-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 22:57:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0F0ODVXYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 8A3C4F37E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T22:56:59.450-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:00:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5wa0FYYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 92C51287E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:00:36.418-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:01:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3l9cUJYYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5915B387E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:01:42.745-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:06:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q8KhLklHWGFGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 19D1DA87E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:06:08.857-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:06:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qzk8Y0dYYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 50DF1B87E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:06:28.816-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:08:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3xWNkhYYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 03651D87E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:07:57.219-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:12:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lfUU1YYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 8FF81497E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:12:16.895-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:13:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qz5BZE5YYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 20FEC597E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:13:29.008-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:14:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tnVk9YYUZXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 19873797E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:14:21.321-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-25 23:15:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=Q3zCrGRQWGFGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 7FBFD897E576D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-26T23:15:29.919-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-26 15:10:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=QnnDmmxLUGJGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 4304776E1676D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-27T15:10:37.955-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-26 15:14:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QnkqRE9QYkZXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 4FF80D6E1676D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-27T15:14:03.775-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-26 15:41:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=QkvCoXRwUGJGV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 75AFD69E1676D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-05-27T15:41:45.701-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-31 14:46:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QjlAeHVPQkdXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 3C1CEB084776D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-01T14:46:49.756-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-31 14:48:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qnk1OHZPQkdXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 8D099D084776D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-01T14:47:59.565-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-31 14:49:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QnlpU3hPQkdXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 694500184776D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-01T14:49:18.345-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-01 13:13:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=QsKhNVBOTkNHV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 6F61B3939786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-02T13:13:15.567-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:22:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qm85RldOREdXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 74201C3FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:22:05.604-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:22:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qj4/YVdOREdXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 80826C3FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:22:26.688-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:22:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=QnwqNVdOREdXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5B08DC3FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:22:56.779-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:24:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=QsKhPmZZTkRHV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 2FB38F3FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:24:31.807-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:24:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=QsKheTZZTkRHV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 5328EF3FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:24:57.507-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:26:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qzl6R2FOREdXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 243E224FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:26:06.516-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:28:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q2Vkc2NOREdXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 650FC54FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:28:44.293-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:29:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0tKQWROREdXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 8BF8A64FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:29:00.091-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:29:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFBQ0ZxbkFBNzkZCODY1MzA2Qzc=QznCsHBkTkRHV1VFFNzYzOEZGQkUwQ
+            [codigoControl] => 407C474FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:29:41.936-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:30:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q0FxS2VOREdXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 94F7584FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:30:10.420-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:35:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3luU2pOREdXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 8B38105FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:35:18.395-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:35:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qzk4dmpOREdXVUFFFNzYzOEZGQkUwQ
+            [codigoControl] => 1C4A805FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:35:47.596-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-02 13:37:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Q3lKSWxOREdXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 5F3DF25FC786D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-06-03T13:37:08.095-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:01:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFDRnFuQUE=NzkZCODY1MzA2Qzc=Qm9QckJKQkhXVUJFFNzYzOEZGQkUwQ
+            [codigoControl] => 52B558A15E86D74
+            [direccion] => CALLE RUNA SIMI NRO.2126 ZONA SARCO
+            [fechaVigencia] => 2022-07-01T09:01:43.154-04:00
+            [transaccion] => 1
+        )
+
+)
+

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="SiatInvoice" abstract="true" final="false" start="10" end="221">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Invoices" file="SiatInvoice.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Invoices/SiatInvoice.php" size="6866" time="2022-05-16T21:21:37+00:00" unixtime="1652736097" sha1="da467feadbd111bf0f3931268c9dc8ecd7c0b927" relative="Invoices/SiatInvoice.php"/>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message"/>
+  <constant type="{unknown}" name="FACTURA_DERECHO_CREDITO_FISCAL" value="1"/>
+  <constant type="{unknown}" name="FACTURA_SIN_DERECHO_CREDITO_FISCAL" value="2"/>
+  <constant type="{unknown}" name="FACTURA_DOCUMENTO_AJUSTE" value="3"/>
+  <constant type="{unknown}" name="TIPO_EMISION_ONLINE" value="1"/>
+  <constant type="{unknown}" name="TIPO_EMISION_OFFLINE" value="2"/>
+  <constant type="{unknown}" name="TIPO_EMISION_MASIVA" value="3"/>
+  <member name="cabecera" visibility="public" static="false" line="23">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeader" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeader"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="detalle" default="" type="array" visibility="public" static="false" line="27">
+    <docblock>
+      <description/>
+      <var type="array" of="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceDetail" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceDetail"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="required" default="" type="array" visibility="protected" static="false" line="30"/>
+  <member name="nsData" default="" type="array" visibility="protected" static="false" line="31"/>
+  <member name="endpoint" visibility="public" static="false" line="33"/>
+  <constructor name="__construct" start="35" end="44" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="validate" start="45" end="49" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="calculaDigitoMod11" start="50" end="101" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="cadena" byreference="false" type="string"/>
+    <parameter name="numDig" byreference="false" type="int"/>
+    <parameter name="limMult" byreference="false" type="int"/>
+    <parameter name="x10" byreference="false" type="bool"/>
+    <inline>
+      <comment value="echo $cadena, &quot;\n&quot;;" line="97"/>
+      <comment value="echo 'Calculado modulo 11: ', $cadenaSrc, &quot; =&gt; &quot;, $modulo, &quot;\n&quot;;" line="98"/>
+    </inline>
+  </method>
+  <method name="buildCuf" start="102" end="133" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="sucursalNro" byreference="false" type="{unknown}"/>
+    <parameter name="modalidad" byreference="false" type="{unknown}"/>
+    <parameter name="tipoEmision" byreference="false" type="{unknown}"/>
+    <parameter name="tipoFactura" byreference="false" type="{unknown}"/>
+    <parameter name="codigoControl" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="date('YmdHisv');" line="109"/>
+      <comment value="$nitEmisor &#9;&#9;&#9;= str_pad('123456789', 13, '0', STR_PAD_LEFT);" line="110"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$sucursalNro &#9;&#9;= str_pad('0', 4, '0', STR_PAD_LEFT);" line="111"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$tipoSector &#9;&#9;= str_pad('1', 2, '0', STR_PAD_LEFT);" line="112"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$numeroFactura &#9;&#9;= str_pad('1', 10, '0', STR_PAD_LEFT);" line="113"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$numeroPuntoVenta &#9;= str_pad('0', 4, '0', STR_PAD_LEFT);" line="114"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$fechaHora &#9;&#9;&#9;= '20190113163721231';" line="115"/>
+      <comment value="$b16_str &#9;&#9;= $this-&gt;bcdechex(ltrim($cadena . $verificador));" line="121"/>
+      <comment value="die(&quot;cadena length: &quot;. strlen($cadena) .&quot;\nverificador: $verificador\nb16_str: $b16_str\nCUF: {$this-&gt;header-&gt;cuf}\n&quot;);" line="124"/>
+      <comment value="print &quot;Cadena: $cadena\nLength: &quot; . strlen($cadena) . &quot;\n&quot;;" line="125"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="echo &quot;Cadena INT: &quot;, ltrim($cadena . $verificador, '0'), &quot;\n&quot;;" line="126"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="echo &quot;Cadena HEX: &quot;, dechex($cadena . $verificador), &quot;\n&quot;;" line="127"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="echo 'Verificador: ', $verificador, &quot;\n&quot;;" line="128"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="echo 'B16: ', $b16_str, &quot;\n&quot;;" line="129"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="echo 'CUF: ', $this-&gt;cabecera-&gt;cuf, &quot;\n&quot;;" line="130"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="*/" line="131"/>
+    </inline>
+  </method>
+  <method name="bcdechex" start="134" end="143" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="dec" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getUrl" start="144" end="147" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="ticket" byreference="false" type="boolean" default="true"/>
+  </method>
+  <method name="buildUrl" start="148" end="157" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="nit" byreference="false" type="{unknown}"/>
+    <parameter name="cuf" byreference="false" type="{unknown}"/>
+    <parameter name="nroFactura" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="buildFromXmlFile" start="185" end="191" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$filename"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <return type="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="SiatInvoice"/>
+      </return>
+    </docblock>
+    <parameter name="filename" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getEndpoint" start="192" end="195" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="modalidad" byreference="false" type="{unknown}"/>
+    <parameter name="ambiente" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="toXml" start="201" end="204" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="{@inheritDoc}"/>
+      <see value="\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message::toXml()"/>
+    </docblock>
+    <parameter name="rootTagName" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="isRoot" byreference="false" type="boolean" default="false"/>
+    <parameter name="standalone" byreference="false" type="boolean" default="false"/>
+  </method>
+  <method name="getWsdl" start="205" end="220" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="modalidad" byreference="false" type="{unknown}"/>
+    <parameter name="ambiente" byreference="false" type="{unknown}"/>
+    <parameter name="documentoSector" byreference="false" type="{unknown}"/>
+  </method>
+  <extenders>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\EntidadFinanciera" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="EntidadFinanciera"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ServicioBasico" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ServicioBasico"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ServicioTuristicoHospedaje" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ServicioTuristicoHospedaje"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\Hotel" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="Hotel"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaHotel" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaHotel"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaComercialExportacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaComercialExportacion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaTasaCero" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaTasaCero"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SectorEducativo" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="SectorEducativo"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ComercialExportacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ComercialExportacion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\TasaCero" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="TasaCero"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaSectorEducativo" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaSectorEducativo"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ComercialExportacionServicio" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ComercialExportacionServicio"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaCompraVenta" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaCompraVenta"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaHospitales" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaHospitales"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaEntidadFinanciera" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaEntidadFinanciera"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaServicioBasico" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaServicioBasico"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaServicioTuristicoHospedaje" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaServicioTuristicoHospedaje"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaComercialExportacionServicio" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaComercialExportacionServicio"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\CompraVenta" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="CompraVenta"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\Hospitales" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="Hospitales"/>
+  </extenders>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message">
+    <member name="xmlAllFields" default="true" type="boolean" visibility="protected" static="false" line="8"/>
+    <member name="namespaces" default="" type="array" visibility="protected" static="false" line="9"/>
+    <member name="classAlias" default="NULL" visibility="protected" static="false" line="10"/>
+    <member name="skipProperties" default="" type="array" visibility="protected" static="false" line="11"/>
+    <member name="xmlAttributes" default="" type="array" visibility="protected" static="false" line="12"/>
+    <method name="validate" start="14" end="14" abstract="true" final="false" static="false" visibility="public"/>
+    <method name="addSkipProperty" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="prop" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="getHeaders" start="25" end="28" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Get HTTP headers for request"/>
+        <return type="array"/>
+      </docblock>
+    </method>
+    <method name="setXmlElementAttribute" start="29" end="38" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="el" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+    </method>
+    <method name="buildChildFromObject" start="39" end="55" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="obj" byreference="false" type="object"/>
+      <parameter name="tagName" byreference="false" type="string"/>
+    </method>
+    <method name="buildChildFromArray" start="56" end="62" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="childs" byreference="false" type="array"/>
+      <parameter name="tagName" byreference="false" type="string"/>
+    </method>
+    <method name="buildChild" start="63" end="74" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="parent" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="tagName" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="buildChilds" start="75" end="89" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="element" byreference="false" type="object">
+        <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </parameter>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="ns" byreference="false" type="{unknown}" default="NULL"/>
+    </method>
+    <method name="toXml" start="95" end="114" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description/>
+        <param type="string" variable="$rootTagName"/>
+        <return type="object">
+          <type full="\SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+        </return>
+      </docblock>
+      <parameter name="rootTagName" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="isRoot" byreference="false" type="boolean" default="false"/>
+      <parameter name="standalone" byreference="false" type="boolean" default="false"/>
+      <inline>
+        <comment value="$xml-&gt;addAttribute('encoding', 'utf-8');" line="102"/>
+        <comment value="$root = $xml-&gt;addChild();" line="103"/>
+        <comment value="if( !$this-&gt;xmlAllFields )" line="107"/>
+        <comment value="return $xml;" line="108"/>
+      </inline>
+    </method>
+    <method name="__buildArrayChilds" start="115" end="140" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="array" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="toArray" start="141" end="149" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="getPropertiesData" start="150" end="164" abstract="false" final="false" static="false" visibility="public"/>
+  </parent>
+</class>

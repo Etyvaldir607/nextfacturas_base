@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat">
+    <file name="functions.php" size="1647" time="2022-05-13T02:03:43+00:00" unixtime="1652407423" sha1="5e562251ee9543c394a2a43d38226630fb24c17e" xml="tokens/functions.php.xml"/>
+    <file name="Connection.php" size="2419" time="2021-12-03T22:50:53+00:00" unixtime="1638571853" sha1="24df5a04f72760b6d5e996cd86369ef261decc8f" xml="tokens/Connection.php.xml"/>
+    <file name="autoload.php" size="541" time="2022-04-04T21:24:51+00:00" unixtime="1649107491" sha1="12fab02f24c9c689f72a7d311b46354978123627" xml="tokens/autoload.php.xml"/>
+    <file name="SiatConfigCuis.php" size="121" time="2021-12-08T19:50:02+00:00" unixtime="1638993002" sha1="bcedc3547b0a89f564be31bd021408e7c7564dcf" xml="tokens/SiatConfigCuis.php.xml"/>
+    <dir name="Messages">
+      <file name="SolicitudRecepcion.php" size="1886" time="2022-05-12T02:34:10+00:00" unixtime="1652322850" sha1="e7161361c814e70a5c950ba8ca33716c6200cc37" xml="tokens/Messages/SolicitudRecepcion.php.xml"/>
+      <file name="SolicitudServicioRecepcionFactura.php" size="2351" time="2022-04-20T14:47:44+00:00" unixtime="1650466064" sha1="a80e1bc2939c7c890af1da4c11a934c1330cdbbb" xml="tokens/Messages/SolicitudServicioRecepcionFactura.php.xml"/>
+      <file name="SolicitudServicioRecepcionMasiva.php" size="438" time="2022-04-09T01:55:15+00:00" unixtime="1649469315" sha1="d979121cb9c451f06c7eaddaf4cfce279874db51" xml="tokens/Messages/SolicitudServicioRecepcionMasiva.php.xml"/>
+      <file name="SolicitudServicioRecepcionPaquete.php" size="610" time="2022-04-07T04:29:00+00:00" unixtime="1649305740" sha1="062280f835bdcc8a7e088ea2200f272ad37b690e" xml="tokens/Messages/SolicitudServicioRecepcionPaquete.php.xml"/>
+      <file name="SolicitudCUF.php" size="503" time="2021-12-03T03:10:44+00:00" unixtime="1638501044" sha1="fd25ccb7a82f93723a88e52eb7b1c06751d54fef" xml="tokens/Messages/SolicitudCUF.php.xml"/>
+      <file name="SolicitudServicioAnulacionFactura.php" size="193" time="2022-04-21T18:57:21+00:00" unixtime="1650567441" sha1="234f348bdf8388df7da90e2a1851f2c6ea2ae3ab" xml="tokens/Messages/SolicitudServicioAnulacionFactura.php.xml"/>
+      <file name="SolicitudServicioValidacionRecepcionMasiva.php" size="396" time="2022-04-09T22:06:28+00:00" unixtime="1649541988" sha1="5844d31f1b894dc8b537aa50049e3c4ce8018dbd" xml="tokens/Messages/SolicitudServicioValidacionRecepcionMasiva.php.xml"/>
+      <file name="SolicitudCUIS.php" size="488" time="2021-12-16T04:57:10+00:00" unixtime="1639630630" sha1="8d80c0a5d0b488b502ec4b80aebb8da2a7bd6078" xml="tokens/Messages/SolicitudCUIS.php.xml"/>
+      <file name="SolicitudServicioValidacionRecepcionPaquete.php" size="397" time="2022-04-18T19:55:21+00:00" unixtime="1650311721" sha1="13420461638e73d2f19bed98a29db575902a7dd7" xml="tokens/Messages/SolicitudServicioValidacionRecepcionPaquete.php.xml"/>
+    </dir>
+    <file name="DocumentTypes.php" size="1184" time="2021-12-28T21:05:53+00:00" unixtime="1640725553" sha1="2c1d27faae5d72484f4d84a532fc372bad8151f3" xml="tokens/DocumentTypes.php.xml"/>
+    <dir name="test">
+      <file name="gemgloo.php" size="6288" time="2022-04-21T02:30:55+00:00" unixtime="1650508255" sha1="735ed6e1207068c1ce15a8686b130b9791609c64" xml="tokens/test/gemgloo.php.xml"/>
+      <file name="nubetic.php" size="10011" time="2022-06-07T17:02:02+00:00" unixtime="1654621322" sha1="8b76b96796e47fb6d240445cff14c621a4f6f55c" xml="tokens/test/nubetic.php.xml"/>
+      <file name="operaciones.php" size="2286" time="2021-12-08T20:13:05+00:00" unixtime="1638994385" sha1="a65e8b2b61ad7f6b4245d39ed4b18989a35bc8c4" xml="tokens/test/operaciones.php.xml"/>
+      <file name="sincronizacion.php" size="2336" time="2021-12-10T15:53:02+00:00" unixtime="1639151582" sha1="65c465ebf35a1bf074b2f615785993514f4cc0e6" xml="tokens/test/sincronizacion.php.xml"/>
+      <file name="general.php" size="13399" time="2022-04-06T00:41:25+00:00" unixtime="1649205685" sha1="79a78db771880b0f332b77c9248fbeb0c91ad72a" xml="tokens/test/general.php.xml"/>
+      <file name="test-functions.php" size="23472" time="2022-06-07T16:30:52+00:00" unixtime="1654619452" sha1="72750c5f9ff7a89e6dd47b31f4a8d0fe47d14b43" xml="tokens/test/test-functions.php.xml"/>
+      <file name="ssf-investec.php" size="5721" time="2022-05-04T20:22:48+00:00" unixtime="1651695768" sha1="8dd6b1a9b38bb94d6e2d9b6622ced45fd7d793b7" xml="tokens/test/ssf-investec.php.xml"/>
+    </dir>
+    <dir name="Invoices">
+      <file name="EntidadFinanciera.php" size="651" time="2022-04-21T18:42:16+00:00" unixtime="1650566536" sha1="8ef58da6228bc04677b1d05ad4af9164cd2db32e" xml="tokens/Invoices/EntidadFinanciera.php.xml"/>
+      <file name="InvoiceHeaderEducativo.php" size="1172" time="2022-04-07T02:27:21+00:00" unixtime="1649298441" sha1="350224a60881f30891bef6e2992ea332cd0fd783" xml="tokens/Invoices/InvoiceHeaderEducativo.php.xml"/>
+      <file name="AlquilerBienInmueble.php" size="1043" time="2021-12-04T02:48:14+00:00" unixtime="1638586094" sha1="2e6699344087deb31887d65cd71b05a12fbf70b5" xml="tokens/Invoices/AlquilerBienInmueble.php.xml"/>
+      <file name="ServicioBasico.php" size="640" time="2022-04-21T18:13:28+00:00" unixtime="1650564808" sha1="a50683276ee5ae5b027b1cb6ad4b7aa9ce88f999" xml="tokens/Invoices/ServicioBasico.php.xml"/>
+      <file name="ServicioTuristicoHospedaje.php" size="548" time="2022-04-06T21:49:32+00:00" unixtime="1649281772" sha1="bd02020887d496186c36eed2b0a2ca2a90c7cf58" xml="tokens/Invoices/ServicioTuristicoHospedaje.php.xml"/>
+      <file name="Hotel.php" size="525" time="2022-04-07T02:47:46+00:00" unixtime="1649299666" sha1="66aff5723ef9cfce2fa07ac6e3e1fa252ab92411" xml="tokens/Invoices/Hotel.php.xml"/>
+      <file name="InvoiceHeaderExportacionServicios.php" size="1344" time="2022-04-07T04:02:05+00:00" unixtime="1649304125" sha1="525da5baad9258554bd161ca01df696bac5033df" xml="tokens/Invoices/InvoiceHeaderExportacionServicios.php.xml"/>
+      <file name="InvoiceHeaderServicioBasico.php" size="3171" time="2022-04-26T18:44:09+00:00" unixtime="1650998649" sha1="d265faaeb5dc84a2be68a1466b1e30a7d6b9ec2e" xml="tokens/Invoices/InvoiceHeaderServicioBasico.php.xml"/>
+      <file name="ElectronicaHotel.php" size="368" time="2022-04-07T02:43:49+00:00" unixtime="1649299429" sha1="d153ee828e810782dd2f59d46b3732c07b6666ec" xml="tokens/Invoices/ElectronicaHotel.php.xml"/>
+      <file name="InvoiceDetailTuristico.php" size="559" time="2022-04-06T21:46:46+00:00" unixtime="1649281606" sha1="dfec288539b111c5b9ec7e84bc0128ebe7f7005e" xml="tokens/Invoices/InvoiceDetailTuristico.php.xml"/>
+      <file name="SiatInvoice.php" size="6866" time="2022-05-16T21:21:37+00:00" unixtime="1652736097" sha1="da467feadbd111bf0f3931268c9dc8ecd7c0b927" xml="tokens/Invoices/SiatInvoice.php.xml"/>
+      <file name="InvoiceHeaderTuristico.php" size="1280" time="2022-04-06T22:02:12+00:00" unixtime="1649282532" sha1="c10c442e44531525182619d9985ef988a7a3ed4e" xml="tokens/Invoices/InvoiceHeaderTuristico.php.xml"/>
+      <file name="ElectronicaComercialExportacion.php" size="572" time="2022-04-06T19:48:29+00:00" unixtime="1649274509" sha1="a26b146fb6816dc4688c7ff229758854ec009a98" xml="tokens/Invoices/ElectronicaComercialExportacion.php.xml"/>
+      <file name="ElectronicaTasaCero.php" size="322" time="2022-04-07T02:08:49+00:00" unixtime="1649297329" sha1="9adbac98534c64286427e0a2914f41e91968d8f6" xml="tokens/Invoices/ElectronicaTasaCero.php.xml"/>
+      <file name="InvoiceHeaderHospital.php" size="1211" time="2022-04-07T03:49:43+00:00" unixtime="1649303383" sha1="a688759d64899da207c9d8020f1ef1df01261d65" xml="tokens/Invoices/InvoiceHeaderHospital.php.xml"/>
+      <file name="SectorEducativo.php" size="643" time="2022-04-07T02:34:57+00:00" unixtime="1649298897" sha1="2cf799522dfa1ea207fcf418377882029bd39690" xml="tokens/Invoices/SectorEducativo.php.xml"/>
+      <file name="ComercialExportacion.php" size="552" time="2022-04-06T18:59:01+00:00" unixtime="1649271541" sha1="9be8b671cba87518c87b5aed90da0654565c936d" xml="tokens/Invoices/ComercialExportacion.php.xml"/>
+      <file name="TasaCero.php" size="723" time="2022-04-07T02:15:00+00:00" unixtime="1649297700" sha1="6f39de3a485ff60cbb31eaf8d8521f37cfd03478" xml="tokens/Invoices/TasaCero.php.xml"/>
+      <file name="ElectronicaSectorEducativo.php" size="400" time="2022-04-07T02:31:10+00:00" unixtime="1649298670" sha1="b7579ad19dbb6085a7fa7f782c824feab9dab3ec" xml="tokens/Invoices/ElectronicaSectorEducativo.php.xml"/>
+      <file name="ComercialExportacionServicio.php" size="682" time="2022-04-07T04:07:29+00:00" unixtime="1649304449" sha1="f4a74479591f48f264e388b61e745759795b373a" xml="tokens/Invoices/ComercialExportacionServicio.php.xml"/>
+      <file name="InvoiceHeaderComercialExportacion.php" size="1596" time="2022-04-06T20:14:15+00:00" unixtime="1649276055" sha1="d8eba9bd3bf93c8e6e47170f36faa709c7fa9c26" xml="tokens/Invoices/InvoiceHeaderComercialExportacion.php.xml"/>
+      <file name="ElectronicaCompraVenta.php" size="588" time="2022-03-21T17:28:55+00:00" unixtime="1647883735" sha1="d1b4b2dad02e3b8949cd4c75ef351374f2c52d20" xml="tokens/Invoices/ElectronicaCompraVenta.php.xml"/>
+      <file name="InvoiceHeader.php" size="3154" time="2022-05-12T18:04:18+00:00" unixtime="1652378658" sha1="c05b0b2ebf978ae200cd3f5cd798d0ff9017f45f" xml="tokens/Invoices/InvoiceHeader.php.xml"/>
+      <file name="InvoiceDetailHospital.php" size="1001" time="2022-04-07T03:12:21+00:00" unixtime="1649301141" sha1="12f49a29972676513642bc12a770374dbc9c62d5" xml="tokens/Invoices/InvoiceDetailHospital.php.xml"/>
+      <file name="InvoiceDetailHotel.php" size="555" time="2022-04-07T02:52:32+00:00" unixtime="1649299952" sha1="ea0838d612a58f6e3cf77f256fcbbbc383891537" xml="tokens/Invoices/InvoiceDetailHotel.php.xml"/>
+      <file name="ElectronicaHospitales.php" size="391" time="2022-04-07T03:09:13+00:00" unixtime="1649300953" sha1="2b5f07499364f6468b3a1f61d116b3ad8786ae78" xml="tokens/Invoices/ElectronicaHospitales.php.xml"/>
+      <file name="InvoiceHeaderEntidadFinanciera.php" size="1407" time="2022-04-26T20:43:06+00:00" unixtime="1651005786" sha1="f1de1d5a78d94499055d2f45215f0179f2a454be" xml="tokens/Invoices/InvoiceHeaderEntidadFinanciera.php.xml"/>
+      <file name="ElectronicaEntidadFinanciera.php" size="402" time="2022-04-21T18:44:08+00:00" unixtime="1650566648" sha1="a3b190e3bb3af9cfa818f1f2b9d2a5c1139a8576" xml="tokens/Invoices/ElectronicaEntidadFinanciera.php.xml"/>
+      <file name="ElectronicaServicioBasico.php" size="337" time="2022-04-21T18:29:39+00:00" unixtime="1650565779" sha1="2f26581c5d25066651ea99936b0320b0ec6d3cf0" xml="tokens/Invoices/ElectronicaServicioBasico.php.xml"/>
+      <file name="InvoiceDetailComercialExportacion.php" size="801" time="2022-04-06T20:17:01+00:00" unixtime="1649276221" sha1="a667201199cef336f1d41d4eb59d94dd3bc2fec3" xml="tokens/Invoices/InvoiceDetailComercialExportacion.php.xml"/>
+      <file name="ElectronicaServicioTuristicoHospedaje.php" size="377" time="2022-04-06T21:39:48+00:00" unixtime="1649281188" sha1="41e8cdadec5f749c3f499c181dda46b317b7cb61" xml="tokens/Invoices/ElectronicaServicioTuristicoHospedaje.php.xml"/>
+      <file name="InvoiceDetail.php" size="1049" time="2022-04-26T20:03:33+00:00" unixtime="1651003413" sha1="44559bf334cf12db5c039606dc1b69b31c2289f8" xml="tokens/Invoices/InvoiceDetail.php.xml"/>
+      <file name="ElectronicaComercialExportacionServicio.php" size="360" time="2022-04-07T04:06:46+00:00" unixtime="1649304406" sha1="20f29f66251692402cafdf55422b195c254f5b44" xml="tokens/Invoices/ElectronicaComercialExportacionServicio.php.xml"/>
+      <file name="CompraVenta.php" size="578" time="2022-01-03T03:35:28+00:00" unixtime="1641180928" sha1="24932ddc14e3b0ad8d1e82a7e97c25d1c506d4f7" xml="tokens/Invoices/CompraVenta.php.xml"/>
+      <file name="Hospitales.php" size="511" time="2022-04-07T03:51:01+00:00" unixtime="1649303461" sha1="c472ef94f73b07057b66df28ce8c798735197319" xml="tokens/Invoices/Hospitales.php.xml"/>
+    </dir>
+    <file name="RequestResponse.php" size="1276" time="2021-12-03T01:49:12+00:00" unixtime="1638496152" sha1="013e4b0687ee37b2f3f5159e0ea8a9ffac99fea6" xml="tokens/RequestResponse.php.xml"/>
+    <file name="SiatConfigCode.php" size="950" time="2022-05-19T14:24:46+00:00" unixtime="1652970286" sha1="37cfde4c7eb1ab385bb557d4b0a334c030041a2f" xml="tokens/SiatConfigCode.php.xml"/>
+    <file name="SiatObject.php" size="318" time="2021-12-08T20:21:58+00:00" unixtime="1638994918" sha1="a42bdadd7d8ca815b40a6c3f5b07588b8a6fe3ce" xml="tokens/SiatObject.php.xml"/>
+    <dir name="Exceptions">
+      <file name="CufdExpired.php" size="275" time="2022-04-09T21:28:13+00:00" unixtime="1649539693" sha1="b58ca75a8a6d8a27b351eb7ca7f3b2420c3c1f73" xml="tokens/Exceptions/CufdExpired.php.xml"/>
+    </dir>
+    <dir name="Libs">
+      <dir name="xmlseclibs">
+        <file name="xmlseclibs.php" size="2141" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="8028d6cf6dfde0b26d1d29402e7db3d960f83dc7" xml="tokens/Libs/xmlseclibs/xmlseclibs.php.xml"/>
+        <dir name="src">
+          <file name="XMLSecurityDSig.php" size="41720" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="fae1b0c506ce3d106a9819a304f5efdf70b3dd7c" xml="tokens/Libs/xmlseclibs/src/XMLSecurityDSig.php.xml"/>
+          <dir name="Utils">
+            <file name="XPath.php" size="1285" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="4719d47378a02579cf61ac41a50bd3e5a42a1b13" xml="tokens/Libs/xmlseclibs/src/Utils/XPath.php.xml"/>
+          </dir>
+          <file name="XMLSecEnc.php" size="19840" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="e0dcdacdbc24fc8aa22f81b471941d99ed98baa5" xml="tokens/Libs/xmlseclibs/src/XMLSecEnc.php.xml"/>
+          <file name="XMLSecurityKey.php" size="30474" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="22a2c08d7bf2303ee5de76bc16b639d32f9df391" xml="tokens/Libs/xmlseclibs/src/XMLSecurityKey.php.xml"/>
+        </dir>
+      </dir>
+    </dir>
+    <file name="constants.php" size="337" time="2022-06-07T16:33:27+00:00" unixtime="1654619607" sha1="1bce5e04a69683b36a14ed467d7460fa7b2ba461" xml="tokens/constants.php.xml"/>
+    <file name="Request.php" size="2235" time="2021-12-03T13:48:15+00:00" unixtime="1638539295" sha1="c264a58a510cd7e61a669291ac7f5036095d69e1" xml="tokens/Request.php.xml"/>
+    <file name="SiatConfig.php" size="3421" time="2022-06-24T16:31:25+00:00" unixtime="1656088285" sha1="de8a4af5c8fb043ab77a033ce2fc5c35d76701db" xml="tokens/SiatConfig.php.xml"/>
+    <file name="SoapMessage.php" size="1512" time="2021-12-03T16:25:35+00:00" unixtime="1638548735" sha1="da3c94c38a31ba1cf0627d9f8d884eeb87135bd6" xml="tokens/SoapMessage.php.xml"/>
+    <file name="SiatConfigCufd.php" size="381" time="2022-05-19T14:18:16+00:00" unixtime="1652969896" sha1="efa7d0859bbd4c86b9aa7bfb15d7f6f8ebaf9b7b" xml="tokens/SiatConfigCufd.php.xml"/>
+    <file name="SiatFactory.php" size="7146" time="2022-05-12T00:16:11+00:00" unixtime="1652314571" sha1="afc088867c85202b742c56475c96301ce59669a1" xml="tokens/SiatFactory.php.xml"/>
+    <file name="Message.php" size="3931" time="2022-05-16T21:21:45+00:00" unixtime="1652736105" sha1="ff488bef9a296b04e5ef089455967c995ef80bf1" xml="tokens/Message.php.xml"/>
+    <dir name="Services">
+      <file name="ServicioSiat.php" size="3645" time="2022-06-03T13:09:35+00:00" unixtime="1654261775" sha1="74e534884ae734804bbb737d4213d113e5541841" xml="tokens/Services/ServicioSiat.php.xml"/>
+      <file name="ServicioFacturacionSincronizacion.php" size="7222" time="2022-06-24T16:23:45+00:00" unixtime="1656087825" sha1="afde9c5f995882d6b0420c0b4dbf34a2e7f4c80c" xml="tokens/Services/ServicioFacturacionSincronizacion.php.xml"/>
+      <file name="ServicioOperaciones.php" size="5047" time="2022-06-24T15:54:30+00:00" unixtime="1656086070" sha1="5da6eaae58272f7afc446c2583741e9335000c14" xml="tokens/Services/ServicioOperaciones.php.xml"/>
+      <file name="ServicioFacturacion.php" size="12595" time="2022-06-24T16:19:37+00:00" unixtime="1656087577" sha1="9c65d6535f7bdd2a5537c2ad7ba6b0b6df3f6e09" xml="tokens/Services/ServicioFacturacion.php.xml"/>
+      <file name="ServicioFacturacionCodigos.php" size="1331" time="2022-06-24T16:20:21+00:00" unixtime="1656087621" sha1="7a35e5a56f54542eb1e188554ac4fc79ba79865e" xml="tokens/Services/ServicioFacturacionCodigos.php.xml"/>
+      <file name="ServicioFacturacionComputarizada.php" size="583" time="2022-06-24T16:20:32+00:00" unixtime="1656087632" sha1="fc438466c7449e6b3fb5d12b1cf20d6acd4f2f80" xml="tokens/Services/ServicioFacturacionComputarizada.php.xml"/>
+      <file name="ServicioFacturacionElectronica.php" size="2292" time="2022-06-24T16:25:31+00:00" unixtime="1656087931" sha1="74ee44c3157893e8f9b1830d7583ab70e10a9096" xml="tokens/Services/ServicioFacturacionElectronica.php.xml"/>
+    </dir>
+    <file name="SiatXmlElement.php" size="366" time="2022-01-03T03:23:23+00:00" unixtime="1641180203" sha1="8705e82ac7e3e8f49faa8518f53acbbfca6b1a2a" xml="tokens/SiatXmlElement.php.xml"/>
+  </dir>
+</source>

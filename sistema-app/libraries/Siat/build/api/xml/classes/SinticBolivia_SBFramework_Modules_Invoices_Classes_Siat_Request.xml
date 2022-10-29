@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Request" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Request" abstract="false" final="false" start="5" end="84">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="Request.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Request.php" size="2235" time="2021-12-03T13:48:15+00:00" unixtime="1638539295" sha1="c264a58a510cd7e61a669291ac7f5036095d69e1" relative="Request.php"/>
+  <member name="proxyIp" default="'187.130.139.197'" type="string" visibility="protected" static="false" line="7"/>
+  <member name="proxyPort" default="37812" type="integer" visibility="protected" static="false" line="8"/>
+  <member name="proxyType" default="'socks4'" type="string" visibility="protected" static="false" line="9"/>
+  <member name="useProxy" default="false" type="boolean" visibility="protected" static="false" line="11"/>
+  <member name="cookiesFile" default="NULL" visibility="protected" static="false" line="12"/>
+  <member name="timeout" default="20" type="integer" visibility="protected" static="false" line="13"/>
+  <member name="cookies" default="" type="array" visibility="protected" static="false" line="17">
+    <docblock>
+      <description/>
+      <var type="array" of="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Cookie" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Cookie"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="saveCookies" default="false" type="boolean" visibility="protected" static="false" line="18"/>
+  <method name="request" start="28" end="83" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$url"/>
+      <param type="mixed" variable="$data"/>
+      <param type="string" variable="$method"/>
+      <param type="array" variable="$headers"/>
+      <return type="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\RequestResponse" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="RequestResponse"/>
+      </return>
+    </docblock>
+    <parameter name="url" byreference="false" type="string"/>
+    <parameter name="data" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="method" byreference="false" type="string" default="'GET'"/>
+    <parameter name="headers" byreference="false" type="{unknown}" default="NULL"/>
+    <inline>
+      <comment value="##store cookies" line="64"/>
+      <comment value="Create And Save Cookies" line="65"/>
+    </inline>
+  </method>
+</class>

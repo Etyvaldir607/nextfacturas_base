@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - RobRichards\XMLSecLibs\XMLSecEnc</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.xhtml">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#RobRichards_XMLSecLibs">RobRichards\XMLSecLibs</a>
+          </li>
+          <li class="separator">XMLSecEnc</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Libs/xmlseclibs/src/XMLSecEnc.php.xhtml#line51">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>RobRichards\XMLSecLibs\</small>XMLSecEnc</h1>
+        <h4>xmlseclibs.php</h4>
+        <p>Copyright (c) 2007-2020, Robert Richards &lt;rrichards@cdatazone.org&gt;.<br/>All rights reserved.<br/><br/>Redistribution and use in source and binary forms, with or without<br/>modification, are permitted provided that the following conditions<br/>are met:<br/><br/>* Redistributions of source code must retain the above copyright<br/>notice, this list of conditions and the following disclaimer.<br/><br/>* Redistributions in binary form must reproduce the above copyright<br/>notice, this list of conditions and the following disclaimer in<br/>the documentation and/or other materials provided with the<br/>distribution.<br/><br/>* Neither the name of Robert Richards nor the names of his<br/>contributors may be used to endorse or promote products derived<br/>from this software without specific prior written permission.<br/><br/>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS<br/>"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT<br/>LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS<br/>FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE<br/>COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,<br/>INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,<br/>BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;<br/>LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER<br/>CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT<br/>LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN<br/>ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE<br/>POSSIBILITY OF SUCH DAMAGE.</p>
+        <ul>
+          <li>Author: Robert Richards &lt;rrichards@cdatazone.org&gt;</li>
+          <li>Copyright: 2007-2020 Robert Richards &lt;rrichards@cdatazone.org&gt;</li>
+          <li>License: http://www.opensource.org/licenses/bsd-license.php  BSD License</li>
+        </ul>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class XMLSecEnc
+            {<br/><ul class="none"><li>// constants</li><li>const template = "&lt;xenc:EncryptedData xmlns:xenc='http://www.w3.org/2001/04/xmlenc#'&gt;
+   &lt;xenc:CipherData&gt;
+      &lt;xenc:CipherValue&gt;&lt;/xenc:CipherValue&gt;
+   &lt;/xenc:CipherData&gt;
+&lt;/xenc:EncryptedData&gt;";</li><li>const Element = 'http://www.w3.org/2001/04/xmlenc#Element';</li><li>const Content = 'http://www.w3.org/2001/04/xmlenc#Content';</li><li>const URI = 3;</li><li>const XMLENCNS = 'http://www.w3.org/2001/04/xmlenc#';</li></ul><ul class="none"><li>// members</li><li>private <span title="RobRichards\XMLSecLibs\null|DOMDocument">null|DOMDocument</span> <a href="#members">$encdoc</a> =
+                        NULL;
+                    </li><li>private <span title="RobRichards\XMLSecLibs\null|DOMNode">null|DOMNode</span> <a href="#members">$rawNode</a> =
+                        NULL;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\null|string">null|string</span> <a href="#members">$type</a> =
+                        NULL;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\null|DOMElement">null|DOMElement</span> <a href="#members">$encKey</a> =
+                        NULL;
+                    </li><li>private array <a href="#members">$references</a> =
+                        ;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/__construct.xhtml">__construct</a>()
+                    </li><li>private void <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/_resetTemplate.xhtml">_resetTemplate</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/addReference.xhtml">addReference</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/setNode.xhtml">setNode</a>()
+                    </li><li>public DOMElement <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/encryptNode.xhtml">encryptNode</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/encryptReferences.xhtml">encryptReferences</a>()
+                    </li><li>public string|null <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/getCipherValue.xhtml">getCipherValue</a>()
+                    </li><li>public string|DOMElement <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/decryptNode.xhtml">decryptNode</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/encryptKey.xhtml">encryptKey</a>()
+                    </li><li>public DOMElement|string <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/decryptKey.xhtml">decryptKey</a>()
+                    </li><li>public DOMNode|null <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/locateEncryptedData.xhtml">locateEncryptedData</a>()
+                    </li><li>public null|XMLSecurityKey <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/locateKey.xhtml">locateKey</a>()
+                    </li><li>public static null|XMLSecurityKey <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/staticLocateKeyInfo.xhtml">staticLocateKeyInfo</a>()
+                    </li><li>public null|XMLSecurityKey <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/locateKeyInfo.xhtml">locateKeyInfo</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="template">template</td>
+              <td>"&lt;xenc:EncryptedData xmlns:xenc='http://www.w3.org/2001/04/xmlenc#'&gt;
+   &lt;xenc:CipherData&gt;
+      &lt;xenc:CipherValue&gt;&lt;/xenc:CipherValue&gt;
+   &lt;/xenc:CipherData&gt;
+&lt;/xenc:EncryptedData&gt;"</td>
+            </tr>
+            <tr>
+              <td id="Element">Element</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#Element'</td>
+            </tr>
+            <tr>
+              <td id="Content">Content</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#Content'</td>
+            </tr>
+            <tr>
+              <td id="URI">URI</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td id="XMLENCNS">XMLENCNS</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#'</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="encdoc"><strong>$encdoc</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\null|DOMDocument" href="../classes/RobRichards_XMLSecLibs_null|DOMDocument.xhtml">RobRichards\XMLSecLibs\null|DOMDocument</a></li>
+            <li id="rawNode"><strong>$rawNode</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\null|DOMNode" href="../classes/RobRichards_XMLSecLibs_null|DOMNode.xhtml">RobRichards\XMLSecLibs\null|DOMNode</a></li>
+            <li id="references"><strong>$references</strong>
+                —
+                array</li>
+          </ul>
+          <h4>public</h4>
+          <ul class="members">
+            <li id="encKey"><strong>$encKey</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\null|DOMElement" href="../classes/RobRichards_XMLSecLibs_null|DOMElement.xhtml">RobRichards\XMLSecLibs\null|DOMElement</a></li>
+            <li id="type"><strong>$type</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\null|string" href="../classes/RobRichards_XMLSecLibs_null|string.xhtml">RobRichards\XMLSecLibs\null|string</a></li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>private</h4>
+          <ul>
+            <li id="_resetTemplate">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/_resetTemplate.xhtml">_resetTemplate()</a>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="__construct">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/__construct.xhtml">__construct()</a>
+            </li>
+            <li id="addReference">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/addReference.xhtml">addReference()</a>
+            </li>
+            <li id="decryptKey">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/decryptKey.xhtml">decryptKey()</a>
+            </li>
+            <li id="decryptNode"><a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/decryptNode.xhtml">decryptNode()</a>
+                — Decrypt this encrypted node.</li>
+            <li id="encryptKey"><a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/encryptKey.xhtml">encryptKey()</a>
+                — Encrypt the XMLSecurityKey</li>
+            <li id="encryptNode"><a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/encryptNode.xhtml">encryptNode()</a>
+                — Encrypt the selected node with the given key.</li>
+            <li id="encryptReferences">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/encryptReferences.xhtml">encryptReferences()</a>
+            </li>
+            <li id="getCipherValue"><a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/getCipherValue.xhtml">getCipherValue()</a>
+                — Retrieve the CipherValue text from this encrypted node.</li>
+            <li id="locateEncryptedData">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/locateEncryptedData.xhtml">locateEncryptedData()</a>
+            </li>
+            <li id="locateKey"><a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/locateKey.xhtml">locateKey()</a>
+                — Returns the key from the DOM</li>
+            <li id="locateKeyInfo">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/locateKeyInfo.xhtml">locateKeyInfo()</a>
+            </li>
+            <li id="setNode">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/setNode.xhtml">setNode()</a>
+            </li>
+            <li id="staticLocateKeyInfo">
+              <a title="RobRichards\XMLSecLibs\XMLSecEnc" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc/staticLocateKeyInfo.xhtml">staticLocateKeyInfo()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2022 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

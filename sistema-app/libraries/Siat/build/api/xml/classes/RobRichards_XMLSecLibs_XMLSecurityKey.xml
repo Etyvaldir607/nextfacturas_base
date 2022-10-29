@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey" abstract="false" final="false" start="47" end="813">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Libs/xmlseclibs/src" file="XMLSecurityKey.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Libs/xmlseclibs/src/XMLSecurityKey.php" size="30474" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="22a2c08d7bf2303ee5de76bc16b639d32f9df391" relative="Libs/xmlseclibs/src/XMLSecurityKey.php"/>
+  <docblock>
+    <description compact="xmlseclibs.php">Copyright (c) 2007-2020, Robert Richards &lt;rrichards@cdatazone.org&gt;.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+
+  * Neither the name of Robert Richards nor the names of his
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.</description>
+    <author value="Robert Richards &lt;rrichards@cdatazone.org&gt;"/>
+    <copyright value="2007-2020 Robert Richards &lt;rrichards@cdatazone.org&gt;"/>
+    <license name="http://www.opensource.org/licenses/bsd-license.php  BSD License"/>
+  </docblock>
+  <constant type="string" name="TRIPLEDES_CBC" value="'http://www.w3.org/2001/04/xmlenc#tripledes-cbc'"/>
+  <constant type="string" name="AES128_CBC" value="'http://www.w3.org/2001/04/xmlenc#aes128-cbc'"/>
+  <constant type="string" name="AES192_CBC" value="'http://www.w3.org/2001/04/xmlenc#aes192-cbc'"/>
+  <constant type="string" name="AES256_CBC" value="'http://www.w3.org/2001/04/xmlenc#aes256-cbc'"/>
+  <constant type="string" name="AES128_GCM" value="'http://www.w3.org/2009/xmlenc11#aes128-gcm'"/>
+  <constant type="string" name="AES192_GCM" value="'http://www.w3.org/2009/xmlenc11#aes192-gcm'"/>
+  <constant type="string" name="AES256_GCM" value="'http://www.w3.org/2009/xmlenc11#aes256-gcm'"/>
+  <constant type="string" name="RSA_1_5" value="'http://www.w3.org/2001/04/xmlenc#rsa-1_5'"/>
+  <constant type="string" name="RSA_OAEP_MGF1P" value="'http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p'"/>
+  <constant type="string" name="RSA_OAEP" value="'http://www.w3.org/2009/xmlenc11#rsa-oaep'"/>
+  <constant type="string" name="DSA_SHA1" value="'http://www.w3.org/2000/09/xmldsig#dsa-sha1'"/>
+  <constant type="string" name="RSA_SHA1" value="'http://www.w3.org/2000/09/xmldsig#rsa-sha1'"/>
+  <constant type="string" name="RSA_SHA256" value="'http://www.w3.org/2001/04/xmldsig-more#rsa-sha256'"/>
+  <constant type="string" name="RSA_SHA384" value="'http://www.w3.org/2001/04/xmldsig-more#rsa-sha384'"/>
+  <constant type="string" name="RSA_SHA512" value="'http://www.w3.org/2001/04/xmldsig-more#rsa-sha512'"/>
+  <constant type="string" name="HMAC_SHA1" value="'http://www.w3.org/2000/09/xmldsig#hmac-sha1'"/>
+  <constant type="integer" name="AUTHTAG_LENGTH" value="16"/>
+  <member name="cryptParams" default="" type="array" visibility="private" static="false" line="68">
+    <docblock>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <member name="type" default="0" type="integer" visibility="public" static="false" line="71">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\int|string" namespace="RobRichards\XMLSecLibs" name="int|string"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="key" default="NULL" visibility="public" static="false" line="74">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\mixed|null" namespace="RobRichards\XMLSecLibs" name="mixed|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="passphrase" default="&quot;&quot;" type="string" visibility="public" static="false" line="77">
+    <docblock>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="iv" default="NULL" visibility="public" static="false" line="80">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\string|null" namespace="RobRichards\XMLSecLibs" name="string|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="name" default="NULL" visibility="public" static="false" line="83">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\string|null" namespace="RobRichards\XMLSecLibs" name="string|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="keyChain" default="NULL" visibility="public" static="false" line="86">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\mixed|null" namespace="RobRichards\XMLSecLibs" name="mixed|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="isEncrypted" default="false" type="boolean" visibility="public" static="false" line="89">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="encryptedCtx" default="NULL" visibility="public" static="false" line="92">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\XMLSecEnc|null" namespace="RobRichards\XMLSecLibs" name="XMLSecEnc|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="guid" default="NULL" visibility="public" static="false" line="95">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\mixed|null" namespace="RobRichards\XMLSecLibs" name="mixed|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="x509Certificate" default="NULL" visibility="private" static="false" line="102">
+    <docblock>
+      <description compact="This variable contains the certificate as a string if this key represents an X509-certificate.">If this key doesn't represent a certificate, this will be null.</description>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\string|null" namespace="RobRichards\XMLSecLibs" name="string|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="X509Thumbprint" default="NULL" visibility="private" static="false" line="108">
+    <docblock>
+      <description compact="This variable contains the certificate thumbprint if we have loaded an X509-certificate."/>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\string|null" namespace="RobRichards\XMLSecLibs" name="string|null"/>
+      </var>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="115" end="264" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$type"/>
+      <param type="object" variable="$params">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="type" byreference="false" type="{unknown}"/>
+    <parameter name="params" byreference="false" type="{unknown}" default="NULL"/>
+  </constructor>
+  <method name="getSymmetricKeySize" start="274" end="280" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Retrieve the key size for the symmetric encryption algorithm..">If the key size is unknown, or this isn't a symmetric encryption algorithm,
+null is returned.</description>
+      <return description="The number of bytes in the key." type="object">
+        <type full="RobRichards\XMLSecLibs\int|null" namespace="RobRichards\XMLSecLibs" name="int|null"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="generateSessionKey" start="288" end="314" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Generates a session key using the openssl-extension.">In case of using DES3-CBC the key is checked for a proper parity bits set.</description>
+      <return type="string"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+  </method>
+  <method name="getRawThumbprint" start="322" end="347" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Get the raw thumbprint of a certificate"/>
+      <param type="string" variable="$cert"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\null|string" namespace="RobRichards\XMLSecLibs" name="null|string"/>
+      </return>
+    </docblock>
+    <parameter name="cert" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="loadKey" start="357" end="399" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Loads the given key, or - with isFile set true - the key from the keyfile."/>
+      <param type="string" variable="$key"/>
+      <param type="object" variable="$isFile">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <param type="object" variable="$isCert">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="key" byreference="false" type="{unknown}"/>
+    <parameter name="isFile" byreference="false" type="boolean" default="false"/>
+    <parameter name="isCert" byreference="false" type="boolean" default="false"/>
+  </method>
+  <method name="padISO10126" start="409" end="417" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="ISO 10126 Padding"/>
+      <param type="string" variable="$data"/>
+      <param type="integer" variable="$blockSize"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <return type="string"/>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+    <parameter name="blockSize" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="unpadISO10126" start="425" end="430" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Remove ISO 10126 Padding"/>
+      <param type="string" variable="$data"/>
+      <return type="string"/>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="encryptSymmetric" start="438" end="457" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Encrypts the given data (string) using the openssl-extension"/>
+      <param type="string" variable="$data"/>
+      <return type="string"/>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="decryptSymmetric" start="465" end="488" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Decrypts the given data (string) using the openssl-extension"/>
+      <param type="string" variable="$data"/>
+      <return type="string"/>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="encryptPublic" start="497" end="503" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Encrypts the given public data (string) using the openssl-extension"/>
+      <param type="string" variable="$data"/>
+      <return type="string"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="decryptPublic" start="512" end="518" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Decrypts the given public data (string) using the openssl-extension"/>
+      <param type="string" variable="$data"/>
+      <return type="string"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="encryptPrivate" start="527" end="533" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Encrypts the given private data (string) using the openssl-extension"/>
+      <param type="string" variable="$data"/>
+      <return type="string"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="decryptPrivate" start="542" end="548" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Decrypts the given private data (string) using the openssl-extension"/>
+      <param type="string" variable="$data"/>
+      <return type="string"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="signOpenSSL" start="557" end="567" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Signs the given data (string) using the openssl-extension"/>
+      <param type="string" variable="$data"/>
+      <return type="string"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="verifyOpenSSL" start="585" end="592" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Verifies the given data (string) belonging to the given signature using the openssl-extension">Returns:
+ 1 on succesful signature verification,
+ 0 when signature verification failed,
+ -1 if an error occurred during processing.
+
+NOTE: be very careful when checking the return value, because in PHP,
+-1 will be cast to True when in boolean context. So always check the
+return value in a strictly typed way, e.g. "$obj-&gt;verify(...) === 1".</description>
+      <param type="string" variable="$data"/>
+      <param type="string" variable="$signature"/>
+      <return type="int"/>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+    <parameter name="signature" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="encryptData" start="600" end="612" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Encrypts the given data (string) using the regarding php-extension, depending on the library assigned to algorithm in the contructor."/>
+      <param type="string" variable="$data"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\mixed|string" namespace="RobRichards\XMLSecLibs" name="mixed|string"/>
+      </return>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="decryptData" start="620" end="632" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Decrypts the given data (string) using the regarding php-extension, depending on the library assigned to algorithm in the contructor."/>
+      <param type="string" variable="$data"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\mixed|string" namespace="RobRichards\XMLSecLibs" name="mixed|string"/>
+      </return>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="signData" start="640" end="648" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Signs the data (string) using the extension assigned to the type in the constructor."/>
+      <param type="string" variable="$data"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\mixed|string" namespace="RobRichards\XMLSecLibs" name="mixed|string"/>
+      </return>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="verifySignature" start="666" end="675" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Verifies the data (string) against the given signature using the extension assigned to the type in the constructor.">Returns in case of openSSL:
+ 1 on succesful signature verification,
+ 0 when signature verification failed,
+ -1 if an error occurred during processing.
+
+NOTE: be very careful when checking the return value, because in PHP,
+-1 will be cast to True when in boolean context. So always check the
+return value in a strictly typed way, e.g. "$obj-&gt;verify(...) === 1".</description>
+      <param type="string" variable="$data"/>
+      <param type="string" variable="$signature"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\bool|int" namespace="RobRichards\XMLSecLibs" name="bool|int"/>
+      </return>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+    <parameter name="signature" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getAlgorith" start="682" end="685" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <deprecated/>
+      <see value="getAlgorithm()"/>
+      <return type="mixed"/>
+    </docblock>
+  </method>
+  <method name="getAlgorithm" start="690" end="693" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="mixed"/>
+    </docblock>
+  </method>
+  <method name="makeAsnSegment" start="701" end="725" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$type"/>
+      <param type="string" variable="$string"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\null|string" namespace="RobRichards\XMLSecLibs" name="null|string"/>
+      </return>
+    </docblock>
+    <parameter name="type" byreference="false" type="{unknown}"/>
+    <parameter name="string" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="convertRSA" start="734" end="753" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Hint: Modulus and Exponent must already be base64 decoded"/>
+      <param type="string" variable="$modulus"/>
+      <param type="string" variable="$exponent"/>
+      <return type="string"/>
+    </docblock>
+    <parameter name="modulus" byreference="false" type="{unknown}"/>
+    <parameter name="exponent" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="make an ASN publicKeyInfo" line="736"/>
+      <comment value="encode the publicKeyInfo in base64 and add PEM brackets" line="744"/>
+    </inline>
+  </method>
+  <method name="serializeKey" start="758" end="761" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="mixed" variable="$parent"/>
+    </docblock>
+    <parameter name="parent" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getX509Certificate" start="771" end="774" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Retrieve the X509 certificate this key represents.">Will return the X509 certificate in PEM-format if this key represents
+an X509 certificate.</description>
+      <return description="The X509 certificate or null if this key doesn't represent an X509-certificate." type="string"/>
+    </docblock>
+  </method>
+  <method name="getX509Thumbprint" start="785" end="788" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get the thumbprint of this X509 certificate.">Returns:
+ The thumbprint as a lowercase 40-character hexadecimal number, or null
+ if this isn't a X509 certificate.
+
+ @return string Lowercase 40-character hexadecimal number of thumbprint</description>
+    </docblock>
+  </method>
+  <method name="fromEncryptedKeyElement" start="799" end="811" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Create key from an EncryptedKey-element."/>
+      <param description="The EncryptedKey-element." type="object" variable="$element">
+        <type full="DOMElement" namespace="" name="DOMElement"/>
+      </param>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <return description="The new key." type="object">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </return>
+    </docblock>
+    <parameter name="element" byreference="false" type="object">
+      <type full="DOMElement" namespace="" name="DOMElement"/>
+    </parameter>
+  </method>
+</class>

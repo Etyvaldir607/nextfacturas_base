@@ -1,0 +1,1582 @@
+[2022-06-30 00:49:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QjljbHhBQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 5642349C4E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T00:49:37.286-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:52:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qj4kNjFBQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 00B5199C4E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T00:52:57.648-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:56:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qm8hTzVBQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 10288E9C4E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T00:56:14.624-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:58:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnwkbjdBQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 8127F1AC4E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T00:58:39.649-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:59:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnxndDhBQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 21F393AC4E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T00:59:45.329-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 08:15:14]#
+stdClass Object 
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QksoT1BJQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 2D6DA4215E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T08:15:14.861-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:00:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlUlY0FKQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 9C6696A15E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T09:00:28.652-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:01:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmVXRUJKQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 5F9DB7A15E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T09:01:04.223-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:03:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFqR0RKQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 4E23DAA15E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T09:03:06.350-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:04:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qnl0WkVMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 5F61DDD25E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:04:25.455-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:23:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qj47a1hMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 10DBFAF25E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:23:36.848-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:26:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QsKhd3VhTEJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 9755BFF25E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:26:46.487-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:28:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qjk3TmNMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 121242035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:28:13.586-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:29:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFTYmRMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 4CCDF3035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:29:27.180-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:30:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkE0eGVMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 6ECBD5035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:30:49.550-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:31:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkE7Q2ZMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 18FBA6035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:31:02.840-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:32:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnknUWdMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 157968035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:32:16.885-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:35:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnlSMmpMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 071B8D035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:35:53.175-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:35:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnkxNWpMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 3D289D035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:35:56.525-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:36:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qj4rYWtMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 2EAAAE035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:36:26.798-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:36:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlVTZGtMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 9EF3BE035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:36:29.182-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:36:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qm9tbmtMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 18DBDE035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:36:39.384-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:36:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QjnCv3BrTEJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 90E4EE035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:36:41.696-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:36:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qm9XOGtMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 78592F035E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:36:59.224-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:37:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qnx3NmxMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 6139A0135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:37:57.489-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:37:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmVAOGxMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 7902B0135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:37:59.753-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:39:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnwtV25MQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 95EE23135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:39:22.789-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:39:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFPOG5MQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 94ECB3135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:39:59.140-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:40:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmU9Qm9MQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 490364135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:40:01.673-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:40:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnxbVG9MQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 7789A4135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:40:19.719-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:40:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkttVm9MQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 1500B4135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:40:21.381-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:40:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qj51cG9MQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 1C7EF4135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:40:41.468-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:41:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QjlCeHBMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 7892A6135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:41:49.016-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:41:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QksvMXBMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 5931B6135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:41:52.761-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:42:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qm9PZXFMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 408FD7135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:42:30.144-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:42:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QmXCv3BxTEJIV1VBNzFFNEUxMkI5MjFF
+            [codigoControl] => 0D9C08135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:42:41.693-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:42:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qm9Mc3FMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 921618135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:42:44.114-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:42:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QjltOHFMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 1AB158135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:42:59.386-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:43:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFLQ3JMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 1498F8135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:43:02.100-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:43:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlV+WXJMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 82E159135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:43:24.962-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:43:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnxhY3JMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 4DCE59135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:43:28.269-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:44:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QsKhRDhzTEJIV1VBNzFFNEUxMkI5MjFF
+            [codigoControl] => 4D9D5B135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:44:59.037-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:45:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QjnDgUJ0TEJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 38550C135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:45:01.976-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:45:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QjlhSHRMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 520A1C135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:45:07.266-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:45:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnlzS3RMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 3D662C135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:45:10.445-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:45:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QksvY3RMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 19FD6C135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:45:28.761-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:45:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qnl3ZnRMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 5D987C135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:45:31.485-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:45:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnxDc3RMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 7D99AC135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:45:44.029-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:45:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkE2dHRMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 32AFAC135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:45:45.570-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:46:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlUuS3VMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 74AEAD135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:46:10.852-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:46:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmU3TXVMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 0765BD135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:46:12.583-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:46:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFFbHVMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 30F41E135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:46:37.040-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:46:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qm8ubXVMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 860C1E135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:46:38.854-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:47:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkE9b3ZMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 9EB9AF135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:47:40.670-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:47:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qjk1cnZMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 7E05BF135E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:47:43.566-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:48:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qjk3VXdMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 9AE1E0235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:48:20.586-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:48:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qjl8WHdMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 02EEE0235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:48:23.906-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:48:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QjkhbXdMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 926821235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:48:38.626-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:48:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFncXdMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 00D631235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:48:42.320-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:48:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFxNHdMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 2CF961235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:48:55.420-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:48:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qjk6NndMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 826371235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:48:57.826-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:52:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qnw+RzFMQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 5996C6235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:52:06.809-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:52:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlVYSjFMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 1010D6235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:52:09.232-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:52:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QktkVjFMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 5B2FF6235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:52:21.291-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:53:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QjksbzJMQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 1422D8235E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T11:53:40.836-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:07:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmVwWUhNQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 0DB7FA735E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:07:24.413-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:10:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qnk8RUtNQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 2F0F3F735E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:10:04.815-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:12:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QsKhXjhMTUJIV1VBNzFFNEUxMkI5MjFF
+            [codigoControl] => 1B0D91835E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:11:59.947-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:12:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkttZE1NQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 254CA2835E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:12:29.381-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:12:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qjlzek1NQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 967203835E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:12:51.446-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:24:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QsKhOnlZTUJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 9B8F45935E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:24:50.827-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:25:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlViRVpNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 705026935E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:25:04.272-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:25:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qj4qTVpNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 8A8146935E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:25:12.778-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:26:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlVLTmFNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 2E69C7935E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:26:13.102-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:26:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnxqOGFNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 4F1E78935E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:26:59.359-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:28:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnxiM2NNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 57877B935E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:28:54.279-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:29:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmUmTWRNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 179B5C935E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:29:12.663-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:31:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnwpbmZNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 8723DF935E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:31:39.879-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:32:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmUwWmdNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 9D0221A35E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:32:25.613-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:32:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFzcmdNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 30B761A35E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:32:43.440-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:33:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmUwaWhNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 25DBC2A35E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:33:34.613-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:35:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=Qj7CoWZqTUJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 6CBDC5A35E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:35:31.708-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:45:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnlRTnRNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 4D87C4B35E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:45:13.165-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:46:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qj5tTnVNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 0C0F46B35E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:46:13.388-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:50:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qm97TXlNQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 1EF66CB35E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T12:50:12.734-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 13:53:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qnw2ZDJOQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 8B23D9545E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T13:53:29.579-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 13:53:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QsKhfHAyTkJIV1VBNzFFNEUxMkI5MjFF
+            [codigoControl] => 83530A545E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T13:53:41.907-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 13:53:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qj5uNTJOQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 1EEB3A545E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T13:53:56.398-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 13:54:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnlxODNOQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 816ECB545E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T13:54:59.425-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 14:28:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnlncmNPQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 9DB97CC45E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T14:28:43.325-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 14:43:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFUUnJPQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 7607F2E45E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T14:43:17.190-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 15:09:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QktWekpQQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 2B2138455E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T15:09:51.211-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 15:13:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QsKhZE5OUEJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 9197BD455E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T15:13:13.297-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 15:14:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlVHWU9QQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 0E386F455E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T15:14:24.062-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 15:15:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QlUzdFBQQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 26C241555E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T15:15:45.542-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 15:58:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qm9ETTdQQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 52CC52955E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T15:58:12.034-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:12:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qnx5dk1RQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 751D45E55E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:12:47.509-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:13:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=Qj44Rk5RQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 0EFF26E55E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:13:05.598-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:14:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QktfSE9RQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 439FB7E55E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:14:07.891-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:15:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkFUQ1BRQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 5EEF29E55E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:15:02.190-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:27:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkstOGJRQkhXVUJFFNEUxMkI5MjFFO
+            [codigoControl] => 45606CF55E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:27:59.781-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:38:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QjlkTW1RQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 68CF6C065E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:38:12.296-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:38:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QktaMW1RQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 2BDB0D065E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:38:52.251-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:39:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QnnDgWhuUUJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 471B4E065E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:39:33.975-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:48:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QkF6TXdRQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 2ED2BB165E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:48:12.510-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:49:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QlXCsGN4UUJIV1VBNzFFNEUxMkI5MjFF
+            [codigoControl] => 64A97D165E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:49:28.932-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:50:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QsKhcVR5UUJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 932BDE165E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:50:19.427-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:58:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFlQ3DDk05BQQ==OEMwOUY5ODg1MUU=QsKhY2w3UUJIV1VCNzFFNEUxMkI5MjFF
+            [codigoControl] => 87E55B265E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:58:37.287-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 16:59:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmU5WjhRQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 93EEAC265E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T16:59:25.603-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 17:00:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QjlUOEFSQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 4CB1CB665E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T17:00:59.196-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 17:01:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QmVHa0JSQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 2FFDEC665E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T17:01:36.063-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 17:02:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnxRM0NSQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 395BBE665E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T17:02:54.169-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 17:03:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQWVDcMOTTkFBNzEMwOUY5ODg1MUU=QnlOSkRSQkhXVUFFFNEUxMkI5MjFFO
+            [codigoControl] => 0F029F665E86D74
+            [direccion] => AVENIDA AYACUCHO NRO.S/N EDIFICIO TERMINAL DE BUSES COCHABAMBA PISO 1 DPTO. 105 ZONA SUDOESTE
+            [fechaVigencia] => 2022-07-01T17:03:09.135-04:00
+            [transaccion] => 1
+        )
+
+)
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfig" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfig" abstract="false" final="false" start="12" end="156">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="SiatConfig.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/SiatConfig.php" size="3421" time="2022-06-24T16:31:25+00:00" unixtime="1656088285" sha1="de8a4af5c8fb043ab77a033ce2fc5c35d76701db" relative="SiatConfig.php"/>
+  <docblock>
+    <description compact="Clase que almacena la configuracion para el servicio de facturacion"/>
+    <author value="mac"/>
+  </docblock>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatObject" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatObject"/>
+  <member name="nombreSistema" visibility="public" static="false" line="17">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="codigoSistema" visibility="public" static="false" line="21">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="tipo" visibility="public" static="false" line="26">
+    <docblock>
+      <description/>
+      <var type="int"/>
+    </docblock>
+  </member>
+  <member name="nit" visibility="public" static="false" line="30">
+    <docblock>
+      <description/>
+      <var type="int"/>
+    </docblock>
+  </member>
+  <member name="razonSocial" visibility="public" static="false" line="34">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="modalidad" visibility="public" static="false" line="39">
+    <docblock>
+      <description compact="Tipo de modalidad para la facturacion Electronica o Computarizada"/>
+      <var type="int"/>
+    </docblock>
+  </member>
+  <member name="ambiente" visibility="public" static="false" line="44">
+    <docblock>
+      <description compact="Ambiente para emisionde facturas Piloto o Produccion"/>
+      <var type="int"/>
+    </docblock>
+  </member>
+  <member name="tokenDelegado" visibility="public" static="false" line="49">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="ciudad" visibility="public" static="false" line="54">
+    <docblock>
+      <description compact="Ciudad o dependencia del contribuyente o dueno del nit"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="telefono" visibility="public" static="false" line="59">
+    <docblock>
+      <description compact="Telefono  del contribuyente o dueno del nit"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="cuis" default="NULL" visibility="public" static="false" line="65">
+    <docblock>
+      <description compact="Codigo CUIS"/>
+      <var type="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfigCuis" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfigCuis"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="cufd" default="NULL" visibility="public" static="false" line="70">
+    <docblock>
+      <description compact="Codigo CUF"/>
+      <var type="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfigCufd" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfigCufd"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="pubCert" default="NULL" visibility="public" static="false" line="75">
+    <docblock>
+      <description compact="Ruta del archivo de firma digital"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="privCert" default="NULL" visibility="public" static="false" line="80">
+    <docblock>
+      <description compact="Ruta del archivo de llave privada de la firma digital"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <method name="toArray" start="86" end="97" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <return type="array" of="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name=""/>
+      </return>
+    </docblock>
+  </method>
+  <constructor name="__construct" start="99" end="103" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="data" byreference="false" type="{unknown}" default="NULL"/>
+  </constructor>
+  <method name="bind" start="109" end="116" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Asigna datos desde un array u objecto a los propiedades de clases {@inheritDoc}"/>
+      <see value="\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatObject::bind()"/>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="validate" start="121" end="138" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Valida datos de configuracion"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+  </method>
+  <method name="validateExpirations" start="144" end="155" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Valida las expiraciones de los codigos CUIS y CUF"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <throws type="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Exceptions\CufdExpired" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Exceptions" name="CufdExpired"/>
+      </throws>
+    </docblock>
+  </method>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatObject" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatObject">
+    <method name="bind" start="6" end="15" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="data" byreference="false" type="{unknown}"/>
+    </method>
+  </parent>
+</class>

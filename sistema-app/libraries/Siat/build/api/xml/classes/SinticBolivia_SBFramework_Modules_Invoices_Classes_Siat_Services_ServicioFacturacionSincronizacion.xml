@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacionSincronizacion" abstract="false" final="false" start="9" end="227">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Services" file="ServicioFacturacionSincronizacion.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Services/ServicioFacturacionSincronizacion.php" size="7222" time="2022-06-24T16:23:45+00:00" unixtime="1656087825" sha1="afde9c5f995882d6b0420c0b4dbf34a2e7f4c80c" relative="Services/ServicioFacturacionSincronizacion.php"/>
+  <docblock>
+    <description compact="Clase para el servicio de sincronizacion de datos de impuestos"/>
+    <author value="J. Marcelo Aviles Paco"/>
+  </docblock>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioSiat"/>
+  <member name="wsdl" default="'https://pilotosiatservicios.impuestos.gob.bo/v2/FacturacionSincronizacion?wsdl'" type="string" visibility="protected" static="false" line="11"/>
+  <method name="buildData" start="13" end="28" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaMotivoAnulacion" start="35" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarListaActividadesDocumentoSector" start="48" end="54" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaTipoDocumentoSector" start="61" end="66" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaTiposFactura" start="73" end="79" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarListaMensajesServicios" start="86" end="92" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="verificarComunicacion" start="97" end="102" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+  </method>
+  <method name="sincronizarParametricaEventosSignificativos" start="109" end="114" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaTipoPuntoVenta" start="121" end="126" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarListaProductosServicios" start="133" end="138" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaTipoMoneda" start="145" end="163" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <return description="Respuesta servicio Siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+    <inline>
+      <comment value="$servCodigos = new ServicioFacturacionCodigos(null, null, Config::$tokenDelegado);" line="147"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$servCodigos-&gt;ambiente&#9;&#9;= Config::$ambiente;" line="148"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$servCodigos-&gt;modalidad&#9;&#9;= Config::$modalidad;" line="149"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$servCodigos-&gt;codigoSistema = Config::$codigoSistema;" line="150"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$servCodigos-&gt;nit&#9;&#9;&#9;= Config::$nit;" line="151"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$res = $servCodigos-&gt;cuis();" line="152"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="print_r($res);" line="153"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$cuis = $res-&gt;RespuestaCuis-&gt;codigo;" line="154"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="$servCodigos-&gt;cuis = $cuis;" line="155"/>
+      <comment value="-&gt;RespuestaListaParametricas;" line="162"/>
+    </inline>
+  </method>
+  <method name="sincronizarActividades" start="164" end="170" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaTipoEmision" start="171" end="177" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaTipoDocumentoIdentidad" start="178" end="184" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarListaLeyendasFactura" start="185" end="191" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaTipoMetodoPago" start="192" end="198" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaUnidadMedida" start="199" end="205" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaPaisOrigen" start="206" end="212" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarFechaHora" start="213" end="219" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="sincronizarParametricaTipoHabitacion" start="220" end="226" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+  </method>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioSiat">
+    <constant type="{unknown}" name="MOD_ELECTRONICA_ENLINEA" value="1"/>
+    <constant type="{unknown}" name="MOD_COMPUTARIZADA_ENLINEA" value="2"/>
+    <constant type="{unknown}" name="MOD_PORTAL_WEB" value="3"/>
+    <constant type="{unknown}" name="TIPO_EMISION_ONLINE" value="1"/>
+    <constant type="{unknown}" name="TIPO_EMISION_OFFLINE" value="2"/>
+    <constant type="{unknown}" name="TIPO_EMISION_MASIVA" value="3"/>
+    <constant type="{unknown}" name="TIPO_FACTURA_CREDITO_FISCAL" value="1"/>
+    <constant type="{unknown}" name="TIPO_FACTURA_SIN_CREDITO_FISCAL" value="2"/>
+    <constant type="{unknown}" name="TIPO_FACTURA_AJUSTE" value="3"/>
+    <constant type="{unknown}" name="AMBIENTE_PRODUCCION" value="1"/>
+    <constant type="{unknown}" name="AMBIENTE_PRUEBAS" value="2"/>
+    <member name="wsdl" visibility="protected" static="false" line="23"/>
+    <member name="cuis" visibility="public" static="false" line="28">
+      <docblock>
+        <description compact="Código Único de Inicio de Sistemas"/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="cufd" visibility="public" static="false" line="33">
+      <docblock>
+        <description compact="Código Único de Facturación Diario"/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="codigoControl" visibility="public" static="false" line="34"/>
+    <member name="token" visibility="protected" static="false" line="39">
+      <docblock>
+        <description compact="Token delegado"/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="debug" default="false" type="boolean" visibility="public" static="false" line="41"/>
+    <member name="modalidad" default="NULL" visibility="public" static="false" line="42"/>
+    <member name="ambiente" default="" type="{unknown}" constant="self::AMBIENTE_PRUEBAS" visibility="public" static="false" line="43"/>
+    <member name="codigoSistema" default="NULL" visibility="public" static="false" line="44"/>
+    <member name="nit" default="NULL" visibility="public" static="false" line="45"/>
+    <member name="razonSocial" default="NULL" visibility="public" static="false" line="46"/>
+    <constructor name="__construct" start="48" end="55" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="cuis" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="cufd" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="token" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="endpoint" byreference="false" type="{unknown}" default="NULL"/>
+    </constructor>
+    <method name="setConfig" start="56" end="64" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="data" byreference="false" type="array"/>
+    </method>
+    <method name="setToken" start="70" end="73" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Assign tokenDelegado"/>
+        <param type="string" variable="$token"/>
+      </docblock>
+      <parameter name="token" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="validate" start="74" end="84" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="autenticar" start="85" end="88" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="callAction" start="89" end="128" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="action" byreference="false" type="{unknown}"/>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="soapHeaders" byreference="false" type="array" default=""/>
+      <parameter name="httpHeaders" byreference="false" type="array" default=""/>
+    </method>
+    <method name="debug" start="129" end="135" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="str" byreference="false" type="{unknown}"/>
+      <parameter name="isXml" byreference="false" type="boolean" default="true"/>
+    </method>
+  </parent>
+</class>

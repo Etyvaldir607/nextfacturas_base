@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Messages" file="SolicitudServicioAnulacionFactura.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Messages/SolicitudServicioAnulacionFactura.php" size="193" time="2022-04-21T18:57:21+00:00" unixtime="1650567441" sha1="234f348bdf8388df7da90e2a1851f2c6ea2ae3ab" relative="Messages/SolicitudServicioAnulacionFactura.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2">
+    <token name="T_NAMESPACE">namespace</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SinticBolivia</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">SBFramework</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Modules</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Invoices</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Classes</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Siat</token>
+    <token name="T_NS_SEPARATOR">\</token>
+    <token name="T_STRING">Messages</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="3"/>
+  <line no="4">
+    <token name="T_CLASS">class</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SolicitudServicioAnulacionFactura</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_EXTENDS">extends</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">SolicitudRecepcion</token>
+  </line>
+  <line no="5">
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
+  </line>
+  <line no="6">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_VARIABLE">$codigoMotivo</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="7">
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE">	</token>
+    <token name="T_VARIABLE">$cuf</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="8">
+    <token name="T_WHITESPACE">	</token>
+  </line>
+  <line no="9">
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="10"/>
+</source>

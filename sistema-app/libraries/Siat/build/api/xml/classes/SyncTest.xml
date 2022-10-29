@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SyncTest" namespace="" name="SyncTest" abstract="false" final="false" start="13" end="57">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/test" file="sincronizacion.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/test/sincronizacion.php" size="2336" time="2021-12-10T15:53:02+00:00" unixtime="1639151582" sha1="65c465ebf35a1bf074b2f615785993514f4cc0e6" relative="test/sincronizacion.php"/>
+  <method name="buildConfig" start="19" end="33" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfig" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfig"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="testSync" start="34" end="56" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="action" byreference="false" type="{unknown}"/>
+  </method>
+</class>

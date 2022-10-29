@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatObject" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatObject" abstract="false" final="false" start="4" end="16">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="SiatObject.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/SiatObject.php" size="318" time="2021-12-08T20:21:58+00:00" unixtime="1638994918" sha1="a42bdadd7d8ca815b40a6c3f5b07588b8a6fe3ce" relative="SiatObject.php"/>
+  <method name="bind" start="6" end="15" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <extenders>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfigCuis" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfigCuis"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfigCode" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfigCode"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfig" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfig"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatConfigCufd" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatConfigCufd"/>
+  </extenders>
+</class>

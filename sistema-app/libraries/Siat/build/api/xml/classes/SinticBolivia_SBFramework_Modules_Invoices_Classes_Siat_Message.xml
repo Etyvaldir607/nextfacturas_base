@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message" abstract="true" final="false" start="6" end="165">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="Message.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Message.php" size="3931" time="2022-05-16T21:21:45+00:00" unixtime="1652736105" sha1="ff488bef9a296b04e5ef089455967c995ef80bf1" relative="Message.php"/>
+  <member name="xmlAllFields" default="true" type="boolean" visibility="protected" static="false" line="8"/>
+  <member name="namespaces" default="" type="array" visibility="protected" static="false" line="9"/>
+  <member name="classAlias" default="NULL" visibility="protected" static="false" line="10"/>
+  <member name="skipProperties" default="" type="array" visibility="protected" static="false" line="11"/>
+  <member name="xmlAttributes" default="" type="array" visibility="protected" static="false" line="12"/>
+  <method name="validate" start="14" end="14" abstract="true" final="false" static="false" visibility="public"/>
+  <method name="addSkipProperty" start="16" end="19" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="prop" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getHeaders" start="25" end="28" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get HTTP headers for request"/>
+      <return type="array"/>
+    </docblock>
+  </method>
+  <method name="setXmlElementAttribute" start="29" end="38" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="el" byreference="false" type="object">
+      <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+    </parameter>
+  </method>
+  <method name="buildChildFromObject" start="39" end="55" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="parent" byreference="false" type="object">
+      <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+    </parameter>
+    <parameter name="obj" byreference="false" type="object"/>
+    <parameter name="tagName" byreference="false" type="string"/>
+  </method>
+  <method name="buildChildFromArray" start="56" end="62" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="parent" byreference="false" type="object">
+      <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+    </parameter>
+    <parameter name="childs" byreference="false" type="array"/>
+    <parameter name="tagName" byreference="false" type="string"/>
+  </method>
+  <method name="buildChild" start="63" end="74" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="parent" byreference="false" type="object">
+      <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+    </parameter>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+    <parameter name="tagName" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="buildChilds" start="75" end="89" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="element" byreference="false" type="object">
+      <type full="SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+    </parameter>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+    <parameter name="ns" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="toXml" start="95" end="114" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$rootTagName"/>
+      <return type="object">
+        <type full="\SimpleXMLElement" namespace="" name="SimpleXMLElement"/>
+      </return>
+    </docblock>
+    <parameter name="rootTagName" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="isRoot" byreference="false" type="boolean" default="false"/>
+    <parameter name="standalone" byreference="false" type="boolean" default="false"/>
+    <inline>
+      <comment value="$xml-&gt;addAttribute('encoding', 'utf-8');" line="102"/>
+      <comment value="$root = $xml-&gt;addChild();" line="103"/>
+      <comment value="if( !$this-&gt;xmlAllFields )" line="107"/>
+      <comment value="return $xml;" line="108"/>
+    </inline>
+  </method>
+  <method name="__buildArrayChilds" start="115" end="140" abstract="false" final="false" static="false" visibility="protected">
+    <parameter name="array" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="toArray" start="141" end="149" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="getPropertiesData" start="150" end="164" abstract="false" final="false" static="false" visibility="public"/>
+  <extenders>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudRecepcion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudRecepcion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioRecepcionFactura" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioRecepcionFactura"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioRecepcionMasiva" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioRecepcionMasiva"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioRecepcionPaquete" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioRecepcionPaquete"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudCUF" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudCUF"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioAnulacionFactura" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioAnulacionFactura"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioValidacionRecepcionMasiva" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioValidacionRecepcionMasiva"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudCUIS" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudCUIS"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioValidacionRecepcionPaquete" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages" name="SolicitudServicioValidacionRecepcionPaquete"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\EntidadFinanciera" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="EntidadFinanciera"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeaderEducativo" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeaderEducativo"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ServicioBasico" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ServicioBasico"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ServicioTuristicoHospedaje" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ServicioTuristicoHospedaje"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\Hotel" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="Hotel"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeaderExportacionServicios" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeaderExportacionServicios"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeaderServicioBasico" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeaderServicioBasico"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaHotel" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaHotel"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceDetailTuristico" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceDetailTuristico"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="SiatInvoice"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeaderTuristico" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeaderTuristico"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaComercialExportacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaComercialExportacion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaTasaCero" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaTasaCero"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeaderHospital" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeaderHospital"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SectorEducativo" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="SectorEducativo"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ComercialExportacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ComercialExportacion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\TasaCero" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="TasaCero"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaSectorEducativo" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaSectorEducativo"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ComercialExportacionServicio" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ComercialExportacionServicio"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeaderComercialExportacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeaderComercialExportacion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaCompraVenta" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaCompraVenta"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeader" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeader"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceDetailHospital" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceDetailHospital"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceDetailHotel" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceDetailHotel"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaHospitales" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaHospitales"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceHeaderEntidadFinanciera" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceHeaderEntidadFinanciera"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaEntidadFinanciera" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaEntidadFinanciera"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaServicioBasico" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaServicioBasico"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceDetailComercialExportacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceDetailComercialExportacion"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaServicioTuristicoHospedaje" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaServicioTuristicoHospedaje"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\InvoiceDetail" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="InvoiceDetail"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaComercialExportacionServicio" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="ElectronicaComercialExportacionServicio"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\CompraVenta" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="CompraVenta"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\Hospitales" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="Hospitales"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SoapMessage" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SoapMessage"/>
+  </extenders>
+</class>

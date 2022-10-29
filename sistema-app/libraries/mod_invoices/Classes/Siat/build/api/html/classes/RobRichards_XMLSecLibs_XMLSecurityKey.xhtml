@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - RobRichards\XMLSecLibs\XMLSecurityKey</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.xhtml">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#RobRichards_XMLSecLibs">RobRichards\XMLSecLibs</a>
+          </li>
+          <li class="separator">XMLSecurityKey</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Libs/xmlseclibs/src/XMLSecurityKey.php.xhtml#line47">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>RobRichards\XMLSecLibs\</small>XMLSecurityKey</h1>
+        <h4>xmlseclibs.php</h4>
+        <p>Copyright (c) 2007-2020, Robert Richards &lt;rrichards@cdatazone.org&gt;.<br/>All rights reserved.<br/><br/>Redistribution and use in source and binary forms, with or without<br/>modification, are permitted provided that the following conditions<br/>are met:<br/><br/>* Redistributions of source code must retain the above copyright<br/>notice, this list of conditions and the following disclaimer.<br/><br/>* Redistributions in binary form must reproduce the above copyright<br/>notice, this list of conditions and the following disclaimer in<br/>the documentation and/or other materials provided with the<br/>distribution.<br/><br/>* Neither the name of Robert Richards nor the names of his<br/>contributors may be used to endorse or promote products derived<br/>from this software without specific prior written permission.<br/><br/>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS<br/>"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT<br/>LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS<br/>FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE<br/>COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,<br/>INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,<br/>BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;<br/>LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER<br/>CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT<br/>LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN<br/>ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE<br/>POSSIBILITY OF SUCH DAMAGE.</p>
+        <ul>
+          <li>Author: Robert Richards &lt;rrichards@cdatazone.org&gt;</li>
+          <li>Copyright: 2007-2020 Robert Richards &lt;rrichards@cdatazone.org&gt;</li>
+          <li>License: http://www.opensource.org/licenses/bsd-license.php  BSD License</li>
+        </ul>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class XMLSecurityKey
+            {<br/><ul class="none"><li>// constants</li><li>const TRIPLEDES_CBC = 'http://www.w3.org/2001/04/xmlenc#tripledes-cbc';</li><li>const AES128_CBC = 'http://www.w3.org/2001/04/xmlenc#aes128-cbc';</li><li>const AES192_CBC = 'http://www.w3.org/2001/04/xmlenc#aes192-cbc';</li><li>const AES256_CBC = 'http://www.w3.org/2001/04/xmlenc#aes256-cbc';</li><li>const AES128_GCM = 'http://www.w3.org/2009/xmlenc11#aes128-gcm';</li><li>const AES192_GCM = 'http://www.w3.org/2009/xmlenc11#aes192-gcm';</li><li>const AES256_GCM = 'http://www.w3.org/2009/xmlenc11#aes256-gcm';</li><li>const RSA_1_5 = 'http://www.w3.org/2001/04/xmlenc#rsa-1_5';</li><li>const RSA_OAEP_MGF1P = 'http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p';</li><li>const RSA_OAEP = 'http://www.w3.org/2009/xmlenc11#rsa-oaep';</li><li>const DSA_SHA1 = 'http://www.w3.org/2000/09/xmldsig#dsa-sha1';</li><li>const RSA_SHA1 = 'http://www.w3.org/2000/09/xmldsig#rsa-sha1';</li><li>const RSA_SHA256 = 'http://www.w3.org/2001/04/xmldsig-more#rsa-sha256';</li><li>const RSA_SHA384 = 'http://www.w3.org/2001/04/xmldsig-more#rsa-sha384';</li><li>const RSA_SHA512 = 'http://www.w3.org/2001/04/xmldsig-more#rsa-sha512';</li><li>const HMAC_SHA1 = 'http://www.w3.org/2000/09/xmldsig#hmac-sha1';</li><li>const AUTHTAG_LENGTH = 16;</li></ul><ul class="none"><li>// members</li><li>private array <a href="#members">$cryptParams</a> =
+                        ;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\int|string">int|string</span> <a href="#members">$type</a> =
+                        0;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\mixed|null">mixed|null</span> <a href="#members">$key</a> =
+                        NULL;
+                    </li><li>public string <a href="#members">$passphrase</a> =
+                        "";
+                    </li><li>public <span title="RobRichards\XMLSecLibs\string|null">string|null</span> <a href="#members">$iv</a> =
+                        NULL;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\string|null">string|null</span> <a href="#members">$name</a> =
+                        NULL;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\mixed|null">mixed|null</span> <a href="#members">$keyChain</a> =
+                        NULL;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\bool">bool</span> <a href="#members">$isEncrypted</a> =
+                        false;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\XMLSecEnc|null">XMLSecEnc|null</span> <a href="#members">$encryptedCtx</a> =
+                        NULL;
+                    </li><li>public <span title="RobRichards\XMLSecLibs\mixed|null">mixed|null</span> <a href="#members">$guid</a> =
+                        NULL;
+                    </li><li>private <span title="RobRichards\XMLSecLibs\string|null">string|null</span> <a href="#members">$x509Certificate</a> =
+                        NULL;
+                    </li><li>private <span title="RobRichards\XMLSecLibs\string|null">string|null</span> <a href="#members">$X509Thumbprint</a> =
+                        NULL;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/__construct.xhtml">__construct</a>()
+                    </li><li>public int|null <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getSymmetricKeySize.xhtml">getSymmetricKeySize</a>()
+                    </li><li>public string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/generateSessionKey.xhtml">generateSessionKey</a>()
+                    </li><li>public static null|string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getRawThumbprint.xhtml">getRawThumbprint</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/loadKey.xhtml">loadKey</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/padISO10126.xhtml">padISO10126</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/unpadISO10126.xhtml">unpadISO10126</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/encryptSymmetric.xhtml">encryptSymmetric</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/decryptSymmetric.xhtml">decryptSymmetric</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/encryptPublic.xhtml">encryptPublic</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/decryptPublic.xhtml">decryptPublic</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/encryptPrivate.xhtml">encryptPrivate</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/decryptPrivate.xhtml">decryptPrivate</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/signOpenSSL.xhtml">signOpenSSL</a>()
+                    </li><li>private int <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/verifyOpenSSL.xhtml">verifyOpenSSL</a>()
+                    </li><li>public mixed|string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/encryptData.xhtml">encryptData</a>()
+                    </li><li>public mixed|string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/decryptData.xhtml">decryptData</a>()
+                    </li><li>public mixed|string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/signData.xhtml">signData</a>()
+                    </li><li>public bool|int <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/verifySignature.xhtml">verifySignature</a>()
+                    </li><li>public mixed <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getAlgorith.xhtml">getAlgorith</a>()
+                    </li><li>public mixed <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getAlgorithm.xhtml">getAlgorithm</a>()
+                    </li><li>public static null|string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/makeAsnSegment.xhtml">makeAsnSegment</a>()
+                    </li><li>public static string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/convertRSA.xhtml">convertRSA</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/serializeKey.xhtml">serializeKey</a>()
+                    </li><li>public string <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getX509Certificate.xhtml">getX509Certificate</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getX509Thumbprint.xhtml">getX509Thumbprint</a>()
+                    </li><li>public static XMLSecurityKey <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/fromEncryptedKeyElement.xhtml">fromEncryptedKeyElement</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="TRIPLEDES_CBC">TRIPLEDES_CBC</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#tripledes-cbc'</td>
+            </tr>
+            <tr>
+              <td id="AES128_CBC">AES128_CBC</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#aes128-cbc'</td>
+            </tr>
+            <tr>
+              <td id="AES192_CBC">AES192_CBC</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#aes192-cbc'</td>
+            </tr>
+            <tr>
+              <td id="AES256_CBC">AES256_CBC</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#aes256-cbc'</td>
+            </tr>
+            <tr>
+              <td id="AES128_GCM">AES128_GCM</td>
+              <td>'http://www.w3.org/2009/xmlenc11#aes128-gcm'</td>
+            </tr>
+            <tr>
+              <td id="AES192_GCM">AES192_GCM</td>
+              <td>'http://www.w3.org/2009/xmlenc11#aes192-gcm'</td>
+            </tr>
+            <tr>
+              <td id="AES256_GCM">AES256_GCM</td>
+              <td>'http://www.w3.org/2009/xmlenc11#aes256-gcm'</td>
+            </tr>
+            <tr>
+              <td id="RSA_1_5">RSA_1_5</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#rsa-1_5'</td>
+            </tr>
+            <tr>
+              <td id="RSA_OAEP_MGF1P">RSA_OAEP_MGF1P</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p'</td>
+            </tr>
+            <tr>
+              <td id="RSA_OAEP">RSA_OAEP</td>
+              <td>'http://www.w3.org/2009/xmlenc11#rsa-oaep'</td>
+            </tr>
+            <tr>
+              <td id="DSA_SHA1">DSA_SHA1</td>
+              <td>'http://www.w3.org/2000/09/xmldsig#dsa-sha1'</td>
+            </tr>
+            <tr>
+              <td id="RSA_SHA1">RSA_SHA1</td>
+              <td>'http://www.w3.org/2000/09/xmldsig#rsa-sha1'</td>
+            </tr>
+            <tr>
+              <td id="RSA_SHA256">RSA_SHA256</td>
+              <td>'http://www.w3.org/2001/04/xmldsig-more#rsa-sha256'</td>
+            </tr>
+            <tr>
+              <td id="RSA_SHA384">RSA_SHA384</td>
+              <td>'http://www.w3.org/2001/04/xmldsig-more#rsa-sha384'</td>
+            </tr>
+            <tr>
+              <td id="RSA_SHA512">RSA_SHA512</td>
+              <td>'http://www.w3.org/2001/04/xmldsig-more#rsa-sha512'</td>
+            </tr>
+            <tr>
+              <td id="HMAC_SHA1">HMAC_SHA1</td>
+              <td>'http://www.w3.org/2000/09/xmldsig#hmac-sha1'</td>
+            </tr>
+            <tr>
+              <td id="AUTHTAG_LENGTH">AUTHTAG_LENGTH</td>
+              <td>16</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="X509Thumbprint"><strong>$X509Thumbprint</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\string|null" href="../classes/RobRichards_XMLSecLibs_string|null.xhtml">RobRichards\XMLSecLibs\string|null</a><br/><span class="indent">This variable contains the certificate thumbprint if we have loaded an X509-certificate.</span></li>
+            <li id="cryptParams"><strong>$cryptParams</strong>
+                —
+                array</li>
+            <li id="x509Certificate"><strong>$x509Certificate</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\string|null" href="../classes/RobRichards_XMLSecLibs_string|null.xhtml">RobRichards\XMLSecLibs\string|null</a><br/><span class="indent">This variable contains the certificate as a string if this key represents an X509-certificate.</span></li>
+          </ul>
+          <h4>public</h4>
+          <ul class="members">
+            <li id="encryptedCtx"><strong>$encryptedCtx</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\XMLSecEnc|null" href="../classes/RobRichards_XMLSecLibs_XMLSecEnc|null.xhtml">RobRichards\XMLSecLibs\XMLSecEnc|null</a></li>
+            <li id="guid"><strong>$guid</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\mixed|null" href="../classes/RobRichards_XMLSecLibs_mixed|null.xhtml">RobRichards\XMLSecLibs\mixed|null</a></li>
+            <li id="isEncrypted"><strong>$isEncrypted</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\bool" href="../classes/RobRichards_XMLSecLibs_bool.xhtml">RobRichards\XMLSecLibs\bool</a></li>
+            <li id="iv"><strong>$iv</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\string|null" href="../classes/RobRichards_XMLSecLibs_string|null.xhtml">RobRichards\XMLSecLibs\string|null</a></li>
+            <li id="key"><strong>$key</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\mixed|null" href="../classes/RobRichards_XMLSecLibs_mixed|null.xhtml">RobRichards\XMLSecLibs\mixed|null</a></li>
+            <li id="keyChain"><strong>$keyChain</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\mixed|null" href="../classes/RobRichards_XMLSecLibs_mixed|null.xhtml">RobRichards\XMLSecLibs\mixed|null</a></li>
+            <li id="name"><strong>$name</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\string|null" href="../classes/RobRichards_XMLSecLibs_string|null.xhtml">RobRichards\XMLSecLibs\string|null</a></li>
+            <li id="passphrase"><strong>$passphrase</strong>
+                —
+                string</li>
+            <li id="type"><strong>$type</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\int|string" href="../classes/RobRichards_XMLSecLibs_int|string.xhtml">RobRichards\XMLSecLibs\int|string</a></li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>private</h4>
+          <ul>
+            <li id="decryptPrivate"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/decryptPrivate.xhtml">decryptPrivate()</a>
+                — Decrypts the given private data (string) using the openssl-extension</li>
+            <li id="decryptPublic"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/decryptPublic.xhtml">decryptPublic()</a>
+                — Decrypts the given public data (string) using the openssl-extension</li>
+            <li id="decryptSymmetric"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/decryptSymmetric.xhtml">decryptSymmetric()</a>
+                — Decrypts the given data (string) using the openssl-extension</li>
+            <li id="encryptPrivate"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/encryptPrivate.xhtml">encryptPrivate()</a>
+                — Encrypts the given private data (string) using the openssl-extension</li>
+            <li id="encryptPublic"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/encryptPublic.xhtml">encryptPublic()</a>
+                — Encrypts the given public data (string) using the openssl-extension</li>
+            <li id="encryptSymmetric"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/encryptSymmetric.xhtml">encryptSymmetric()</a>
+                — Encrypts the given data (string) using the openssl-extension</li>
+            <li id="padISO10126"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/padISO10126.xhtml">padISO10126()</a>
+                — ISO 10126 Padding</li>
+            <li id="signOpenSSL"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/signOpenSSL.xhtml">signOpenSSL()</a>
+                — Signs the given data (string) using the openssl-extension</li>
+            <li id="unpadISO10126"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/unpadISO10126.xhtml">unpadISO10126()</a>
+                — Remove ISO 10126 Padding</li>
+            <li id="verifyOpenSSL"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/verifyOpenSSL.xhtml">verifyOpenSSL()</a>
+                — Verifies the given data (string) belonging to the given signature using the openssl-extension</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="__construct">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/__construct.xhtml">__construct()</a>
+            </li>
+            <li id="convertRSA"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/convertRSA.xhtml">convertRSA()</a>
+                — Hint: Modulus and Exponent must already be base64 decoded</li>
+            <li id="decryptData"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/decryptData.xhtml">decryptData()</a>
+                — Decrypts the given data (string) using the regarding php-extension, depending on the library assigned to algorithm in the contructor.</li>
+            <li id="encryptData"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/encryptData.xhtml">encryptData()</a>
+                — Encrypts the given data (string) using the regarding php-extension, depending on the library assigned to algorithm in the contructor.</li>
+            <li id="fromEncryptedKeyElement"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/fromEncryptedKeyElement.xhtml">fromEncryptedKeyElement()</a>
+                — Create key from an EncryptedKey-element.</li>
+            <li id="generateSessionKey"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/generateSessionKey.xhtml">generateSessionKey()</a>
+                — Generates a session key using the openssl-extension.</li>
+            <li id="getAlgorith">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getAlgorith.xhtml">getAlgorith()</a>
+            </li>
+            <li id="getAlgorithm">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getAlgorithm.xhtml">getAlgorithm()</a>
+            </li>
+            <li id="getRawThumbprint"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getRawThumbprint.xhtml">getRawThumbprint()</a>
+                — Get the raw thumbprint of a certificate</li>
+            <li id="getSymmetricKeySize"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getSymmetricKeySize.xhtml">getSymmetricKeySize()</a>
+                — Retrieve the key size for the symmetric encryption algorithm..</li>
+            <li id="getX509Certificate"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getX509Certificate.xhtml">getX509Certificate()</a>
+                — Retrieve the X509 certificate this key represents.</li>
+            <li id="getX509Thumbprint"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/getX509Thumbprint.xhtml">getX509Thumbprint()</a>
+                — Get the thumbprint of this X509 certificate.</li>
+            <li id="loadKey"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/loadKey.xhtml">loadKey()</a>
+                — Loads the given key, or - with isFile set true - the key from the keyfile.</li>
+            <li id="makeAsnSegment">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/makeAsnSegment.xhtml">makeAsnSegment()</a>
+            </li>
+            <li id="serializeKey">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/serializeKey.xhtml">serializeKey()</a>
+            </li>
+            <li id="signData"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/signData.xhtml">signData()</a>
+                — Signs the data (string) using the extension assigned to the type in the constructor.</li>
+            <li id="verifySignature"><a title="RobRichards\XMLSecLibs\XMLSecurityKey" href="../classes/RobRichards_XMLSecLibs_XMLSecurityKey/verifySignature.xhtml">verifySignature()</a>
+                — Verifies the data (string) against the given signature using the extension assigned to the type in the constructor.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2022 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

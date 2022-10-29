@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="GeneralTest" namespace="" name="GeneralTest" abstract="false" final="false" start="22" end="267">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/test" file="general.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/test/general.php" size="13399" time="2022-04-06T00:41:25+00:00" unixtime="1649205685" sha1="79a78db771880b0f332b77c9248fbeb0c91ad72a" relative="test/general.php"/>
+  <member name="endpoint" default="'https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionComputarizada'" type="string" visibility="protected" static="false" line="24"/>
+  <member name="wsdl" default="'https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionComputarizada?wsdl'" type="string" visibility="protected" static="false" line="25"/>
+  <method name="buildConfig" start="27" end="81" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="testSoap" start="82" end="90" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="buildInvoice" start="91" end="132" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="codigoPuntoVenta" byreference="false" type="integer" default="0"/>
+    <parameter name="codigoSucursal" byreference="false" type="integer" default="0"/>
+    <parameter name="modalidad" byreference="false" type="integer" default="0"/>
+    <inline>
+      <comment value="CI - CEDULA DE IDENTIDAD" line="119"/>
+      <comment value="BOLIVIANO" line="127"/>
+    </inline>
+  </method>
+  <method name="testRecepcionFactura" start="133" end="166" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="testRecepcionPaqueteFactura" start="167" end="228" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="testRecepcionFacturaElectronica" start="229" end="266" abstract="false" final="false" static="false" visibility="public"/>
+</class>

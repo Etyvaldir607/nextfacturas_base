@@ -1,0 +1,866 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mono Business Invoices\n"
+"POT-Creation-Date: 2017-01-11 15:19-0400\n"
+"PO-Revision-Date: 2017-01-11 15:20-0400\n"
+"Last-Translator: J. Marcelo Aviles Paco <maviles@sinticbolivia.net>\n"
+"Language-Team: Sintic Bolivia <info@sinticbolivia.net>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: SBText::_;_;__;_e\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../admin.controller.php:9
+msgid "You dont have enough permissions"
+msgstr "No tiene suficientes permisos"
+
+#: ../../../admin.controller.php:65
+msgid "You dont have invoice dosages, please add atleast one dosage"
+msgstr "No tiene dosificaciones de factura, porfavor adicione por lo menos una"
+
+#: ../../../admin.controller.php:66 ../../../admin.controller.php:106
+#: ../../../admin.controller.php:112 ../../../admin.controller.php:334
+#: ../../../admin.controller.php:340 ../../../admin.controller.php:347
+#: ../../../admin.controller.php:352 ../../../admin.controller.php:377
+#: ../../../admin.controller.php:394 ../../../admin.controller.php:490
+#: ../../../admin.controller.php:635 ../../../init.php:50
+#: ../../../views/admin/new.php:173 ../../../views/admin/reports.php:7
+#: ../../../views/admin/view.php:28
+#, fuzzy
+msgid "index.php?mod=invoices"
+msgstr "index.php?mod=invoices"
+
+#: ../../../admin.controller.php:77 ../../../admin.controller.php:118
+msgid "IVA (13%)"
+msgstr ""
+
+#: ../../../admin.controller.php:81 ../../../admin.controller.php:122
+#, fuzzy
+msgid "IT (3%)"
+msgstr "Precio 3:"
+
+#: ../../../admin.controller.php:88
+msgid "New Invoice"
+msgstr "Nueva Factura"
+
+#: ../../../admin.controller.php:100
+msgid "You dont have enough permissions to edit invoices"
+msgstr "No tiene suficientes permisos para editar facturas"
+
+#: ../../../admin.controller.php:105 ../../../admin.controller.php:339
+msgid "The invoice identifier is invalid"
+msgstr "El identificar de la factura es invalido"
+
+#: ../../../admin.controller.php:111 ../../../admin.controller.php:346
+#: ../../../admin.controller.php:370
+msgid "The invoice does not exists"
+msgstr "La factura no existe"
+
+#: ../../../admin.controller.php:114 ../../../on_enabled.php:8
+msgid "Edit Invoice"
+msgstr "Editar Factura"
+
+#: ../../../admin.controller.php:140 ../../../admin.controller.php:328
+msgid "You need to start a session"
+msgstr "Necesita iniciar sesion"
+
+#: ../../../admin.controller.php:144
+msgid "You dont have enough permissions for the operation."
+msgstr "No tiene suficientes permisos para realizar esta operaci&oacute;n"
+
+#: ../../../admin.controller.php:160
+msgid "You need to select an invoice dosage"
+msgstr "Necesita seleccionar una dosificacion de factura"
+
+#: ../../../admin.controller.php:165
+msgid "The invoice dosage does not exists"
+msgstr "La dosificacion de factura no existe"
+
+#: ../../../admin.controller.php:167
+msgid "The invoice dosage has expired, you need to enter a new one."
+msgstr ""
+"La dosificacion de la factura ha expirado, necesita ingresar una nueva."
+
+#: ../../../admin.controller.php:172
+msgid "You must enter a NIT/RUC/NIF"
+msgstr "Debe ingresar un NIT/RUC/NIF"
+
+#: ../../../admin.controller.php:176
+msgid "You must enter a customer name"
+msgstr "Necesita ingresar un nombre para el cliente"
+
+#: ../../../admin.controller.php:318
+msgid "The invoice has been updated"
+msgstr "La factura ha sido actualizada"
+
+#: ../../../admin.controller.php:318
+msgid "The invoice has been created"
+msgstr "La factura se creo correctamente"
+
+#: ../../../admin.controller.php:320 ../../../init.php:104
+#: ../../../mono_business.php:155 ../../../views/admin/new.php:7
+#: ../../../views/admin/view.php:34
+#, fuzzy
+msgid "index.php?mod=invoices&view=view&print=1&id="
+msgstr "index.php?mod=quotes"
+
+#: ../../../admin.controller.php:329
+msgid "login.php"
+msgstr ""
+
+#: ../../../admin.controller.php:333
+msgid "You dont have enough permission to complete this operation"
+msgstr "No tiene suficientes permisos para completar esta operacion"
+
+#: ../../../admin.controller.php:351
+msgid "The invoice is now void"
+msgstr "La factura fue anulada"
+
+#: ../../../admin.controller.php:359
+msgid "You dont have enough permissions to delete invoices"
+msgstr "No tiene suficientes permisos para borrar facturas"
+
+#: ../../../admin.controller.php:364
+msgid "The invoice id is invalid."
+msgstr "El identificador de factura es invalido"
+
+#: ../../../admin.controller.php:376
+msgid "The invoice has been deleted"
+msgstr "La factura ha sido borrada"
+
+#: ../../../admin.controller.php:384 ../../../admin.controller.php:398
+msgid "You dont have enough permissions to print invoices."
+msgstr "No tiene suficientes permisos para imprimir facturas"
+
+#: ../../../admin.controller.php:393
+msgid "The invoice does not exists."
+msgstr "La factura no existe"
+
+#: ../../../admin.controller.php:443 ../../../admin.controller.php:459
+#: ../../../tpl/ceass.php:112 ../../../tpl/default.php:69
+#: ../../../tpl/pym.php:84
+msgid "Invoice"
+msgstr "Factura"
+
+#: ../../../admin.controller.php:465
+#, php-format
+msgid "invoice-%d-%d.pdf"
+msgstr "factura-%d-%d.pdf"
+
+#: ../../../admin.controller.php:489
+msgid "The invoice class file does not exists"
+msgstr "La clases de factura no existe"
+
+#: ../../../admin.controller.php:496
+msgid "Invoice test for"
+msgstr "Prueba de Factura para"
+
+#: ../../../admin.controller.php:498
+msgid "index.php?mod=invoices&task=test_invoice&country="
+msgstr ""
+
+#: ../../../admin.controller.php:505
+msgid "Invalid country code"
+msgstr "Codigo de pais invalido"
+
+#: ../../../admin.controller.php:576
+msgid "New dosage added"
+msgstr "Nueva dosificaci&oacute;n adicionada"
+
+#: ../../../admin.controller.php:650 ../../../init.php:84
+#: ../../../mono_business.php:27
+msgid "Your country settings are incorrect."
+msgstr "LA configuraci&oacute;n de pais es incorrecta."
+
+#: ../../../admin.controller.php:672
+msgid "Invoice settings saved"
+msgstr "Configuracion de factura guardada"
+
+#: ../../../admin.controller.php:673 ../../../init.php:55
+#, fuzzy
+msgid "index.php?mod=invoices&view=settings"
+msgstr "index.php?mod=quotes"
+
+#: ../../../admin.controller.php:679
+msgid "You dont have enough permission to create invoices"
+msgstr "No tiene suficientes permisos para crear facturas"
+
+#: ../../../admin.controller.php:685
+msgid "The order identifier does not exists"
+msgstr "El identificador del pedido no existe"
+
+#: ../../../admin.controller.php:686
+#, fuzzy
+msgid "index.php?mod=mb&view=orders.default"
+msgstr "index.php?mod=quotes"
+
+#: ../../../admin.controller.php:696 ../../../admin.controller.php:700
+#, fuzzy
+msgid "index.php?mod=mb&view=orders.edit&id="
+msgstr "index.php?mod=quotes"
+
+#: ../../../admin.controller.php:699
+msgid "The invoice has been created and issued."
+msgstr "La factura se creo y emitio correctamente."
+
+#: ../../../countries/class.BO.php:210
+msgid "Facturaci&oacute;n Bolivia"
+msgstr "Facturaci&oacute;n Bolivia"
+
+#: ../../../countries/class.BO.php:212 ../../../tpl/ceass.php:135
+#: ../../../tpl/default.php:92 ../../../tpl/pym.php:108
+msgid "NIT:"
+msgstr "NIT:"
+
+#: ../../../countries/class.BO.php:216
+msgid "IVA(%):"
+msgstr ""
+
+#: ../../../countries/class.BO.php:220
+msgid "Dosificaci&oacute;n"
+msgstr "Dosificaci&oacute;n"
+
+#: ../../../countries/class.BO.php:225
+msgid "No. Autorizaci&oacute;n"
+msgstr "No. Autorizaci&oacute;n"
+
+#: ../../../functions.php:282
+msgid "Bolivianos"
+msgstr ""
+
+#: ../../../functions.php:283
+msgid "United States Dollar (USD)"
+msgstr "Dolar Estadounidense"
+
+#: ../../../functions.php:405
+msgid "Invalid order identifier"
+msgstr "Identificador de pedido no valido"
+
+#: ../../../functions.php:412
+msgid "The order has no customer"
+msgstr "El pedido no tiene cliente"
+
+#: ../../../functions.php:415
+msgid "The customer has no NIT/RUC/NIF"
+msgstr "El client no tiene NIT/RUC/NIF"
+
+#: ../../../functions.php:421
+msgid ""
+"The store has no default dosage, you need to assign atleast one and mark it "
+"as default"
+msgstr ""
+"La tienda no tiene una dosificacion ,  necesita asignar al menos una y "
+"marcarla como dosificacion por defecto."
+
+#: ../../../init.php:49
+msgid "Invoices"
+msgstr "Facturas"
+
+#: ../../../init.php:54
+msgid "Invoices Settings"
+msgstr "Configuraci&oacute;n de Facturas"
+
+#: ../../../init.php:64
+msgid "You need to enter a customer name"
+msgstr "Necesita ingresar un nombre para el cliente"
+
+#: ../../../init.php:65
+msgid "You need to enter a customer nit/ruc/nif"
+msgstr "Necesita ingresar un nit/ruc/nif para el cliente"
+
+#: ../../../init.php:66
+msgid "The nit/ruc/nif is invalid"
+msgstr "El nit/ruc/nif is invalido"
+
+#: ../../../init.php:68
+msgid "index.php?mod=invoices&task=search_product"
+msgstr ""
+
+#: ../../../init.php:76 ../../../mono_business.php:18
+#: ../../../mono_business.php:184
+msgid "Billing"
+msgstr "Facturaci&oacute;n"
+
+#: ../../../init.php:105 ../../../mono_business.php:146
+#: ../../../on_enabled.php:11
+msgid "Print Invoice"
+msgstr "Imprimir Factura"
+
+#: ../../../init.php:116
+#, fuzzy
+msgid "index.php?mod=mb&view=reports.default&report=sales&tab=sales_book"
+msgstr "index.php?mod=quotes"
+
+#: ../../../init.php:117
+msgid "Libro de Ventas"
+msgstr ""
+
+#: ../../../init.php:131 ../../../init.php:192
+msgid "You dont have enough permissions to build sales book report"
+msgstr ""
+"No tiene suficientes permisos para construir el reporte de libro de ventas"
+
+#: ../../../init.php:137
+msgid "Libro de Ventas - IVA"
+msgstr ""
+
+#: ../../../init.php:147 ../../../views/admin/settings.php:80
+#: ../../../views/admin/settings.php:167
+msgid "Store"
+msgstr "Tienda"
+
+#: ../../../init.php:149
+msgid "-- todos --"
+msgstr ""
+
+#: ../../../init.php:160 ../../../init.php:161
+msgid "Fecha Desde"
+msgstr ""
+
+#: ../../../init.php:166 ../../../init.php:167
+msgid "Fecha Hasta"
+msgstr ""
+
+#: ../../../init.php:173
+msgid "Build"
+msgstr "Construir"
+
+#: ../../../init.php:329 ../../../init.php:331
+#: ../../../views/admin/default.php:115
+#, fuzzy
+msgid "index.php?"
+msgstr "index.php?mod=quotes"
+
+#: ../../../init.php:330 ../../../views/admin/reports.php:51
+msgid "Imprimir"
+msgstr ""
+
+#: ../../../init.php:332
+#, fuzzy
+msgid "Exportar a Excel"
+msgstr "Archivo Excel"
+
+#: ../../../mono_business.php:150
+msgid "No invoice was not generated, review dosages"
+msgstr "The factura no fue generada, revise las dosificaciones."
+
+#: ../../../mono_business.php:187
+msgid "The order has no invoice issued."
+msgstr "El pedido no tiene factura emitida."
+
+#: ../../../mono_business.php:188
+#, fuzzy
+msgid "index.php?mod=invoices&task=order2invoice&id="
+msgstr "index.php?mod=quotes"
+
+#: ../../../mono_business.php:189
+msgid "Issue Invoice"
+msgstr "Emitir Factura"
+
+#: ../../../mono_business.php:198
+msgid "Invoice Number:"
+msgstr "Factura No:"
+
+#: ../../../mono_business.php:204 ../../../views/admin/default.php:87
+#, fuzzy
+msgid "index.php?mod=invoices&view=view&id="
+msgstr "index.php?mod=quotes"
+
+#: ../../../mono_business.php:207 ../../../on_enabled.php:9
+msgid "View Invoice"
+msgstr "Ver Factura"
+
+#: ../../../mono_business.php:213
+msgid "Billing Name:"
+msgstr "Nombre para Facturaci&oacute;n"
+
+#: ../../../mono_business.php:219
+msgid "Control Code:"
+msgstr "C&oacute;digo de Control:"
+
+#: ../../../on_enabled.php:6
+msgid "Manage Invoices"
+msgstr "Administrar Facturas"
+
+#: ../../../on_enabled.php:7
+msgid "Create Invoice"
+msgstr "Crear Factura"
+
+#: ../../../on_enabled.php:10 ../../../views/admin/default.php:106
+msgid "Delete Invoice"
+msgstr "Borrar Factura"
+
+#: ../../../on_enabled.php:12
+msgid "View All Invoices"
+msgstr "Ver Todas las Facturas"
+
+#: ../../../on_enabled.php:13
+msgid "Void Invoice"
+msgstr "Anular Factura"
+
+#: ../../../on_enabled.php:14
+msgid "Build Invoice Reports"
+msgstr "Construir Reporte de Facturas"
+
+#: ../../../on_enabled.php:15
+msgid "Manage Invoices Settings"
+msgstr "Administrar Configuraci&oacute;n de Facturas"
+
+#: ../../../on_enabled.php:16
+msgid "Build Sales Book Report"
+msgstr "Construir Reporte de Libro de Ventas"
+
+#: ../../../tpl/ceass.php:76 ../../../tpl/default.php:38
+#: ../../../tpl/pym.php:50
+msgid "Main House"
+msgstr "Casa Matriz"
+
+#: ../../../tpl/ceass.php:78 ../../../tpl/default.php:40
+#: ../../../tpl/pym.php:52
+msgid "Phone:"
+msgstr "Tel&eacute;fono:"
+
+#: ../../../tpl/ceass.php:93 ../../../tpl/default.php:52
+#: ../../../tpl/pym.php:64
+msgid "Invoice No.:"
+msgstr "Factura No:"
+
+#: ../../../tpl/ceass.php:97 ../../../tpl/default.php:56
+#: ../../../tpl/pym.php:68
+msgid "Authorization No.:"
+msgstr "Autorizaci&oacute;n No."
+
+#: ../../../tpl/ceass.php:119 ../../../tpl/default.php:76
+#: ../../../tpl/pym.php:92
+msgid "Date:"
+msgstr "Fecha:"
+
+#: ../../../tpl/ceass.php:148 ../../../tpl/default.php:105
+#: ../../../tpl/pym.php:120
+msgid "Concept"
+msgstr "Concepto"
+
+#: ../../../tpl/ceass.php:151 ../../../tpl/default.php:107
+#: ../../../tpl/pym.php:122 ../../../views/admin/new.php:118
+#: ../../../views/admin/reports.php:83
+#, fuzzy
+msgid "Total"
+msgstr "Total"
+
+#: ../../../tpl/ceass.php:168 ../../../tpl/default.php:121
+#: ../../../tpl/pym.php:151 ../../../views/admin/new.php:192
+msgid "Total:"
+msgstr "Total:"
+
+#: ../../../tpl/ceass.php:179 ../../../tpl/default.php:129
+#: ../../../tpl/pym.php:160
+msgid "Are:"
+msgstr "Son:"
+
+#: ../../../tpl/ceass.php:183 ../../../tpl/default.php:133
+#: ../../../tpl/pym.php:164
+msgid "Control code:"
+msgstr "C&oacute;digo de control:"
+
+#: ../../../tpl/ceass.php:187 ../../../tpl/default.php:137
+#: ../../../tpl/pym.php:168
+msgid "Deadline for issuance:"
+msgstr "Fecha limite de emisi&oacute;n"
+
+#: ../../../tpl/default.php:80 ../../../tpl/pym.php:96
+#: ../../../views/admin/new.php:43
+msgid "Customer:"
+msgstr "Cliente:"
+
+#: ../../../tpl/default.php:104
+msgid "Quantity"
+msgstr "Cantidad:"
+
+#: ../../../tpl/default.php:106 ../../../tpl/pym.php:121
+#: ../../../views/admin/new.php:116
+msgid "Price"
+msgstr "Precio"
+
+#: ../../../tpl/pym.php:119
+msgid "Cantidad"
+msgstr ""
+
+#: ../../../views/admin/default.php:6
+msgid "Invoice Management"
+msgstr "Administraci&oacute;n de Facturas"
+
+#: ../../../views/admin/default.php:8
+#, fuzzy
+msgid "index.php?mod=invoices&view=new"
+msgstr "index.php?mod=quotes"
+
+#: ../../../views/admin/default.php:8
+msgid "New"
+msgstr "Nuevo"
+
+#: ../../../views/admin/default.php:9
+#, fuzzy
+msgid "index.php?mod=invoices&view=reports"
+msgstr "index.php?mod=quotes"
+
+#: ../../../views/admin/default.php:9
+msgid "Reportes"
+msgstr ""
+
+#: ../../../views/admin/default.php:10
+msgid "index.php?mod=invoices&view=form_test&country=BO"
+msgstr ""
+
+#: ../../../views/admin/default.php:11
+msgid "Test Bolivia"
+msgstr "Prueba Bolivia"
+
+#: ../../../views/admin/default.php:23
+msgid "-- search by --"
+msgstr "-- buscar por --"
+
+#: ../../../views/admin/default.php:24 ../../../views/admin/reports.php:62
+msgid "Numero Factura"
+msgstr ""
+
+#: ../../../views/admin/default.php:25 ../../../views/admin/reports.php:60
+msgid "Cliente"
+msgstr ""
+
+#: ../../../views/admin/default.php:26 ../../../views/admin/default.php:49
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#: ../../../views/admin/default.php:32
+msgid "Date From"
+msgstr "Desde Fecha"
+
+#: ../../../views/admin/default.php:38
+msgid "Date To"
+msgstr "Hasta Fecha"
+
+#: ../../../views/admin/default.php:41
+msgid "Buscar"
+msgstr ""
+
+#: ../../../views/admin/default.php:50
+msgid "User"
+msgstr "Usuario"
+
+#: ../../../views/admin/default.php:51 ../../../views/admin/settings.php:82
+#: ../../../views/admin/settings.php:140
+msgid "Dosage"
+msgstr "Dosificaci&oacute;n"
+
+#: ../../../views/admin/default.php:52
+msgid "Numero de Factura"
+msgstr ""
+
+#: ../../../views/admin/default.php:53
+msgid "Customer"
+msgstr "Cliente"
+
+#: ../../../views/admin/default.php:54
+msgid "Amount"
+msgstr "Monto"
+
+#: ../../../views/admin/default.php:55
+msgid "Date"
+msgstr "Fecha"
+
+#: ../../../views/admin/default.php:56
+msgid "Status"
+msgstr "Estado"
+
+#: ../../../views/admin/default.php:57 ../../../views/admin/settings.php:86
+msgid "Actions"
+msgstr "Aciones"
+
+#: ../../../views/admin/default.php:82
+#, fuzzy
+msgid "index.php?mod=invoices&task=void&id="
+msgstr "index.php?mod=quotes"
+
+#: ../../../views/admin/default.php:83
+msgid "Are you sure to void this invoice?"
+msgstr "Esta seguro de anular esta factura?"
+
+#: ../../../views/admin/default.php:84 ../../../views/admin/new.php:176
+msgid "Void"
+msgstr "Anular"
+
+#: ../../../views/admin/default.php:88
+msgid "View"
+msgstr "Ver"
+
+#: ../../../views/admin/default.php:92
+#, fuzzy
+msgid "index.php?mod=invoices&view=edit&id="
+msgstr "index.php?mod=quotes"
+
+#: ../../../views/admin/default.php:93 ../../../views/admin/settings.php:115
+#: ../../../views/admin/settings.php:219
+msgid "Edit"
+msgstr "Editar"
+
+#: ../../../views/admin/default.php:97
+#, fuzzy
+msgid "index.php?mod=invoices&task=view&print=1&id="
+msgstr "index.php?mod=quotes"
+
+#: ../../../views/admin/default.php:99 ../../../views/admin/new.php:8
+#: ../../../views/admin/new.php:239 ../../../views/admin/print.preview.php:30
+#: ../../../views/admin/view.php:31 ../../../views/admin/view.php:35
+msgid "Print"
+msgstr "Imprimir"
+
+#: ../../../views/admin/default.php:103
+#, fuzzy
+msgid "index.php?mod=invoices&task=delete&&id="
+msgstr "index.php?mod=quotes"
+
+#: ../../../views/admin/default.php:105
+msgid "Are you sure to delete the invoice?"
+msgstr "Esta seguro de borrar esta factura?"
+
+#: ../../../views/admin/new.php:24
+msgid "Dosage:"
+msgstr "Dosificaci&oacute;n"
+
+#: ../../../views/admin/new.php:30
+msgid "Select Dosage"
+msgstr "Seleccione Dosificaci&oacute;n"
+
+#: ../../../views/admin/new.php:37 ../../../views/admin/settings.php:37
+msgid "NIT/RUC/NIF:"
+msgstr "NIT/RUC/NIF:"
+
+#: ../../../views/admin/new.php:52 ../../../views/admin/new.php:188
+msgid "Tax:"
+msgstr "Impuesto:"
+
+#: ../../../views/admin/new.php:62
+msgid "Currencies:"
+msgstr "Monedas:"
+
+#: ../../../views/admin/new.php:72
+msgid "Exchange Rate:"
+msgstr "Tipo de Cambio:"
+
+#: ../../../views/admin/new.php:82
+msgid "Search product"
+msgstr "Buscar producto"
+
+#: ../../../views/admin/new.php:84
+msgid "Add item"
+msgstr "Adicionar item"
+
+#: ../../../views/admin/new.php:113
+msgid "Codigo"
+msgstr ""
+
+#: ../../../views/admin/new.php:114
+msgid "Item"
+msgstr "Item"
+
+#: ../../../views/admin/new.php:115
+msgid "Qty"
+msgstr "Cant."
+
+#: ../../../views/admin/new.php:117
+msgid "Tax"
+msgstr "Impuesto"
+
+#: ../../../views/admin/new.php:173
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../../../views/admin/new.php:174 ../../../views/admin/settings.php:13
+#: ../../../views/admin/settings.php:195
+msgid "Save"
+msgstr "Guardar"
+
+#: ../../../views/admin/new.php:184
+msgid "Subtotal:"
+msgstr ""
+
+#: ../../../views/admin/new.php:210
+msgid "Select Invoice Dosage"
+msgstr "Seleccione Dosificaci&oacute;n de Factura"
+
+#: ../../../views/admin/new.php:222 ../../../views/admin/new.php:237
+#: ../../../views/admin/settings.php:194
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../../../views/admin/new.php:231
+msgid "Factura Registrada"
+msgstr ""
+
+#: ../../../views/admin/print.preview.php:29 ../../../views/admin/view.php:28
+msgid "Back"
+msgstr "Volver"
+
+#: ../../../views/admin/reports.php:5
+msgid "Reportes de Facturas"
+msgstr ""
+
+#: ../../../views/admin/reports.php:8
+msgid "Volver"
+msgstr ""
+
+#: ../../../views/admin/reports.php:17
+msgid "Fecha Inicio"
+msgstr ""
+
+#: ../../../views/admin/reports.php:23
+msgid "Fecha Termino"
+msgstr ""
+
+#: ../../../views/admin/reports.php:30
+msgid "Generar"
+msgstr ""
+
+#: ../../../views/admin/reports.php:58
+msgid "No"
+msgstr ""
+
+#: ../../../views/admin/reports.php:59
+msgid "Fecha"
+msgstr ""
+
+#: ../../../views/admin/reports.php:61
+msgid "Dosificacion"
+msgstr "Dosificacion"
+
+#: ../../../views/admin/reports.php:63
+msgid "Estado"
+msgstr ""
+
+#: ../../../views/admin/reports.php:64
+msgid "Monto"
+msgstr ""
+
+#: ../../../views/admin/settings.php:12
+msgid "Configuracion de Facturacion"
+msgstr ""
+
+#: ../../../views/admin/settings.php:18
+msgid "Invoice Size"
+msgstr "Tama&ntilde;o de Factura"
+
+#: ../../../views/admin/settings.php:21
+msgid "Legal"
+msgstr ""
+
+#: ../../../views/admin/settings.php:22
+msgid "Ticket"
+msgstr ""
+
+#: ../../../views/admin/settings.php:27
+msgid "Logo:"
+msgstr "Logo:"
+
+#: ../../../views/admin/settings.php:41
+msgid "Owner:"
+msgstr "Propietario:"
+
+#: ../../../views/admin/settings.php:46
+msgid "Business Name:"
+msgstr "Nombre Empresa:"
+
+#: ../../../views/admin/settings.php:50
+msgid "Business Address:"
+msgstr "Direccion Empresa:"
+
+#: ../../../views/admin/settings.php:54
+msgid "Business Telephone:"
+msgstr "Tel&eacute;fono empresa:"
+
+#: ../../../views/admin/settings.php:58
+msgid "City:"
+msgstr "Ciudad:"
+
+#: ../../../views/admin/settings.php:62
+msgid "Country:"
+msgstr "Pais:"
+
+#: ../../../views/admin/settings.php:64
+msgid "-- country --"
+msgstr "-- pais --"
+
+#: ../../../views/admin/settings.php:73
+msgid "New Dosage"
+msgstr "Nueva dosificaci&oacute;n"
+
+#: ../../../views/admin/settings.php:79
+msgid "No."
+msgstr ""
+
+#: ../../../views/admin/settings.php:81 ../../../views/admin/settings.php:136
+msgid "Name"
+msgstr "Nombre"
+
+#: ../../../views/admin/settings.php:83 ../../../views/admin/settings.php:146
+msgid "Authorization"
+msgstr "Autorizaci&oacute;n"
+
+#: ../../../views/admin/settings.php:84 ../../../views/admin/settings.php:152
+msgid "Emission Limit Date"
+msgstr "Fecha Limite de Emision"
+
+#: ../../../views/admin/settings.php:85 ../../../views/admin/settings.php:180
+msgid "Default"
+msgstr "Por defecto"
+
+#: ../../../views/admin/settings.php:118 ../../../views/admin/settings.php:222
+msgid "Delete"
+msgstr "Borrar"
+
+#: ../../../views/admin/settings.php:158
+msgid "Header Text"
+msgstr "Texto Cabecera"
+
+#: ../../../views/admin/settings.php:162
+msgid "Footer Text"
+msgstr "Text Pie de pagina"
+
+#: ../../../views/admin/settings.php:169
+msgid "-- store --"
+msgstr "-- tienda --"
+
+#: ../../../views/admin/settings.php:185
+msgid "Template"
+msgstr "Plantilla"
+
+#: ../../../views/admin/settings.php:267
+msgid "Add New Dosage"
+msgstr "Adicionar Nueva Dosificaci&oacute;n"
+
+#: ../../../views/admin/settings.php:275
+msgid "Edit Dosage"
+msgstr "Editar Dosificaci&oacute;n"
+
+#: ../../../views/admin/view.php:23
+msgid "Preview"
+msgstr "Vista Previa"
+
+#~ msgid "Bill Now"
+#~ msgstr "Facturar Ahora"
+
+#, fuzzy
+#~ msgid "COPIA %d"
+#~ msgstr "Tu: %d%% aciertos"
+
+#, fuzzy
+#~ msgid "index.php?mod=invoices&view=&view&id="
+#~ msgstr "index.php?mod=quotes"
+
+#~ msgid "Save &amp; Print"
+#~ msgstr "Guardar & Imprimir"

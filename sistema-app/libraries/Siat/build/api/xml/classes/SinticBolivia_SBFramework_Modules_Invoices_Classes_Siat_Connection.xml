@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Connection" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Connection" abstract="false" final="false" start="9" end="95">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="Connection.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Connection.php" size="2419" time="2021-12-03T22:50:53+00:00" unixtime="1638571853" sha1="24df5a04f72760b6d5e996cd86369ef261decc8f" relative="Connection.php"/>
+  <constant type="integer" name="MOD_ELECTRONICA_ENLINEA" value="1"/>
+  <constant type="integer" name="MOD_COMPUTARIZADA_ENLINEA" value="2"/>
+  <constant type="integer" name="MOD_PORTAL_WEB" value="3"/>
+  <constant type="integer" name="TIPO_EMISION_ONLINE" value="1"/>
+  <constant type="integer" name="TIPO_EMISION_OFFLINE" value="1"/>
+  <constant type="integer" name="TIPO_EMISION_MASIVA" value="1"/>
+  <constant type="integer" name="TIPO_FACTURA_CREDITO_FISCAL" value="1"/>
+  <constant type="integer" name="TIPO_FACTURA_SIN_CREDITO_FISCAL" value="2"/>
+  <constant type="integer" name="TIPO_FACTURA_AJUSTE" value="3"/>
+  <member name="cuis" visibility="public" static="false" line="28">
+    <docblock>
+      <description compact="Código Único de Inicio de Sistemas"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="cufd" visibility="public" static="false" line="33">
+    <docblock>
+      <description compact="Código Único de Facturación Diario"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="token" visibility="protected" static="false" line="38">
+    <docblock>
+      <description compact="Token delegado"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="endpoint" default="'https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionComputarizada'" type="string" visibility="protected" static="false" line="39"/>
+  <member name="wsdl" default="'https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionComputarizada?wsdl'" type="string" visibility="protected" static="false" line="40"/>
+  <member name="debug" default="false" type="boolean" visibility="public" static="false" line="42"/>
+  <member name="modalidad" default="'computarizada'" type="string" visibility="public" static="false" line="43"/>
+  <member name="ambiente" default="'pruebas'" type="string" visibility="public" static="false" line="44"/>
+  <constructor name="__construct" start="46" end="53" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="cuis" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="cufd" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="token" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="endpoint" byreference="false" type="{unknown}" default="NULL"/>
+  </constructor>
+  <method name="getCUIS" start="54" end="58" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="getCUFD" start="59" end="62" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="syncCatalog" start="63" end="66" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="sendDocument" start="67" end="86" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="message" byreference="false" type="object">
+      <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Message" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="Message"/>
+    </parameter>
+    <inline>
+      <comment value="$request = new Request();" line="82"/>
+      <comment value="$response = $request-&gt;request($this-&gt;endpoint, $rawXml, 'POST', $headers);" line="83"/>
+      <comment value="print_r($response);" line="84"/>
+    </inline>
+  </method>
+  <method name="debug" start="88" end="94" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="str" byreference="false" type="{unknown}"/>
+    <parameter name="isXml" byreference="false" type="boolean" default="true"/>
+  </method>
+</class>

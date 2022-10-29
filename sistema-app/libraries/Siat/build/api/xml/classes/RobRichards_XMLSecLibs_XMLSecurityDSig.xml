@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="RobRichards\XMLSecLibs\XMLSecurityDSig" namespace="RobRichards\XMLSecLibs" name="XMLSecurityDSig" abstract="false" final="false" start="51" end="1162">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Libs/xmlseclibs/src" file="XMLSecurityDSig.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Libs/xmlseclibs/src/XMLSecurityDSig.php" size="41720" time="2021-06-10T11:41:09+00:00" unixtime="1623325269" sha1="fae1b0c506ce3d106a9819a304f5efdf70b3dd7c" relative="Libs/xmlseclibs/src/XMLSecurityDSig.php"/>
+  <docblock>
+    <description compact="xmlseclibs.php">Copyright (c) 2007-2020, Robert Richards &lt;rrichards@cdatazone.org&gt;.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the
+    distribution.
+
+  * Neither the name of Robert Richards nor the names of his
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.</description>
+    <author value="Robert Richards &lt;rrichards@cdatazone.org&gt;"/>
+    <copyright value="2007-2020 Robert Richards &lt;rrichards@cdatazone.org&gt;"/>
+    <license name="http://www.opensource.org/licenses/bsd-license.php  BSD License"/>
+  </docblock>
+  <constant type="string" name="XMLDSIGNS" value="'http://www.w3.org/2000/09/xmldsig#'"/>
+  <constant type="string" name="SHA1" value="'http://www.w3.org/2000/09/xmldsig#sha1'"/>
+  <constant type="string" name="SHA256" value="'http://www.w3.org/2001/04/xmlenc#sha256'"/>
+  <constant type="string" name="SHA384" value="'http://www.w3.org/2001/04/xmldsig-more#sha384'"/>
+  <constant type="string" name="SHA512" value="'http://www.w3.org/2001/04/xmlenc#sha512'"/>
+  <constant type="string" name="RIPEMD160" value="'http://www.w3.org/2001/04/xmlenc#ripemd160'"/>
+  <constant type="string" name="C14N" value="'http://www.w3.org/TR/2001/REC-xml-c14n-20010315'"/>
+  <constant type="string" name="C14N_COMMENTS" value="'http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments'"/>
+  <constant type="string" name="EXC_C14N" value="'http://www.w3.org/2001/10/xml-exc-c14n#'"/>
+  <constant type="string" name="EXC_C14N_COMMENTS" value="'http://www.w3.org/2001/10/xml-exc-c14n#WithComments'"/>
+  <constant type="string" name="template" value="'&lt;ds:Signature xmlns:ds=&quot;http://www.w3.org/2000/09/xmldsig#&quot;&gt;&#10;  &lt;ds:SignedInfo&gt;&#10;    &lt;ds:SignatureMethod /&gt;&#10;  &lt;/ds:SignedInfo&gt;&#10;&lt;/ds:Signature&gt;'"/>
+  <constant type="string" name="BASE_TEMPLATE" value="'&lt;Signature xmlns=&quot;http://www.w3.org/2000/09/xmldsig#&quot;&gt;&#10;  &lt;SignedInfo&gt;&#10;    &lt;SignatureMethod /&gt;&#10;  &lt;/SignedInfo&gt;&#10;&lt;/Signature&gt;'"/>
+  <member name="sigNode" default="NULL" visibility="public" static="false" line="78">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\DOMElement|null" namespace="RobRichards\XMLSecLibs" name="DOMElement|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="idKeys" default="" type="array" visibility="public" static="false" line="81">
+    <docblock>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <member name="idNS" default="" type="array" visibility="public" static="false" line="84">
+    <docblock>
+      <var type="array"/>
+    </docblock>
+  </member>
+  <member name="signedInfo" default="NULL" visibility="private" static="false" line="87">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\string|null" namespace="RobRichards\XMLSecLibs" name="string|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="xPathCtx" default="NULL" visibility="private" static="false" line="90">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\DomXPath|null" namespace="RobRichards\XMLSecLibs" name="DomXPath|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="canonicalMethod" default="NULL" visibility="private" static="false" line="93">
+    <docblock>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\string|null" namespace="RobRichards\XMLSecLibs" name="string|null"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="prefix" default="''" type="string" visibility="private" static="false" line="96">
+    <docblock>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="searchpfx" default="'secdsig'" type="string" visibility="private" static="false" line="99">
+    <docblock>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <member name="validatedNodes" default="NULL" visibility="private" static="false" line="105">
+    <docblock>
+      <description compact="This variable contains an associative array of validated nodes."/>
+      <var type="object">
+        <type full="RobRichards\XMLSecLibs\array|null" namespace="RobRichards\XMLSecLibs" name="array|null"/>
+      </var>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="110" end="122" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$prefix"/>
+    </docblock>
+    <parameter name="prefix" byreference="false" type="string" default="'ds'"/>
+  </constructor>
+  <method name="resetXPathObj" start="127" end="130" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Reset the XPathObj to null"/>
+    </docblock>
+  </method>
+  <method name="getXPathObj" start="137" end="145" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Returns the XPathObj or null if xPathCtx is set and sigNode is empty."/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\DOMXPath|null" namespace="RobRichards\XMLSecLibs" name="DOMXPath|null"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="generateGUID" start="154" end="163" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Generate guid"/>
+      <param description="Prefix to use for guid. defaults to pfx" type="string" variable="$prefix"/>
+      <return description="The generated guid" type="string"/>
+    </docblock>
+    <parameter name="prefix" byreference="false" type="string" default="'pfx'"/>
+  </method>
+  <method name="generate_GUID" start="174" end="177" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description compact="Generate guid"/>
+      <param description="Prefix to use for guid. defaults to pfx" type="string" variable="$prefix"/>
+      <return description="The generated guid" type="string"/>
+      <deprecated value="Method deprecated in Release 1.4.1"/>
+    </docblock>
+    <parameter name="prefix" byreference="false" type="string" default="'pfx'"/>
+  </method>
+  <method name="locateSignature" start="184" end="205" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$objDoc">
+        <type full="DOMDocument" namespace="" name="DOMDocument"/>
+      </param>
+      <param type="int" variable="$pos"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\DOMNode|null" namespace="RobRichards\XMLSecLibs" name="DOMNode|null"/>
+      </return>
+    </docblock>
+    <parameter name="objDoc" byreference="false" type="{unknown}"/>
+    <parameter name="pos" byreference="false" type="integer" default="0"/>
+  </method>
+  <method name="createNewSignNode" start="212" end="221" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$name"/>
+      <param type="object" variable="$value">
+        <type full="RobRichards\XMLSecLibs\null|string" namespace="RobRichards\XMLSecLibs" name="null|string"/>
+      </param>
+      <return type="object">
+        <type full="DOMElement" namespace="" name="DOMElement"/>
+      </return>
+    </docblock>
+    <parameter name="name" byreference="false" type="{unknown}"/>
+    <parameter name="value" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="setCanonicalMethod" start="227" end="252" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$method"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="method" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="canonicalizeData" start="261" end="297" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description/>
+      <param type="object" variable="$node">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <param type="string" variable="$canonicalmethod"/>
+      <param type="object" variable="$arXPath">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+      <param type="object" variable="$prefixList">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+      <return type="string"/>
+    </docblock>
+    <parameter name="node" byreference="false" type="{unknown}"/>
+    <parameter name="canonicalmethod" byreference="false" type="{unknown}"/>
+    <parameter name="arXPath" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="prefixList" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="canonicalizeSignedInfo" start="302" end="337" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\null|string" namespace="RobRichards\XMLSecLibs" name="null|string"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="calculateDigest" start="346" end="374" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$digestAlgorithm"/>
+      <param type="string" variable="$data"/>
+      <param type="object" variable="$encode">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <return type="string"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="digestAlgorithm" byreference="false" type="{unknown}"/>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+    <parameter name="encode" byreference="false" type="boolean" default="true"/>
+  </method>
+  <method name="validateDigest" start="381" end="391" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param variable="$refNode"/>
+      <param type="string" variable="$data"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </return>
+    </docblock>
+    <parameter name="refNode" byreference="false" type="{unknown}"/>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="processTransforms" start="399" end="481" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param variable="$refNode"/>
+      <param type="object" variable="$objData">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <param type="object" variable="$includeCommentNodes">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <return type="string"/>
+    </docblock>
+    <parameter name="refNode" byreference="false" type="{unknown}"/>
+    <parameter name="objData" byreference="false" type="{unknown}"/>
+    <parameter name="includeCommentNodes" byreference="false" type="boolean" default="true"/>
+  </method>
+  <method name="processRefNode" start="487" end="549" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$refNode">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </return>
+    </docblock>
+    <parameter name="refNode" byreference="false" type="{unknown}"/>
+    <inline>
+      <comment value="Depending on the URI, we may not want to include comments in the result" line="491"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="See: http://www.w3.org/TR/xmldsig-core/#sec-ReferenceProcessingModel" line="492"/>
+    </inline>
+  </method>
+  <method name="getRefNodeID" start="555" end="566" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$refNode">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <return type="null"/>
+    </docblock>
+    <parameter name="refNode" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getRefIDs" start="572" end="586" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="array"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+  </method>
+  <method name="validateReference" start="592" end="618" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </return>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <inline>
+      <comment value="Initialize/reset the list of validated nodes." line="607"/>
+    </inline>
+  </method>
+  <method name="addRefInternal" start="627" end="702" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description/>
+      <param type="object" variable="$sinfoNode">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <param type="object" variable="$node">
+        <type full="DOMDocument" namespace="" name="DOMDocument"/>
+      </param>
+      <param type="string" variable="$algorithm"/>
+      <param type="object" variable="$arTransforms">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+      <param type="object" variable="$options">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+    </docblock>
+    <parameter name="sinfoNode" byreference="false" type="{unknown}"/>
+    <parameter name="node" byreference="false" type="{unknown}"/>
+    <parameter name="algorithm" byreference="false" type="{unknown}"/>
+    <parameter name="arTransforms" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="options" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="addReference" start="710" end="719" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$node">
+        <type full="DOMDocument" namespace="" name="DOMDocument"/>
+      </param>
+      <param type="string" variable="$algorithm"/>
+      <param type="object" variable="$arTransforms">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+      <param type="object" variable="$options">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+    </docblock>
+    <parameter name="node" byreference="false" type="{unknown}"/>
+    <parameter name="algorithm" byreference="false" type="{unknown}"/>
+    <parameter name="arTransforms" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="options" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="addReferenceList" start="727" end="738" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="array" variable="$arNodes"/>
+      <param type="string" variable="$algorithm"/>
+      <param type="object" variable="$arTransforms">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+      <param type="object" variable="$options">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+    </docblock>
+    <parameter name="arNodes" byreference="false" type="{unknown}"/>
+    <parameter name="algorithm" byreference="false" type="{unknown}"/>
+    <parameter name="arTransforms" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="options" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="addObject" start="746" end="765" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$data">
+        <type full="RobRichards\XMLSecLibs\DOMElement|string" namespace="RobRichards\XMLSecLibs" name="DOMElement|string"/>
+      </param>
+      <param type="object" variable="$mimetype">
+        <type full="RobRichards\XMLSecLibs\null|string" namespace="RobRichards\XMLSecLibs" name="null|string"/>
+      </param>
+      <param type="object" variable="$encoding">
+        <type full="RobRichards\XMLSecLibs\null|string" namespace="RobRichards\XMLSecLibs" name="null|string"/>
+      </param>
+      <return type="object">
+        <type full="DOMElement" namespace="" name="DOMElement"/>
+      </return>
+    </docblock>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+    <parameter name="mimetype" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="encoding" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="locateKey" start="771" end="794" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$node">
+        <type full="RobRichards\XMLSecLibs\null|DOMNode" namespace="RobRichards\XMLSecLibs" name="null|DOMNode"/>
+      </param>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\null|XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="null|XMLSecurityKey"/>
+      </return>
+    </docblock>
+    <parameter name="node" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="verify" start="812" end="823" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Returns:  Bool when verifying HMAC_SHA1;  Int otherwise, with following meanings:    1 on succesful signature verification,    0 when signature verification failed,   -1 if an error occurred during processing.">NOTE: be very careful when checking the int return value, because in
+PHP, -1 will be cast to True when in boolean context. Always check the
+return value in a strictly typed way, e.g. "$obj-&gt;verify(...) === 1".</description>
+      <param type="object" variable="$objKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\bool|int" namespace="RobRichards\XMLSecLibs" name="bool|int"/>
+      </return>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="objKey" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="signData" start="830" end="833" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$objKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <param type="string" variable="$data"/>
+      <return type="object">
+        <type full="RobRichards\XMLSecLibs\mixed|string" namespace="RobRichards\XMLSecLibs" name="mixed|string"/>
+      </return>
+    </docblock>
+    <parameter name="objKey" byreference="false" type="{unknown}"/>
+    <parameter name="data" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="sign" start="839" end="865" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$objKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <param type="object" variable="$appendToNode">
+        <type full="RobRichards\XMLSecLibs\null|DOMNode" namespace="RobRichards\XMLSecLibs" name="null|DOMNode"/>
+      </param>
+    </docblock>
+    <parameter name="objKey" byreference="false" type="{unknown}"/>
+    <parameter name="appendToNode" byreference="false" type="{unknown}" default="NULL"/>
+    <inline>
+      <comment value="If we have a parent node append it now so C14N properly works" line="841"/>
+    </inline>
+  </method>
+  <method name="appendCert" start="867" end="870" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="appendKey" start="876" end="879" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$objKey">
+        <type full="RobRichards\XMLSecLibs\XMLSecurityKey" namespace="RobRichards\XMLSecLibs" name="XMLSecurityKey"/>
+      </param>
+      <param type="object" variable="$parent">
+        <type full="RobRichards\XMLSecLibs\null|DOMNode" namespace="RobRichards\XMLSecLibs" name="null|DOMNode"/>
+      </param>
+    </docblock>
+    <parameter name="objKey" byreference="false" type="{unknown}"/>
+    <parameter name="parent" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="insertSignature" start="893" end="904" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="This function inserts the signature element.">The signature element will be appended to the element, unless $beforeNode is specified. If $beforeNode
+is specified, the signature element will be inserted as the last element before $beforeNode.</description>
+      <param description="The node the signature element should be inserted into." type="object" variable="$node">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <param description="The node the signature element should be located before." type="object" variable="$beforeNode">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <return description="The signature element node" type="object">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </return>
+    </docblock>
+    <parameter name="node" byreference="false" type="{unknown}"/>
+    <parameter name="beforeNode" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="appendSignature" start="911" end="915" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$parentNode">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <param type="object" variable="$insertBefore">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <return type="object">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </return>
+    </docblock>
+    <parameter name="parentNode" byreference="false" type="{unknown}"/>
+    <parameter name="insertBefore" byreference="false" type="boolean" default="false"/>
+  </method>
+  <method name="get509XCert" start="922" end="929" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$cert"/>
+      <param type="object" variable="$isPEMFormat">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <return type="string"/>
+    </docblock>
+    <parameter name="cert" byreference="false" type="{unknown}"/>
+    <parameter name="isPEMFormat" byreference="false" type="boolean" default="true"/>
+  </method>
+  <method name="staticGet509XCerts" start="936" end="962" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$certs"/>
+      <param type="object" variable="$isPEMFormat">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <return type="array"/>
+    </docblock>
+    <parameter name="certs" byreference="false" type="{unknown}"/>
+    <parameter name="isPEMFormat" byreference="false" type="boolean" default="true"/>
+  </method>
+  <method name="staticAdd509Cert" start="973" end="1083" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$parentRef">
+        <type full="DOMElement" namespace="" name="DOMElement"/>
+      </param>
+      <param type="string" variable="$cert"/>
+      <param type="object" variable="$isPEMFormat">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <param type="object" variable="$isURL">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <param type="object" variable="$xpath">
+        <type full="RobRichards\XMLSecLibs\null|DOMXPath" namespace="RobRichards\XMLSecLibs" name="null|DOMXPath"/>
+      </param>
+      <param type="object" variable="$options">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+    </docblock>
+    <parameter name="parentRef" byreference="false" type="{unknown}"/>
+    <parameter name="cert" byreference="false" type="{unknown}"/>
+    <parameter name="isPEMFormat" byreference="false" type="boolean" default="true"/>
+    <parameter name="isURL" byreference="false" type="boolean" default="false"/>
+    <parameter name="xpath" byreference="false" type="{unknown}" default="NULL"/>
+    <parameter name="options" byreference="false" type="{unknown}" default="NULL"/>
+    <inline>
+      <comment value="Add all certs if there are more than one" line="1017"/>
+      <comment value="Attach X509 data node" line="1020"/>
+      <comment value="Attach all certificate nodes and any additional data" line="1035"/>
+    </inline>
+  </method>
+  <method name="add509Cert" start="1091" end="1096" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="string" variable="$cert"/>
+      <param type="object" variable="$isPEMFormat">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <param type="object" variable="$isURL">
+        <type full="RobRichards\XMLSecLibs\bool" namespace="RobRichards\XMLSecLibs" name="bool"/>
+      </param>
+      <param type="object" variable="$options">
+        <type full="RobRichards\XMLSecLibs\null|array" namespace="RobRichards\XMLSecLibs" name="null|array"/>
+      </param>
+    </docblock>
+    <parameter name="cert" byreference="false" type="{unknown}"/>
+    <parameter name="isPEMFormat" byreference="false" type="boolean" default="true"/>
+    <parameter name="isURL" byreference="false" type="boolean" default="false"/>
+    <parameter name="options" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="appendToKeyInfo" start="1107" end="1145" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="This function appends a node to the KeyInfo.">The KeyInfo element will be created if one does not exist in the document.</description>
+      <param description="The node to append to the KeyInfo." type="object" variable="$node">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </param>
+      <return description="The KeyInfo element node" type="object">
+        <type full="DOMNode" namespace="" name="DOMNode"/>
+      </return>
+    </docblock>
+    <parameter name="node" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getValidatedNodes" start="1158" end="1161" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="This function retrieves an associative array of the validated nodes.">The array will contain the id of the referenced node as the key and the node itself
+as the value.
+
+Returns:
+ An associative array of validated nodes or null if no nodes have been validated.
+
+ @return array Associative array of validated nodes</description>
+    </docblock>
+  </method>
+</class>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat">
+  <namespace name="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat">
+    <class name="Connection" src="Connection.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Connection.xml"/>
+    <class name="SiatConfigCuis" src="SiatConfigCuis.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_SiatConfigCuis.xml"/>
+    <class name="DocumentTypes" src="DocumentTypes.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_DocumentTypes.xml"/>
+    <class name="RequestResponse" src="RequestResponse.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_RequestResponse.xml"/>
+    <class name="SiatConfigCode" src="SiatConfigCode.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_SiatConfigCode.xml"/>
+    <class name="SiatObject" src="SiatObject.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_SiatObject.xml"/>
+    <class name="Request" src="Request.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Request.xml"/>
+    <class name="SiatConfig" src="SiatConfig.php" description="Clase que almacena la configuracion para el servicio de facturacion" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_SiatConfig.xml"/>
+    <class name="SoapMessage" src="SoapMessage.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_SoapMessage.xml"/>
+    <class name="SiatConfigCufd" src="SiatConfigCufd.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_SiatConfigCufd.xml"/>
+    <class name="SiatFactory" src="SiatFactory.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_SiatFactory.xml"/>
+    <class name="Message" src="Message.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Message.xml"/>
+    <class name="SiatXmlElement" src="SiatXmlElement.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_SiatXmlElement.xml"/>
+  </namespace>
+  <namespace name="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages">
+    <class name="SolicitudRecepcion" src="Messages/SolicitudRecepcion.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudRecepcion.xml"/>
+    <class name="SolicitudServicioRecepcionFactura" src="Messages/SolicitudServicioRecepcionFactura.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudServicioRecepcionFactura.xml"/>
+    <class name="SolicitudServicioRecepcionMasiva" src="Messages/SolicitudServicioRecepcionMasiva.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudServicioRecepcionMasiva.xml"/>
+    <class name="SolicitudServicioRecepcionPaquete" src="Messages/SolicitudServicioRecepcionPaquete.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudServicioRecepcionPaquete.xml"/>
+    <class name="SolicitudCUF" src="Messages/SolicitudCUF.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudCUF.xml"/>
+    <class name="SolicitudServicioAnulacionFactura" src="Messages/SolicitudServicioAnulacionFactura.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudServicioAnulacionFactura.xml"/>
+    <class name="SolicitudServicioValidacionRecepcionMasiva" src="Messages/SolicitudServicioValidacionRecepcionMasiva.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudServicioValidacionRecepcionMasiva.xml"/>
+    <class name="SolicitudCUIS" src="Messages/SolicitudCUIS.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudCUIS.xml"/>
+    <class name="SolicitudServicioValidacionRecepcionPaquete" src="Messages/SolicitudServicioValidacionRecepcionPaquete.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Messages_SolicitudServicioValidacionRecepcionPaquete.xml"/>
+  </namespace>
+  <namespace name="">
+    <class name="OperacionesTest" src="test/operaciones.php" xml="classes/OperacionesTest.xml"/>
+    <class name="SyncTest" src="test/sincronizacion.php" xml="classes/SyncTest.xml"/>
+    <class name="GeneralTest" src="test/general.php" xml="classes/GeneralTest.xml"/>
+    <class name="Exception" xml="classes/Exception.xml"/>
+    <class name="SimpleXMLElement" xml="classes/SimpleXMLElement.xml"/>
+    <interface name="Traversable" xml="interfaces/Traversable.xml"/>
+  </namespace>
+  <namespace name="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices">
+    <class name="EntidadFinanciera" src="Invoices/EntidadFinanciera.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_EntidadFinanciera.xml"/>
+    <class name="InvoiceHeaderEducativo" src="Invoices/InvoiceHeaderEducativo.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeaderEducativo.xml"/>
+    <class name="AlquilerBienInmueble" src="Invoices/AlquilerBienInmueble.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_AlquilerBienInmueble.xml"/>
+    <class name="ServicioBasico" src="Invoices/ServicioBasico.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ServicioBasico.xml"/>
+    <class name="ServicioTuristicoHospedaje" src="Invoices/ServicioTuristicoHospedaje.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ServicioTuristicoHospedaje.xml"/>
+    <class name="Hotel" src="Invoices/Hotel.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_Hotel.xml"/>
+    <class name="InvoiceHeaderExportacionServicios" src="Invoices/InvoiceHeaderExportacionServicios.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeaderExportacionServicios.xml"/>
+    <class name="InvoiceHeaderServicioBasico" src="Invoices/InvoiceHeaderServicioBasico.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeaderServicioBasico.xml"/>
+    <class name="ElectronicaHotel" src="Invoices/ElectronicaHotel.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaHotel.xml"/>
+    <class name="InvoiceDetailTuristico" src="Invoices/InvoiceDetailTuristico.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceDetailTuristico.xml"/>
+    <class name="SiatInvoice" src="Invoices/SiatInvoice.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SiatInvoice.xml"/>
+    <class name="InvoiceHeaderTuristico" src="Invoices/InvoiceHeaderTuristico.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeaderTuristico.xml"/>
+    <class name="ElectronicaComercialExportacion" src="Invoices/ElectronicaComercialExportacion.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaComercialExportacion.xml"/>
+    <class name="ElectronicaTasaCero" src="Invoices/ElectronicaTasaCero.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaTasaCero.xml"/>
+    <class name="InvoiceHeaderHospital" src="Invoices/InvoiceHeaderHospital.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeaderHospital.xml"/>
+    <class name="SectorEducativo" src="Invoices/SectorEducativo.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_SectorEducativo.xml"/>
+    <class name="ComercialExportacion" src="Invoices/ComercialExportacion.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ComercialExportacion.xml"/>
+    <class name="TasaCero" src="Invoices/TasaCero.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_TasaCero.xml"/>
+    <class name="ElectronicaSectorEducativo" src="Invoices/ElectronicaSectorEducativo.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaSectorEducativo.xml"/>
+    <class name="ComercialExportacionServicio" src="Invoices/ComercialExportacionServicio.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ComercialExportacionServicio.xml"/>
+    <class name="InvoiceHeaderComercialExportacion" src="Invoices/InvoiceHeaderComercialExportacion.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeaderComercialExportacion.xml"/>
+    <class name="ElectronicaCompraVenta" src="Invoices/ElectronicaCompraVenta.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaCompraVenta.xml"/>
+    <class name="InvoiceHeader" src="Invoices/InvoiceHeader.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeader.xml"/>
+    <class name="InvoiceDetailHospital" src="Invoices/InvoiceDetailHospital.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceDetailHospital.xml"/>
+    <class name="InvoiceDetailHotel" src="Invoices/InvoiceDetailHotel.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceDetailHotel.xml"/>
+    <class name="ElectronicaHospitales" src="Invoices/ElectronicaHospitales.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaHospitales.xml"/>
+    <class name="InvoiceHeaderEntidadFinanciera" src="Invoices/InvoiceHeaderEntidadFinanciera.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceHeaderEntidadFinanciera.xml"/>
+    <class name="ElectronicaEntidadFinanciera" src="Invoices/ElectronicaEntidadFinanciera.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaEntidadFinanciera.xml"/>
+    <class name="ElectronicaServicioBasico" src="Invoices/ElectronicaServicioBasico.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaServicioBasico.xml"/>
+    <class name="InvoiceDetailComercialExportacion" src="Invoices/InvoiceDetailComercialExportacion.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceDetailComercialExportacion.xml"/>
+    <class name="ElectronicaServicioTuristicoHospedaje" src="Invoices/ElectronicaServicioTuristicoHospedaje.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaServicioTuristicoHospedaje.xml"/>
+    <class name="InvoiceDetail" src="Invoices/InvoiceDetail.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_InvoiceDetail.xml"/>
+    <class name="ElectronicaComercialExportacionServicio" src="Invoices/ElectronicaComercialExportacionServicio.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_ElectronicaComercialExportacionServicio.xml"/>
+    <class name="CompraVenta" src="Invoices/CompraVenta.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_CompraVenta.xml"/>
+    <class name="Hospitales" src="Invoices/Hospitales.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Invoices_Hospitales.xml"/>
+  </namespace>
+  <namespace name="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Exceptions">
+    <class name="CufdExpired" src="Exceptions/CufdExpired.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Exceptions_CufdExpired.xml"/>
+  </namespace>
+  <namespace name="RobRichards\XMLSecLibs">
+    <class name="XMLSecurityDSig" src="Libs/xmlseclibs/src/XMLSecurityDSig.php" description="xmlseclibs.php" xml="classes/RobRichards_XMLSecLibs_XMLSecurityDSig.xml"/>
+    <class name="XMLSecEnc" src="Libs/xmlseclibs/src/XMLSecEnc.php" description="xmlseclibs.php" xml="classes/RobRichards_XMLSecLibs_XMLSecEnc.xml"/>
+    <class name="XMLSecurityKey" src="Libs/xmlseclibs/src/XMLSecurityKey.php" description="xmlseclibs.php" xml="classes/RobRichards_XMLSecLibs_XMLSecurityKey.xml"/>
+  </namespace>
+  <namespace name="RobRichards\XMLSecLibs\Utils">
+    <class name="XPath" src="Libs/xmlseclibs/src/Utils/XPath.php" xml="classes/RobRichards_XMLSecLibs_Utils_XPath.xml"/>
+  </namespace>
+  <namespace name="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services">
+    <class name="ServicioSiat" src="Services/ServicioSiat.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat.xml"/>
+    <class name="ServicioFacturacionSincronizacion" src="Services/ServicioFacturacionSincronizacion.php" description="Clase para el servicio de sincronizacion de datos de impuestos" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion.xml"/>
+    <class name="ServicioOperaciones" src="Services/ServicioOperaciones.php" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioOperaciones.xml"/>
+    <class name="ServicioFacturacion" src="Services/ServicioFacturacion.php" description="Clase con servicios generales para la facturacion" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacion.xml"/>
+    <class name="ServicioFacturacionCodigos" src="Services/ServicioFacturacionCodigos.php" description="Clases para el servicio de obtencion de codigos CUIS y CUF" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionCodigos.xml"/>
+    <class name="ServicioFacturacionComputarizada" src="Services/ServicioFacturacionComputarizada.php" description="Clase para el servicio de Facturacion Computarizada en linea" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionComputarizada.xml"/>
+    <class name="ServicioFacturacionElectronica" src="Services/ServicioFacturacionElectronica.php" description="Clase para el servicio de Facturacion Computarizada en linea" xml="classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionElectronica.xml"/>
+  </namespace>
+</index>

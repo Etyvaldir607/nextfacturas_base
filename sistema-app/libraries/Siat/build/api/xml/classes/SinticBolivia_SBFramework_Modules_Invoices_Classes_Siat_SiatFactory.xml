@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\SiatFactory" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="SiatFactory" abstract="false" final="false" start="33" end="147">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="SiatFactory.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/SiatFactory.php" size="7146" time="2022-05-12T00:16:11+00:00" unixtime="1652314571" sha1="afc088867c85202b742c56475c96301ce59669a1" relative="SiatFactory.php"/>
+  <method name="construirFacturaSector" start="42" end="146" abstract="false" final="false" static="true" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$documentoSector"/>
+      <param type="int" variable="$modalidad"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <return type="object">
+        <type full="\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaCompraVenta|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\CompraVenta|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ComercialExportacion|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ServicioTuristicoHospedaje|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\TasaCero|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SectorEducativo|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\Hotel|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\Hospitales|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ComercialExportacionServicio|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ServicioBasico|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\EntidadFinanciera" namespace="\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ElectronicaCompraVenta|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\CompraVenta|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ComercialExportacion|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ServicioTuristicoHospedaje|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\TasaCero|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SectorEducativo|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\Hotel|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\Hospitales|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ComercialExportacionServicio|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\ServicioBasico|\SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="EntidadFinanciera"/>
+      </return>
+    </docblock>
+    <parameter name="documentoSector" byreference="false" type="int"/>
+    <parameter name="modalidad" byreference="false" type="int"/>
+    <inline>
+      <comment value="$factura-&gt;detalle = new $detailClass();" line="143"/>
+    </inline>
+  </method>
+</class>

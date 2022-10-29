@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.xhtml">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services">SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services</a>
+          </li>
+          <li class="separator">ServicioFacturacionSincronizacion</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Services/ServicioFacturacionSincronizacion.php.xhtml#line9">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\</small>ServicioFacturacionSincronizacion</h1>
+        <h4>Clase para el servicio de sincronizacion de datos de impuestos</h4>
+        <p/>
+        <ul>
+          <li>Author: J. Marcelo Aviles Paco</li>
+        </ul>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class ServicioFacturacionSincronizacion
+                extends <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat.xhtml">ServicioSiat</a>
+            {<br/><ul class="none"><li>// Inherited constants from <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat.xhtml">ServicioSiat</a></li><li>const <a href="#MOD_ELECTRONICA_ENLINEA">MOD_ELECTRONICA_ENLINEA</a> = 1;</li><li>const <a href="#MOD_COMPUTARIZADA_ENLINEA">MOD_COMPUTARIZADA_ENLINEA</a> = 2;</li><li>const <a href="#MOD_PORTAL_WEB">MOD_PORTAL_WEB</a> = 3;</li><li>const <a href="#TIPO_EMISION_ONLINE">TIPO_EMISION_ONLINE</a> = 1;</li><li>const <a href="#TIPO_EMISION_OFFLINE">TIPO_EMISION_OFFLINE</a> = 2;</li><li>const <a href="#TIPO_EMISION_MASIVA">TIPO_EMISION_MASIVA</a> = 3;</li><li>const <a href="#TIPO_FACTURA_CREDITO_FISCAL">TIPO_FACTURA_CREDITO_FISCAL</a> = 1;</li><li>const <a href="#TIPO_FACTURA_SIN_CREDITO_FISCAL">TIPO_FACTURA_SIN_CREDITO_FISCAL</a> = 2;</li><li>const <a href="#TIPO_FACTURA_AJUSTE">TIPO_FACTURA_AJUSTE</a> = 3;</li><li>const <a href="#AMBIENTE_PRODUCCION">AMBIENTE_PRODUCCION</a> = 1;</li><li>const <a href="#AMBIENTE_PRUEBAS">AMBIENTE_PRUEBAS</a> = 2;</li></ul><ul class="none"><li>// members</li><li>protected string <a href="#members">$wsdl</a> =
+                        'https://pilotosiatservicios.impuestos.gob.bo/v2/FacturacionSincronizacion?wsdl';
+                    </li></ul><ul class="none"><li>// Inherited members from <span title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat">ServicioSiat</span></li><li>protected  <a href="#members">$wsdl</a>;
+                        </li><li>public  <a href="#members">$cuis</a>;
+                        </li><li>public  <a href="#members">$cufd</a>;
+                        </li><li>public  <a href="#members">$codigoControl</a>;
+                        </li><li>protected  <a href="#members">$token</a>;
+                        </li><li>public boolean <a href="#members">$debug</a>;
+                        </li><li>public  <a href="#members">$modalidad</a>;
+                        </li><li>public <a href="#members">$ambiente</a>;
+                        </li><li>public  <a href="#members">$codigoSistema</a>;
+                        </li><li>public  <a href="#members">$nit</a>;
+                        </li><li>public  <a href="#members">$razonSocial</a>;
+                        </li></ul><ul class="none"><li>// methods</li><li>protected void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/buildData.xhtml">buildData</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaMotivoAnulacion.xhtml">sincronizarParametricaMotivoAnulacion</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarListaActividadesDocumentoSector.xhtml">sincronizarListaActividadesDocumentoSector</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoDocumentoSector.xhtml">sincronizarParametricaTipoDocumentoSector</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTiposFactura.xhtml">sincronizarParametricaTiposFactura</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarListaMensajesServicios.xhtml">sincronizarListaMensajesServicios</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/verificarComunicacion.xhtml">verificarComunicacion</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaEventosSignificativos.xhtml">sincronizarParametricaEventosSignificativos</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoPuntoVenta.xhtml">sincronizarParametricaTipoPuntoVenta</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarListaProductosServicios.xhtml">sincronizarListaProductosServicios</a>()
+                    </li><li>public  <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoMoneda.xhtml">sincronizarParametricaTipoMoneda</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarActividades.xhtml">sincronizarActividades</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoEmision.xhtml">sincronizarParametricaTipoEmision</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoDocumentoIdentidad.xhtml">sincronizarParametricaTipoDocumentoIdentidad</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarListaLeyendasFactura.xhtml">sincronizarListaLeyendasFactura</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoMetodoPago.xhtml">sincronizarParametricaTipoMetodoPago</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaUnidadMedida.xhtml">sincronizarParametricaUnidadMedida</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaPaisOrigen.xhtml">sincronizarParametricaPaisOrigen</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarFechaHora.xhtml">sincronizarFechaHora</a>()
+                    </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoHabitacion.xhtml">sincronizarParametricaTipoHabitacion</a>()
+                    </li></ul><ul class="none"><li>// Inherited methods from <span title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat">ServicioSiat</span></li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/__construct.xhtml">__construct</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/setConfig.xhtml">setConfig</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/setToken.xhtml">setToken</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/validate.xhtml">validate</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/autenticar.xhtml">autenticar</a>()
+                        </li><li>protected void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/callAction.xhtml">callAction</a>()
+                        </li><li>public void <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/debug.xhtml">debug</a>()
+                        </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Extends</h4>
+          <ul>
+            <li>
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat.xhtml">SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="MOD_ELECTRONICA_ENLINEA">MOD_ELECTRONICA_ENLINEA</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td id="MOD_COMPUTARIZADA_ENLINEA">MOD_COMPUTARIZADA_ENLINEA</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td id="MOD_PORTAL_WEB">MOD_PORTAL_WEB</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td id="TIPO_EMISION_ONLINE">TIPO_EMISION_ONLINE</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td id="TIPO_EMISION_OFFLINE">TIPO_EMISION_OFFLINE</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td id="TIPO_EMISION_MASIVA">TIPO_EMISION_MASIVA</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td id="TIPO_FACTURA_CREDITO_FISCAL">TIPO_FACTURA_CREDITO_FISCAL</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td id="TIPO_FACTURA_SIN_CREDITO_FISCAL">TIPO_FACTURA_SIN_CREDITO_FISCAL</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td id="TIPO_FACTURA_AJUSTE">TIPO_FACTURA_AJUSTE</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td id="AMBIENTE_PRODUCCION">AMBIENTE_PRODUCCION</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td id="AMBIENTE_PRUEBAS">AMBIENTE_PRUEBAS</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="token"><strong>$token</strong>
+                —
+                string<br/><span class="indent">Token delegado</span></li>
+            <li id="wsdl">
+              <strong>$wsdl</strong>
+            </li>
+            <li id="wsdl">
+              <strong>$wsdl</strong>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul class="members">
+            <li id="ambiente">
+              <strong>$ambiente</strong>
+            </li>
+            <li id="codigoControl">
+              <strong>$codigoControl</strong>
+            </li>
+            <li id="codigoSistema">
+              <strong>$codigoSistema</strong>
+            </li>
+            <li id="cufd"><strong>$cufd</strong>
+                —
+                string<br/><span class="indent">Código Único de Facturación Diario</span></li>
+            <li id="cuis"><strong>$cuis</strong>
+                —
+                string<br/><span class="indent">Código Único de Inicio de Sistemas</span></li>
+            <li id="debug">
+              <strong>$debug</strong>
+            </li>
+            <li id="modalidad">
+              <strong>$modalidad</strong>
+            </li>
+            <li id="nit">
+              <strong>$nit</strong>
+            </li>
+            <li id="razonSocial">
+              <strong>$razonSocial</strong>
+            </li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>protected</h4>
+          <ul>
+            <li id="buildData">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/buildData.xhtml">buildData()</a>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="sincronizarActividades">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarActividades.xhtml">sincronizarActividades()</a>
+            </li>
+            <li id="sincronizarFechaHora">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarFechaHora.xhtml">sincronizarFechaHora()</a>
+            </li>
+            <li id="sincronizarListaActividadesDocumentoSector">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarListaActividadesDocumentoSector.xhtml">sincronizarListaActividadesDocumentoSector()</a>
+            </li>
+            <li id="sincronizarListaLeyendasFactura">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarListaLeyendasFactura.xhtml">sincronizarListaLeyendasFactura()</a>
+            </li>
+            <li id="sincronizarListaMensajesServicios">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarListaMensajesServicios.xhtml">sincronizarListaMensajesServicios()</a>
+            </li>
+            <li id="sincronizarListaProductosServicios">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarListaProductosServicios.xhtml">sincronizarListaProductosServicios()</a>
+            </li>
+            <li id="sincronizarParametricaEventosSignificativos">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaEventosSignificativos.xhtml">sincronizarParametricaEventosSignificativos()</a>
+            </li>
+            <li id="sincronizarParametricaMotivoAnulacion">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaMotivoAnulacion.xhtml">sincronizarParametricaMotivoAnulacion()</a>
+            </li>
+            <li id="sincronizarParametricaPaisOrigen">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaPaisOrigen.xhtml">sincronizarParametricaPaisOrigen()</a>
+            </li>
+            <li id="sincronizarParametricaTipoDocumentoIdentidad">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoDocumentoIdentidad.xhtml">sincronizarParametricaTipoDocumentoIdentidad()</a>
+            </li>
+            <li id="sincronizarParametricaTipoDocumentoSector">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoDocumentoSector.xhtml">sincronizarParametricaTipoDocumentoSector()</a>
+            </li>
+            <li id="sincronizarParametricaTipoEmision">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoEmision.xhtml">sincronizarParametricaTipoEmision()</a>
+            </li>
+            <li id="sincronizarParametricaTipoHabitacion">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoHabitacion.xhtml">sincronizarParametricaTipoHabitacion()</a>
+            </li>
+            <li id="sincronizarParametricaTipoMetodoPago">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoMetodoPago.xhtml">sincronizarParametricaTipoMetodoPago()</a>
+            </li>
+            <li id="sincronizarParametricaTipoMoneda">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoMoneda.xhtml">sincronizarParametricaTipoMoneda()</a>
+            </li>
+            <li id="sincronizarParametricaTipoPuntoVenta">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTipoPuntoVenta.xhtml">sincronizarParametricaTipoPuntoVenta()</a>
+            </li>
+            <li id="sincronizarParametricaTiposFactura">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaTiposFactura.xhtml">sincronizarParametricaTiposFactura()</a>
+            </li>
+            <li id="sincronizarParametricaUnidadMedida">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/sincronizarParametricaUnidadMedida.xhtml">sincronizarParametricaUnidadMedida()</a>
+            </li>
+            <li id="verificarComunicacion">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionSincronizacion" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioFacturacionSincronizacion/verificarComunicacion.xhtml">verificarComunicacion()</a>
+            </li>
+          </ul>
+          <h3>Inherited from <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat.xhtml">SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="callAction">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/callAction.xhtml">callAction()</a>
+            </li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="autenticar">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/autenticar.xhtml">autenticar()</a>
+            </li>
+            <li id="debug">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/debug.xhtml">debug()</a>
+            </li>
+            <li id="setConfig">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/setConfig.xhtml">setConfig()</a>
+            </li>
+            <li id="setToken"><a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/setToken.xhtml">setToken()</a>
+                — Assign tokenDelegado</li>
+            <li id="validate">
+              <a title="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" href="../classes/SinticBolivia_SBFramework_Modules_Invoices_Classes_Siat_Services_ServicioSiat/validate.xhtml">validate()</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2022 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

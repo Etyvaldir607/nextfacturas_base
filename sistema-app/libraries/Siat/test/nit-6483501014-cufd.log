@@ -1,0 +1,2058 @@
+[2022-06-29 19:57:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzlRMjZUZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 1EC6095C1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T19:57:53.166-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 19:58:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xkcDdUZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 231F5A5C1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T19:58:41.299-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 19:59:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xLejhUZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 850C0C5C1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T19:59:51.109-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:00:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzlHU0FVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 329A1A9C1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:00:18.066-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:02:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0s0a0NVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 37007D9C1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:02:36.551-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:05:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FyaEZVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 46B7F1AC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:05:33.430-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:08:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2U2S0lVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 7D4236AC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:08:10.573-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:13:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0Ejek5VZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 5EC37EAC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:13:51.630-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:16:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3lONVFVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 674913BC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:16:56.135-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:17:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29xalJVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 600F44BC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:17:35.424-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:18:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FlR1NVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 6CD365BC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:18:06.300-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:19:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q28vaFRVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 34C557BC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:19:33.764-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:20:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1U7VFVVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 0206A8BC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:20:19.842-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:22:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q28sVldVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 1A0BBBBC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:22:21.834-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:23:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2VidFhVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 193D9DBC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:23:45.273-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:32:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3k1dGdVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 5DF95BCC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:32:45.565-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:48:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFBb0JCandHQQ==MzM1RTAwMDdDQjc=Q8KhwqE4d1VlR1dVNzIwRkM0NkU0QzI1
+            [codigoControl] => 3B3BF3EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:48:59.707-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:49:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q2/CsER4VWVHV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 9EF7A4EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:49:03.934-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:50:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhTkV5VWVHV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 996F26EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:50:04.137-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:50:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzlySnlVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 2C1446EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:50:09.436-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:50:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xidnlVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 3FE7D6EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:50:47.279-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:50:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q2/CrHp5VWVHV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 6A0AE6EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:50:51.914-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:51:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FJT3pVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 10ECD7EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:51:14.080-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:51:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1VAU3pVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 902FE7EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:51:18.752-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:51:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhQHZ6VWVHV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 8D6068EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:51:47.757-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:51:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1VaMnpVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 24E578EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:51:53.252-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:52:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FQUTFVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 369B69EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:52:16.150-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:52:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29HVjFVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 18CE79EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:52:21.064-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:52:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29FMTFVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 7CC7F9EC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:52:52.044-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:52:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2VJNjFVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 8B7B0AEC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:52:57.083-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:53:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q281cTJVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 54695BEC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:53:42.564-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:53:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FpdjJVZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 1C0C6BEC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:53:47.340-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:54:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3k8SDNVZUdXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 17485CEC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:54:07.815-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 20:54:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhWk4zVWVHV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 498D6CEC1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T20:54:13.257-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 21:01:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzlCQUJWZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 7031F33D1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T21:01:00.016-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 21:03:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzldaURWZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 5606873D1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T21:03:34.726-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 21:06:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz4qUEdWZUdXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 32EFCB3D1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T21:06:15.778-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-29 21:09:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q3nDgUtKVmVHV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 8FF0504D1E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-06-30T21:09:10.975-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:23:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xicFhKQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 8F10E9C15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:23:41.279-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:24:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3k7bVlKQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 8D3D5BC15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:24:38.845-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:26:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0tDaWFKQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 35A75EC15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:26:34.021-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:30:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q2/DgXRlSkJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 66D0A4D15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:30:45.974-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:47:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1VHMnZKQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 762DAEE15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:47:53.062-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:50:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1UtbnlKQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 662D03F15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:50:39.782-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:52:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1UnTzFKQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 0229B5F15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:52:14.882-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:54:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xKUTNKQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 732BC8F15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:54:16.099-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:55:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FZTzRKQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 808A4AF15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:55:14.240-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 09:57:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0tmTDZKQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 7F4C4DF15E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T09:57:11.311-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:01:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3knQUJLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 151740425E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:01:00.885-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:01:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2VXOEJLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 07FA21425E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:01:59.223-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:04:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q2/Dk3dFS0JIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 9C9695425E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:04:48.924-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:06:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q3nDmkVHS0JIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 5B18F7425E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:06:04.955-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:06:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KheWlHS0JIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 0B8B68425E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:06:34.507-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:06:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0s3c0dLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 35E298425E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:06:44.581-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:07:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0tLTkhLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 0D8E99425E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:07:13.101-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:08:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=QznDgUlJS0JIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 90151B425E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:08:08.976-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:16:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz5faVFLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 725FA7525E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:16:34.898-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:19:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz5jd1RLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 10877C525E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:19:48.288-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:20:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3x2SFVLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 67BE5D525E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:20:07.479-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:21:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3wjeFZLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 170A8F525E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:21:49.639-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:23:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3k6blhLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 11F072625E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:23:39.825-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:26:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2VjdmFLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 23F127625E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:26:47.283-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:28:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3lOcmNLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 7FFE1A625E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:28:43.135-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:38:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Qz7CsFNtS0JIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 1AB209725E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:38:18.938-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:42:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FiU3FLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 6E9A1F725E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:42:18.270-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:43:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhdW5yS0JIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 5B04F0825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:43:39.467-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:44:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2U1RXNLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 0352F1825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:44:04.563-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:46:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29RcHVLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 9C8E85825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:46:41.164-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:47:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2UpdXZLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 497B27825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:47:46.873-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:48:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FiUndLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 467E38825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:48:17.270-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:48:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1UvM3dLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 6AE0D8825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:48:54.762-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:49:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhNkF4S0JIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 71E389825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:49:00.577-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:49:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0tJeHhLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 59514A825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:49:49.081-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:51:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3lOa3pLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 570C1D825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:51:36.135-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:53:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29KSTJLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 0EBBBF825E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:53:08.094-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:53:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29VaDJLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 24DD10925E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:53:33.204-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:53:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xxejJLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 950560925E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:53:51.429-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:55:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q2/CsGc0S0JIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 560A23925E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:55:32.934-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:55:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz5+bDRLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 50BD33925E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:55:37.968-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:55:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0E2NTRLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 2A5683925E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:55:56.570-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:57:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz4oUzZLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 845006925E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:57:18.868-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:58:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29eNjdLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 389F18925E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:58:57.944-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 10:59:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1U9MThLQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 20A199925E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T10:59:52.672-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:02:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz5NakNMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 88F9EAD25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:02:35.128-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:04:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2UsR0VMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 21B88DD25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:04:06.833-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:05:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhZWRGTEJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 2B176FD25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:05:29.307-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:06:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0s+dEdMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 792E21E25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:06:45.801-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:08:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1V9VUlMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 1689D3E25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:08:20.742-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:09:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3leQ0pMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 21AA15E25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:09:02.945-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:10:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q283SEtMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 9063B6E25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:10:07.584-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:11:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3lEZ0xMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 538998E25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:11:32.035-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:11:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3l5dUxMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 7902D8E25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:11:46.505-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:14:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0s1ck9MQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 496A5DE25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:14:43.561-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:15:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FuMlBMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 3E670FE25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:15:53.390-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:16:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3lbb1FMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 2B8C50F25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:16:40.715-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:20:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1VXa1VMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 7E7566F25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:20:36.222-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:23:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1UpTFhMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 804A9AF25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:23:11.872-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:24:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2V6aVlMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 21597CF25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:24:34.513-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:25:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3x4MVpMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 43364EF25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:25:52.499-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:26:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhXmZhTEJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 4B8C7FF25E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:26:31.947-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:28:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3lTWmNMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 716F62035E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:28:25.185-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:35:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q0HDk3NqTEJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 58DA6D035E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:35:44.920-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:37:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz5+NmxMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 301BA0135E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:37:57.968-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:38:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xFem1MQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 09A612135E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:38:51.049-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:40:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz5Ya29MQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 3E0AE4135E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:40:36.238-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:41:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2UmSnBMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 2FD806135E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:41:09.663-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:42:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzkpdXFMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 0CD028135E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:42:46.876-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:43:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1VsSXJMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 141119135E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:43:08.372-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:45:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3wuYXRMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 3B866C135E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:45:26.859-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:47:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0tnQ3ZMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 01F31F135E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:47:02.321-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:48:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xfRndMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 6B88A0235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:48:05.899-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:49:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29eWXhMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 709972235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:49:24.944-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:50:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0tPT3lMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 8DF5D3235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:50:14.141-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:52:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzkyYzFMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 987B17235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:52:28.536-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:53:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQkJqd0dBNzzM1RTAwMDdDQjc=QznDjVEyTEJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 040578235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:53:16.996-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:53:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q290NjJMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 8E0319235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:53:57.454-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:55:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhMmw0TEJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 2182DB235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:55:37.537-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:55:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1UqMTRMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 240E0C235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:55:52.772-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:57:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0EmVDZMQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 9CE99E235E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:57:19.660-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 11:58:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz47dzdMQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 409290335E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T11:58:48.848-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:00:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2UpNEFNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 9144C0735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:00:55.873-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:01:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzktcEJNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 3AD312735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:01:41.786-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:03:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1U4RERNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 28EB84735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:03:03.592-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:04:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhbGlFTUJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 09CA86735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:04:34.377-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:05:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=QzkscEZNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 1C8E28735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:05:41.836-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:06:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz5TNUdNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 2C3DE9735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:06:56.188-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:07:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qzk9NUhNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 84C57B735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:07:56.676-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:08:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0tvR0lNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 21083C735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:08:06.401-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:08:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Qz57a0lNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 528EAC735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:08:36.738-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:09:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FFZ0pNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 48C22E735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:09:32.040-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:10:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3w8cEtNQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 3B9FCF735E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:10:41.819-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:11:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2U/WExNQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 636F01835E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:11:23.683-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:14:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3x+UU9NQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 290985835E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:14:16.969-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:15:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q0HDjURQTUJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 96FCD6835E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:15:03.990-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:17:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q1UoeVJNQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 2E41AA835E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:17:50.862-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:17:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhfjRSTUJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 5F35BA835E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:17:55.967-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:19:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3w5S1RNQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 51511D835E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:19:10.609-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:19:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3lGUVRNQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 97962D835E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:19:16.055-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:37:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q2V8d2xNQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 072E19A35E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:37:48.903-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:37:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQkJqd0dBNzzM1RTAwMDdDQjc=Q8KhPzNsTUJIV1VIwRkM0NkU0QzI1M
+            [codigoControl] => 1FB439A35E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:37:54.687-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:39:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0E/Tm5NQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 40D1ABA35E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:39:13.680-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:39:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0EhU25NQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 6C15BBA35E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:39:18.620-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:40:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3x3dW9NQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 6998ADA35E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:40:46.489-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:40:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q3xbMm9NQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 07D4CDA35E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:40:53.719-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 12:44:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q29jdXNNQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 4C42C3B35E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T12:44:46.284-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 15:20:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0FRNVVQQkhXVUFIwRkM0NkU0QzI1M
+            [codigoControl] => 606D09555E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T15:20:56.160-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 15:24:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9CQmp3R0E=NzzM1RTAwMDdDQjc=Q0tHWllQQkhXVUJIwRkM0NkU0QzI1M
+            [codigoControl] => 256EAE555E86D74
+            [direccion] => AVENIDA ROQUE AGUILERA NRO.482 ZONA VILLA FATIMA UV: ET13 MZA:E10
+            [fechaVigencia] => 2022-07-01T15:24:25.061-04:00
+            [transaccion] => 1
+        )
+
+)
+

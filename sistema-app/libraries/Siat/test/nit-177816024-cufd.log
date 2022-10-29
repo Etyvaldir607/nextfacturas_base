@@ -1,0 +1,3880 @@
+[2022-04-21 12:56:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VETjVNV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 88E5A66AAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T12:56:13.032-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 12:57:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3luSTZNV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 5B6A186AAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T12:57:08.395-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:30:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhME9lTldFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 295697DAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:30:14.617-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:31:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhYmxmTldFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 1D7579DAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:31:37.277-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:32:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VDZ2dOV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0697EADAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:32:32.022-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:33:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhPVpoTldFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 1D655CDAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:33:25.677-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:35:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q2XCv2lqTldFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 65E58FDAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:35:34.693-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:36:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhU2drTldFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 5BB201EAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:36:32.187-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:37:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q2/DiVhsTldFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 805962EAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:37:23.984-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:37:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tfNGxOV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 83F5E2EAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:37:55.891-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:39:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qzk+dW5OV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 76BFC5EAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:39:46.806-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 13:41:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0teTXBOV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 1DA858EAAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T13:41:12.941-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 14:30:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0FUT2VPV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 4E2B207BAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T14:30:14.190-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 14:42:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q1XCrHZxT1dFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 886EF28BAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T14:42:47.912-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 14:44:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=QsKhOWhzT1dFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 37C3D58BAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T14:44:33.607-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 14:45:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz5OM3RPV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 4A9AA78BAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T14:45:54.138-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 14:47:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhTFR2T1dFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 9D0F2A8BAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T14:47:19.117-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 14:48:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tdTHdPV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 69C89B8BAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T14:48:11.721-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:07:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhZkNIUFdFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 6DEA75EBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:07:02.317-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:07:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2U6eEhQV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4F7436EBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:07:49.823-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:08:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xNZ0lQV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 510677EBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:08:32.129-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:09:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tWR0pQV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 236798EBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:09:06.211-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:10:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xWOEpQV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 637669EBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:09:59.219-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:10:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29RTktQV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 5C293AEBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:10:13.164-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:11:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tBWUxQV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 312AEBEBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:11:24.001-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:11:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qzk1NUxQV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 86596CEBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:11:56.566-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:12:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzkxdE1QV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 96D4CDEBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:12:45.526-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:13:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhQUZOUFdFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 5F2DAEEBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:13:05.007-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:13:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qzk/NU5QV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 6E077FEBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:13:56.686-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:14:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2UwTE9QV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4D9D40FBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:14:11.613-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:14:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0ElMU9QV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 5AEDE0FBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:14:52.650-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:15:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3x9bVBQV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 6D3E32FBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:15:38.749-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:15:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhRjZQUFdFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 61C582FBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:15:57.057-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:17:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3x6dVJQV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 17D965FBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:17:46.519-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:18:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QlVAa1NQV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 205AC6FBAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:18:36.752-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:25:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhdXVaUFdFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 33AE910CAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:25:46.467-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:27:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tANGJQV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 9720D40CAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:27:55.751-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:29:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzkjQ2RQV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 8CED070CAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:29:02.636-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:41:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2UjM3BQV0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 99882A1CAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:41:54.633-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-21 15:43:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xiRXJQV0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 17117C1CAD56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-22T15:43:04.279-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 12:54:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tLRzNNYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 959F6964DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T12:54:06.101-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 12:56:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VsdTVNYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 642A1D64DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T12:56:46.372-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 12:57:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VPTzZNYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 6ED22E64DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T12:57:14.142-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 12:57:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xwazZNYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 73E97E64DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T12:57:36.419-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 12:58:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2UhSDdNYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 47009F64DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T12:58:07.623-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 12:58:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tbazdNYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 57A10074DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T12:58:36.711-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 13:01:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29bRkJOYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 327521B4DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T13:01:05.714-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 13:03:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tka0ROYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 232AA4B4DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T13:03:36.291-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 13:05:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzkzZ0ZOYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 42C8A7B4DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T13:05:32.546-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 13:06:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VyTUdOYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 40D0E8B4DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T13:06:12.432-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:15:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tLaVBPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 15978F55DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:15:34.101-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:24:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3llZ1lPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 213C3D65DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:24:32.305-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:30:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0F7VGVPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 42D23675DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:30:19.730-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:33:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1UxN2dPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 8A97D975DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:32:58.522-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:34:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q2XDiTVoT2JFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 67385B75DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:33:56.983-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:34:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3k9amlPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 0B9B8C75DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:34:35.675-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:36:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlBVWtPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 26AB5F75DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:36:20.006-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:38:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VBVW1PYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 12E86285DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:38:20.002-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:41:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2V2SnBPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 61A3D685DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:41:09.473-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:42:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q1XDk21xT2JFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 2A4DC885DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:42:38.922-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:44:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q3nDmk9zT2JFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 7BEC7B85DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:44:14.955-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:54:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0F8eDNPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 1CA74B95DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:54:49.900-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:55:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q295STRPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 289C2C95DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:55:08.504-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:56:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3wlWTVPYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 9352FD95DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:56:24.659-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:57:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0E7RjZPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 807F2F95DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:57:05.840-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 14:59:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q285SDhPYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 749342A5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T14:59:07.604-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:01:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QlVJSEJQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 3AC752E5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:01:07.082-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:11:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QlVEa0xQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 402B02F5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:11:36.032-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:12:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VOU01QYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 75DB43F5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:12:18.133-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:13:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz5rSE5QYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 5868A4F5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:13:07.368-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:16:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhWGZRUGJFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 558999F5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:16:31.237-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:17:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlWTlJQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 10C9DAF5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:17:13.216-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:17:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2UtdFJQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 27F85BF5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:17:45.783-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:18:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8Khe0hTUGJFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 79FA4CF5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:18:07.737-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:18:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tUWlNQYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 472F8CF5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:18:25.191-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:19:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tVcFRQYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 71545EF5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:19:41.201-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:20:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1V+NlRQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 9AC59EF5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:19:57.962-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:20:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlOaFVQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 907BBFF5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:20:33.136-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:20:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2U/cVVQYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4BB0EFF5DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:20:42.683-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:21:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29jYVZQYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4C472106DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:21:26.284-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:21:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29oclZQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 16E96106DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:21:43.334-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:22:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0FLZldQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 9CB0C206DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:22:31.100-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:22:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0Erc1dQYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0636F206DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:22:44.790-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:23:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29KT1hQYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0EE40406DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:23:14.094-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:23:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q0vCv1lYUGJFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 535E2406DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:23:24.691-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:24:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xlQ1lQYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 758D5506DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:24:02.309-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:24:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q1XCoU1ZUGJFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 4E168506DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:24:12.702-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 15:59:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QnkxazhQYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 7D0B4B36DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T15:59:36.525-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:03:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qm8wSERRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0E9DFD76DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:03:07.614-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:10:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QnlwSktRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 9703B886DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:10:09.415-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:18:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qm9sSFNRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 9E00E496DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:18:07.374-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:19:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=QsKhXlBUUWJFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 4B288696DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:19:15.947-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:22:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QjlfdldRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 38D89B96DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:22:47.896-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:24:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QkFGQllRYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 4A1FED96DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:24:01.050-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:25:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QnllR1pRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 914A8F96DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:25:06.305-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:25:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QlUlc1pRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0C0020A6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:25:44.652-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:27:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qj5uWmJRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0612E2A6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:27:25.398-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:27:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qm8lNWJRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2E2C53A6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:27:56.654-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:28:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QnliTGNRYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 3B8134A6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:28:11.275-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:29:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Qm/Dk01kUWJFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 1C9EB5A6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:29:12.924-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:30:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QnllRWVRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 919327A6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:30:04.305-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:31:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QmVIR2ZRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0911B8A6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:31:06.073-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:32:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qj5+Q2dRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 589B2AA6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:32:02.968-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:33:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QmUkSWhRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 9368CBA6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:33:08.643-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:34:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFBb0NRLVJBQQ==NTAzMENBNTVFMzc=QsKhw4FOaVFiRVdVNzFGMzJDNEZCNzkw
+            [codigoControl] => 29D36DA6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:34:13.977-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:36:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qnx0TWtRYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 8B2B60B6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:36:12.459-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:41:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=QsKhSmlwUWJFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 91D068B6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:41:34.097-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:43:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qm9saHJRYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 1E3B6BB6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:43:33.374-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:44:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QksmYXNRYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 75A7DCB6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:44:26.661-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:45:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QkFfV3RRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2A8F4EB6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:45:22.890-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 16:59:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QnxOdThRYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 9B1704D6DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T16:59:46.139-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 17:00:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QmVAbEFSYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 59F57217DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T17:00:37.753-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 17:01:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qm9aSkJSYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 364D8317DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T17:01:09.254-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 17:03:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QjlSZ0RSYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 8014F617DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T17:03:32.176-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 17:04:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QkExc0VSYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 48EAA817DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T17:04:44.520-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 17:05:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QlVETkZSYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 1886B917DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T17:05:13.032-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 17:05:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QlVXNkZSYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 76236A17DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T17:05:57.222-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 17:06:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qjl7ekdSYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 8854DB17DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T17:06:51.736-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 21:09:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QmVqNEpWYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2950D289DE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T21:09:55.353-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:33:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QnxHRWhYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 8504D7DADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:33:04.069-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:33:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qnk3aGhYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 715748DADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:33:33.585-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:35:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qj56aWpYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 16385BDADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:35:34.518-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:37:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qm9SNWxYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4E0ABEDADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:37:56.174-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:40:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QkFGc29YYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 029E13EADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:40:44.050-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:42:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qm9xa3FYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 080E06EADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:42:36.424-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:46:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QlUmaHVYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 8EBD1CEADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:46:33.662-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:47:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3whVnZYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 1D557DEADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:47:21.629-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:47:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3kkd3ZYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 65EEDDEADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:47:48.645-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:50:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q282ZHlYYkVXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 964822FADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:50:29.574-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-26 23:59:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29wWDhYYkVXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 56DBCFFADE56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-27T23:59:23.414-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-27 00:02:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2UpcENBY0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 31DE5E880F56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-28T00:02:41.873-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-27 00:03:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q0vCv2JEQWNFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 4B0EAF880F56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-28T00:03:27.691-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-27 00:04:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz4xSkVBY0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 98BDE0980F56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-28T00:04:09.528-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-27 14:22:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhLVhXT2NFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 1BA7D4011F56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-28T14:22:23.787-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-27 14:23:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhW05YT2NFV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 95F636011F56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-28T14:23:13.717-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-27 14:27:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0E4TGJPY0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 56294C011F56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-28T14:27:11.590-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-27 14:27:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3lCbGJPY0VXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 177CAC011F56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-28T14:27:37.015-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-04-27 14:28:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0EzRmNPY0VXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 1428BD011F56D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-04-28T14:28:05.540-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:06:18]#
+
+[2022-05-03 20:07:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2UscUhVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 01BDB576C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:07:42.833-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:08:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2V2b0lVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 291B3776C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:08:40.473-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:09:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0F0NklVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4A6D7776C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:08:57.450-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:13:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlBN01VRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 961A9D76C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:12:58.006-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:16:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz5pY1FVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2CB04386C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:16:28.348-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:21:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhMmhWVUVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 2126FA86C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:21:33.537-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:24:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qzk9Z1lVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 54A68F86C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:24:32.676-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:28:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzluT2NVRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 8CB95596C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:28:14.396-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:31:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlCc2ZVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 80516A96C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:31:44.016-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:32:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tqS2dVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2F646B96C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:32:10.351-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:33:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3k6RmhVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4169DC96C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:33:05.825-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:33:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0FZcmhVRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 888B6D96C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:33:43.240-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:35:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1U9WWpVRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 504030A6C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:35:24.672-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 20:38:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz4rbW1VRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 5E4BF4A6C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T20:38:38.798-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:23:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VZNldWRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 6ADF6527C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:22:57.242-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:24:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q1XCsGZZVkVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 1C3A1827C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:24:31.932-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:25:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0F4RVpWRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2AA53927C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:25:04.490-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:27:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2V8UWJWRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 27637C27C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:27:16.903-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:27:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz5sMWJWRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 1AFDFC27C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:27:52.378-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:28:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlnT2NWRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 56FFED27C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:28:14.326-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:30:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VBYWVWRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 02DA2137C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:30:26.002-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:31:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3wyOGVWRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 43DDA137C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:30:59.539-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:31:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0svVWZWRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 69FC9237C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:31:20.761-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:31:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VadGZWRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 94ACF237C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:31:45.252-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:34:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlSNmhWRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 18783637C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:33:57.176-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:34:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q2/DjVdpVkVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 62993737C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:34:22.994-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:36:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2U6Y2tWRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 979D5A37C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:36:28.823-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:37:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3k0UWxWRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2B44BB37C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:37:16.555-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:39:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q284Y25WRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 3290FE37C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:39:28.594-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:39:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VEMW5WRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 212C4F37C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:39:52.033-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:40:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlLUG9WRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 82824047C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:40:15.106-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:42:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlFWHFWRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 76CE6347C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:42:23.046-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 21:48:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qzk/NHdWRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 06061D47C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T21:48:55.686-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:19:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhSlFUV0VGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 91C1D8B7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:19:16.097-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:19:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3k6MVRXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 093169B7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:19:52.825-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:20:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlfSVVXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 704C3AB7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:20:08.896-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:20:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzkyNVVXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 3856FAB7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:20:56.536-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:22:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xiU1dXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 272E6DB7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:22:18.279-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:23:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VzZ1hXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 3B1C2FB7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:23:32.443-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:24:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzkkQ1lXRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 865E30C7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:24:02.646-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:25:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzkoSlpXRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 7A21E1C7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:25:09.866-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:26:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0s3Z2FXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2580C3C7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:26:32.581-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:31:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3lNaWZXRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 8DA76BC7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:31:34.125-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:37:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tjTmxXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 310E34D7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:37:13.281-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:37:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VncmxXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4A53B4D7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:37:43.322-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:41:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz5GMXBXRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 5AFFEAD7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:41:52.058-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:42:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qzkqa3FXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 78EA3CD7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:42:36.776-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:42:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VYNXFXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 69E68CD7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:42:56.233-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:46:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29NaHVXRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 442742E7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:46:33.124-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:47:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xBQ3ZXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 493453E7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:47:02.009-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:47:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3lKUnZXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 272F83E7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:47:17.095-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:50:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3ltUXlXRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 714028E7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:50:16.385-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:51:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3ksWnpXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 7BCBC9E7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:51:25.835-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:53:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhcUMyV0VGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 5B9D7CE7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:53:02.427-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:56:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhRVg1V0VGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 370261F7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:56:23.047-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:56:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0EyMTVXRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 9235D1F7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:56:52.530-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 22:57:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3knUTZXRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0590D2F7C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T22:57:16.885-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:00:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VNUEFYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 73966438C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:00:15.123-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:03:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VvS0RYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 3208E838C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:03:10.402-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:04:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhLERFWEVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 4DF45A38C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:04:03.837-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:04:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhYzVFWEVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 2FD12B38C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:04:56.287-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:05:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhNFFGWEVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 5D4D0C38C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:05:16.557-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:06:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz5fU0dYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 321D9D38C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:06:18.898-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:07:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3kyb0hYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 17387F38C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:07:40.535-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:09:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0s1OElYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 09294148C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:08:59.561-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:11:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3lFNExYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 956BC548C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:11:55.045-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:12:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q1XDgWRNWEVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 4410F648C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:12:29.972-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:12:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz5udE1YRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 365C2748C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:12:45.398-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:15:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tPT1BYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 6D164B48C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:15:14.141-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:15:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3lRalBYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 4D389B48C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:15:35.165-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:16:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0s2N1BYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 7BA3FB48C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:15:58.571-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:16:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0szalFYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 35502D48C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:16:35.541-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:19:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3w5WFRYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 79958158C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:19:23.609-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:19:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0EmcVRYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 3400D158C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:19:42.660-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:22:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VDU1dYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 36A30658C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:22:18.022-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:24:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0FrdllYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 50838958C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:24:47.360-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:25:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz43bFpYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 74F3EA58C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:25:37.588-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:28:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VdS2NYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 62EE0F58C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:28:10.722-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:29:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3x8Q2RYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0DF67068C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:29:02.909-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:31:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhKExmWEVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 9B37A368C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:31:11.867-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:32:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz5WTWdYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 9A3F2568C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:32:12.218-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:35:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VpRWpYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 2654A968C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:35:04.342-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:35:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qzk+b2pYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 16C23A68C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:35:40.806-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:36:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlkVWtYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 08496B68C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:36:20.296-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:36:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3lUc2tYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 53A6CB68C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:36:44.195-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:37:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3lCcGxYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 67D04D68C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:37:41.015-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:40:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VuS29YRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 391D5178C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:40:10.393-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:40:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tVb29YRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 8981D178C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:40:40.201-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:40:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0F+M29YRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 003B0278C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:40:54.960-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:41:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VqVXBYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 61AA0378C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:41:20.353-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:44:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1VYVnNYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 20F1A778C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:44:21.232-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:45:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3k9RnRYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 3BCBE878C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:45:05.675-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:49:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhIUF4WEVGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 9392FE78C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:49:00.627-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:49:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29vdHhYRUZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 1C71AF78C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:49:45.404-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-03 23:52:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0F3czFYRUZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 40C13488C076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-04T23:52:44.480-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:28:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0EnU2NPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 404EAC9EF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:28:18.880-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:30:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0F1QWVPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 1C837F9EF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:30:00.460-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:33:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlRS2hPRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 965D24AEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:33:10.166-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:33:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhOHdoT0ZGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 4573C4AEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:33:48.597-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:34:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3w7N2hPRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 618BE4AEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:33:58.849-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:34:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29vVWlPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 24FBD5AEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:34:20.404-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:37:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3k0RWxPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 3BE13AAEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:37:04.555-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:40:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0FEQm9PRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 9608BEAEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:40:01.030-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:40:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3kpbm9PRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 13CF4FAEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:40:39.875-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:41:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3w5anBPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 79B5C0BEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:41:35.609-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:44:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29mdnNPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 725785BEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:44:47.314-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:45:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0trWnRPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 2138B6BEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:45:25.361-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:46:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz4wdHVPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 22FD88BEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:46:45.618-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:47:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q29lTXZPRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 707299BEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:47:12.304-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:48:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q2XCrEt3T0ZGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 31A31BBEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:48:10.913-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:48:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3k3NHdPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 0122CBBEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:48:55.585-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:50:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q0vDjTh4T0ZGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 47F95DBEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:49:59.991-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:50:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2U0U3lPRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 39BE3EBEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:50:18.553-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:51:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlySnpPRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 0CB1AFBEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:51:09.436-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:54:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q0HCrEEzT0ZGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 6E4414CEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:54:00.910-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:54:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VtejNPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 6779D4CEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:54:51.383-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:55:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xIYTRPRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 2F3DF5CEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:55:26.079-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 14:56:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3x1dTVPRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 5583D7CEF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T14:56:46.469-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:02:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VGT0NQRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 75A58D0FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:02:14.053-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:07:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qz4oY0hQRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 74A0651FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:07:28.868-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:08:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzllS0lQRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 12CE961FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:08:10.306-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:09:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3krWEpQRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 631A581FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:09:23.795-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:18:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhPzFTUEZGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 1F86862FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:18:52.687-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:20:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=QzlTRlVQRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 624AD82FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:20:05.186-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:21:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1U7SlZQRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 62137A2FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:21:09.842-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:28:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2UsMmNQRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 194DC53FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:28:53.833-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:31:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q1UqWGZQRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 8CBBE93FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:31:23.772-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:32:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xHQWdQRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 65C51B3FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:32:00.069-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:33:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xWQ2hQRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 6BC4AC3FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:33:02.219-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:40:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0tpZm9QRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 7DE4C74FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:40:31.341-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:43:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3xLU3JQRkZXVUJFGMzJDNEZCNzkwN
+            [codigoControl] => 4D152C4FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:43:18.109-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:44:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3w3VnNQRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 7559BD4FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:44:21.589-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 15:54:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q2/DjVczUEZGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 02110D5FF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T15:54:22.994-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 16:03:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFvQ1EtUkFBNzTAzMENBNTVFMzc=Q8KhR1ZEUUZGV1VFGMzJDNEZCNzkwN
+            [codigoControl] => 1B2EB7AFF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T16:03:21.067-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 16:04:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q0FYb0VRRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 16AF89AFF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T16:04:40.230-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 16:11:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2U0a0xRRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 99AF24BFF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T16:11:36.553-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 16:12:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Qzl6dU1RRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 443DD5BFF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T16:12:46.516-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 16:22:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q2VQMVdRRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 397535CFF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T16:22:52.153-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-05-04 16:33:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQW9DUS1SQUE=NzTAzMENBNTVFMzc=Q3l8ZGhRRkZXVUFFGMzJDNEZCNzkwN
+            [codigoControl] => 7177A5DFF076D74
+            [direccion] => CALLE COSTA RICA NRO.50 ZONA PANAMERICANO UV:0013 MZA:0016
+            [fechaVigencia] => 2022-05-05T16:33:29.905-04:00
+            [transaccion] => 1
+        )
+
+)
+

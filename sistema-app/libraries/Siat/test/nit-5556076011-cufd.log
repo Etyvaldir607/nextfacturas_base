@@ -1,0 +1,3598 @@
+[2022-06-30 00:24:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U1RllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 4AB09D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:05.562-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:06]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0E6RllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 1CB19D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:05.820-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tUSFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 87179D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:07.191-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q290SFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 3E189D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:07.454-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhLEhZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 9D999D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:07.837-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VSSVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 5CEA9D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:08.172-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5wSVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 92EB9D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:08.418-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => QUFBS0IvOTRGQQ==Q0MyRjc3N0I2NEY=Q8Khwr9JWUFCSFdVNzIxMDA1MzJCQUM0
+            [codigoControl] => 89FC9D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:08.697-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3leSVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 01FD9D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:08.945-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29YSllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 021F9D6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:09.234-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1V4SllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 6410AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:09.492-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3x9SllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 0511AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:09.749-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhQUtZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 9712AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:10.007-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xiS1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8723AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:10.279-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0E1S1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 4044AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:10.560-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U8S1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8C35AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:10.812-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhUkxZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 99A6AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:11.177-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FzTFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 70B7AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:11.440-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhXUxZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 9FC8AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:11.727-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2VCTVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2DE9AD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:12.013-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8Khbk1ZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 0D6BAD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:12.397-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:12]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2UmTVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 677CAD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:12.663-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FDTllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 9CDDAD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:13.020-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29lTllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 48FEAD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:13.304-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0s3TllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 7D00BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:13.581-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1UpTllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 9031BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:13.872-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tST1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2B52BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:14.171-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhcE9ZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 5153BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:14.417-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q2/CoU9ZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 0074BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:14.704-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5GUFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 92D5BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:15.058-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VoUFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 34E6BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:15.332-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qzk4UFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2CE7BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:15.596-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz4pUFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 7609BD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:15.878-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xaUVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 238ABD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:16.259-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2U2UVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 3DBBBD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:16.573-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0EsUVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 5EBCBD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:16.830-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FJUllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 38BDBD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:17.080-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FpUllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8CBEBD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:17.340-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0E4UllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 86BFBD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:17.590-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qzl8UllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 72F0CD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:17.906-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lrU1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2DB2CD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:18.365-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3kwU1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 87B3CD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:18.615-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2VeU1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 4FF4CD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:18.943-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29UVFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 6AF5CD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:19.194-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3x2VFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 3717CD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:19.479-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzkvVFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 4638CD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:19.766-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:21]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lEVVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2349CD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:20.035-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5wVllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8AAECD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:21.418-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U/V1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8A93DD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:22.682-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:23]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Qz7DmldZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 5EA4DD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:22.958-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lZWFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8DC5DD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:23.245-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz40WVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8EEADD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:24.558-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:24]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhKFlZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 032CDD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:24.867-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lXWllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 398DDD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:25.225-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q293WllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 6C8EDD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:25.484-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhL1pZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 67AFDD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:25.767-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlFYVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 0EB0ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:26.046-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tpYVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 65E1ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:26.341-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0EwYVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 82F2ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:26.610-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz4uYVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 0AE3ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:26.858-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lKYllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 27D4ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:27.095-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlsYllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 50F5ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:27.376-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzklYllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 9807ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:27.656-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:27]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Qz7Dk2JZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 3818ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:27.928-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VUY1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 0029ED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:28.192-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3krY1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 0B7BED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:28.795-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VGZFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2C7CED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:29.052-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VnZFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 9A8DED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:29.322-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1UwZFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 5CAEED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:29.612-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q3nCrGRZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 1BDFED6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:29.915-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5oZVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2281FD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:30.338-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VbZVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 68F2FD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:30.712-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2V+ZVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 93F3FD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:30.963-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0toZllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 6365FD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:31.331-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q28jZllBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8296FD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:31.634-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q2/Dk2ZZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 14B7FD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:31.924-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lSZ1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 3FA8FD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:32.175-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1V0Z1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 34C9FD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:32.452-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Qz7CoWdZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 54CAFD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:32.708-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29+Z1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 04CBFD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:32.964-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29WaFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 0EBCFD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:33.214-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz52aFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 16CDFD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:33.478-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3x7aFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2BCEFD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:33.739-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlDaVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 1AEFFD6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:34.026-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhY2lZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 7FE00E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:34.287-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3wxaVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 51E10E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:34.529-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:34]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz4taVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 74E20E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:34.788-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5NallBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 88340E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:35.128-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:35]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tsallBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 6B250E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:35.371-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0s6allBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 0DE60E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:35.821-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lia1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 63B80E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:36.275-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0sua1lBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 23FA0E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:36.851-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xQbFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 472C0E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:37.159-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhcmxZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 0D3D0E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:37.437-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:37]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzkrbFlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 84AE0E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:37.796-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xHbVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 25BF0E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:38.069-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlpbVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 0AC01E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:38.346-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0swbVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 43D11E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:38.611-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz4ubVlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2AC21E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:38.858-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhS25ZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 73C31E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:39.107-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q284bllBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 9AA51E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:39.594-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Qz7Dmm5ZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 46171E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:39.958-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2U1b1lBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 23791E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:40.563-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q1XDjW9ZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 302B1E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:40.992-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FycFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 86DC1E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:41.430-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q28vcFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 742E1E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:41.764-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VHcVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 9E4F1E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:42.062-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5rcVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 90802E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:42.368-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:42]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q28mcVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 58A12E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:42.664-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5JcllBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 50532E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:43.088-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29vc1lBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 44782E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:44.404-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:44]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2Ulc1lBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 6D692E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:44.653-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q0HCsHNZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 028A2E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:44.930-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tYdFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 1FAB2E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:45.231-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3l3dFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 3DAC2E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:45.485-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:45]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz57dFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 8AAD2E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:45.738-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q2XDjXRZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 99AE2E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:45.993-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tadVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 2BAF2E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:46.251-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhenVZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 85B03E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:46.517-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:46]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2UvdVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 9BA13E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:46.763-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FKdllBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 82F23E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:47.090-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tqdllBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 97F33E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:47.351-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0sjdllBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 6F053E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:47.631-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xfdllBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 4B163E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:47.899-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0sxeFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 417C3E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:49.521-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U8eFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 649D3E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:49.812-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tIeVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 279E3E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:50.071-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlmeVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 3C8F3E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:50.316-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3k1eVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 25804E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:50.565-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U+eVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 42714E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:50.802-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlIellBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 44824E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:51.076-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lpellBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 41934E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:51.345-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2UwellBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 7D944E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:51.613-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3kuellBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 7F854E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:51.855-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tMMVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 8F864E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:52.111-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lsMVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 17974E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:52.375-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzkkMVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 96A84E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:52.646-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q0HCrDFZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 0EA94E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:52.910-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29QMllBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 72AA4E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:53.154-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29vMllBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 3C9B4E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:53.404-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:53]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhPTJZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 9DAC4E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:53.677-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q3nDkzJZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 65AD4E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:53.925-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FTM1lBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 44AE4E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:54.180-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VzM1lBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 8AAF4E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:54.442-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q0HCvzNZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 92A05E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:54.690-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q2XDmjNZQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 49A15E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:54.953-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlWNFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 40B25E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:55.216-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3x3NFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 71C35E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:55.489-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VANFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 18C45E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:55.752-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2VBNVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 53C55E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:56.003-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xkNVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 4BE65E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:56.299-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:56]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0s2NVlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 6BF75E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:56.571-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tZN1lBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 118E5E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:58.241-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2V6N1lBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 319F5E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:58.513-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz4rN1lBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 3EA06E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:58.798-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xKOFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 3BD16E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:59.099-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlpOFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 62D26E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:59.346-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzkwOFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 40E36E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:59.616-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:24:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0spOFlBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 0FD46E6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:24:59.871-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xUQVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 87620F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:00.199-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:00]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U3QVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 76E30F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:00.582-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5eQVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 74550F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:00.948-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhaEJaQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 29D60F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:01.337-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzkwQlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 30F70F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:01.616-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlFQ1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 0E990F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:02.046-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29oQ1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 8EBA0F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:02.334-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0EwQ1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 82DB0F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:02.610-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3leQ1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 512D0F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:02.945-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29WRFpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 1E2E0F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:03.214-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U1RFpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 5A8F0F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:03.562-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q2XDjURaQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 79311F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:03.993-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29jRVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 5C521F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:04.284-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3wzRVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 15631F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:04.549-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz4tRVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 84541F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:04.788-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2VIRlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 61751F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:05.073-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tmRlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 1F561F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:05.311-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:07]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz49RlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 4EC71F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:05.678-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2VLSVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 57412F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:08.103-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0t1SVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 1DA22F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:08.461-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q28nSVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 24542F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:08.884-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lSSlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 57752F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:09.175-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:09]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q28pSlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 72382F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:09.874-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lOS1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 07392F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:10.135-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0F3TFpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 987E2F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:11.480-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VFTlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 02943F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:13.042-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lmTlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 23A53F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:13.315-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xbTlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 57373F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:13.719-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3l2T1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 4B2A3F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:14.475-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xAT1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 974B3F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:14.759-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xEUFpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 2F5C3F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:15.039-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VrUVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 6A814F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:16.362-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3kwUVpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 17824F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:16.615-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhJ1FaQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 37934F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:16.887-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2VrU1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 9B594F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:18.363-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:18]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FbU1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 46BA4F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:18.710-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3l+U1pBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 75BB4F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:18.965-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VYVFpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 20CC4F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:19.232-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3kyVFpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 4FED4F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:19.535-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:19]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q28oVFpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 483F4F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:19.864-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xiVlpBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 0FB45F6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:21.279-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:25:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0twM1pBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 3B26DF6C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:25:54.411-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:32:04]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhKEVnQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 3303C97C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:32:04.867-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:32:33]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzkoaGdBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 5A443A7C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:32:33.866-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:33:15]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhalBoQUJIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 3D927B7C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:33:15.357-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:33:47]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz4jdmhBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 56B0FB7C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:33:47.638-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:34:13]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3w0TmlBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 2732FC7C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:34:13.559-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:35:38]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5rbWpBQkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 60C9DE7C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:35:38.368-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:40:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q29eb29BQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 20F4868C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:40:40.944-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-06-30 00:42:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U9S3FBQkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 50FB198C4E86D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-01T00:42:10.672-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:20:50]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FLeVVURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 94B3B9729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:20:50.100-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:20:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlKNFVURkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 9837C9729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:20:55.096-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:21:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3wmNlZURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 75E75B729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:21:57.669-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:22:01]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5yQldURkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 7ED20C729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:22:01.438-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:22:39]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2UobldURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 77F89C729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:22:39.863-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:22:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FIcldURkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 2E75AC729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:22:43.070-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:22:55]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U5NFdURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8276DC729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:22:55.602-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:22:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz47NldURkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 483FDC729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:22:57.848-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:23:08]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tkSVhURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 5344AD729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:23:08.291-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:23:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qzk5TFhURkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 2631BD729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:23:11.606-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:23:40]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2Uob1hURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 7F732E729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:23:40.863-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:23:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1U/clhURkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 828E2E729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:23:43.682-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:24:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3wqRFlURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 83491F729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:24:03.779-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:24:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhQEZZVEZIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 0DF02F729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:24:05.757-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:24:28]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FMY1lURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 1E487F729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:24:28.110-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:24:32]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xVZ1lURkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 91588F729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:24:32.209-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:24:48]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2V8dllURkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 5F95CF729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:24:47.903-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 19:24:52]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xjMVlURkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 31C6DF729F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T19:24:52.289-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:03:22]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhZldEV0ZIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 5D0A19249F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:03:22.317-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:03:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzlAWkRXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 4C7729249F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:03:25.756-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:03:57]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2U9NkRXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 0924A9249F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:03:57.673-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:07:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8Kha0ZIV0ZIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 8752FE249F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:07:05.367-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:07:54]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5CM0hXRkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 8260BF249F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:07:54.018-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:08:16]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzkyUUlXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 0894A0349F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:08:16.536-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:11:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1VkeExXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 7C68B5349F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:11:49.292-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:12:03]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q1V1RE1XRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 860C86349F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:12:03.462-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:14:58]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QzljN09XRkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 7E6F6A349F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:14:58.286-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:15:25]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3lLWlBXRkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 41747B349F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:15:25.105-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:15:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0t9cFBXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 2D65BB349F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:15:41.741-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:18:49]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => CQUFLQi85NEZBNz0MyRjc3N0I2NEY=Q8KhdXhTV0ZIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 4B7760449F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:18:49.467-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:19:26]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz42YVRXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 02B491449F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:19:26.578-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:22:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FfcVdXRkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 6A4866449F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:22:42.890-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:23:10]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0tZS1hXRkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 516F67449F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:23:10.241-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:23:31]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5jZlhXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 0891C7449F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:23:31.288-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:26:43]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0E/cmFXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 20E58C449F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:26:43.680-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:30:05]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=Qz7Cv0ZlV0ZIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 120C02549F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:30:05.698-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:31:02]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q2VjQ2ZXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 0B4583549F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:31:02.283-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:31:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q0FTemZXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 2C4444549F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:31:51.180-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:33:11]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3kwTGhXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 9FF6B6549F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:33:11.615-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:33:36]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz46amhXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 949517549F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:33:35.828-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:34:17]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qz5qUmlXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 4E0458549F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:34:17.358-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:34:59]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Q3xIOGlXRkhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 3707F8549F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:34:59.079-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:37:29]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QnwsZGxXRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 4FA81D549F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:37:29.839-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-04 22:39:41]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=Qm9NcG5XRkhXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 040250649F96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-05T22:39:41.124-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-05 00:01:14]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QlV+TkJBR0hXVUJIxMDA1MzJCQUM0Q
+            [codigoControl] => 0A27C3A2CF96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-06T00:01:13.962-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-05 00:02:20]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QlU4VUNBR0hXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 00B765A2CF96D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-06T00:02:20.592-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-25 17:19:51]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUtCLzk0RkE=Nz0MyRjc3N0I2NEY=QkFdelRSYUhXVUFIxMDA1MzJCQUM0Q
+            [codigoControl] => 686899F474A6D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-26T17:19:51.720-04:00
+            [transaccion] => 1
+        )
+
+)
+
+[2022-07-25 17:21:30]#
+stdClass Object
+(
+    [RespuestaCufd] => stdClass Object
+        (
+            [codigo] => BQUFLQi85NEZBNz0MyRjc3N0I2NEY=QnzCrGRWUmFIV1VIxMDA1MzJCQUM0Q
+            [codigoControl] => 1F705CF474A6D74
+            [direccion] => AVENIDA CIRCUNVALACION NRO.100 EDIFICIO MORA PISO 3 DPTO. 1 ZONA VILLA ARMONIA
+            [fechaVigencia] => 2022-07-26T17:21:29.919-04:00
+            [transaccion] => 1
+        )
+
+)
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\DocumentTypes" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat" name="DocumentTypes" abstract="false" final="false" start="4" end="36">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat" file="DocumentTypes.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/DocumentTypes.php" size="1184" time="2021-12-28T21:05:53+00:00" unixtime="1640725553" sha1="2c1d27faae5d72484f4d84a532fc372bad8151f3" relative="DocumentTypes.php"/>
+  <constant type="integer" name="FACTURA_COMPRA_VENTA" value="1"/>
+  <constant type="integer" name="FACTURA_ALQUILER_INMUEBLES" value="2"/>
+  <constant type="integer" name="FACTURA_COMERCIAL_EXPORTACION" value="3"/>
+  <constant type="integer" name="FACTURA_COMERCIAL_EXPORTACION_LIBRA_CONSIGNACION" value="4"/>
+  <constant type="integer" name="FACTURA_VENTA_ZONA_FRANCA" value="5"/>
+  <constant type="integer" name="FACTURA_SERVICIO_TURISTICO" value="6"/>
+  <constant type="integer" name="FACTURA_SEG_ALIMENTARIA" value="7"/>
+  <constant type="integer" name="FACTURA_TASA_CERO_LIBROS" value="8"/>
+  <constant type="integer" name="FACTURA_COMPRA_VENTA_MONEDA_EXTRAJERA" value="9"/>
+  <constant type="integer" name="FACTURA_DUTTY_FREE" value="10"/>
+  <constant type="integer" name="FACTURA_SECTOR_EDUCATIVO" value="11"/>
+  <constant type="integer" name="FACTURA_COM_HIDROCARBUROS" value="12"/>
+  <constant type="integer" name="FACTURA_SERV_BASICOS" value="13"/>
+  <constant type="integer" name="FACTURA_PRODS_ICE" value="14"/>
+  <constant type="integer" name="FACTURA_ENT_FINANCIERA" value="15"/>
+  <constant type="integer" name="FACTURA_HOTELES" value="16"/>
+  <constant type="integer" name="FACTURA_HOSPITALES" value="17"/>
+  <constant type="integer" name="FACTURA_JUEGOS_AZAR" value="18"/>
+  <constant type="integer" name="FACTURA_HIDROCARBUROS" value="19"/>
+  <constant type="integer" name="FACTURA_EXPORT_MINERALES" value="20"/>
+  <constant type="integer" name="FACTURA_VENTA_MINERALES" value="21"/>
+  <constant type="integer" name="FACTURA_TELECOMUNICACIONES" value="22"/>
+  <constant type="integer" name="FACTURA_PREVALORADA" value="23"/>
+  <constant type="integer" name="FACTURA_NOTA_CRED_DEB" value="24"/>
+  <constant type="integer" name="FACTURA_COM_EXPORT_SERVICIOS" value="28"/>
+  <constant type="integer" name="FACTURA_NOTA_CONCILIACION" value="29"/>
+  <constant type="integer" name="FACTURA_BOLETO_AEREO" value="30"/>
+  <constant type="integer" name="FACTURA_SUMIN_ENERGIA" value="31"/>
+  <constant type="integer" name="FACTURA_ICE_ZONA_FRANCA" value="32"/>
+</class>

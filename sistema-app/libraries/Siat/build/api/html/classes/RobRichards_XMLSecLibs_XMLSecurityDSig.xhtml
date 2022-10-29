@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - RobRichards\XMLSecLibs\XMLSecurityDSig</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.xhtml">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#RobRichards_XMLSecLibs">RobRichards\XMLSecLibs</a>
+          </li>
+          <li class="separator">XMLSecurityDSig</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#constants">Constants</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/Libs/xmlseclibs/src/XMLSecurityDSig.php.xhtml#line51">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>RobRichards\XMLSecLibs\</small>XMLSecurityDSig</h1>
+        <h4>xmlseclibs.php</h4>
+        <p>Copyright (c) 2007-2020, Robert Richards &lt;rrichards@cdatazone.org&gt;.<br/>All rights reserved.<br/><br/>Redistribution and use in source and binary forms, with or without<br/>modification, are permitted provided that the following conditions<br/>are met:<br/><br/>* Redistributions of source code must retain the above copyright<br/>notice, this list of conditions and the following disclaimer.<br/><br/>* Redistributions in binary form must reproduce the above copyright<br/>notice, this list of conditions and the following disclaimer in<br/>the documentation and/or other materials provided with the<br/>distribution.<br/><br/>* Neither the name of Robert Richards nor the names of his<br/>contributors may be used to endorse or promote products derived<br/>from this software without specific prior written permission.<br/><br/>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS<br/>"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT<br/>LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS<br/>FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE<br/>COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,<br/>INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,<br/>BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;<br/>LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER<br/>CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT<br/>LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN<br/>ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE<br/>POSSIBILITY OF SUCH DAMAGE.</p>
+        <ul>
+          <li>Author: Robert Richards &lt;rrichards@cdatazone.org&gt;</li>
+          <li>Copyright: 2007-2020 Robert Richards &lt;rrichards@cdatazone.org&gt;</li>
+          <li>License: http://www.opensource.org/licenses/bsd-license.php  BSD License</li>
+        </ul>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class XMLSecurityDSig
+            {<br/><ul class="none"><li>// constants</li><li>const XMLDSIGNS = 'http://www.w3.org/2000/09/xmldsig#';</li><li>const SHA1 = 'http://www.w3.org/2000/09/xmldsig#sha1';</li><li>const SHA256 = 'http://www.w3.org/2001/04/xmlenc#sha256';</li><li>const SHA384 = 'http://www.w3.org/2001/04/xmldsig-more#sha384';</li><li>const SHA512 = 'http://www.w3.org/2001/04/xmlenc#sha512';</li><li>const RIPEMD160 = 'http://www.w3.org/2001/04/xmlenc#ripemd160';</li><li>const C14N = 'http://www.w3.org/TR/2001/REC-xml-c14n-20010315';</li><li>const C14N_COMMENTS = 'http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments';</li><li>const EXC_C14N = 'http://www.w3.org/2001/10/xml-exc-c14n#';</li><li>const EXC_C14N_COMMENTS = 'http://www.w3.org/2001/10/xml-exc-c14n#WithComments';</li><li>const template = '&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;
+  &lt;ds:SignedInfo&gt;
+    &lt;ds:SignatureMethod /&gt;
+  &lt;/ds:SignedInfo&gt;
+&lt;/ds:Signature&gt;';</li><li>const BASE_TEMPLATE = '&lt;Signature xmlns="http://www.w3.org/2000/09/xmldsig#"&gt;
+  &lt;SignedInfo&gt;
+    &lt;SignatureMethod /&gt;
+  &lt;/SignedInfo&gt;
+&lt;/Signature&gt;';</li></ul><ul class="none"><li>// members</li><li>public <span title="RobRichards\XMLSecLibs\DOMElement|null">DOMElement|null</span> <a href="#members">$sigNode</a> =
+                        NULL;
+                    </li><li>public array <a href="#members">$idKeys</a> =
+                        ;
+                    </li><li>public array <a href="#members">$idNS</a> =
+                        ;
+                    </li><li>private <span title="RobRichards\XMLSecLibs\string|null">string|null</span> <a href="#members">$signedInfo</a> =
+                        NULL;
+                    </li><li>private <span title="RobRichards\XMLSecLibs\DomXPath|null">DomXPath|null</span> <a href="#members">$xPathCtx</a> =
+                        NULL;
+                    </li><li>private <span title="RobRichards\XMLSecLibs\string|null">string|null</span> <a href="#members">$canonicalMethod</a> =
+                        NULL;
+                    </li><li>private string <a href="#members">$prefix</a> =
+                        '';
+                    </li><li>private string <a href="#members">$searchpfx</a> =
+                        'secdsig';
+                    </li><li>private <span title="RobRichards\XMLSecLibs\array|null">array|null</span> <a href="#members">$validatedNodes</a> =
+                        NULL;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/__construct.xhtml">__construct</a>()
+                    </li><li>private void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/resetXPathObj.xhtml">resetXPathObj</a>()
+                    </li><li>private DOMXPath|null <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/getXPathObj.xhtml">getXPathObj</a>()
+                    </li><li>public static string <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/generateGUID.xhtml">generateGUID</a>()
+                    </li><li>public static string <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/generate_GUID.xhtml">generate_GUID</a>()
+                    </li><li>public DOMNode|null <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/locateSignature.xhtml">locateSignature</a>()
+                    </li><li>public DOMElement <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/createNewSignNode.xhtml">createNewSignNode</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/setCanonicalMethod.xhtml">setCanonicalMethod</a>()
+                    </li><li>private string <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/canonicalizeData.xhtml">canonicalizeData</a>()
+                    </li><li>public null|string <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/canonicalizeSignedInfo.xhtml">canonicalizeSignedInfo</a>()
+                    </li><li>public string <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/calculateDigest.xhtml">calculateDigest</a>()
+                    </li><li>public bool <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/validateDigest.xhtml">validateDigest</a>()
+                    </li><li>public string <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/processTransforms.xhtml">processTransforms</a>()
+                    </li><li>public bool <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/processRefNode.xhtml">processRefNode</a>()
+                    </li><li>public null <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/getRefNodeID.xhtml">getRefNodeID</a>()
+                    </li><li>public array <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/getRefIDs.xhtml">getRefIDs</a>()
+                    </li><li>public bool <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/validateReference.xhtml">validateReference</a>()
+                    </li><li>private void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/addRefInternal.xhtml">addRefInternal</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/addReference.xhtml">addReference</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/addReferenceList.xhtml">addReferenceList</a>()
+                    </li><li>public DOMElement <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/addObject.xhtml">addObject</a>()
+                    </li><li>public null|XMLSecurityKey <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/locateKey.xhtml">locateKey</a>()
+                    </li><li>public bool|int <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/verify.xhtml">verify</a>()
+                    </li><li>public mixed|string <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/signData.xhtml">signData</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/sign.xhtml">sign</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/appendCert.xhtml">appendCert</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/appendKey.xhtml">appendKey</a>()
+                    </li><li>public DOMNode <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/insertSignature.xhtml">insertSignature</a>()
+                    </li><li>public DOMNode <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/appendSignature.xhtml">appendSignature</a>()
+                    </li><li>public static string <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/get509XCert.xhtml">get509XCert</a>()
+                    </li><li>public static array <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/staticGet509XCerts.xhtml">staticGet509XCerts</a>()
+                    </li><li>public static void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/staticAdd509Cert.xhtml">staticAdd509Cert</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/add509Cert.xhtml">add509Cert</a>()
+                    </li><li>public DOMNode <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/appendToKeyInfo.xhtml">appendToKeyInfo</a>()
+                    </li><li>public void <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/getValidatedNodes.xhtml">getValidatedNodes</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="constants">Constants</h2>
+        <table class="styled">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="XMLDSIGNS">XMLDSIGNS</td>
+              <td>'http://www.w3.org/2000/09/xmldsig#'</td>
+            </tr>
+            <tr>
+              <td id="SHA1">SHA1</td>
+              <td>'http://www.w3.org/2000/09/xmldsig#sha1'</td>
+            </tr>
+            <tr>
+              <td id="SHA256">SHA256</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#sha256'</td>
+            </tr>
+            <tr>
+              <td id="SHA384">SHA384</td>
+              <td>'http://www.w3.org/2001/04/xmldsig-more#sha384'</td>
+            </tr>
+            <tr>
+              <td id="SHA512">SHA512</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#sha512'</td>
+            </tr>
+            <tr>
+              <td id="RIPEMD160">RIPEMD160</td>
+              <td>'http://www.w3.org/2001/04/xmlenc#ripemd160'</td>
+            </tr>
+            <tr>
+              <td id="C14N">C14N</td>
+              <td>'http://www.w3.org/TR/2001/REC-xml-c14n-20010315'</td>
+            </tr>
+            <tr>
+              <td id="C14N_COMMENTS">C14N_COMMENTS</td>
+              <td>'http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments'</td>
+            </tr>
+            <tr>
+              <td id="EXC_C14N">EXC_C14N</td>
+              <td>'http://www.w3.org/2001/10/xml-exc-c14n#'</td>
+            </tr>
+            <tr>
+              <td id="EXC_C14N_COMMENTS">EXC_C14N_COMMENTS</td>
+              <td>'http://www.w3.org/2001/10/xml-exc-c14n#WithComments'</td>
+            </tr>
+            <tr>
+              <td id="template">template</td>
+              <td>'&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"&gt;
+  &lt;ds:SignedInfo&gt;
+    &lt;ds:SignatureMethod /&gt;
+  &lt;/ds:SignedInfo&gt;
+&lt;/ds:Signature&gt;'</td>
+            </tr>
+            <tr>
+              <td id="BASE_TEMPLATE">BASE_TEMPLATE</td>
+              <td>'&lt;Signature xmlns="http://www.w3.org/2000/09/xmldsig#"&gt;
+  &lt;SignedInfo&gt;
+    &lt;SignatureMethod /&gt;
+  &lt;/SignedInfo&gt;
+&lt;/Signature&gt;'</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="canonicalMethod"><strong>$canonicalMethod</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\string|null" href="../classes/RobRichards_XMLSecLibs_string|null.xhtml">RobRichards\XMLSecLibs\string|null</a></li>
+            <li id="prefix"><strong>$prefix</strong>
+                —
+                string</li>
+            <li id="searchpfx"><strong>$searchpfx</strong>
+                —
+                string</li>
+            <li id="signedInfo"><strong>$signedInfo</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\string|null" href="../classes/RobRichards_XMLSecLibs_string|null.xhtml">RobRichards\XMLSecLibs\string|null</a></li>
+            <li id="validatedNodes"><strong>$validatedNodes</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\array|null" href="../classes/RobRichards_XMLSecLibs_array|null.xhtml">RobRichards\XMLSecLibs\array|null</a><br/><span class="indent">This variable contains an associative array of validated nodes.</span></li>
+            <li id="xPathCtx"><strong>$xPathCtx</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\DomXPath|null" href="../classes/RobRichards_XMLSecLibs_DomXPath|null.xhtml">RobRichards\XMLSecLibs\DomXPath|null</a></li>
+          </ul>
+          <h4>public</h4>
+          <ul class="members">
+            <li id="idKeys"><strong>$idKeys</strong>
+                —
+                array</li>
+            <li id="idNS"><strong>$idNS</strong>
+                —
+                array</li>
+            <li id="sigNode"><strong>$sigNode</strong>
+                —
+                <a title="RobRichards\XMLSecLibs\DOMElement|null" href="../classes/RobRichards_XMLSecLibs_DOMElement|null.xhtml">RobRichards\XMLSecLibs\DOMElement|null</a></li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>private</h4>
+          <ul>
+            <li id="addRefInternal">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/addRefInternal.xhtml">addRefInternal()</a>
+            </li>
+            <li id="canonicalizeData">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/canonicalizeData.xhtml">canonicalizeData()</a>
+            </li>
+            <li id="getXPathObj"><a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/getXPathObj.xhtml">getXPathObj()</a>
+                — Returns the XPathObj or null if xPathCtx is set and sigNode is empty.</li>
+            <li id="resetXPathObj"><a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/resetXPathObj.xhtml">resetXPathObj()</a>
+                — Reset the XPathObj to null</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="__construct">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/__construct.xhtml">__construct()</a>
+            </li>
+            <li id="add509Cert">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/add509Cert.xhtml">add509Cert()</a>
+            </li>
+            <li id="addObject">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/addObject.xhtml">addObject()</a>
+            </li>
+            <li id="addReference">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/addReference.xhtml">addReference()</a>
+            </li>
+            <li id="addReferenceList">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/addReferenceList.xhtml">addReferenceList()</a>
+            </li>
+            <li id="appendCert">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/appendCert.xhtml">appendCert()</a>
+            </li>
+            <li id="appendKey">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/appendKey.xhtml">appendKey()</a>
+            </li>
+            <li id="appendSignature">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/appendSignature.xhtml">appendSignature()</a>
+            </li>
+            <li id="appendToKeyInfo"><a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/appendToKeyInfo.xhtml">appendToKeyInfo()</a>
+                — This function appends a node to the KeyInfo.</li>
+            <li id="calculateDigest">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/calculateDigest.xhtml">calculateDigest()</a>
+            </li>
+            <li id="canonicalizeSignedInfo">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/canonicalizeSignedInfo.xhtml">canonicalizeSignedInfo()</a>
+            </li>
+            <li id="createNewSignNode">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/createNewSignNode.xhtml">createNewSignNode()</a>
+            </li>
+            <li id="generateGUID"><a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/generateGUID.xhtml">generateGUID()</a>
+                — Generate guid</li>
+            <li id="generate_GUID"><a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/generate_GUID.xhtml">generate_GUID()</a>
+                — Generate guid</li>
+            <li id="get509XCert">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/get509XCert.xhtml">get509XCert()</a>
+            </li>
+            <li id="getRefIDs">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/getRefIDs.xhtml">getRefIDs()</a>
+            </li>
+            <li id="getRefNodeID">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/getRefNodeID.xhtml">getRefNodeID()</a>
+            </li>
+            <li id="getValidatedNodes"><a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/getValidatedNodes.xhtml">getValidatedNodes()</a>
+                — This function retrieves an associative array of the validated nodes.</li>
+            <li id="insertSignature"><a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/insertSignature.xhtml">insertSignature()</a>
+                — This function inserts the signature element.</li>
+            <li id="locateKey">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/locateKey.xhtml">locateKey()</a>
+            </li>
+            <li id="locateSignature">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/locateSignature.xhtml">locateSignature()</a>
+            </li>
+            <li id="processRefNode">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/processRefNode.xhtml">processRefNode()</a>
+            </li>
+            <li id="processTransforms">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/processTransforms.xhtml">processTransforms()</a>
+            </li>
+            <li id="setCanonicalMethod">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/setCanonicalMethod.xhtml">setCanonicalMethod()</a>
+            </li>
+            <li id="sign">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/sign.xhtml">sign()</a>
+            </li>
+            <li id="signData">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/signData.xhtml">signData()</a>
+            </li>
+            <li id="staticAdd509Cert">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/staticAdd509Cert.xhtml">staticAdd509Cert()</a>
+            </li>
+            <li id="staticGet509XCerts">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/staticGet509XCerts.xhtml">staticGet509XCerts()</a>
+            </li>
+            <li id="validateDigest">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/validateDigest.xhtml">validateDigest()</a>
+            </li>
+            <li id="validateReference">
+              <a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/validateReference.xhtml">validateReference()</a>
+            </li>
+            <li id="verify"><a title="RobRichards\XMLSecLibs\XMLSecurityDSig" href="../classes/RobRichards_XMLSecLibs_XMLSecurityDSig/verify.xhtml">verify()</a>
+                — Returns:  Bool when verifying HMAC_SHA1;  Int otherwise, with following meanings:    1 on succesful signature verification,    0 when signature verification failed,   -1 if an error occurred during processing.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.12.0 - Copyright (C) 2010 - 2022 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

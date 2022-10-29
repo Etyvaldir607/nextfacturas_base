@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacion" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacion" abstract="false" final="false" start="28" end="327">
+  <file path="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Services" file="ServicioFacturacion.php" realpath="/Users/mac/eclipse-workspace/SBFramework/modules/mod_invoices/classes/Siat/Services/ServicioFacturacion.php" size="12595" time="2022-06-24T16:19:37+00:00" unixtime="1656087577" sha1="9c65d6535f7bdd2a5537c2ad7ba6b0b6df3f6e09" relative="Services/ServicioFacturacion.php"/>
+  <docblock>
+    <description compact="Clase con servicios generales para la facturacion"/>
+    <author value="J. Marcelo Aviles Paco"/>
+    <desc value="Clase con servicios generales para la facturacion"/>
+  </docblock>
+  <extends full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioSiat"/>
+  <method name="buildInvoiceXml" start="30" end="33" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="invoice" byreference="false" type="object">
+      <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="SiatInvoice"/>
+    </parameter>
+  </method>
+  <method name="recepcionFactura" start="43" end="98" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Realiza en envio de una unica factura"/>
+      <param type="object" variable="$factura">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="SiatInvoice"/>
+      </param>
+      <param type="int" variable="$tipoEmision"/>
+      <param type="int" variable="$tipoFactura"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <return description="Retorna la respuesta del servicio web siat" type="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\Object" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="Object"/>
+      </return>
+    </docblock>
+    <parameter name="factura" byreference="false" type="object">
+      <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Invoices" name="SiatInvoice"/>
+    </parameter>
+    <parameter name="tipoEmision" byreference="false" type="{unknown}" default="" constant="SiatInvoice::TIPO_EMISION_ONLINE"/>
+    <parameter name="tipoFactura" byreference="false" type="{unknown}" default="" constant="SiatInvoice::FACTURA_DERECHO_CREDITO_FISCAL"/>
+    <inline>
+      <comment value="die($factura-&gt;cuf);" line="49"/>
+      <comment value="$facturaXml = file_get_contents('factura.xml');" line="52"/>
+      <comment value="file_put_contents('factura.xml', $facturaXml);" line="55"/>
+      <comment value="DocumentTypes::FACTURA_COMPRA_VENTA; //ERROR: no acepta 1" line="65"/>
+      <comment value="print_r($solicitud);die;" line="71"/>
+      <comment value="$zh = gzopen('factura.xml.zip', 'w9');" line="72"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="gzwrite($zh, $facturaXml);" line="73"/>
+      <comment xmlns="http://xml.phpdox.net/src" value="gzclose($zh);" line="74"/>
+    </inline>
+  </method>
+  <method name="recepcionMasivaFactura" start="107" end="154" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Realiza en envio de multiples facturas de forma masiva Cantidad de facturas mayor a 500"/>
+      <param type="array" variable="$facturas" of="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="SiatInvoice"/>
+      </param>
+      <param type="int" variable="$tipoEmision"/>
+      <param type="int" variable="$tipoFactura"/>
+    </docblock>
+    <parameter name="facturas" byreference="false" type="array"/>
+    <parameter name="tipoEmision" byreference="false" type="{unknown}" default="" constant="SiatInvoice::TIPO_EMISION_ONLINE"/>
+    <parameter name="tipoFactura" byreference="false" type="{unknown}" default="" constant="SiatInvoice::FACTURA_DERECHO_CREDITO_FISCAL"/>
+  </method>
+  <method name="recepcionPaqueteFactura" start="166" end="216" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Realiza el envio de un paquete de facturas, cantidad de facturas menores a 500"/>
+      <param description="Arreglo de objectos factura" type="array" variable="$facturas" of="object">
+        <type full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\SiatInvoice" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="SiatInvoice"/>
+      </param>
+      <param type="int" variable="$codigoEvento"/>
+      <param type="int" variable="$tipoEmision"/>
+      <param type="int" variable="$tipoFactura"/>
+      <param type="string" variable="$cafc"/>
+      <throws type="object">
+        <type full="Exception" namespace="" name="Exception"/>
+      </throws>
+      <return type="object"/>
+    </docblock>
+    <parameter name="facturas" byreference="false" type="array"/>
+    <parameter name="codigoEvento" byreference="false" type="{unknown}"/>
+    <parameter name="tipoEmision" byreference="false" type="{unknown}" default="" constant="SiatInvoice::TIPO_EMISION_ONLINE"/>
+    <parameter name="tipoFactura" byreference="false" type="{unknown}" default="" constant="SiatInvoice::FACTURA_DERECHO_CREDITO_FISCAL"/>
+    <parameter name="cafc" byreference="false" type="{unknown}" default="NULL"/>
+  </method>
+  <method name="validacionRecepcionPaqueteFactura" start="227" end="252" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Valida la recepcion de un paquete"/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <param type="string" variable="$codigoRecepcion"/>
+      <param type="int" variable="$tipoFactura"/>
+      <param type="int" variable="$documentoSector"/>
+      <return description="Respuesta del servicio siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="{unknown}"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="{unknown}"/>
+    <parameter name="codigoRecepcion" byreference="false" type="{unknown}"/>
+    <parameter name="tipoFactura" byreference="false" type="{unknown}" default="" constant="SiatInvoice::FACTURA_DERECHO_CREDITO_FISCAL"/>
+    <parameter name="documentoSector" byreference="false" type="{unknown}" default="" constant="DocumentTypes::FACTURA_COMPRA_VENTA"/>
+  </method>
+  <method name="validacionRecepcionMasivaFactura" start="262" end="287" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="int" variable="$codigoSucursal"/>
+      <param type="int" variable="$codigoPuntoVenta"/>
+      <param type="string" variable="$codigoRecepcion"/>
+      <param type="int" variable="$tipoFactura"/>
+      <param type="int" variable="$documentoSector"/>
+      <return description="Respuesta del servicio siat" type="object"/>
+    </docblock>
+    <parameter name="codigoSucursal" byreference="false" type="{unknown}"/>
+    <parameter name="codigoPuntoVenta" byreference="false" type="{unknown}"/>
+    <parameter name="codigoRecepcion" byreference="false" type="{unknown}"/>
+    <parameter name="tipoFactura" byreference="false" type="{unknown}" default="" constant="SiatInvoice::FACTURA_DERECHO_CREDITO_FISCAL"/>
+    <parameter name="documentoSector" byreference="false" type="{unknown}" default="" constant="DocumentTypes::FACTURA_COMPRA_VENTA"/>
+  </method>
+  <method name="anulacionFactura" start="300" end="326" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Realizar la anulacion de una factura"/>
+      <param description="codigo clasificador del motivo de anulacion" type="int" variable="$motivo"/>
+      <param description="El codigo CUF de la factura" type="string" variable="$cuf"/>
+      <param description="El codigo de la sucursal" type="int" variable="$sucursal"/>
+      <param description="El codigo del punto de venta" type="int" variable="$puntoventa"/>
+      <param description="El tipo de factura CREDITO FISCAL, SIN CREDITO FISCAL, ETC" type="int" variable="$tipoFactura"/>
+      <param description="El tipo de emision ONLINE, OFFLINE, WEB" type="int" variable="$tipoEmision"/>
+      <param description="El documento del sector COMPRA_VENTA, HOSPITALES, COLEGIOS, etc" type="int" variable="$documentoSector"/>
+      <return type="object"/>
+    </docblock>
+    <parameter name="motivo" byreference="false" type="int"/>
+    <parameter name="cuf" byreference="false" type="string"/>
+    <parameter name="sucursal" byreference="false" type="int"/>
+    <parameter name="puntoventa" byreference="false" type="int"/>
+    <parameter name="tipoFactura" byreference="false" type="int"/>
+    <parameter name="tipoEmision" byreference="false" type="int"/>
+    <parameter name="documentoSector" byreference="false" type="int"/>
+  </method>
+  <parent full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioSiat" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioSiat">
+    <constant type="{unknown}" name="MOD_ELECTRONICA_ENLINEA" value="1"/>
+    <constant type="{unknown}" name="MOD_COMPUTARIZADA_ENLINEA" value="2"/>
+    <constant type="{unknown}" name="MOD_PORTAL_WEB" value="3"/>
+    <constant type="{unknown}" name="TIPO_EMISION_ONLINE" value="1"/>
+    <constant type="{unknown}" name="TIPO_EMISION_OFFLINE" value="2"/>
+    <constant type="{unknown}" name="TIPO_EMISION_MASIVA" value="3"/>
+    <constant type="{unknown}" name="TIPO_FACTURA_CREDITO_FISCAL" value="1"/>
+    <constant type="{unknown}" name="TIPO_FACTURA_SIN_CREDITO_FISCAL" value="2"/>
+    <constant type="{unknown}" name="TIPO_FACTURA_AJUSTE" value="3"/>
+    <constant type="{unknown}" name="AMBIENTE_PRODUCCION" value="1"/>
+    <constant type="{unknown}" name="AMBIENTE_PRUEBAS" value="2"/>
+    <member name="wsdl" visibility="protected" static="false" line="23"/>
+    <member name="cuis" visibility="public" static="false" line="28">
+      <docblock>
+        <description compact="Código Único de Inicio de Sistemas"/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="cufd" visibility="public" static="false" line="33">
+      <docblock>
+        <description compact="Código Único de Facturación Diario"/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="codigoControl" visibility="public" static="false" line="34"/>
+    <member name="token" visibility="protected" static="false" line="39">
+      <docblock>
+        <description compact="Token delegado"/>
+        <var type="string"/>
+      </docblock>
+    </member>
+    <member name="debug" default="false" type="boolean" visibility="public" static="false" line="41"/>
+    <member name="modalidad" default="NULL" visibility="public" static="false" line="42"/>
+    <member name="ambiente" default="" type="{unknown}" constant="self::AMBIENTE_PRUEBAS" visibility="public" static="false" line="43"/>
+    <member name="codigoSistema" default="NULL" visibility="public" static="false" line="44"/>
+    <member name="nit" default="NULL" visibility="public" static="false" line="45"/>
+    <member name="razonSocial" default="NULL" visibility="public" static="false" line="46"/>
+    <constructor name="__construct" start="48" end="55" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="cuis" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="cufd" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="token" byreference="false" type="{unknown}" default="NULL"/>
+      <parameter name="endpoint" byreference="false" type="{unknown}" default="NULL"/>
+    </constructor>
+    <method name="setConfig" start="56" end="64" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="data" byreference="false" type="array"/>
+    </method>
+    <method name="setToken" start="70" end="73" abstract="false" final="false" static="false" visibility="public">
+      <docblock>
+        <description compact="Assign tokenDelegado"/>
+        <param type="string" variable="$token"/>
+      </docblock>
+      <parameter name="token" byreference="false" type="{unknown}"/>
+    </method>
+    <method name="validate" start="74" end="84" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="autenticar" start="85" end="88" abstract="false" final="false" static="false" visibility="public"/>
+    <method name="callAction" start="89" end="128" abstract="false" final="false" static="false" visibility="protected">
+      <parameter name="action" byreference="false" type="{unknown}"/>
+      <parameter name="data" byreference="false" type="{unknown}"/>
+      <parameter name="soapHeaders" byreference="false" type="array" default=""/>
+      <parameter name="httpHeaders" byreference="false" type="array" default=""/>
+    </method>
+    <method name="debug" start="129" end="135" abstract="false" final="false" static="false" visibility="public">
+      <parameter name="str" byreference="false" type="{unknown}"/>
+      <parameter name="isXml" byreference="false" type="boolean" default="true"/>
+    </method>
+  </parent>
+  <extenders>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionComputarizada" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacionComputarizada"/>
+    <extender full="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services\ServicioFacturacionElectronica" namespace="SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Services" name="ServicioFacturacionElectronica"/>
+  </extenders>
+</class>
