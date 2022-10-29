@@ -49,6 +49,9 @@ $proveedores = $db->query(' SELECT a.id_proveedor, a.proveedor, a.nit, a.telefon
 require_once dirname(__DIR__) . '/siat/siat.php';
 $actividades 		= siat_actividades();
 $productos_sin 		= siat_obtener_productos();
+
+var_dump($productos_sin);
+exit;
 $unidad_medida_siat = siat_tipos_unidades_medida(0, 0);
 
 require_once show_template('header-advanced'); ?>
