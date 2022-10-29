@@ -20,7 +20,14 @@ if (is_post()) {
 		                    WHERE (MD5(username) = MD5('$username') OR MD5(email) = MD5('$username')) AND password = '$password' AND active = '1' 
 		                    LIMIT 1
 		                    ")->fetch_first();
-		
+
+/*
+		$user = $db->query("SELECT id_user, rol_id 
+			FROM sys_users 
+			LIMIT 1
+		")->fetch_first();
+		*/
+
 		// Inicializa las sessiones
 		session_start();
 
