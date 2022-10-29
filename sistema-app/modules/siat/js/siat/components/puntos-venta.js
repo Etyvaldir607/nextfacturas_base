@@ -1,35 +1,84 @@
-(function(ns)
-{
+(function (ns) {
 	ns.ComPuntosVenta = {
-		template: `<div id="com-siat-puntos-venta">
-			<h2>
-				Puntos de Venta 
-				<button type="button" class="btn btn-primary" v-on:click="nuevo()">Nuevo</button>
-				<button type="button" class="btn btn-warning" v-on:click="sync()">Sincronizar</button>
-			</h2>
-			<template v-if="items.length > 0">
-			<div class="panel panel-default card border shadow mb-2" v-for="(item, index) in items">
-				<div class="panel-body card-body">
-					<div class="row">
-						<div class="col-12 col-sm-10">
-							<div>ID: {{ item.id }}, Codigo: {{ item.codigo }}</div>
-							<div>Tipo: {{ item.tipo }}</div>
-							<div>{{ item.nombre }}</div>
-							<div class="form-text text-muted">{{ item.creation_date }}</div>
-						</div>
-						<div class="col-12 col-sm-2">
-							<!-- 
-							<button type="button" class="btn btn-primary w-100 mb-1"><i class="fa fa-edit"></i> Editar</button>
-							-->
-							<button type="button" class="btn btn-danger w-100" v-on:click="borrar(item, index)"><i class="fa fa-trash"></i> Borrar</button>
+		template: `
+		<div id="com-siat-puntos-venta">
+
+			<div class="row">
+				<div class="col-sm-6">
+					<select class="form-control form-select" v-model="sync_sucursal_id">
+						<option value="" disabled>Selecione una sucursal...</option>	
+						<option value="0">Sucursal principal (0)</option>
+					</select>
+				</div>
+				<div class="col-sm-6">
+					<button type="button" class="btn btn-warning" v-on:click="sync()">Sincronizar</button>
+					<button type="button" class="btn btn-primary" v-on:click="nuevo()">Nuevo</button>
+				</div>
+			</div>
+			
+			</br>
+
+			<template v-if="items.length > 0 && !itemsSiat">
+				<div class="panel panel-default card border shadow mb-2" v-for="(item, index) in items">
+					<div class="panel-body card-body">
+						<div class="row">
+							<div class="col-12 col-sm-8">
+								<div>ID: {{ item.id }}, Codigo: {{ item.codigo }}</div>
+								<div>Tipo: {{ item.tipo }}</div>
+								<div>{{ item.nombre }}</div>
+								<div class="form-text text-muted">{{ item.creation_date }}</div>
+								<div>
+									<span class="label label-as-badge"
+										v-bind:class="{'label-success': item.status == 'open', 'label-danger': item.status == 'closed', 'label-warning': item.status == 'unregistered'}">
+										{{ item.status }}
+									</span>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4">
+								<div class="btn-group btn-group-sm" role="group" aria-label="...">
+									<button type="button" class="btn btn-danger" v-on:click="cierre_punto_venta(item)"
+										:disabled="item.status != 'open'">Cierre punto venta</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 			</template>
 			<div v-else>
-				<b class="text-primary">No se encontraron registros</b>
+				<template v-if="!itemsSiat">
+					<b class="text-primary">No se encontraron registros</b>
+				</template>
 			</div>
+
+			<template v-if="items.length > 0 && itemsSiat">
+				<div class="panel panel-default card border shadow mb-2" v-for="(item, index) in items">
+					<div class="panel-body card-body">
+						<div class="row">
+							<div class="col-12 col-sm-8">
+								<div>ID: {{ item.id }}, Codigo: {{ item.codigo }}</div>
+								<div>Tipo: {{ item.tipo }}</div>
+								<div>{{ item.nombre }}</div>
+								<div class="form-text text-muted">{{ item.creation_date }}</div>
+								<div>
+									<span class="label label-as-badge"
+										v-bind:class="{'label-success': item.status == 'open', 'label-danger': item.status == 'closed', 'label-warning': item.status == 'unregistered'}">
+										{{ item.status }}
+									</span>
+								</div>
+							</div>
+							<div class="col-12 col-sm-4">
+								<div class="btn-group btn-group-sm" role="group" aria-label="...">
+									<button type="button" class="btn btn-info" v-on:click="crear_pv(item)"
+										:disabled="item.status != 'unregistered'">Enviar base de datos</button>
+									<button type="button" class="btn btn-danger" v-on:click="cierre_punto_venta(item)"
+										:disabled="item.status != 'open'">Cierre punto venta</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</template>
+
 			<div ref="modal" class="modal fade">
 				<div class="modal-dialog">
 					<form action="" method="" class="modal-content">
@@ -40,140 +89,207 @@
 						<div class="modal-body">
 							<div class="mb-3">
 								<label>Sucursal</label>
-								<select class="form-control form-select" required v-model="pv.sucursal_id">
+								<select class="form-control form-select" required v-model="form.sucursal_id">
 									<option value="">-- sucursal --</option>
 									<option value="0">Sucursal Principal</option>
 								</select>
 							</div>
 							<div class="mb-3">
 								<label>Tipo Punto de Venta</label>
-								<select class="form-control form-select" required v-model="pv.tipo_id">
+								<select class="form-control form-select" required v-model="form.codigo_tipo_punto_venta">
 									<option value="">-- tipo --</option>
 									<template v-for="(tipo, ti) in tipos">
-									<option v-bind:value="tipo.codigoClasificador">{{ tipo.descripcion }}</option>
+										<option v-bind:value="tipo.codigoClasificador">{{ tipo.descripcion }}</option>
 									</template>
 								</select>
 							</div>
 							<div class="mb-3">
 								<label>Nombre Punto de Venta</label>
-								<input type="text" name="" value="" class="form-control" required v-model="pv.nombre" />
+								<input type="text" name="" value="" class="form-control" required
+									v-model="form.nombre_punto_venta" />
 							</div>
+
 						</div>
 						<div class="modal-footer">
-							<button type="button" class="btn btn-danger" data-dismiss="modal" data-coreui-dismiss="modal">Cerrar</button>
+							<button type="button" class="btn btn-danger" data-dismiss="modal"
+								data-coreui-dismiss="modal">Cerrar</button>
 							<button type="button" class="btn btn-primary" v-on:click="guardar()">Guardar</button>
 						</div>
 					</form>
 				</div>
 			</div>
-		</div>`,
-		data()
-		{
+		</div>
+		`,
+
+		data() {
 			return {
 				modal: null,
 				items: [],
 				tipos: [],
-				pv: {
+				itemsSiat: false,
+				motivo_aunlaciones: [],
+				sync_sucursal_id: 0,
+				form: {
 					sucursal_id: 0,
-					tipo_id: '',
-					tipo: '',
-					nombre: ''
-				}
+					codigo_tipo_punto_venta: '',
+					nombre_punto_venta: '',
+					descripcion: null
+				},
+
 			};
 		},
-		methods: 
+		methods:
 		{
-			async getItems()
-			{
-				const res = await this.$root.api.Get('/../sistema/?/siat/puntosventa');
+			async getPuntosVentas() {
+				const sucursal = this.sync_sucursal_id
+				const all_status = 1; //true para traer todos los estados
+				const res = await this.$root.http.Get(`?/siat/api_sincronizaciones/sync_punto_ventas/${sucursal}/${all_status}`);
 				this.items = res.data;
 			},
-			async getSucursales()
-			{
-				
+			async getSucursales() {
+				//implementar cuando se tenga sucursales
 			},
-			async getTipos()
-			{
-				const res = await this.$root.api.Get('/../sistema/?/siat/tipospuntoventa');
-				this.tipos = res.data.RespuestaListaParametricas.listaCodigos;	
+			async getTipoPuntoVentas() {
+				const sucursal = this.sync_sucursal_id
+				const res = await this.$root.http.Get(`?/siat/api_sincronizaciones/sync_tipo_punto_ventas/${sucursal}`);
+				this.tipos = res.data.RespuestaListaParametricas.listaCodigos;
 			},
-			nuevo()
-			{
-				this.getTipos();
+
+			nuevo() {
+				//this.getTipoPuntoVentas();
+				this.form = {
+					sucursal_id: 0,
+					codigo_tipo_punto_venta: '',
+					nombre_punto_venta: '',
+					descripcion: null
+				}
 				this.modal.modal('show');
 			},
-			async guardar()
-			{
-				try
-				{
+			async guardar() {
+				try {
 					this.$root.$processing.show('Guardando datos...');
-					for(let t of this.tipos)
-					{
-						if( t.codigoClasificador == this.pv.tipo_id )
-						{
-							this.pv.tipo = t.descripcion;
+					for (let t of this.tipos) {
+						if (t.codigoClasificador == this.form.codigo_tipo_punto_venta) {
+							this.form.descripcion = t.descripcion;
 							break;
 						}
 					}
-					const res = await this.$root.api.Post('/../sistema/?/siat/puntosventa', this.pv);
+					const resp = await this.$root.http.Post('?/siat/api_punto_ventas/crear_punto_venta', this.form);
+					this.show_notify(resp);
 					this.$root.$processing.hide();
 					this.modal.modal('hide');
-					this.getItems();
-				}	
-				catch(e)
-				{
+					this.getPuntosVentas();
+				}
+				catch (e) {
 					this.$root.$processing.hide();
 					console.log('ERROR', e);
 					this.$root.$toast.ShowError(e.error || e.message || 'Error desconocido');
 				}
 			},
-			async sync()
-			{
-				try
-				{
+			async sync() {
+				try {
 					this.$root.$processing.show('Sincronizando datos...');
-					await this.$root.api.Get('/invoices/siat/v2/sync-puntos-venta');
+					//const res = await this.$root.http.Post('?/siat/sync_puntos_venta', this.form_sync);
+					const sucursal = this.sync_sucursal_id
+					const all_status = 1; //true para traer todos los estados
+					const sync = 1; //true para sincronizar desde siat
+					const res = await this.$root.http.Get(`?/siat/api_sincronizaciones/sync_punto_ventas/${sucursal}/${all_status}/${sync}`);
+
+					this.items = res.data
+					this.itemsSiat = true;
+					//console.log(this.items)
 					this.$root.$processing.hide();
-					this.getItems();
+
 				}
-				catch(e)
-				{
+				catch (e) {
 					this.$root.$processing.hide();
 					console.log('ERROR', e);
 				}
 			},
-			async borrar(item, index)
-			{
-				try
-				{
-					this.$root.$processing.show('Borrando datos...');
-					await this.$root.api.Delete('/../sistema/?/siat/puntosventa' + item.id );
+
+			async cierre_punto_venta(item) {
+
+				let self = this
+				const punto_venta_id = parseInt(item.codigo) || null
+				const nombre = (item.nombre) ? item.nombre.toUpperCase() : 'NO ENCONTRADO'
+
+				bootbox.dialog({
+					closeButton: false,
+					message: `<div class="row">
+								<div class="col-sm-12 pt-4">
+									<h5>
+										<strong class="form-text text-muted">
+											¿ESTAS SEGURO DE REALIZAR EL CIERRE DE </br> &nbsp;PUNTO DE VENTA " ${nombre} " CON EL CODIGO : " ${punto_venta_id} "?
+										</strong>
+									</h5>
+								</div>
+							</div>`,
+					buttons: {
+						confirm: {
+							label: `Si, cerrar !`,
+							className: 'btn-primary mr-3',
+							callback: function (result) {
+								self.confirm_cierre_punto_venta({ punto_venta_id: punto_venta_id, nombre: nombre });
+							}
+						},
+						cancel: {
+							label: `Cancelar`,
+							className: 'btn-default mr-3',
+						}
+					},
+				});
+			},
+
+			async confirm_cierre_punto_venta(params) {
+				try {
+					this.$root.$processing.show(`CERRANDO PUNTO DE VENTA ${params.nombre} EN SIAT...`);
+					const resp = await this.$root.http.Put('?/siat/api_punto_ventas/cerrar_punto_venta', params);
 					this.$root.$processing.hide();
-					this.items.splice(index, 1);
-					this.$root.$toast.ShowSuccess('Punto de Venta borrado');
+					this.show_notify(resp);
+					this.getPuntosVentas();
 				}
-				catch(e)
-				{
+				catch (e) {
 					this.$root.$processing.hide();
 					console.log('ERROR', e);
 					this.$root.$toast.ShowError('Ocurrio un error al borrar el Punto de Venta');
 				}
-			}
+			},
+
+			crear_pv(item) {
+				this.$root.$toast.ShowSuccess('Punto de venta enviado a la base de datos correctamente');
+			},
+
+			show_notify(data) {
+
+				$.notify({
+					title: `<strong>${data.title}</strong>`,
+					icon: data.icon,
+					message: data.message
+				}, {
+					type: data.type,
+					animate: {
+						enter: 'animated fadeInUp',
+						exit: 'animated fadeOutRight'
+					},
+					placement: {
+						from: "bottom", //from: "bottom" //top,
+						align: "center" //align: "left" right
+					},
+					offset: 10,
+					spacing: 10,
+					z_index: 1031,
+				});
+			},
 		},
-		mounted()
-		{
+		mounted() {
 			this.modal = jQuery(this.$refs.modal);
-			//const frame = (window.bootstrap || window.coreui);
-			//this.modal = frame.Modal.getInstance(this.$refs.modal);
-			//if( !this.modal )
-				//this.modal = new frame.Modal(this.$refs.modal, {});
 		},
-		created()
-		{
-			this.getItems();
+		created() {
+			this.getTipoPuntoVentas();
+			this.getPuntosVentas();
 		}
 	};
 	SBFramework.AppComponents = {
-		'siat-puntos-venta': ns.ComPuntosVenta, 
+		'siat-puntos-venta': ns.ComPuntosVenta,
 	};
 })(SBFramework.Components.Siat);
