@@ -8,9 +8,22 @@
 <div id="siat-app" class="panel-body">
 	<siat-eventos />
 </div>
+
+
+
+
 <script>window.baseurl = '<?php print ip_server ?>';</script>
 <script src="<?php print path_app ?>/modules/siat/js/common.js"></script>
+
+
+<!-- for development -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<!-- for production -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+-->
+
 <script src="<?php print path_app ?>/modules/siat/js/config.js"></script>
 <script src="<?php print path_app ?>/modules/siat/js/siat/config.js"></script>
 <script src="<?php print path_app ?>/modules/siat/js/api.js"></script>
@@ -21,6 +34,9 @@
 <script src="<?php print path_app ?>/modules/siat/js/siat/evento.js"></script>
 <script src="<?php print path_app ?>/modules/siat/js/siat/components/cerrar-evento.js"></script>
 <script src="<?php print path_app ?>/modules/siat/js/siat/components/eventos.js"></script>
+
+<script src="<?php print path_app ?>/modules/siat/js/http.js"></script>
+
 <script>
 (function()
 {
@@ -33,6 +49,7 @@
 		},
 		data: {
 			api: new SBFramework.Classes.Api(),
+			http: new SBFramework.Classes.Http(),
 		}
 	})
 })();
