@@ -2,9 +2,9 @@
 {
 	let ComToast = 
 	{
-		template: `<div id="com-toast">
-			<div id="app-toast" style="position:fixed;z-index:2000;top:-100%;right:0px;left:0px;transition:all 0.5s ease;" 
-				v-bind:style="{top: message ? 0 : '-100%'}" class="alert" v-bind:class="{ 'alert-success green': success, 'alert-danger red': danger, 'toast panning': is_material}">
+		template: `
+		<div id="com-toast">
+			<div id="app-toast" style="position:fixed;z-index:2000;top:-100%;right:0px;left:0px;transition:all 0.5s ease; " v-bind:style="{top: message ? 0 : '-100%'}" class="alert" v-bind:class="{ 'alert-success green': success, 'alert-danger red': danger, 'toast panning': is_material}">
 				{{ message }}
 				<a href="javascript:;" class="btn btn-sm" style="position:absolute;right:5px;top:5px;" v-on:click="CloseToast()">X</a>
 			</div>

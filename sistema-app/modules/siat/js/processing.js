@@ -1,12 +1,13 @@
 (function(ns)
 {
 	const ComProcessing = {
-		template: `<div id="com-processing" v-if="shown">
+		template: `
+		<div id="com-processing" v-if="shown">
 			<div id="com-processing-overlay" style="position:fixed;z-index:99999;top:0;right:0;bottom:0;left:0;background: rgba(0,0,0,0.6);text-align:center;">
-				<div style="margin-top:20%;display:inline-block;text-align:left;width:40%;padding:10px;background:#fff;border-radius:10px;" class="shadow">
+				<div style="margin-top:20%;display:inline-block;text-align:left;width:40%;padding:10px;background:#fff;border-radius:10px;color:#676767;font-size: 16px;font-weight: 600;" class="shadow">
 					<div class="text-center">
 						{{ message }}<br/>
-						<img v-bind:src="image_url" alt="" />
+						<img v-if="image_url" v-bind:src="image_url" alt="" />
 					</div>
 				</div>
 			</div>
@@ -21,7 +22,7 @@
 			return {
 				shown: false,
 				message: 'Processing...',
-				image_url: SBFramework.BASEURL + '/images/loadingAnimation.gif',
+				image_url: '',//SBFramework.BASEURL + '/images/loadingAnimation.gif',
 			};
 		},
 		methods: 
