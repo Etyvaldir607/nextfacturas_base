@@ -28,6 +28,7 @@ foreach ($_menus as $_menu) {
 // Define como variable global
 define('permits', $_views);
 
+/*
 // Verifica si tiene acceso al modulo
 if (!$_is_module && module != home && module != tools) {
 	// Error 401
@@ -45,6 +46,7 @@ if (!$_is_module && module != home && module != tools) {
 	}
 }
 
+*/
 // Obtiene datos de la empresa $_institution = palabra reservada
 $_institution = $db->from('sys_instituciones')->fetch_first();
 
