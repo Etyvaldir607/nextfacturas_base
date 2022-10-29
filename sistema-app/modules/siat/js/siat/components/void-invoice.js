@@ -1,5 +1,4 @@
-(function(ns)
-{
+(function (ns) {
 	ns.VoidInvoice = {
 		template: `<div id="com-siat-void-invoice">
 			<form ref="form" class="" novalidate>
@@ -40,8 +39,8 @@
 					<input type="text" readonly class="form-control" v-bind:value="invoice.cuf" />
 				</div>
 				<div class="mb-3">
-					<label>Motivo anulacion</label>
-					<select class="form-select" required v-model="obj.motivo_id" pattern="[1-9]+">
+					<label>Motivo anulacion df</label>
+					<select class="form-control" required v-model="obj.codigoMotivo" pattern="[1-9]+">
 						<option value="0">-- motivo anulacion --</option>
 						<template v-for="(m, index) in motivos">
 							<option v-bind:value="m.codigoClasificador">{{ m.descripcion }}</option>
@@ -51,60 +50,89 @@
 			</form>
 		</div>`,
 		props: {
-			invoice: {type: Object, required: true},
+			invoice: { type: Object, required: true },
+			invoice2: { type: Object, required: true },
 		},
-		data()
-		{
+		data() {
 			return {
 				obj: {
 					invoice_id: 0,
-					motivo_id: 0,
+					codigoMotivo: 0,
 				},
 				motivos: [],
 			};
 		},
-		methods: 
+		methods:
 		{
-			async getMotivos()
-			{
-				
-				const res = await this.$root.api.Get('/invoices/siat/v2/sync-motivos-anulacion');
-				alert(res.data.RespuestaListaParametricas.listaCodigos);
-				this.motivos = res.data.RespuestaListaParametricas.listaCodigos;
+			show_notify(data) {
+
+				$.notify({
+					title: `<strong>${data.title}</strong>`,
+					icon: data.icon,
+					message: data.message
+				}, {
+					type: data.type,
+					animate: {
+						enter: 'animated fadeInUp',
+						exit: 'animated fadeOutRight'
+					},
+					placement: {
+						from: "bottom", //from: "bottom" //top,
+						align: "center" //align: "left" right
+					},
+					offset: 10,
+					spacing: 10,
+					z_index: 1031,
+				});
 			},
-			async submit()
-			{
+
+			async getMotivoAnulaciones() {
+				try {
+					this.$root.$processing.show('procesando...');
+					const res = await this.$root.http.Get(`?/siat/api_sincronizaciones/sync_motivo_anulaciones`);
+					this.motivos = res.data.RespuestaListaParametricas.listaCodigos;
+					this.$root.$processing.hide();
+				}
+				catch (e) {
+					alert(e.error || e.message || 'Ocurrio un error al anular la factura');
+				}
+			},
+
+			async submit() {
+
 				this.$refs.form.classList.remove('was-validated');
-				try
-				{
-					if( !this.$refs.form.checkValidity() )
-					{
+				try {
+
+					if (!this.$refs.form.checkValidity()) {
 						this.$refs.form.classList.add('was-validated');
 						return;
 					}
-					if( this.obj.motivo_id <= 0)
-						throw {error: 'Debe seleccionar un motivo para la anulacion'};
-					if( this.obj.invoice_id <= 0)
-						throw {error: 'Identificador de factura invalido'};
-					const res = await this.$root.api.Post('/invoices/'+ this.invoice.invoice_id + '/void', this.obj);
+					if (this.obj.motivo_id <= 0)
+						throw { error: 'Debe seleccionar un motivo para la anulacion' };
+					if (this.obj.invoice_id <= 0)
+						throw { error: 'Identificador de factura invalido' };
+					const form = { ...this.obj, ...this.invoice2 }
+
+					this.$root.$processing.show('Anulando factura en Siat...');
+
+					const res = await this.$root.http.Put(`?/siat/api_facturas/anular_factura`, form);
+					this.show_notify(res)
 					this.$emit('void-success', res);
-					
+					this.$root.$processing.hide();
+
 				}
-				catch(e)
-				{
+				catch (e) {
 					alert(e.error || e.message || 'Ocurrio un error al anular la factura');
 				}
 			}
 		},
-		mounted()
-		{
-			
+		mounted() {
 		},
-		created()
-		{
-			console.log('VoidInvoice', this.invoice);
+		created() {
+			//console.log('VoidInvoice', this.invoice);
 			this.obj.invoice_id = this.invoice.invoice_id;
-			this.getMotivos();
+			this.getMotivoAnulaciones();
+
 		}
 	};
 })(SBFramework.Components.Siat);
