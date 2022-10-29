@@ -27,15 +27,33 @@
 		data()
 		{
 			return {
-				lista: []
+				lista: [],
+				sucursal_local: 0,
+				puntoventa_local: 0,
 			};
 		},
 		methods: 
 		{
+			setSucursal(s) {
+				this.sucursal_local = parseInt(s);
+			},
+			setPuntoVenta(pv) {
+				this.puntoventa_local = parseInt(pv);
+			},
 			async getData()
 			{
-				const res = await this.$root.api.Get('/invoices/siat/v2/lista-productos-servicios');
-				this.lista = res.data.RespuestaListaProductos.listaCodigos;
+				const sucursal = this.sucursal_local
+				const puntoventa = this.puntoventa_local
+				try {
+					this.$root.$processing.show('procesando...');
+					const res = await this.$root.http.Get(`?/siat/api_sincronizaciones/sync_producto_servicios/${sucursal}/${puntoventa}`);
+					this.lista = res.data.RespuestaListaProductos.listaCodigos;
+					this.$root.$processing.hide();
+				}
+				catch (e) {
+					this.$root.$processing.hide();
+					alert(e.error || e.message || 'Error desconocido');
+				}
 			}
 		},
 		created()

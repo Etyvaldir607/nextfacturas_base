@@ -25,15 +25,36 @@
 		data()
 		{
 			return {
-				lista: []
+				lista: [],
+				sucursal_local: 0,
+				puntoventa_local: 0,
 			};
 		},
 		methods: 
 		{
+			setSucursal(s) {
+				this.sucursal_local = parseInt(s);
+			},
+			setPuntoVenta(pv) {
+				this.puntoventa_local = parseInt(pv);
+			},
+
 			async getData()
 			{
-				const res = await this.$root.api.Get('/invoices/siat/v2/lista-leyendas-factura');
-				this.lista = res.data.RespuestaListaParametricasLeyendas.listaLeyendas;
+				//const res = await this.$root.api.Get('/invoices/siat/v2/lista-leyendas-factura');
+				const sucursal = this.sucursal_local
+				const puntoventa = this.puntoventa_local
+				try {
+					this.$root.$processing.show('procesando...');
+					const res = await this.$root.http.Get(`?/siat/api_sincronizaciones/sync_leyenda_facturas/${sucursal}/${puntoventa}`);
+					this.lista = res.data.RespuestaListaParametricasLeyendas.listaLeyendas;
+					this.$root.$processing.hide();
+				}
+				catch (e) {
+					this.$root.$processing.hide();
+					alert(e.error || e.message || 'Error desconocido');
+				}
+
 			}
 		},
 		created()

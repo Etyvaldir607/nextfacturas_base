@@ -1,5 +1,4 @@
-(function(ns)
-{
+(function (ns) {
 	ns.ComSyncEventos = {
 		template: `<div id="com-sync-eventos">
 			<div class="mb-3"><button type="button" class="btn btn-primary" v-on:click="getData()">Sincronizar</button></div>
@@ -22,22 +21,45 @@
 				</table>
 			</div>
 		</div>`,
-		data()
-		{
+		props: {
+			//sucursal: { type: Number, required: false, default: 0 },
+			//puntoventa: { type: Number, required: false, default: 0 },
+		},
+		data() {
 			return {
-				lista: []
+				lista: [],
+				sucursal_local: 0,
+				puntoventa_local: 0,
 			};
 		},
-		methods: 
+
+		methods:
 		{
-			async getData()
-			{
-				const res = await this.$root.api.Get('/invoices/siat/v2/sync-eventos');
-				this.lista = res.data.RespuestaListaParametricas.listaCodigos;
+			setSucursal(s) {
+				this.sucursal_local = parseInt(s);
+			},
+			setPuntoVenta(pv) {
+				this.puntoventa_local = parseInt(pv);
+			},
+			async getData() {
+
+				try {
+					this.$root.$processing.show('Procesando...');
+					const sucursal = this.sucursal_local
+					const puntoventa = this.puntoventa_local
+					const res = await this.$root.http.Get(`?/siat/api_sincronizaciones/sync_tipo_eventos/${sucursal}/${puntoventa}`);
+					this.lista = res.data.RespuestaListaParametricas.listaCodigos;
+					this.$root.$processing.hide();
+				}
+				catch (e) {
+					this.$root.$processing.hide();
+					console.log('ERROR', e);
+					this.$root.$toast.ShowError('Ocurrio un error al borrar el Punto de Venta');
+				}
+
 			}
 		},
-		created()
-		{
+		created() {
 			this.getData();
 		}
 	};
