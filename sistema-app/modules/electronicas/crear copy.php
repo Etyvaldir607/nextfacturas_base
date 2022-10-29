@@ -2,9 +2,9 @@
 $formato_textual = get_date_textual($_institution['formato']);
 
 if ($params[0] != '')
-	$almacen = $db->from('inv_almacenes')->where('id_almacen=', 1)->fetch_first();
+	$almacen = $db->from('inv_almacenes')->where('id_almacen=', $params[0])->fetch_first();
 
-$id_almacen = 1;
+$id_almacen=$params[0];
 
 // Obtiene la moneda oficial
 $moneda = $db->from('inv_monedas')->where('oficial', 'S')->fetch_first();
@@ -21,15 +21,15 @@ $clientes = $db->query("SELECT *
                                 
 						WHERE 
 						    (
-            			        (cg.vendedor_id='" . $_user['persona_id'] . "' AND '" . $_user['rol_id'] . "' = 15)
+            			        (cg.vendedor_id='".$_user['persona_id']."' AND '".$_user['rol_id']."' = 15)
             			        OR 
-            			        (ss.user_ids='" . $_user['id_user'] . "' AND '" . $_user['rol_id'] . "' = 14)
+            			        (ss.user_ids='".$_user['id_user']."' AND '".$_user['rol_id']."' = 14)
             			        OR 
-            			        '" . $_user['rol_id'] . "' = 1
+            			        '".$_user['rol_id']."' = 1
             			    )
 						ORDER BY c.cliente ASC,c.nit ASC")->fetch();
 
-$productosquery = "SELECT p.id_producto, p.asignacion_rol, p.descuento ,p.promocion,
+$productosquery="SELECT p.id_producto, p.asignacion_rol, p.descuento ,p.promocion,
 						z.id_asignacion, z.unidad_id, z.unidade, z.cantidad2,
 						p.descripcion,p.imagen,p.codigo,p.nombre_factura as nombre,p.nombre_factura,p.cantidad_minima,p.precio_actual,
 						IFNULL(e.cantidad_lote, 0) AS cantidad_ingresos, 
@@ -88,8 +88,8 @@ $id_rol = $db->query("SELECT rol_id FROM sys_users WHERE id_user='{$id_user}'")-
 $nro_factura = $db->query(" select MAX(nro_nota) + 1 as nro_factura 
                             from inv_egresos 
                          ")->fetch_first();
-//    where tipo = 'Venta' and provisionado = 'S'
-
+                        //    where tipo = 'Venta' and provisionado = 'S'
+                            
 $nro_factura = $nro_factura['nro_factura'];
 
 // Obtiene empleados
@@ -104,24 +104,24 @@ $empleados = $db->query("SELECT CONCAT(e.nombres, ' ', e.paterno, ' ', e.materno
 						WHERE r.id_rol = 15
 						    
 						    AND (
-            			        (e.id_empleado='" . $_user['persona_id'] . "' AND '" . $_user['rol_id'] . "' = 15)
+            			        (e.id_empleado='".$_user['persona_id']."' AND '".$_user['rol_id']."' = 15)
             			        OR 
-            			        (ss.user_ids='" . $_user['id_user'] . "' AND '" . $_user['rol_id'] . "' = 14)
+            			        (ss.user_ids='".$_user['id_user']."' AND '".$_user['rol_id']."' = 14)
             			        OR 
-            			        '" . $_user['rol_id'] . "' = 1
+            			        '".$_user['rol_id']."' = 1
             			    )
             			    
 						AND u.active = 1")->fetch();
 
 //if($_user['rol'] == 'Superusuario' || $_user['rol'] == 'Administrador') { 
-
+									
 //WHERE r.id_rol != 4 diferente de repartidor
 //##include siat functions
 require_once dirname(__DIR__) . '/siat/siat.php';
 $sucursal_id		= 0;
-$puntoventa_id		= $params[0];
+$puntoventa_id		= 1;
 
-//var_dump($puntoventa_id);
+var_dump($puntoventa_id);
 
 $metodos_pago_siat 	= siat_tipos_metodos_pago($sucursal_id, $puntoventa_id);
 $tipos_documentos	= siat_tipos_documento_identidad($sucursal_id, $puntoventa_id);
@@ -130,10 +130,6 @@ $eventoActivo		= siat_eventos_obtener_activo($sucursal_id, $puntoventa_id);
 
 require_once show_template('header-empty'); ?>
 <style>
-	.hidden {
-		visibility: hidden;
-	}
-
 	.position-left-bottom {
 		bottom: 0;
 		left: 0;
@@ -271,49 +267,27 @@ require_once show_template('header-empty'); ?>
 				<div class="panel-body">
 					<div class="">
 						<div class="btn-group">
-							<?php if (!$eventoActivo) : ?>
-								<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									En Linea<span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu">
-									<!-- <?php //foreach($eventos->RespuestaListaParametricas->listaCodigos as $evt): if( $evt->codigoClasificador > 4 ) continue; 
-											?> -->
-									<?php foreach ($eventos->RespuestaListaParametricas->listaCodigos as $evt) : if ($evt->codigoClasificador > 4) continue; ?>
-										<li>
-											<!-- <a href="?/siat/eventos/<?php //print $evt->codigoClasificador 
-																			?>/crear/<?php //print $sucursal_id 
-																						?>/<?php //print $puntoventa_id 
-																							?>">
-								 		<?php //print $evt->descripcion 
-											?>
-								 	</a>  -->
-
-											<a href="javascript:void(0)" onclick="crear_evento({
-																						'evento_id'		: <?php print intval($evt->codigoClasificador); ?>,
-																						'descripcion'	: '<?php print $evt->descripcion; ?>',
-																						'sucursal_id'	: <?php print intval($sucursal_id); ?>,
-																						'puntoventa_id'	: <?php print intval($puntoventa_id); ?>
-																					  })">
-												<?php print $evt->descripcion ?>
-											</a>
-										</li>
-									<?php endforeach; ?>
-								</ul>
-							<?php else : ?>
-								<button type="button" class="btn btn-danger" onclick="cerrar_evento({
-																						'id_evento'		: <?php print intval($eventoActivo->id); ?>
-																					  })">Fuera de linea
-								</button>
-								<!-- <a href="?/siat/eventos/<?php //print $eventoActivo->id 
-																?>/cerrar" class="btn btn-danger">Fuera de linea</a> -->
+							<?php if( !$eventoActivo ): ?>
+						  	<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    	En Linea<span class="caret"></span>
+						  	</button>
+							<ul class="dropdown-menu">
+								<?php foreach($eventos->RespuestaListaParametricas->listaCodigos as $evt): if( $evt->codigoClasificador > 4 ) continue; ?>
+								 <li>
+								 	<a href="?/siat/eventos/<?php print $evt->codigoClasificador ?>/crear/<?php print $sucursal_id ?>/<?php print $puntoventa_id ?>">
+								 		<?php print $evt->descripcion ?>
+								 	</a>
+								 </li>
+								<?php endforeach; ?>
+							</ul>
+							<?php else: ?>
+							<a href="?/siat/eventos/<?php print $eventoActivo->id ?>/cerrar" class="btn btn-danger">Fuera de linea</a>
 							<?php endif; ?>
-
 						</div>
 					</div>
 					<h2 class="lead text-primary">Ventas Facturadas : <?= escape($almacen['almacen']); ?></h2>
 					<hr>
 					<form id="formulario" class="form-horizontal">
-						<input name="puntoventa_id" type="hidden" value="<?= escape($puntoventa_id); ?>">
 						<div class="form-group">
 							<label for="cliente" class="col-sm-4 control-label">Buscar:</label>
 							<div class="col-sm-8">
@@ -342,8 +316,7 @@ require_once show_template('header-empty'); ?>
 							<label for="almacen" class="col-sm-4 control-label">Señor(es):</label>
 							<div class="col-sm-8 right">
 								<div class="input-group">
-									<input type="text" value="" name="nombre_cliente" id="nombre_cliente" class="form-control text-uppercase" autocomplete="off" data-validation="required">
-									<!--data-validation="required letternumber length" data-validation-allowing="-+./&() " data-validation-length="max100"-->
+									<input type="text" value="" name="nombre_cliente" id="nombre_cliente" class="form-control text-uppercase" autocomplete="off" data-validation="required"><!--data-validation="required letternumber length" data-validation-allowing="-+./&() " data-validation-length="max100"-->
 									<span class="input-group-addon" style="padding-top: 0px; padding-bottom: 0px;">
 										<button type="button" id="ver_datos" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalResumenVentas" onclick="mostrar_datos(getElementById('id_cliente').value);">
 											Historial
@@ -367,51 +340,49 @@ require_once show_template('header-empty'); ?>
 						<div class="form-group">
 							<label for="direccion" class="col-sm-4 control-label">Dirección:</label>
 							<div class="col-sm-8">
-								<input type="text" value="" name="direccion" id="direccion" class="form-control text-uppercase" autocomplete="off"> <!-- data-validation="required " -->
+								<input type="text" value="" name="direccion" id="direccion" class="form-control text-uppercase" autocomplete="off" > <!-- data-validation="required " -->
 							</div>
 						</div>
-						<div class="form-group hidden">
+						<div class="form-group">
 							<label for="empleado" class="col-sm-4 control-label">Asignar vendedor:</label>
 							<div class="col-sm-8">
 								<select name="empleado" id="empleado" data-empleado class="form-control text-uppercase" data-validation="required" data-validation-allowing="-+./&()">
 									<option value="">Buscar....</option>
 									<?php foreach ($empleados as $empleado) { ?>
-										<option value="<?= escape($empleado['id_empleado']); ?>" <?= ($empleado['id_user'] == $_user['id_user']) ? 'selected="selected"' : '' ?>><?= escape($empleado['codigo'] . ' - ' . $empleado['empleado']); ?></option>
+										<option value="<?= escape($empleado['id_empleado']); ?>" <?= ($empleado['id_user'] == $_user['id_user']) ? 'selected="selected"' : ''?>  ><?= escape($empleado['codigo'] .' - '.$empleado['empleado']); ?></option>
 									<?php } ?>
 								</select>
 							</div>
 						</div>
 
 
-						<?php // if ($_user['rol'] == 'Superusuario' || $_user['rol'] == 'Administrador') { 
-						?>
-						<div class="form-group" id='CreditoF'>
-							<label for="almacen" class="col-sm-4 control-label">Forma de Pago:</label>
-							<div class="col-sm-8">
-								<select name="forma_pago" id="forma_pago" class="form-control" data-validation="required number" onchange="set_plan_pagos();">
-									<option value="1">Contado</option>
-									<option value="2">Plan de Pagos</option>
-								</select>
+						<?php // if ($_user['rol'] == 'Superusuario' || $_user['rol'] == 'Administrador') { ?>
+							<div class="form-group" id='CreditoF'>
+								<label for="almacen" class="col-sm-4 control-label">Forma de Pago:</label>
+								<div class="col-sm-8">
+									<select name="forma_pago" id="forma_pago" class="form-control" data-validation="required number" onchange="set_plan_pagos();">
+										<option value="1">Contado</option>
+										<option value="2">Plan de Pagos</option>
+									</select>
+								</div>
 							</div>
-						</div>
-						<?php // } 
-						?>
+						<?php // } ?>
 						<input type="number" class="hidden" id="nro_factura" value="<?= $nro_factura ?>">
 						<div class="form-group" id="para_pagos">
 							<label for="almacen" class="col-sm-4 control-label">Tipo de Pago:</label>
 							<div class="col-sm-8">
 								<div class="row">
 									<div class="col-md-5">
-										<select name="tipo_pago" id="tipo_pago" class="form-control" onchange="Ftipo_pago()">
-											<option value="EFECTIVO">Efectivo</option>
-											<option value="CHEQUE">Cheque</option>
-											<option value="TRANSFERENCIA">Transferencia</option>
-											<option value="TARJETA">Tarjeta</option>
-										</select>
-									</div>
-									<div class="col-md-7">
-										<input type="text" name="nro_pago" id="nro_pago" value="<?= $nro_factura ?>" placeholder="Nro documento" class="form-control" autocomplete="off" data-validation="number" aria-label="..." data-validation-optional="true">
-									</div>
+                                        <select name="tipo_pago" id="tipo_pago" class="form-control" onchange="Ftipo_pago()">
+                                            <option value="EFECTIVO">Efectivo</option>
+                                            <option value="CHEQUE">Cheque</option>
+                                            <option value="TRANSFERENCIA">Transferencia</option>
+                                            <option value="TARJETA">Tarjeta</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <input type="text" name="nro_pago" id="nro_pago" value="<?= $nro_factura ?>" placeholder="Nro documento" class="form-control" autocomplete="off" data-validation="number" aria-label="..." data-validation-optional="true">
+                                    </div>
 								</div>
 							</div>
 						</div>
@@ -419,14 +390,14 @@ require_once show_template('header-empty'); ?>
 							<label class="col-sm-4 control-label">Tipo Documento Identidad SIAT</label>
 							<div class="col-sm-8">
 								<select name="tipo_documento_identidad" class="form-control" required>
-									<?php foreach ($tipos_documentos->RespuestaListaParametricas->listaCodigos as $mp) : ?>
-										<option value="<?php print $mp->codigoClasificador ?>">
-											<?php print $mp->descripcion ?>
-										</option>
+									<?php foreach($tipos_documentos->RespuestaListaParametricas->listaCodigos as $mp): ?>
+									<option value="<?php print $mp->codigoClasificador ?>">
+										<?php print $mp->descripcion ?>
+									</option>
 									<?php endforeach; ?>
 								</select>
 							</div>
-
+							
 						</div>
 						<div class="form-group">
 							<label class="col-sm-4 control-label">Nro. Documento Identidad SIAT</label>
@@ -441,10 +412,10 @@ require_once show_template('header-empty'); ?>
 							<label class="col-sm-4 control-label">Metodos de Pago SIAT</label>
 							<div class="col-sm-8">
 								<select name="codigo_metodo_pago" class="form-control" required>
-									<?php foreach ($metodos_pago_siat->RespuestaListaParametricas->listaCodigos as $mp) : ?>
-										<option value="<?php print $mp->codigoClasificador ?>">
-											<?php print $mp->descripcion ?>
-										</option>
+									<?php foreach($metodos_pago_siat->RespuestaListaParametricas->listaCodigos as $mp): ?>
+									<option value="<?php print $mp->codigoClasificador ?>">
+										<?php print $mp->descripcion ?>
+									</option>
 									<?php endforeach; ?>
 								</select>
 							</div>
@@ -455,27 +426,27 @@ require_once show_template('header-empty'); ?>
 								<input type="text" name="numero_tarjeta" value="" class="form-control" />
 							</div>
 						</div>
-						<div class="form-group hidden">
+                        <div class="form-group">
 							<label for="almacen" class="col-sm-4 control-label">Tipo de Entrega:</label>
 							<div class="col-sm-8">
 								<div class="row">
 									<div class="col-md-12">
-										<select name="distribuir" id="distribuir" class="form-control">
-											<option value="N">Entrega Inmediata</option>
-											<option value="S">Distribucion</option>
-										</select>
-									</div>
+                                        <select name="distribuir" id="distribuir" class="form-control">
+                                            <option value="N">Entrega Inmediata</option>
+                                            <option value="S">Distribucion</option>
+                                        </select>
+                                    </div>
 								</div>
 							</div>
 						</div>
 
-						<div class="form-group hidden">
+                        <div class="form-group">
 							<label for="observacion" class="col-sm-4 control-label">Observación:</label>
 							<div class="col-sm-8">
 								<textarea name="observacion" id="observacion" class="form-control text-uppercase" rows="2" autocomplete="off" data-validation="letternumber" data-validation-allowing='-+/.,:;@#&"()_\n ' data-validation-optional="true"></textarea>
 							</div>
 						</div>
-
+						
 						<!-- Button trigger modal -->
 
 
@@ -551,7 +522,7 @@ require_once show_template('header-empty'); ?>
 									</div>
 								</div>
 								<p>&nbsp;</p>
-
+								
 
 								<div id="plan_de_pagos" style="display: none;">
 									<div class="form-group">
@@ -572,23 +543,20 @@ require_once show_template('header-empty'); ?>
 										<tbody>
 											<?php for ($i = 1; $i <= 36; $i++) { ?>
 												<tr class="active cuotaclass">
-													<!--<?php //if ($i == 1) { 
-														?>-->
+													<!--<?php //if ($i == 1) { ?>-->
 													<!--	<td class="text-nowrap" valign="center">-->
 													<!--		<div data-cuota="<?= $i ?>" data-cuota2="<?= $i ?>" class="cuota_div">Pago Inicial:</div>-->
 													<!--	</td>-->
-													<!--<?php //} else { 
-														?>-->
-													<td class="text-nowrap" valign="center">
-														<div data-cuota="<?= $i ?>" data-cuota2="<?= $i ?>" class="cuota_div">Cuota <?= $i ?>:</div>
-													</td>
-													<?php //} 
-													?>
+													<!--<?php //} else { ?>-->
+														<td class="text-nowrap" valign="center">
+															<div data-cuota="<?= $i ?>" data-cuota2="<?= $i ?>" class="cuota_div">Cuota <?= $i ?>:</div>
+														</td>
+													<?php //} ?>
 
 													<td>
 														<div data-cuota="<?= $i ?>" class="cuota_div">
 															<div class="col-sm-12">
-																<input id="inicial_fecha_<?= $i ?>" name="fecha[]" value="<?= date('d-m-Y') ?>" min="<?= date('d-m-Y') ?>" class="form-control input-sm" autocomplete="off" <?php if ($i == 1) { ?> data-validation="required date" <?php } ?> data-validation-format="DD-MM-YYYY" data-validation-min-date="<?= date('d-m-Y'); ?>" onchange="javascript:change_date(<?= $i ?>);" onblur="javascript:change_date(<?= $i ?>);" <?php if ($i > 1 && false) { ?> disabled="disabled" <?php } ?>>
+																<input  id="inicial_fecha_<?= $i ?>" name="fecha[]" value="<?= date('d-m-Y') ?>" min="<?= date('d-m-Y') ?>" class="form-control input-sm" autocomplete="off" <?php if ($i == 1) { ?> data-validation="required date" <?php } ?> data-validation-format="DD-MM-YYYY" data-validation-min-date="<?= date('d-m-Y'); ?>" onchange="javascript:change_date(<?= $i ?>);" onblur="javascript:change_date(<?= $i ?>);" <?php if ($i > 1 && false) { ?> disabled="disabled" <?php } ?>>
 															</div>
 														</div>
 													</td>
@@ -732,10 +700,10 @@ require_once show_template('header-empty'); ?>
 								</tr>
 							</thead>
 							<tbody>
-								<?php
-								$product_color = 0;
-								foreach ($productos as $nro => $producto) {
-									$otro_precio = $db->query("SELECT *
+								<?php 
+								$product_color=0;
+								foreach ($productos as $nro => $producto) { 
+									$otro_precio=$db->query("SELECT *
 									FROM inv_asignaciones a
 									LEFT JOIN inv_unidades b ON a.unidad_id=b.id_unidad
 									WHERE a.producto_id='{$producto['id_producto']}'")->fetch();
@@ -744,67 +712,65 @@ require_once show_template('header-empty'); ?>
 									// echo json_encode($otro_precio);
 									if (escape($producto['cantidad_ingresos']) > 0) {
 								?>
-										<tr data-busqueda="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>">
-											<td class="text-nowrap text-middle text-center width-none" <?php
-																										if ($product_color == $producto['id_producto']) {
-																											echo ' style="background-color:rgb(128,30,30);" ';
-																										} else {
-																											$product_color = $producto['id_producto'];
-																											echo ' style="background-color:rgb(60,128,60);" ';
-																										}
-																										?>>
-												<img src="<?= ($producto['imagen'] == '') ? imgs . '/image.jpg' : files . '/productos/' . $producto['imagen']; ?>" class="img-rounded cursor-pointer" data-toggle="modal" data-target="#modal_mostrar" data-modal-size="modal-md" data-modal-title="Imagen" width="75" height="75">
-											</td>
-											<td class="text-nowrap text-middle" data-codigo="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>" data-codigo2=""><?= escape($producto['codigo']); ?></td>
-											<td class="text-middle">
-												<em><?= escape($producto['nombre']); ?></em>
-												<br>
-												<span class="vencimientoView" data-vencimientoview="">Venc: <?= escape(date_decode($producto['vencimiento'], $_institution['formato'])); ?></span>
-												<br>
-												<span class="loteView" data-loteview="">Lote: <?= escape($producto['lote']); ?></span>
-												<span class="editar hidden" data-editar="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>"><?php
-																																							if ($producto['id_promocion_precio'] == 0) {
-																																								echo "N";
-																																							} else {
-																																								echo "S";
-																																							}
-																																							?></span>
-												<span class="vencimiento hidden" data-vencimiento="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>">Venc: <?= escape(date_decode($producto['vencimiento'], $_institution['formato'])); ?></span>
-												<span class="lote hidden" data-lote="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>">Lote: <?= escape($producto['lote']); ?></span>
-												<span class="nombre_producto hidden" data-nombre="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>"><?= escape($producto['nombre']); ?></span>
-											</td>
-											<!--<td class="text-nowrap text-middle"><?= escape($producto['categoria']); ?></td>-->
-											<td class="text-nowrap text-middle text-right" data-stock="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>"><?= escape($producto['cantidad_ingresos']); ?></td>
-											<td class="text-middle text-right" data-asignacion="" style="font-weight: bold; font-size: 0.8em;">
-												<?php echo escape($producto['precio_actual']); ?>
-												<div data-valor="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>" style="display:none;">
-													<?php
-													echo '*(1)' . escape($producto['unidad']) . ': <b>' . escape($producto['precio_actual']) . '</b>';
-													foreach ($otro_precio as $otro) {
-													?>
-														<br />*(<?= escape($producto['cantidad2']) . ')' . escape($otro['unidad'] . ': '); ?><b><?= escape($otro['otro_precio']); ?></b>
-													<?php } ?>
-												</div>
-											</td>
-											<td class="text-nowrap text-middle text-center width-none">
-												<button type="button" class="btn btn-primary" data-vender="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>" onclick="vender(this);" title="Vender">
-													<span class="glyphicon glyphicon-shopping-cart"></span>
-													<!--Vender-->
-												</button>
-												<!--<button type="button" class="btn btn-default" data-actualizar="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>" onclick="actualizar(this, <?= $id_almacen ?>);calcular_descuento()" title="Actualizar">-->
-												<!--<span class="glyphicon glyphicon-refresh"></span>-->
-												<!--Actualizar-->
-												<!--</button>-->
-											</td>
-											<td class="hidden" data-cant="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>"><?= escape($producto['cantidad2']); ?></td>
-											<td class="hidden" data-stock2="<?= $producto['id_producto'] . '_' . $producto['id_detalle']; ?>"><?= escape($producto['cantidad_ingresos']); ?></td>
-										</tr>
+									<tr data-busqueda="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>">
+										<td class="text-nowrap text-middle text-center width-none" <?php 
+										    if($product_color==$producto['id_producto']){
+    										    echo ' style="background-color:rgb(128,30,30);" ';
+										    }else{
+									            $product_color=$producto['id_producto'];
+									            echo ' style="background-color:rgb(60,128,60);" ';
+										    }
+										    ?> >
+											<img src="<?= ($producto['imagen'] == '') ? imgs . '/image.jpg' : files . '/productos/' . $producto['imagen']; ?>" class="img-rounded cursor-pointer" data-toggle="modal" data-target="#modal_mostrar" data-modal-size="modal-md" data-modal-title="Imagen" width="75" height="75">
+										</td>
+										<td class="text-nowrap text-middle" data-codigo="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>" data-codigo2=""><?= escape($producto['codigo']); ?></td>
+										<td class="text-middle">
+											<em><?= escape($producto['nombre']); ?></em>
+											<br>
+											<span class="vencimientoView" data-vencimientoview="">Venc: <?= escape(date_decode($producto['vencimiento'], $_institution['formato'])); ?></span>
+											<br>
+											<span class="loteView" data-loteview="">Lote: <?= escape($producto['lote']); ?></span>
+											<span class="editar hidden" data-editar="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>"><?php
+											    if($producto['id_promocion_precio']==0){   
+											        echo "N";    }
+											    else{   
+											        echo "S";    }
+											?></span>
+											<span class="vencimiento hidden" data-vencimiento="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>">Venc: <?= escape(date_decode($producto['vencimiento'], $_institution['formato'])); ?></span>
+											<span class="lote hidden" data-lote="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>">Lote: <?= escape($producto['lote']); ?></span>
+											<span class="nombre_producto hidden" data-nombre="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>"><?= escape($producto['nombre']); ?></span>
+										</td>
+										<!--<td class="text-nowrap text-middle"><?= escape($producto['categoria']); ?></td>-->
+										<td class="text-nowrap text-middle text-right" data-stock="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>"><?= escape($producto['cantidad_ingresos']); ?></td>
+										<td class="text-middle text-right" data-asignacion="" style="font-weight: bold; font-size: 0.8em;">
+										    <?php echo escape($producto['precio_actual']); ?>
+    										<div data-valor="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>" style="display:none;">
+    											<?php
+    												echo '*(1)'.escape($producto['unidad']).': <b>'.escape($producto['precio_actual']).'</b>';
+    												foreach ($otro_precio as $otro){
+    											?>
+    												<br />*(<?= escape($producto['cantidad2']) . ')' .escape($otro['unidad'] . ': '); ?><b><?= escape($otro['otro_precio']); ?></b>
+    											<?php } ?>
+											</div>
+										</td>
+										<td class="text-nowrap text-middle text-center width-none">
+											<button type="button" class="btn btn-primary" data-vender="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>" onclick="vender(this);" title="Vender">
+											<span class="glyphicon glyphicon-shopping-cart"></span>
+											<!--Vender-->
+											</button>
+											<!--<button type="button" class="btn btn-default" data-actualizar="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>" onclick="actualizar(this, <?= $id_almacen ?>);calcular_descuento()" title="Actualizar">-->
+											<!--<span class="glyphicon glyphicon-refresh"></span>-->
+											<!--Actualizar-->
+											<!--</button>-->
+										</td>
+										<td class="hidden" data-cant="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>"><?= escape($producto['cantidad2']); ?></td>
+										<td class="hidden" data-stock2="<?= $producto['id_producto'] .'_'. $producto['id_detalle']; ?>"><?= escape($producto['cantidad_ingresos']); ?></td>
+									</tr>
 
 
 
 								<?php }  // fin if
-								} // fin foreach 
-								?>
+							} // fin foreach ?>
 							</tbody>
 						</table>
 					<?php } else { ?>
@@ -870,7 +836,7 @@ require_once show_template('header-empty'); ?>
 			<td class="text-nowrap text-middle text-center width-none">
 				<img src="" class="img-rounded cursor-pointer" data-toggle="modal" data-target="#modal_mostrar" data-modal-size="modal-md" data-modal-title="Imagen" width="75" height="75">
 			</td>
-			<td class="text-nowrap text-middle" data-codigo="" data-codigo2="">
+			<td class="text-nowrap text-middle" data-codigo="" data-codigo2="">				
 			</td>
 			<td class="text-middle">
 				<em></em>
@@ -884,17 +850,15 @@ require_once show_template('header-empty'); ?>
 			</td>
 			<td class="text-nowrap text-middle"></td>
 			<td class="text-nowrap text-middle text-right" data-stock=""></td>
-			<td class="text-middle text-right" data-valor="" data-asignacion="">
-				<div class="stockpromocion hidden" data-stockpromocion=""></div>
-			</td>
+			<td class="text-middle text-right" data-valor="" data-asignacion=""><div class="stockpromocion hidden" data-stockpromocion=""></div></td>
 			<td class="text-nowrap text-middle text-center width-none">
 				<button type="button" class="btn btn-primary" data-vender="" onclick="vender(this);">
-					<span class="glyphicon glyphicon-shopping-cart"></span>
-					<!--Vender-->
+				<span class="glyphicon glyphicon-shopping-cart"></span>
+				<!--Vender-->
 				</button>
 				<button type="button" class="btn btn-default" data-actualizar="" onclick="actualizar(this, <?= $id_almacen ?>);calcular_descuento()">
-					<span class="glyphicon glyphicon-refresh"></span>
-					<!--Actualizar-->
+				<span class="glyphicon glyphicon-refresh"></span>
+				<!--Actualizar-->
 				</button>
 			</td>
 			<td class="hidden" data-cant=""></td>
@@ -951,8 +915,7 @@ require_once show_template('header-empty'); ?>
 
 <!-- Modal -->
 <div class="modal fade" id="modalResumenVentas" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-	<div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-		<!-- style="max-width: 80em !important;" -->
+	<div class="modal-dialog modal-lg modal-dialog-scrollable" role="document" > <!-- style="max-width: 80em !important;" -->
 		<div class="modal-content ">
 			<div class="modal-header">
 				<button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -980,81 +943,42 @@ require_once show_template('header-empty'); ?>
 <script src="<?= js; ?>/jquery.dataTables.min.js"></script>
 <script src="<?= js; ?>/dataTables.bootstrap.min.js"></script>
 <script src="<?= js; ?>/number_format.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
-
 <script>
-	// axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-	// axios.defaults.headers.common['Content-Type'] = 'multipart/form-data';
-	// axios.defaults.headers.common['Content-Type'] = 'application/json;charset=UTF-8';
-	function crear_evento(el) {
-		bootbox.confirm('Está seguro de ingresar en modo offline?', function(result) {
-			if (result) {
-				/*const resp = await*/
-				axios.post(`?/siat/api_eventos/crear_evento`, el).then(({
-					data
-				}) => data);
-
-				//window.location.reload();
-			}
-		});
-	}
-
-	function cerrar_evento(el) {
-		bootbox.confirm('Ingresar modo online y enviar las facturas?', function(result) {
-			if (result) {
-				/*const resp = await*/
-				axios.post(`?/siat/api_eventos/cerrar_evento`, el).then(({
-					data
-				}) => data);
-
-				//window.location.reload();
-			}
-		});
-	}
-</script>
-
-
-
-<script>
-	SwGuardar = false;
-
+    SwGuardar=false;
+    
 	$(function() {
-		$('#productosTable').dataTable({
-			info: false,
-			scrollY: "35em",
-			scrollCollapse: true,
-			lengthMenu: [
-				[25, 50, 100, 500, -1],
-				[25, 50, 100, 500, 'Todos']
-			],
-			order: []
+	    $('#productosTable').dataTable({
+            info: false,
+            scrollY: "35em",
+            scrollCollapse: true,
+            lengthMenu: [
+                [25, 50, 100, 500, -1],
+                [25, 50, 100, 500, 'Todos']
+            ],
+            order: []
 		});
+		
+        $("html, body").animate({
+            scrollTop: 0
+        }, 500);
 
-		$("html, body").animate({
-			scrollTop: 0
-		}, 500);
-
-		$('#nro_pago').css({
-			'display': 'none'
-		});
-
-		$('#productosTable_filter').children('label').children('.form-control').attr('id', 'id_buscador');
+        $('#nro_pago').css({'display':'none'});
+        
+        $('#productosTable_filter').children('label').children('.form-control').attr('id','id_buscador');
 	});
 
 	var idp;
 
-	function SetEnter(event) {
-		if (event.keyCode === 13) {
-			document.getElementById("id_buscador").focus();
+    function SetEnter(event){
+        if (event.keyCode === 13) {
+            document.getElementById("id_buscador").focus();
+            
+            $("html, body").animate({
+                scrollTop: 0
+            }, 500);
 
-			$("html, body").animate({
-				scrollTop: 0
-			}, 500);
-
-		}
-	}
-
+        }
+    }
 	function cantidad(el) {
 		var $elemento = $(el);
 		var id_prod;
@@ -1187,7 +1111,7 @@ require_once show_template('header-empty'); ?>
 					$nit_ci.val('').focus();
 				}
 			}
-			if ($('#nombre_cliente').val() != '') {
+			if($('#nombre_cliente').val() != ''){
 				mostrar_datos($('#id_cliente').val());
 			}
 		});
@@ -1229,12 +1153,12 @@ require_once show_template('header-empty'); ?>
 
 		$formulario.on('reset', function() {
 			$('#ventas tbody').empty();
-			// 			$nit_ci.prop('readonly', false);
-			// 			$nombre_cliente.prop('readonly', false);
-			// 			$direccion.prop('readonly', false);
-			// 			$ciudad.prop('readonly', false);
-			// 			$telefono.prop('readonly', false);
-			// 			$ubicacion.prop('readonly', false);
+// 			$nit_ci.prop('readonly', false);
+// 			$nombre_cliente.prop('readonly', false);
+// 			$direccion.prop('readonly', false);
+// 			$ciudad.prop('readonly', false);
+// 			$telefono.prop('readonly', false);
+// 			$ubicacion.prop('readonly', false);
 			//$nit_ci.prop('readonly', true);
 			$nombre_cliente.prop('readonly', true);
 			$direccion.prop('readonly', true);
@@ -1280,12 +1204,12 @@ require_once show_template('header-empty'); ?>
 						var $ultimo2;
 						$contenido_filtrar.html($tabla_filtrar.html());
 						for (var i in productos) {
-							console.log(productos[i].id_producto + '_' + productos[i].id_detalle);
+                            console.log(productos[i].id_producto+'_'+productos[i].id_detalle);
 							if (parseInt(productos[i].cantidad_ingresos) > 0) {
 								productos[i].imagen = (productos[i].imagen == '') ? $fila_filtrar.attr('data-negativo') + 'image.jpg' : $fila_filtrar.attr('data-positivo') + productos[i].imagen;
 								// productos[i].codigo = productos[i].codigo;
 								$contenido_filtrar.find('tbody').append($fila_filtrar.html());
-								$contenido_filtrar.find('tbody tr:last').attr('data-busqueda', productos[i].id_producto + '_' + productos[i].id_detalle);
+								$contenido_filtrar.find('tbody tr:last').attr('data-busqueda', productos[i].id_producto+'_'+productos[i].id_detalle);
 
 								if (productos[i].promocion === 'si') {
 									$ultimo = $contenido_filtrar.find('tbody tr:nth-last-child(1)').children().addClass('primary');
@@ -1296,59 +1220,59 @@ require_once show_template('header-empty'); ?>
 								$ultimo2.eq(0).find('em2').text(productos[i].descripcion);
 								$ultimo.eq(0).find('img').attr('src', productos[i].imagen);
 								$ultimo.eq(1).attr('data-codigo', productos[i].id_producto);
-								$ultimo.eq(1).attr('data-codigo', productos[i].id_producto + '_' + productos[i].id_detalle);
+								$ultimo.eq(1).attr('data-codigo', productos[i].id_producto+'_'+productos[i].id_detalle);
 								$ultimo.eq(1).text(productos[i].codigo);
 								$ultimo.eq(2).find('em').text(productos[i].nombre);
 
-								$ultimo.eq(2).find('.vencimientoView').text("Venc: " + productos[i].vencimiento);
-								$ultimo.eq(2).find('.loteView').text("Lote: " + productos[i].lote);
+								$ultimo.eq(2).find('.vencimientoView').text("Venc: "+productos[i].vencimiento);
+								$ultimo.eq(2).find('.loteView').text("Lote: "+productos[i].lote);
 
-								$ultimo.eq(2).find('.vencimiento').text("Venc: " + productos[i].vencimiento);
-								$ultimo.eq(2).find('.lote').text("Lote: " + productos[i].lote);
+								$ultimo.eq(2).find('.vencimiento').text("Venc: "+productos[i].vencimiento);
+								$ultimo.eq(2).find('.lote').text("Lote: "+productos[i].lote);
 
 								$ultimo.eq(2).find('.nombre_producto').text(productos[i].nombre);
 
-								$ultimo.eq(2).find('.nombre_producto').attr('data-nombre', productos[i].id_producto + '_' + productos[i].id_detalle);
-								$ultimo.eq(2).find('.vencimiento').attr('data-vencimiento', productos[i].id_producto + '_' + productos[i].id_detalle);
-								$ultimo.eq(2).find('.lote').attr('data-lote', productos[i].id_producto + '_' + productos[i].id_detalle);
+								$ultimo.eq(2).find('.nombre_producto').attr('data-nombre', productos[i].id_producto+'_'+productos[i].id_detalle);
+								$ultimo.eq(2).find('.vencimiento').attr('data-vencimiento', productos[i].id_producto+'_'+productos[i].id_detalle);
+								$ultimo.eq(2).find('.lote').attr('data-lote', productos[i].id_producto+'_'+productos[i].id_detalle);
 
-								let str = '';
-								if (productos[i].asignacion_rol !== '') {
-									let asignacion_rol = productos[i].asignacion_rol.split(',');
-									if (asignacion_rol.includes('<?= $id_rol ?>'))
-										str = `*(1)${productos[i].unidad}:${productos[i].precio_actual}`;
-								} else
-									str = `*(1)${productos[i].unidad}:${productos[i].precio_actual}`;
-								if (typeof(productos[i].id_roles) !== 'object') {
-									let id_roles = productos[i].id_roles.split(',');
-									let Arreglo = [];
-									for (let i = 0; i < id_roles.length; ++i) {
-										let detalle = id_roles[i].split('|');
-										let rolA = detalle[0];
-										let asigA = detalle[1];
-										if (rolA === '<?= $id_rol ?>')
-											Arreglo.push(asigA);
-									}
-									if (typeof(productos[i].unidade) === 'object')
-										productos[i].unidade = '';
-									if (productos[i].unidade !== '') {
-										let Aux = productos[i].unidade.split('&'),
-											id_asignacion = productos[i].id_asignacion.split('|');
-										for (let i = 0; i < Aux.length; ++i) {
-											if (Arreglo.includes(id_asignacion[i]))
-												str += ` \n *(${Aux[i]}`;
-										}
-									}
-								} else {
-									if (typeof(productos[i].unidade) === 'object')
-										productos[i].unidade = '';
-									if (productos[i].unidade !== '') {
-										let Aux = productos[i].unidade.split('&');
-										for (let i = 0; i < Aux.length; ++i)
-											str += ` \n *(${Aux[i]}`;
-									}
-								}
-								let res = str;
+                                let str = '';
+                                if (productos[i].asignacion_rol !== '') {
+                                    let asignacion_rol = productos[i].asignacion_rol.split(',');
+                                    if (asignacion_rol.includes('<?= $id_rol ?>'))
+                                        str = `*(1)${productos[i].unidad}:${productos[i].precio_actual}`;
+                                } else
+                                    str = `*(1)${productos[i].unidad}:${productos[i].precio_actual}`;
+                                if (typeof(productos[i].id_roles) !== 'object') {
+                                    let id_roles = productos[i].id_roles.split(',');
+                                    let Arreglo = [];
+                                    for (let i = 0; i < id_roles.length; ++i) {
+                                        let detalle = id_roles[i].split('|');
+                                        let rolA = detalle[0];
+                                        let asigA = detalle[1];
+                                        if (rolA === '<?= $id_rol ?>')
+                                            Arreglo.push(asigA);
+                                    }
+                                    if (typeof(productos[i].unidade) === 'object')
+                                        productos[i].unidade = '';
+                                    if (productos[i].unidade !== '') {
+                                        let Aux = productos[i].unidade.split('&'),
+                                            id_asignacion = productos[i].id_asignacion.split('|');
+                                        for (let i = 0; i < Aux.length; ++i) {
+                                            if (Arreglo.includes(id_asignacion[i]))
+                                                str += ` \n *(${Aux[i]}`;
+                                        }
+                                    }
+                                } else {
+                                    if (typeof(productos[i].unidade) === 'object')
+                                        productos[i].unidade = '';
+                                    if (productos[i].unidade !== '') {
+                                        let Aux = productos[i].unidade.split('&');
+                                        for (let i = 0; i < Aux.length; ++i)
+                                            str += ` \n *(${Aux[i]}`;
+                                    }
+                                }
+                                let res = str;
 
 								// console.log(productos[i].cantidad_ingresos);
 
@@ -1403,32 +1327,32 @@ require_once show_template('header-empty'); ?>
 								// var res = str.replace(/&/g, "\n *(");
 
 
-								//								$ultimo.eq(4).attr('data-stock', productos[i].id_producto+'_'+productos[i].id_detalle);
-								//								$ultimo.eq(4).text(parseInt(productos[i].cantidad_ingresos));
-								$ultimo.eq(4).attr('data-stock', productos[i].id_producto + '_' + productos[i].id_detalle);
+//								$ultimo.eq(4).attr('data-stock', productos[i].id_producto+'_'+productos[i].id_detalle);
+//								$ultimo.eq(4).text(parseInt(productos[i].cantidad_ingresos));
+								$ultimo.eq(4).attr('data-stock', productos[i].id_producto+'_'+productos[i].id_detalle);
 								$ultimo.eq(4).text(parseInt(productos[i].cantidad_ingresos));
 
 
 								$ultimo.eq(5).css("font-weight", "bold");
 								$ultimo.eq(5).css("font-size", "0.8em");
 								// $ultimo.eq(5).attr('data-valor', productos[i].id_producto);
-								$ultimo.eq(5).attr('data-valor', productos[i].id_producto + '_' + productos[i].id_detalle);
-								//								$ultimo.eq(5).attr('data-asignacion', productos[i].id_asignacion);
+								$ultimo.eq(5).attr('data-valor', productos[i].id_producto+'_'+productos[i].id_detalle);
+//								$ultimo.eq(5).attr('data-asignacion', productos[i].id_asignacion);
 								$ultimo.eq(5).text(res);
 
 								// $ultimo.eq(6).find(':button:first').attr('data-vender', productos[i].id_producto);
 								// $ultimo.eq(6).find(':button:last').attr('data-actualizar', productos[i].id_producto);
 								// $ultimo.eq(7).attr('data-cant', productos[i].id_producto);
 								// $ultimo.eq(7).text(productos[i].cantidad2);
-								$ultimo.eq(6).find(':button:first').attr('data-vender', productos[i].id_producto + '_' + productos[i].id_detalle);
-								$ultimo.eq(6).find(':button:last').attr('data-actualizar', productos[i].id_producto + '_' + productos[i].id_detalle);
-								$ultimo.eq(7).attr('data-cant', productos[i].id_producto + '_' + productos[i].id_detalle);
+								$ultimo.eq(6).find(':button:first').attr('data-vender', productos[i].id_producto+'_'+productos[i].id_detalle);
+								$ultimo.eq(6).find(':button:last').attr('data-actualizar', productos[i].id_producto+'_'+productos[i].id_detalle);
+								$ultimo.eq(7).attr('data-cant', productos[i].id_producto+'_'+productos[i].id_detalle);
 								$ultimo.eq(7).text(productos[i].cantidad2);
 
-								$ultimo.eq(8).attr('data-stock2', productos[i].id_producto + '_' + productos[i].id_detalle);
+								$ultimo.eq(8).attr('data-stock2', productos[i].id_producto+'_'+productos[i].id_detalle);
 								$ultimo.eq(8).text(parseInt(productos[i].cantidad_ingresos));
 
-								$ultimo.eq(9).attr('data-contado', productos[i].id_producto + '_' + productos[i].id_detalle);
+								$ultimo.eq(9).attr('data-contado', productos[i].id_producto+'_'+productos[i].id_detalle);
 								$ultimo.eq(9).text(productos[i].descuento);
 							}
 						}
@@ -1492,7 +1416,7 @@ require_once show_template('header-empty'); ?>
 	}
 
 	function adicionar_producto(id_producto) {
-
+		
 		var $ventas = $('#ventas tbody');
 		var $producto = $ventas.find('[data-producto=' + id_producto + ']');
 		//id_producto = id_producto[id_producto.length - 1];
@@ -1523,7 +1447,7 @@ require_once show_template('header-empty'); ?>
 		z = 1;
 		var porci2 = cantidad2.split('*');
 		//console.log(porci2);
-
+		
 		/*
 		if ($producto.size()) {
 			cantidad = $.trim($cantidad.val());
@@ -1531,18 +1455,18 @@ require_once show_template('header-empty'); ?>
 			cantidad = (cantidad < 9999999) ? cantidad + 1 : cantidad;
 			$cantidad.val(cantidad).trigger('blur');
 		}*/ //else {
+        
+		V_producto_simple=id_producto.split("_");
+		id_producto_simple=V_producto_simple[0];
 
-		V_producto_simple = id_producto.split("_");
-		id_producto_simple = V_producto_simple[0];
+        var dt = new Date();
+        var time = dt.getHours() + "" + dt.getMinutes() + "" + dt.getSeconds() + "" + dt.getMilliseconds();
+        id_producto=id_producto+"_"+time;
 
-		var dt = new Date();
-		var time = dt.getHours() + "" + dt.getMinutes() + "" + dt.getSeconds() + "" + dt.getMilliseconds();
-		id_producto = id_producto + "_" + time;
-
-		plantilla = '<tr class="active" data-producto="' + id_producto + '">' +
+        plantilla = '<tr class="active" data-producto="' + id_producto + '">' +
 			'<td class="text-nowrap text-middle"><b>' + numero + '</b></td>' +
 			'<td class="text-nowrap text-middle"><input type="text" value="' + id_producto_simple + '" name="productos[]" class="translate input-xs" tabindex="-1" data-validation="required number" data-validation-error-msg="Debe ser número">' + codigo + '</td>' +
-			'<td class="text-middle">' + nombre + '<br>' + lote + '<br>' + vencimiento + '';
+			'<td class="text-middle">'+nombre+'<br>'+lote+'<br>'+vencimiento+'';
 
 		plantilla += '<input type="hidden" value=\'' + nombre + '\' name="nombres[]" class="form-control input-xs" data-validation="required">';
 		plantilla += '<input type="hidden" value=\'' + lote + '\' name="lote[]" class="form-control input-xs" data-validation="required">';
@@ -1562,19 +1486,19 @@ require_once show_template('header-empty'); ?>
 			for (var ic = 1; ic < porciones.length; ic++) {
 				parte = porciones[ic].split(':');
 				oparte = parte[0].split(')');
-				plantilla = plantilla + '<option value="' + oparte[1] + '" data-pr="' + id_producto + '" data-xyyz="' + stock + '" data-yyy="' + parte[1] + '" data-yyz="' + porci2[ic - 1] + '" data-asig="' + asignation[ic - 1] + '" >' + oparte[1] + ' (' + parte[1] + ')</option>';
+				plantilla = plantilla + '<option value="'+oparte[1]+'" data-pr="'+id_producto+'" data-xyyz="'+stock+'" data-yyy="'+parte[1]+'" data-yyz="'+porci2[ic - 1] + '" data-asig="' + asignation[ic - 1] + '" >' + oparte[1] + ' ('+parte[1]+')</option>';
 			}
 			plantilla = plantilla + '</select></td>' +
 				'<td class="text-middle">' +
 
 				'<input type="text" value="' + aparte[1] + '" readonly name="precios[]" class="form-control input-xs text-right class_enter" autocomplete="off" data-precio="' + aparte[1] + '"   data-validation-error-msg="Debe ser un número decimal positivo" onkeyup="calcular_importe(\'' + id_producto + '\')">' +
 				'<input type="text" value="' + aparte[1] + '" readonly name="pre[]" class="form-control input-xs text-right hidden" autocomplete="off" data-pre="' + aparte[1] + '"   data-validation-error-msg="Debe ser un número decimal positivo" onkeyup="calcular_importe(\'' + id_producto + '\')">' +
-
+				
 				'<input type="hidden" value="' + asignation[0] + '" readonly name="asignaciones[]" class="form-control input-xs text-right" autocomplete="off" data-asignacion="' + asignation[0] + '"   data-validation-error-msg="Debe ser un número decimal positivo">' +
-
+				
 				'</td>';
 		} else {
-			asignation = asignaciones.split('|');
+			asignation=asignaciones.split('|');
 			sincant = porciones[1].split(')');
 			//            console.log(sincant);
 			parte = sincant[1].split(':');
@@ -1582,34 +1506,34 @@ require_once show_template('header-empty'); ?>
 				'<input type="text" value="' + parte[0] + '" data-xyyz="' + stock + '" name="unidad[]" class="form-control input-xs text-right" autocomplete="off" data-unidad="' + parte[0] + '" readonly data-validation-error-msg="Debe ser un número decimal positivo"></td>' +
 				'<td class="text-middle" data-xyyz="' + stock + '" >';
 
-			<?php
-			if ($_user['rol_id'] != '1') {
-			?>
-				if (editarxxx != 'S') {
-					plantilla = plantilla + '<input type="text" readonly value="' + parte[1] + '" name="precios[]" class="form-control input-xs text-right" autocomplete="off"  data-precio="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo">' +
-						'<input type="text" readonly value="' + parte[1] + '" name="pre[]" class="form-control input-xs text-right hidden" autocomplete="off"  data-pre="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo">';
-				} else {
-					plantilla = plantilla + '<input type="text" value="' + parte[1] + '" name="precios[]" class="form-control input-xs text-right" autocomplete="off"  data-precio="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo" onkeypress="SetEnter(event);" onkeyup="modificar_precio(\'' + id_producto + '\'); calcular_importe(\'' + id_producto + '\')">' +
-						'<input type="text" value="' + parte[1] + '" name="pre[]" class="form-control input-xs text-right hidden" autocomplete="off"  data-pre="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo" onkeyup="modificar_precio(\'' + id_producto + '\'); calcular_importe(\'' + id_producto + '\')">';
-				}
-			<?php
-			} else {
-			?>
-				plantilla = plantilla + '<input type="text" value="' + parte[1] + '" name="precios[]" class="form-control input-xs text-right" autocomplete="off"  data-precio="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo" onkeypress="SetEnter(event);" onkeyup="modificar_precio(\'' + id_producto + '\'); calcular_importe(\'' + id_producto + '\')">' +
-					'<input type="text" value="' + parte[1] + '" name="pre[]" class="form-control input-xs text-right hidden" autocomplete="off"  data-pre="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo" onkeyup="modificar_precio(\'' + id_producto + '\'); calcular_importe(\'' + id_producto + '\')">';
-			<?php
-			}
-			?>
-
-			plantilla = plantilla + '<input type="hidden" value="N" readonly name="edit[]" class="form-control input-xs text-right" autocomplete="off" data-precioedit="">';
-			plantilla = plantilla + '<input type="hidden" value="' + asignation[0] + '" readonly name="asignaciones[]" class="form-control input-xs text-right" autocomplete="off" data-asignacion="' + asignation[0] + '"   data-validation-error-msg="Debe ser un número decimal positivo">' +
+                <?php
+                if($_user['rol_id'] != '1') {
+	            ?>			
+        			if(editarxxx!='S') {
+    	            	plantilla = plantilla + '<input type="text" readonly value="' + parte[1] + '" name="precios[]" class="form-control input-xs text-right" autocomplete="off"  data-precio="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo">' +
+        				                        '<input type="text" readonly value="' + parte[1] + '" name="pre[]" class="form-control input-xs text-right hidden" autocomplete="off"  data-pre="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo">';
+        			}else{
+        				plantilla = plantilla + '<input type="text" value="' + parte[1] + '" name="precios[]" class="form-control input-xs text-right" autocomplete="off"  data-precio="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo" onkeypress="SetEnter(event);" onkeyup="modificar_precio(\'' + id_producto + '\'); calcular_importe(\'' + id_producto + '\')">' +
+        				                        '<input type="text" value="' + parte[1] + '" name="pre[]" class="form-control input-xs text-right hidden" autocomplete="off"  data-pre="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo" onkeyup="modificar_precio(\'' + id_producto + '\'); calcular_importe(\'' + id_producto + '\')">';
+        			}
+				<?php
+                }else{
+                ?>			
+    				plantilla = plantilla + '<input type="text" value="' + parte[1] + '" name="precios[]" class="form-control input-xs text-right" autocomplete="off"  data-precio="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo" onkeypress="SetEnter(event);" onkeyup="modificar_precio(\'' + id_producto + '\'); calcular_importe(\'' + id_producto + '\')">' +
+    				                        '<input type="text" value="' + parte[1] + '" name="pre[]" class="form-control input-xs text-right hidden" autocomplete="off"  data-pre="' + parte[1] + '" data-cant2="1"   data-validation-error-msg="Debe ser un número decimal positivo" onkeyup="modificar_precio(\'' + id_producto + '\'); calcular_importe(\'' + id_producto + '\')">';
+				<?php
+                }
+	            ?>			
+    			
+				plantilla = plantilla + '<input type="hidden" value="N" readonly name="edit[]" class="form-control input-xs text-right" autocomplete="off" data-precioedit="">';
+				plantilla = plantilla + '<input type="hidden" value="' + asignation[0] + '" readonly name="asignaciones[]" class="form-control input-xs text-right" autocomplete="off" data-asignacion="' + asignation[0] + '"   data-validation-error-msg="Debe ser un número decimal positivo">' +
 				'</td>';
 		}
 
-		plantilla = plantilla +
+		plantilla = plantilla + 
 			'<td class="text-nowrap text-middle text-right" data-importe="">0.00</td>' +
 			'<td class="text-nowrap text-middle text-center">' +
-			'<button type="button" class="btn btn-success" tabindex="-1" onclick="eliminar_producto(\'' + id_producto + '\')"><span class="glyphicon glyphicon-trash"></span></button>' +
+			    '<button type="button" class="btn btn-success" tabindex="-1" onclick="eliminar_producto(\'' + id_producto + '\')"><span class="glyphicon glyphicon-trash"></span></button>' +
 			'</td>' +
 			'</tr>';
 
@@ -1620,13 +1544,13 @@ require_once show_template('header-empty'); ?>
 		});
 
 		$ventas.find('[data-xxx]').on('change', function() {
-			var v = $(this).find('option:selected').attr('data-yyy');
-			var pr = $(this).find('option:selected').attr('data-pr');
-
+            var v = $(this).find('option:selected').attr('data-yyy');
+            var pr = $(this).find('option:selected').attr('data-pr');
+			
 			var st = $(this).find('option:selected').attr('data-xyyz');
 
 			$(this).parent().parent().find('[data-precio]').val(v);
-			$(this).parent().parent().find('[data-precio]').attr('data-precio', v);
+			$(this).parent().parent().find('[data-precio]').attr('data-precio',v);
 
 			var z = $(this).find('option:selected').attr('data-yyz');
 			var x = $.trim($('[data-stock2=' + pr + ']').text());
@@ -1645,7 +1569,7 @@ require_once show_template('header-empty'); ?>
 			trigger: 'hover'
 		});
 
-		/*
+        /*
 		$.validate({
 			form: '#formulario',
 			modules: 'basic',
@@ -1654,7 +1578,7 @@ require_once show_template('header-empty'); ?>
 			}
 		});
 		*/
-		//}
+	//}
 
 
 
@@ -1704,9 +1628,8 @@ require_once show_template('header-empty'); ?>
 		var $producto = $('[data-producto=' + id_producto + ']');
 		var $precioedit = $producto.find('[data-precioedit]');
 		$precioedit.val("S");
-	}
-
-	function calcular_importe(id_producto) {
+    }
+    function calcular_importe(id_producto) {
 		// console.log(id_producto);
 		var $producto = $('[data-producto=' + id_producto + ']');
 		var $cantidad = $producto.find('[data-cantidad]');
@@ -1723,46 +1646,46 @@ require_once show_template('header-empty'); ?>
 		precio = ($.isNumeric(precio)) ? parseFloat(precio) : 0.00;
 		precioedit = $.trim($precioedit.val());
 
-		//alert(precioedit);
+        //alert(precioedit);
 
 		var $auxiliarP, $auxiliarC, ant_pre;
 		ant_pre = $producto.find('[data-pre]').val();
 		unidad = $producto.find('[data-unidad]').val();
 		// console.log(unidad);
 
-		V_producto_simple = id_producto.split("_");
-		id_producto_simple = V_producto_simple[0];
-
+		V_producto_simple=id_producto.split("_");
+		id_producto_simple=V_producto_simple[0];
+		
 		forma_pago = $('#forma_pago').val();
 
 		var parameter = {
-			'id_producto': id_producto_simple,
-			'unidad': unidad,
-			'cantidad': cantidad,
+			'id_producto' : id_producto_simple,
+			'unidad' : unidad,
+			'cantidad' : cantidad,
 			'forma_pago': forma_pago
 		};
 		$.ajax({
 			url: "?/productos/precio",
 			type: "POST",
 			data: parameter,
-			success: function(data) {
+			success: function( data ){
 				// console.log(data);
 				// a = $.parseJSON(data);
 				<?php
-				//if($_user['rol'] != 'Superusuario' && precioedit!="S") {
-				?>
-				if (precioedit != "S") {
-					$auxiliarP = data['precio_mayor'];
-					$auxiliarC = data['cantidad'];
-					// Asignamos el nuevo precio
-					$producto.find('[data-precio]').val($auxiliarP);
-				} else {
-					$auxiliarP = precio;
-				}
+                //if($_user['rol'] != 'Superusuario' && precioedit!="S") {
+	            ?>
+    			if(precioedit!="S") {
+	            	$auxiliarP = data['precio_mayor'];
+        			$auxiliarC = data['cantidad'];
+    				// Asignamos el nuevo precio
+    				$producto.find('[data-precio]').val($auxiliarP);
+                }else{
+	                $auxiliarP = precio;
+    			}
 				importe = (cantidad * $auxiliarP);
 				importe = importe.toFixed(2);
 				$importe.text(importe);
-
+	            
 				calcular_total();
 			}
 			// ,
@@ -1779,8 +1702,8 @@ require_once show_template('header-empty'); ?>
 	}
 
 	function calcular_total() {
-		SwGuardar = false;
-
+	    SwGuardar=false;
+        
 		var $ventas = $('#ventas tbody');
 		var $total = $('[data-subtotal]:first');
 		var $importes = $ventas.find('[data-importe]');
@@ -1792,96 +1715,99 @@ require_once show_template('header-empty'); ?>
 			total = total + importe;
 		});
 
-		$total.text(number_format(total, 2, ',', '.'));
+		$total.text(number_format(total ,2, ',','.'));
 		$('[data-ventas]:first').val($importes.size()).trigger('blur');
 		$('[data-total]:first').val(total.toFixed(2)).trigger('blur');
 		set_cuotas();
 	}
 
-	function SetGuardar(event) {
-		SwGuardar = true;
-	}
-
+	function SetGuardar(event){
+	    SwGuardar=true;
+    }
 	function guardar_nota() {
-		if (SwGuardar == true) {
-			bootbox.confirm('¿Desea guardar la venta?', function(result) {
-				if (result) {
-					var data = $('#formulario').serialize();
-					// console.log(data)
-					$('#loader').fadeIn(100);
-
-					$.ajax({
-						url: '?/electronicas/guardar',
-						dataType: 'json',
-						type: 'post',
-						contentType: 'application/x-www-form-urlencoded',
-						data: data,
-						success: function(result) {
-							console.log(result);
-							$.notify({
-								message: 'La nota de remisión fue realizada satisfactoriamente.'
-							}, {
-								type: 'success',
-								delay: 50000,
-								timer: 60000,
-							});
-							if ($('#distribuir').val() == "N") {
-								//alert(result.egreso_id+" - "+result.recibo+" - "+result.nro_recibo);
-
-								imprimir_nota(result.egreso_id, result.recibo, result.nro_recibo);
-							} else {
-								window.location.reload();
-							}
-							// imprimir_nota(result.egreso_id);
-							// window.location.reload();
-						},
-						error: function(error) {
-							console.log(error);
-							$('#loader').fadeOut(100);
-							$.notify({
-								message: 'Ocurrió un problema en el proceso, no se puedo guardar los datos de la nota de remisión, verifique si la se guardó parcialmente.'
-							}, {
-								type: 'danger'
-							});
-						}
-					});
-				} else {
-					SwGuardar = false;
-				}
-			});
-		}
+	    if(SwGuardar==true){
+    	    bootbox.confirm('¿Desea guardar la venta?', function(result) {
+    			if (result) {
+            		var data = $('#formulario').serialize();
+            		// console.log(data)
+            		$('#loader').fadeIn(100);
+            
+            		$.ajax({
+            			url: '?/electronicas/guardar',
+            			dataType: 'json',
+            			type: 'post',
+            			contentType: 'application/x-www-form-urlencoded',
+            			data: data,
+            			success: function( result ){
+            				console.log(result);
+            				$.notify({
+            					message: 'La nota de remisión fue realizada satisfactoriamente.'
+            				}, {
+            					type: 'success',
+            					delay: 50000,
+            					timer: 60000,
+            				});
+            				if($('#distribuir').val()=="N"){
+                				//alert(result.egreso_id+" - "+result.recibo+" - "+result.nro_recibo);
+            				
+            					imprimir_nota(result.egreso_id, result.recibo, result.nro_recibo);
+            				}
+            				else{
+            				   window.location.reload(); 
+            				}
+            				// imprimir_nota(result.egreso_id);
+                            // window.location.reload();
+            			},
+            			error: function( error ){
+            				console.log(error);
+            				$('#loader').fadeOut(100);
+            				$.notify({
+            					message: 'Ocurrió un problema en el proceso, no se puedo guardar los datos de la nota de remisión, verifique si la se guardó parcialmente.'
+            				}, {
+            					type: 'danger'
+            				});
+            			}
+            		});
+    			}else{
+    			    SwGuardar=false;
+    			}
+    	    });
+	    }
 	}
-
-	function imprimir_nota(nota, recibo, nro_recibo) {
+	
+    function imprimir_nota(nota, recibo, nro_recibo) {
 		bootbox.confirm('¿Desea imprimir la Nota de venta?', function(result) {
 			if (result) {
-				$.open('?/notas/imprimir_nota/' + nota, true);
-				if (recibo == 'si') {
-					imprimir_recibo(nro_recibo);
-				} else {
-					window.location.reload();
+		        $.open('?/notas/imprimir_nota/' + nota, true);
+		        if(recibo == 'si'){
+				    imprimir_recibo(nro_recibo);
 				}
-			} else {
-				if (recibo == 'si') {
-					imprimir_recibo(nro_recibo);
-				} else {
-					window.location.reload();
+				else{
+				    window.location.reload();
+				}
+			}
+			else{
+	    		if(recibo == 'si'){
+				    imprimir_recibo(nro_recibo);
+	    		}
+	    		else{
+				    window.location.reload();
 				}
 			}
 		});
 	}
-
-	function imprimir_recibo(nro_recibo) {
+    function imprimir_recibo(nro_recibo) {
 		bootbox.confirm('¿Desea Imprimir el recibo?', function(result) {
 			if (result) {
-				window.open('?/cobrar/recibo_dinero/' + nro_recibo, true);
-				window.location.reload();
-			} else {
-				window.location.reload();
+        		window.open('?/cobrar/recibo_dinero/' + nro_recibo, true);
+        		window.location.reload();
+			}
+			else{
+        		window.location.reload();
 			}
 		});
 	}
-
+	
 	function vender(elemento) {
 		var $elemento = $(elemento),
 			vender;
@@ -2092,23 +2018,24 @@ require_once show_template('header-empty'); ?>
 		$('#data-tipo-pago').val(2);
 	}
 
-
-	function sidenav() {
-		let contenedor = document.getElementById('ContenedorF');
-		if (contenedor.children[0].classList.contains('col-md-6')) {
+	
+	function sidenav(){
+		let contenedor=document.getElementById('ContenedorF');
+		if(contenedor.children[0].classList.contains('col-md-6')){
 			contenedor.children[0].classList.remove('col-md-6');
 			contenedor.children[0].classList.add('col-md-12');
 			contenedor.children[1].classList.add('hidden');
-		} else {
+		}
+		else{
 			contenedor.children[0].classList.remove('col-md-12');
 			contenedor.children[0].classList.add('col-md-6');
 			contenedor.children[1].classList.remove('hidden');
 		}
 	}
 
-	function mostrar_datos(id_cliente) {
+	function mostrar_datos(id_cliente){
 		var parameter = {
-			'id_cliente': id_cliente
+			'id_cliente' : id_cliente
 		};
 
 		$.ajax({
@@ -2116,9 +2043,9 @@ require_once show_template('header-empty'); ?>
 			type: 'POST',
 			data: parameter,
 			dataType: 'json',
-			success: function(data) {
+			success: function(data){
 				$('#compras_cliente').html(data.basico);
-				if (data.avanzado) {
+				if(data.avanzado) {
 					$('#para_deudas').removeClass('hidden');
 					$('#historial_deudas').html(data.avanzado);
 				} else {
@@ -2128,42 +2055,39 @@ require_once show_template('header-empty'); ?>
 		});
 	}
 
-	function Ftipo_pago() {
+	function Ftipo_pago(){
 		var tipo = $('#tipo_pago').val();
 		var n_f = $('#nro_factura').val();
 		console.log(n_f);
 		if (tipo == 'EFECTIVO') {
-			$('#nro_pago').css({
-				'display': 'none'
-			});
+			$('#nro_pago').css({'display':'none'});
 			$('#nro_pago').val(n_f);
-		} else {
-			$('#nro_pago').css({
-				'display': 'block'
-			});
+		} else  {
+			$('#nro_pago').css({'display':'block'});
 			$('#nro_pago').attr('placeholder', 'Ingrese el Nro. de transaccion');
 			$('#nro_pago').val('');
 		}
 	}
 	//////////////////////////////////////////////////////////////////////
-	function seleccionar_vendedor(id_vendedor) {
+	function seleccionar_vendedor(id_vendedor){
 		$('#empleado option')
 			.removeAttr('selected')
-			.filter('[value="' + id_vendedor + '"]')
-			.attr('selected', true).change();
+				.filter('[value="'+id_vendedor+'"]')
+					.attr('selected', true).change();
 		$('#empleado').val(id_vendedor);
 	}
 	/////////////////////////////////////////////////////////////////////
-	$("#forma_pago").change(function() {
-		if ($('#forma_pago').val() == 2) {
-			$('#para_pagos').addClass('hidden');
-			//   $('#cambiar_plan').removeClass('col-md-6 col-sm-6 col-xs-6');
-			//   $('#cambiar_plan').addClass('col-md-12 col-sm-12 col-xs-12');
-		} else {
-			$('#para_pagos').removeClass('hidden');
-			//   $('#cambiar_plan').removeClass('col-md-12 col-sm-12 col-xs-12');
-			//   $('#cambiar_plan').addClass('col-md-6 col-sm-6 col-xs-6');
-		}
-	});
+	$("#forma_pago").change(function(){
+      if($('#forma_pago').val() == 2) {
+          $('#para_pagos').addClass('hidden');
+        //   $('#cambiar_plan').removeClass('col-md-6 col-sm-6 col-xs-6');
+        //   $('#cambiar_plan').addClass('col-md-12 col-sm-12 col-xs-12');
+      } else {
+          $('#para_pagos').removeClass('hidden');
+        //   $('#cambiar_plan').removeClass('col-md-12 col-sm-12 col-xs-12');
+        //   $('#cambiar_plan').addClass('col-md-6 col-sm-6 col-xs-6');
+      }
+    });
+
 </script>
 <?php require_once show_template('footer-empty'); ?>

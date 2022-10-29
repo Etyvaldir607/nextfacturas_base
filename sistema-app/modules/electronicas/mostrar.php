@@ -133,7 +133,7 @@ $permiso_devolucion = in_array('notas_devolucion', $permisos);
 			<?php } ?>
 
             <?php if ($permiso_crear) { ?>
-                 <a href="?/electronicas/seleccionar_almacen" class="btn btn-danger"><span class="glyphicon glyphicon-plus"></span><span class="hidden-xs"> Vender</span></a>                 
+                 <a href="?/electronicas/seleccionar_punto_venta" class="btn btn-danger"><span class="glyphicon glyphicon-plus"></span><span class="hidden-xs"> Vender</span></a>                 
             <?php } ?>
 
             <?php if ($permiso_crear) { ?>
@@ -227,145 +227,7 @@ $permiso_devolucion = in_array('notas_devolucion', $permisos);
                     
             	
             		?>
-        			<tr>
-        				<td class="text-nowrap text-right"><?= escape($venta['nro_nota']); ?></td>
-        				<td class="text-nowrap"><?= escape(date_decode($Auxv[0], $_institution['formato'])); ?><br><small class="text-success"><?= escape($Auxv[1]); ?></small></td>
-
-                        <td class="text-nowrap text-right"><?= escape($venta['nro_factura']); ?></td>
-        				<?php if($Auxv222[0]!="0000-00-00"){ ?>
-            				<td class="text-nowrap"><?= escape(date_decode($Auxv222[0], $_institution['formato'])); ?><br><small class="text-success"><?= escape($Auxv222[1]); ?></small></td>
-        				<?php }else{ ?>
-            				<td class="text-nowrap"></td>
-        				<?php } ?>
-
-        				<!--<td class="text-nowrap"><?= escape($tipo); ?></td>-->
-        				<td class=""><?= escape($venta['cliente']); ?></td>
-        				<td class="text-nowrap text-right"><?= escape(number_format($venta['monto_total'],2 , ',', '.')); ?></td>
-        		        <td class="text-nowrap"><?= escape($venta['almacen']); ?></td>
-                		
-        				<td class=""><?= escape($venta['nombre_grupo']); ?></td>
-        				<td class=""><?= escape($venta['nombres'] . ' ' . $venta['paterno'] . ' ' . $venta['materno']); ?></td>
-        				
-    					<?php 
-        				if($Auxv222[0]!="0000-00-00"){
-            			    echo '<td class="success"><span style="">Facturado</span></td>';
-                        }else{
-                        	if($venta['factura'] == "si"){
-                            	echo '<td class="danger"><span style="">Por Facturar</span></td>';
-                        	}else{
-    							echo '<td class="primary"><span style="">No Facturado</span></td>';
-                        	}
-                        }
-                        ?>
-    				
-        				<?php if ($permiso_ver || $permiso_eliminar) { ?>
-        				<td class="text-nowrap">
-        					<?php if ($permiso_ver) { ?>
-        						<a href="?/electronicas/ver/<?= $venta['id_egreso']; ?>" data-toggle="tooltip" data-title="Ver detalle de nota de venta"><span class="glyphicon glyphicon-list-alt"></span></a>
-        					<?php } ?>
-        					
-        					<?php if($permiso_editar){ ?>
-            					<?php if($venta['preventa'] == 'habilitado' && $venta['tipo'] == 'Preventa' && $venta['estado_pedido']==""){ ?>
-            					    <!-- <a href="?/electronicas/editar/<?= $venta['id_egreso']; ?>" data-toggle="tooltip" data-title="Editar nota de venta"><span class="glyphicon glyphicon-edit"></span></a> -->
-            					<?php } ?>
-        					<?php } ?>
-        					
-        					<?php 
-        					if ($permiso_anular && $venta['preventa'] != 'anulado' && !$ventas_pagos && !$ventas_pagos2){
-				            ?>
-        					    <!-- <a onclick="eliminar_nota_venta('<?= $venta['id_egreso'] ?>');" data-toggle="tooltip" data-title="Eliminar nota de venta" data-eliminar="true"><span class="glyphicon glyphicon-trash"></span></a> -->
-        					<?php } ?>
-        					
-        					<?php if($permiso_devolucion && $venta['preventa'] != 'anulado'){ ?>
-                                <?php if ($venta['estadoe'] == '3' || ($venta['distribuir'] == 'N' && $venta['estadoe']==0) ){ ?>
-                                    <!-- <a href='?/electronicas/notas_devolucion/<?= $venta['id_egreso']; ?>' data-toggle='tooltip' data-title='Devolucion' title='Devolucion'><span class='glyphicon glyphicon-transfer'></span></a> -->
-                                <? } ?>
-                            <? } ?>
-                            
-							<?php 
-        					if($Auxv222[0]=="0000-00-00"){
-        					?>	
-	            				&nbsp;
-	           					<a href="?/electronicas/facturar_siat/<?= $venta['id_egreso']; ?>" data-toggle="tooltip" data-title="Facturar" target="_self">
-	           						<span class="glyphicon glyphicon-qrcode" target='_blank'></span>
-	           					</a>
-							<?php 
-        					}
-        					?>
-
-           					<?php 
-        					if($Auxv222[0]!="0000-00-00"){
-        					?>	
-            					&nbsp;
-           						<a href="?/siat/facturas/<?= $venta['id_egreso']; ?>/view" data-toggle="tooltip" data-title="Imprimir Factura" target="_blank"><span class="glyphicon glyphicon-print" target='_blank'></span></a>
-                            <?php 
-        					}
-        					?>	
-            				
-        				</td>
-        				<?php } ?>
-				        <?php if ($permiso_imprimir_nota) { ?>
-						<td class="text-nowrap">
-				            
-				            <?php
-				            if ($venta['preventa'] != 'anulado'){
-				            ?>
-    				            <a href="?/electronicas/imprimir_nota/<?= $venta['id_egreso']; ?>" data-toggle="tooltip" data-title="Imprimir" target="_blank"><span class="glyphicon glyphicon-print" style="color:green"></span></a>
-                                
-                                <?php if ($venta['nro_factura']!=0) { ?>
-                                    <a href="?/operaciones/refacturado_imprimir/<?= $venta['id_egreso']; ?>" data-toggle="tooltip" data-title="Imprimir Factura" target="_blank"><span class="glyphicon glyphicon-qrcode" style="color:blue"></span></a>
-                                <?php } 
-                                
-                            	$ventas_pagos = $db->query("select *
-                                                    		from inv_pagos i 
-                                                    		left join inv_pagos_detalles d on i.id_pago = d.pago_id
-                			                                WHERE movimiento_id='".$venta['id_egreso']."' AND d.estado=1 AND i.tipo='Egreso' AND d.tipo_pago!='devolucion' 
-                                                    	  ")->fetch();
-                                                    		  
-                                foreach ($ventas_pagos as $n3o => $ventas_pago) { 
-                                    ?>
-                                    <?php if ($venta['estadoe']==3) { ?>
-                                        <a href="?/cobrar/recibo_dinero/<?= $ventas_pago['id_pago_detalle']; ?>" data-toggle="tooltip" data-title="Imprimir Recibo" target="_blank"><span class="glyphicon glyphicon-tag" style="color:blue"></span></a>
-                                    <?php 
-                                    } 
-                                }
-                                
-                                // $ventas_pagos2 = $db->query("select *
-                                //                     		from inv_egresos e 
-                                //                     		left join inv_egresos_detalles d on e.id_egreso = d.egreso_id
-                			             //                   WHERE nro_nota='".$venta['nro_nota']."' and (tipo='No venta' OR tipo='Devolucion')
-                			             //                   GROUP BY fecha_devolucion
-                                //                     	  ")->fetch();
-                                                    		  
-                                // foreach ($ventas_pagos2 as $n3o => $ventas_pagox) { 
-                                ?>
-                                    <!--a href="?/electronicas/imprimir_nota_credito/<?php // $ventas_pagox['id_egreso']; ?>" data-toggle="tooltip" data-title="Imprimir nota de credito" target="_blank"-->
-                                    <!--    <span class="glyphicon glyphicon-import" style="color:red"></span>-->
-                                    <!--</a>-->
-                                <?php 
-                                //}
-
-
-
-                                $ventas_pagos2 = $db->query("select *
-                                                    		from inv_ingresos i 
-                                                    		left join inv_pagos_detalles pd on i.id_ingreso = pd.ingreso_id
-                			                                left join inv_pagos p on p.id_pago = pd.pago_id AND p.tipo='Egreso'
-                			                                WHERE p.movimiento_id='".$venta['id_egreso']."' and (pd.tipo_pago='Devolucion')
-                			                              ")->fetch();
-                                                    		  
-                                foreach ($ventas_pagos2 as $n3o => $ventas_pagox) { 
-                                ?>
-                                    <a href="?/electronicas/imprimir_nota_credito/<?php echo $ventas_pagox['id_ingreso']; ?>" data-toggle="tooltip" data-title="Imprimir nota de credito" target="_blank">
-                                        <span class="glyphicon glyphicon-import" style="color:red"></span>
-                                    </a>
-                                <?php 
-                                }
-				            }
-                            ?>
-        				</td>
-        				<?php } ?>
-        			</tr>
+        		
         			<?php 
 			    }
 			} 
