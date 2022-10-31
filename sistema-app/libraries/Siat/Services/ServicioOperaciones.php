@@ -195,4 +195,42 @@ class ServicioOperaciones extends ServicioSiat
 		
 		return $res;
 	}
+
+	/**
+	 * register punto de venta
+	 * 
+	 * @param int $codigoSucursal
+	 * @param string $nombrePuntoVenta
+	 * @param string $descripcion
+	 * @param string $contract_nit
+	 * @param int $contract_numeral
+	 * @param $contract_start_date
+	 * @param $contract_end_date
+	 * @return object
+	 */
+	public function registroPuntoVentaComisionista(int $codigoSucursal, string $nombrePuntoVenta, string $descripcion = '', string $contract_nit, int $contract_numeral, $contract_start_date, $contract_end_date)
+	{
+		list(, $method) = explode('::', __METHOD__);
+		$data = [
+			[
+				'SolicitudPuntoVentaComisionista' => [
+					'codigoAmbiente' 		=> $this->ambiente,
+					'codigoModalidad'		=> $this->modalidad,
+					'codigoSistema'			=> $this->codigoSistema,
+					'codigoSucursal'		=> $codigoSucursal,
+					'cuis'					=> $this->cuis,
+					'descripcion'			=> $descripcion,
+					'fechaFin'				=> $contract_end_date,
+					'fechaInicio'			=> $contract_start_date,
+					'nit'					=> $this->nit,
+					'nitComisionista'		=> $contract_nit,
+					'nombrePuntoVenta'		=> $nombrePuntoVenta,
+					'numeroContrato'		=> $contract_numeral
+				]
+			]
+		];
+		$res = $this->callAction($method, $data);
+		
+		return $res;
+	}
 }

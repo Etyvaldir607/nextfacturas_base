@@ -652,6 +652,67 @@ function siat_crear_puntoventa($sucursal, $tipo_punto_venta, $nombre, $descripci
 
 	return (object)$res;
 }
+
+
+/**
+ * 
+ * crear punto de venta por commisionista
+ * @return object
+ */
+function siat_crear_puntoventa_comisionista($sucursal, $tipo_punto_venta, $nombre, $descripcion, string $contract_nit, int $contract_numeral, $contract_start_date, $contract_end_date)
+{
+	global $db;
+
+	$config 	= siat_get_config();
+	$cuis		= siat_obtener_cuis();
+	$servicio 	= new ServicioOperaciones();
+	$servicio->setConfig((array)$config);
+	$servicio->cuis = $cuis->codigo;
+
+	//$servicio->registroPuntoVentaComisionista($sucursal, $tipo_punto_venta, $nombre, $descripcion, $contract_nit, $contract_numeral, $contract_start_date, $contract_end_date);
+	$res = $servicio->registroPuntoVentaComisionista($sucursal, $tipo_punto_venta, $nombre, $descripcion, $contract_nit, $contract_numeral, $contract_start_date, $contract_end_date);
+
+	if (isset($res->RespuestaRegistroPuntoVentaComisionista->mensajesList) && is_object($res->RespuestaRegistroPuntoVentaComisionista->mensajesList)) {
+		throw new Exception(
+			sprintf(
+				"%d: %s",
+				$res->RespuestaRegistroPuntoVentaComisionista->mensajesList->codigo,
+				$res->RespuestaRegistroPuntoVentaComisionista->mensajesList->descripcion
+			)
+		);
+		exit;
+	}
+
+	$data = [
+		'user_id' 					=> 1,
+		'codigo'					=> $res->RespuestaRegistroPuntoVentaComisionista->codigoPuntoVenta,
+		'sucursal_id'				=> $sucursal,
+		'nombre'					=> $nombre,
+		'tipo_id'					=> $tipo_punto_venta,
+		'tipo'						=> $descripcion,
+		'last_modification_date'	=> date('Y-m-d H:i:s'),
+		'creation_date'				=> date('Y-m-d H:i:s'),
+		'contract_nit'				=> $contract_nit,
+		'contract_numeral'			=> $contract_numeral,
+		'contract_start_date'		=> $contract_start_date,
+		'contract_end_date'		=> $contract_end_date,
+	];
+	$id = $db->insert('mb_siat_puntos_venta_comisionista', $data);
+
+	$query = "SELECT * 
+			  FROM mb_siat_puntos_venta_comisionista spv
+			  WHERE id = $id 
+			  LIMIT 1";
+	$pv = $db->query($query)->fetch_first();
+
+	//$pv = $db->select('*')->from('mb_siat_puntos_venta')->where('id', $id)->fetch_first();
+
+	return (object)$res;
+}
+
+
+
+
 function siat_factura_url(object $egreso)
 {
 	$config = siat_get_config();
