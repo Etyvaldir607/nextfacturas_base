@@ -109,6 +109,34 @@
 									v-model="form.nombre_punto_venta" />
 							</div>
 
+							<div v-show="esComisionista">
+								<div class="mb-3">
+									<label>Nro de contrato</label>
+									<input type="text" name="" value="" class="form-control" required
+										v-model="form.contrato_nit" />
+								</div>
+
+								<div class="mb-3">
+									<label>NIT Comisionista</label>
+									<input type="text" name="" value="" class="form-control" required
+										v-model="form.contrato_nro" />
+								</div>
+								<div class="form-group mb-3">
+									<div class="row">
+										<div class="col-12 col-sm-6">
+											<label>Fecha Inicio</label>
+											<input type="date" name="" value="" class="form-control" ref="puntocomisionistafechainicio" required />
+											<div class="invalid-feedback">Necesita seleccionar una fecha de inicio del contrato</div>
+										</div>
+										<div class="col-12 col-sm-6">
+											<label>Fecha Fin</label>
+											<input type="date" name="" value="" class="form-control" ref="puntocomisionistafechafin" required />
+											<div class="invalid-feedback">Necesita seleccionar una fecha de fin del contrato</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-danger" data-dismiss="modal"
@@ -138,6 +166,13 @@
 
 			};
 		},
+		computed:
+		{
+			esComisionista() {
+				console.log(this.form.codigo_tipo_punto_venta == 1)
+				return [1].indexOf(this.form.codigo_tipo_punto_venta) > -1;
+			}
+		},
 		methods:
 		{
 			async getPuntosVentas() {
@@ -163,6 +198,11 @@
 					nombre_punto_venta: '',
 					descripcion: null
 				}
+				this.form.contrato_fecha_inicio = new Date();
+				this.form.contrato_fecha_fin = new Date();
+				this.$refs.puntocomisionistafechainicio.value = sb_formatdate(new Date(), 'Y-m-d');
+				this.$refs.puntocomisionistafechafin.value = sb_formatdate(new Date(), 'Y-m-d');
+
 				this.modal.modal('show');
 			},
 			async guardar() {

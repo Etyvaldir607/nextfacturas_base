@@ -26,20 +26,42 @@ if ($method === 'POST' && $function === 'crear_punto_venta') {
 		$tipo_punto_venta 	= $input->codigo_tipo_punto_venta; 
 		$nombre 	 		= $input->nombre_punto_venta;
 		$descripcion 		= $input->descripcion;
+
+		if($tipo_punto_venta == 1 ){
+			$contrato_nit 			= $input->contrato_nit;
+			$contrato_numeral		= $input->contrato_nro;
+			$contrato_start_date	= $input->contrato_fecha_inicio;
+			$contrato_end_date		= $input->contrato_fecha_fin;
+
+			$resp 	= siat_crear_puntoventa_comisionista($sucursal, $tipo_punto_venta, $nombre, $descripcion, $contrato_nit, $contrato_numeral, $contrato_start_date, $contrato_end_date);
+			//die(json_encode(['data' => $resp]));
+			$transaccion    = $resp->RespuestaPuntoVentaComisionista->transaccion;
 	
-		$resp 	= siat_crear_puntoventa($sucursal, $tipo_punto_venta, $nombre, $descripcion);
-		//die(json_encode(['data' => $resp]));
-		$transaccion    = $resp->RespuestaRegistroPuntoVenta->transaccion;
+			die(json_encode([
+				"data"      => $resp,//siat
+				"status"    => $transaccion ? 200 : 500, //status 201 creacion
+				"title"     => $transaccion ? "Exito !!&nbsp;" : "Error !!&nbsp;",
+				"type"      => $transaccion ? "success" : "warning", //info  warning
+				"icon"      => $transaccion ? "glyphicon glyphicon-ok" : "glyphicon glyphicon-remove", //"glyphicon glyphicon-info-sign",
+				"message"   => $transaccion ?  "PUNTO DE VENTA CON EL ID : ¨{$resp->RespuestaPuntoVentaComisionista->codigoPuntoVenta}¨ REGISTRADO CORRECTAMENTE EN SIAT" :sb_siat_message($resp->RespuestaRegistroPuntoVenta)
+			]));
+	
+		}else{
+			$resp 	= siat_crear_puntoventa($sucursal, $tipo_punto_venta, $nombre, $descripcion);
+			//die(json_encode(['data' => $resp]));
+			$transaccion    = $resp->RespuestaRegistroPuntoVenta->transaccion;
+	
+			die(json_encode([
+				"data"      => $resp,//siat
+				"status"    => $transaccion ? 200 : 500, //status 201 creacion
+				"title"     => $transaccion ? "Exito !!&nbsp;" : "Error !!&nbsp;",
+				"type"      => $transaccion ? "success" : "warning", //info  warning
+				"icon"      => $transaccion ? "glyphicon glyphicon-ok" : "glyphicon glyphicon-remove", //"glyphicon glyphicon-info-sign",
+				"message"   => $transaccion ?  "PUNTO DE VENTA CON EL ID : ¨{$resp->RespuestaRegistroPuntoVenta->codigoPuntoVenta}¨ REGISTRADO CORRECTAMENTE EN SIAT" :sb_siat_message($resp->RespuestaRegistroPuntoVenta)
+			]));
 
-		die(json_encode([
-			"data"      => $resp,//siat
-			"status"    => $transaccion ? 200 : 500, //status 201 creacion
-			"title"     => $transaccion ? "Exito !!&nbsp;" : "Error !!&nbsp;",
-			"type"      => $transaccion ? "success" : "warning", //info  warning
-			"icon"      => $transaccion ? "glyphicon glyphicon-ok" : "glyphicon glyphicon-remove", //"glyphicon glyphicon-info-sign",
-			"message"   => $transaccion ?  "PUNTO DE VENTA CON EL ID : ¨{$resp->RespuestaRegistroPuntoVenta->codigoPuntoVenta}¨ REGISTRADO CORRECTAMENTE EN SIAT" :sb_siat_message($resp->RespuestaRegistroPuntoVenta)
-		]));
-
+		}
+	
 	} catch (Exception $e) {
 		http_response_code(500);
 		die(json_encode(['status' => 'error', 'error' => $e->getMessage()]));

@@ -672,12 +672,12 @@ function siat_crear_puntoventa_comisionista($sucursal, $tipo_punto_venta, $nombr
 	//$servicio->registroPuntoVentaComisionista($sucursal, $tipo_punto_venta, $nombre, $descripcion, $contract_nit, $contract_numeral, $contract_start_date, $contract_end_date);
 	$res = $servicio->registroPuntoVentaComisionista($sucursal, $tipo_punto_venta, $nombre, $descripcion, $contract_nit, $contract_numeral, $contract_start_date, $contract_end_date);
 
-	if (isset($res->RespuestaRegistroPuntoVentaComisionista->mensajesList) && is_object($res->RespuestaRegistroPuntoVentaComisionista->mensajesList)) {
+	if (isset($res->RespuestaPuntoVentaComisionista->mensajesList) && is_object($res->RespuestaPuntoVentaComisionista->mensajesList)) {
 		throw new Exception(
 			sprintf(
 				"%d: %s",
-				$res->RespuestaRegistroPuntoVentaComisionista->mensajesList->codigo,
-				$res->RespuestaRegistroPuntoVentaComisionista->mensajesList->descripcion
+				$res->RespuestaPuntoVentaComisionista->mensajesList->codigo,
+				$res->RespuestaPuntoVentaComisionista->mensajesList->descripcion
 			)
 		);
 		exit;
@@ -685,7 +685,7 @@ function siat_crear_puntoventa_comisionista($sucursal, $tipo_punto_venta, $nombr
 
 	$data = [
 		'user_id' 					=> 1,
-		'codigo'					=> $res->RespuestaRegistroPuntoVentaComisionista->codigoPuntoVenta,
+		'codigo'					=> $res->RespuestaPuntoVentaComisionista->codigoPuntoVenta,
 		'sucursal_id'				=> $sucursal,
 		'nombre'					=> $nombre,
 		'tipo_id'					=> $tipo_punto_venta,
@@ -694,8 +694,8 @@ function siat_crear_puntoventa_comisionista($sucursal, $tipo_punto_venta, $nombr
 		'creation_date'				=> date('Y-m-d H:i:s'),
 		'contract_nit'				=> $contract_nit,
 		'contract_numeral'			=> $contract_numeral,
-		'contract_start_date'		=> $contract_start_date,
-		'contract_end_date'		=> $contract_end_date,
+		'contract_start_date'		=> date('Y-m-d H:i:s', strtotime($contract_start_date)),
+		'contract_end_date'			=> date('Y-m-d H:i:s', strtotime($contract_end_date)),
 	];
 	$id = $db->insert('mb_siat_puntos_venta_comisionista', $data);
 
