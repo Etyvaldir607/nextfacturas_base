@@ -18,6 +18,9 @@ use SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudSe
 use SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioValidacionRecepcionPaquete;
 use SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioAnulacionFactura;
 
+use SinticBolivia\SBFramework\Modules\Invoices\Classes\Siat\Messages\SolicitudServicioVerificacionEstadoFactura;
+
+
 /**
  * Clase con servicios generales para la facturacion
  * 
@@ -43,8 +46,8 @@ class ServicioFacturacion extends ServicioSiat
 	public function recepcionFactura(SiatInvoice $factura, $tipoEmision = SiatInvoice::TIPO_EMISION_ONLINE, $tipoFactura = SiatInvoice::FACTURA_DERECHO_CREDITO_FISCAL)
 	{
 		$factura->cabecera->razonSocialEmisor	= $this->razonSocial;
-		$factura->cabecera->nitEmisor 	= $this->nit;
-		$factura->cabecera->cufd		= $this->cufd;
+		$factura->cabecera->nitEmisor 			= $this->nit;
+		$factura->cabecera->cufd				= $this->cufd;
 		$factura->buildCuf(0, $this->modalidad, $tipoEmision, $tipoFactura, $this->codigoControl);
 		//die($factura->cuf);
 		$factura->validate();
@@ -318,10 +321,46 @@ class ServicioFacturacion extends ServicioSiat
 		$data = [
 			$solicitud->toArray()
 		];
+		
 		$this->wsdl = SiatInvoice::getWsdl($this->modalidad, $this->ambiente, $documentoSector);
 		$res = $this->callAction('anulacionFactura', $data);
 		
 		return $res;
 		
 	}
+
+	public function verificacionEstadoFactura(string $cuf, int $sucursal, int $puntoventa, int $tipoFactura, int $tipoEmision, int $documentoSector)
+	{
+
+		$solicitud 							= new SolicitudServicioVerificacionEstadoFactura();
+		$solicitud->codigoAmbiente			= $this->ambiente;
+		$solicitud->codigoModalidad			= $this->modalidad;
+		$solicitud->codigoSistema			= $this->codigoSistema;
+		$solicitud->cufd 					= $this->cufd;
+		$solicitud->cuis 					= $this->cuis;
+		$solicitud->nit						= $this->nit;
+		
+		$solicitud->codigoDocumentoSector	= $documentoSector;
+		$solicitud->codigoEmision			= $tipoEmision;
+		$solicitud->codigoPuntoVenta		= $puntoventa;
+		$solicitud->codigoSucursal			= $sucursal;
+		$solicitud->tipoFacturaDocumento	= $tipoFactura;
+		$solicitud->cuf						= $cuf;
+
+		$solicitud->validate();
+
+		$data = [
+			$solicitud->toArray()
+		];
+
+		//return $data;
+
+		$this->wsdl = SiatInvoice::getWsdl($this->modalidad, $this->ambiente, (int)1);
+		$res = $this->callAction('verificacionEstadoFactura', $data);
+		
+		return $res;
+		
+	}
+
+	
 }

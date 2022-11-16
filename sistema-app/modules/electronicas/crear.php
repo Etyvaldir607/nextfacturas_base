@@ -130,10 +130,6 @@ $eventoActivo		= siat_eventos_obtener_activo($sucursal_id, $puntoventa_id);
 
 require_once show_template('header-empty'); ?>
 <style>
-	.hidden {
-		visibility: hidden;
-	}
-
 	.position-left-bottom {
 		bottom: 0;
 		left: 0;
@@ -370,7 +366,7 @@ require_once show_template('header-empty'); ?>
 								<input type="text" value="" name="direccion" id="direccion" class="form-control text-uppercase" autocomplete="off"> <!-- data-validation="required " -->
 							</div>
 						</div>
-						<div class="form-group hidden">
+						<div class="form-group">
 							<label for="empleado" class="col-sm-4 control-label">Asignar vendedor:</label>
 							<div class="col-sm-8">
 								<select name="empleado" id="empleado" data-empleado class="form-control text-uppercase" data-validation="required" data-validation-allowing="-+./&()">
@@ -455,7 +451,7 @@ require_once show_template('header-empty'); ?>
 								<input type="text" name="numero_tarjeta" value="" class="form-control" />
 							</div>
 						</div>
-						<div class="form-group hidden">
+						<div class="form-group">
 							<label for="almacen" class="col-sm-4 control-label">Tipo de Entrega:</label>
 							<div class="col-sm-8">
 								<div class="row">
@@ -469,7 +465,7 @@ require_once show_template('header-empty'); ?>
 							</div>
 						</div>
 
-						<div class="form-group hidden">
+						<div class="form-group">
 							<label for="observacion" class="col-sm-4 control-label">Observación:</label>
 							<div class="col-sm-8">
 								<textarea name="observacion" id="observacion" class="form-control text-uppercase" rows="2" autocomplete="off" data-validation="letternumber" data-validation-allowing='-+/.,:;@#&"()_\n ' data-validation-optional="true"></textarea>
@@ -984,7 +980,7 @@ require_once show_template('header-empty'); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
 
 <script>
-	// axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+	axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 	// axios.defaults.headers.common['Content-Type'] = 'multipart/form-data';
 	// axios.defaults.headers.common['Content-Type'] = 'application/json;charset=UTF-8';
 	function crear_evento(el) {
@@ -1007,11 +1003,43 @@ require_once show_template('header-empty'); ?>
 				axios.post(`?/siat/api_eventos/cerrar_evento`, el).then(({
 					data
 				}) => data);
-
+			
 				//window.location.reload();
 			}
 		});
 	}
+
+	async function guardar_nota(request) {
+
+			var data = $('#formulario').serialize();
+
+			for (let i = 1; i <= 1; i++) {
+
+				const texto = await new Promise((resolve, reject) => {
+
+					setTimeout(function() {
+						$.ajax({
+							url: '?/electronicas/guardar',
+							dataType: 'json',
+							type: 'post',
+							contentType: 'application/x-www-form-urlencoded',
+							data: data,
+							success: function(result) {
+								resolve("save");
+							},
+							error: function(error) {
+								$.notify({
+									message: 'Ocurrió un problema en el proceso, no se puedo guardar los datos de la nota de remisión, verifique si la se guardó parcialmente.'
+								}, {
+									type: 'danger'
+								});
+							}
+						});
+					}, 10); //1 para recibir error de xml
+				});
+			}
+	}
+
 </script>
 
 
@@ -1802,7 +1830,7 @@ require_once show_template('header-empty'); ?>
 		SwGuardar = true;
 	}
 
-	function guardar_nota() {
+	function guardar_nota2() {
 		if (SwGuardar == true) {
 			bootbox.confirm('¿Desea guardar la venta?', function(result) {
 				if (result) {

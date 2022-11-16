@@ -23,8 +23,8 @@ if ($method === 'GET' && $function === 'obtener_eventos') { //lista de eventos g
 	foreach ($items as $item) {
 		$data = (object)$item;
 		//print_r($data);die;
-		if ($data->data)
-			$data->data = json_decode(preg_replace('/[[:cntrl:]]/', '', $data->data), null, 20, JSON_THROW_ON_ERROR);
+		// if ($data->data)
+		// 	$data->data = json_decode(preg_replace('/[[:cntrl:]]/', '', $data->data), null, 20, JSON_THROW_ON_ERROR);
 		$rdata[] = $data;
 	}
 	die(json_encode(['data' => $rdata])); //$rdata ?: []

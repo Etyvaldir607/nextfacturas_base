@@ -30,6 +30,10 @@ function siat_file_needs_sync($filename)
 
 	return (time() - filemtime($filename)) > 86400;
 }
+function ajax()
+{
+	return !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
+}
 
 /**
  * 
@@ -43,7 +47,7 @@ function siat_get_config()
 	if ($config)
 		return $config;
 
-	// checkcode
+	//checkcode
 	$config = new SiatConfig([
 		'nombreSistema' => 'CheckcoDGgs',
 		'codigoSistema' => '721D41E476C1EA84A931C7F',
@@ -54,6 +58,11 @@ function siat_get_config()
 		'modalidad'     => ServicioSiat::MOD_COMPUTARIZADA_ENLINEA,
 		//'modalidad'     => ServicioSiat::MOD_ELECTRONICA_ENLINEA,
 		'ambiente'      => ServicioSiat::AMBIENTE_PRUEBAS,
+		'cafc'			=> '101BFE211B75D', //'101BFE211B75D',
+		'cafc_inicio_nro_factura' 	=> 1,
+		'cafc_fin_nro_factura'		=> 1000,
+
+
 		'tokenDelegado'	=> 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjaGVja2NvZGUiLCJjb2RpZ29TaXN0ZW1hIjoiNzIxRDQxRTQ3NkMxRUE4NEE5MzFDN0YiLCJuaXQiOiJINHNJQUFBQUFBQUFBRE0yTjdHd3REQXdNZ2NBQzZpd0lna0FBQUE9IiwiaWQiOjk3OTY2MCwiZXhwIjoxNjY5NzY2NDAwLCJpYXQiOjE2NjE5ODQ0ODYsIm5pdERlbGVnYWRvIjozNzQ4OTgwMjcsInN1YnNpc3RlbWEiOiJTRkUifQ.TkS3tRWN0nskjM4sDU-9Keqbsqcgpw3MGV6Qi4Gy3Z2AyU8jHqesGpKl_127SDKsB21zNL8cfn4nWPwZZN_dsw',
 
 		//'pubCert'		=> MOD_SIAT_DIR . SB_DS . 'certs' . SB_DS . 'creativa-pos' . SB_DS . 'CREATIVA_CER.pem',
@@ -61,7 +70,6 @@ function siat_get_config()
 		'telefono'		=> '34345435',
 		'ciudad'		=> 'LA PAZ II'
 	]);
-
 
 	return $config;
 }
@@ -1249,6 +1257,9 @@ function siat_registro_evento_significativo($localEvent, $config)
 			$cufd = siat_renovar_cufd($localEvent->sucursal_id, $localEvent->puntoventa_id);
 		}
 
+		if(ajax() && siat_es_contingencia($localEvent->evento_id)){ //ciere evento contingencia manual
+            $localEvent->fecha_fin = date('Y-m-d H:i:s');
+        }
 
 		$serviceOp = new ServicioOperaciones($cuis->codigo, $cufd->codigo, $config->tokenDelegado);
 		$serviceOp->setConfig((array)$config);
@@ -1274,6 +1285,10 @@ function siat_registro_evento_significativo($localEvent, $config)
 
 		$localEvent->codigo_recepcion = $res->RespuestaListaEventos->codigoRecepcionEventoSignificativo;
 		$db->where(['id' => $localEvent->id])->update('mb_siat_eventos', ['codigo_recepcion' => $localEvent->codigo_recepcion]);
+	
+		if(ajax() && siat_es_contingencia($localEvent->evento_id) && isset($localEvent->codigo_recepcion)){ //actualizamos la fecha fin si es cierre manual/peticion ajax
+            $db->where(['id' => $localEvent->id])->update('mb_siat_eventos', ['fecha_fin' => $localEvent->fecha_fin]);
+        }
 	}
 	return $res;
 }
